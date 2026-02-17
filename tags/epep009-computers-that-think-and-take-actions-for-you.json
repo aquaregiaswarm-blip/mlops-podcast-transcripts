@@ -1,0 +1,34 @@
+{
+  "tech_tags": [
+    "AI Agents",
+    "Computer Vision",
+    "Robotics",
+    "Open Source Models",
+    "Large Language Models",
+    "Mixture of Attention",
+    "GitHub",
+    "Open Voice",
+    "Meta TTS",
+    "Computer Use Models"
+  ],
+  "business_tags": [
+    "Open Source",
+    "Training Paradigms",
+    "Economic Potential",
+    "Frontier Labs",
+    "Infrastructure as a Service"
+  ],
+  "key_topics": [
+    "AI agents for digital device control",
+    "Training computer use models vs. LLMs",
+    "Closing the perception-action loop",
+    "Importance of causality in AI learning",
+    "Training AI in simulated environments"
+  ],
+  "guest": {
+    "name": "Unspecified",
+    "role": "Founder",
+    "company": "Maisha"
+  },
+  "summary": "The guest discusses building AI agents to control computers by understanding human intent and operating digital devices, emphasizing the importance of causality-based training."
+}

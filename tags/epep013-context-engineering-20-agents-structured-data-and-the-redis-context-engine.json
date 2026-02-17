@@ -1,0 +1,32 @@
+{
+  "tech_tags": [
+    "Redis",
+    "Feature Store",
+    "Transformers",
+    "GPT",
+    "Postgres",
+    "Cassandra",
+    "Elasticache",
+    "Feast"
+  ],
+  "business_tags": [
+    "MLOps",
+    "Acquisition",
+    "Return on Investment (ROI)",
+    "Data Platform",
+    "Context Engineering"
+  ],
+  "key_topics": [
+    "Context Engineering",
+    "Feature Store Acquisition",
+    "MLOps Efficacy",
+    "Redis Strategy",
+    "Online Store Comparison"
+  ],
+  "guest": {
+    "name": "Unknown",
+    "role": "Unknown",
+    "company": "Featureform (now part of Redis)"
+  },
+  "summary": "Discussion on Context Engineering, Featureform's acquisition by Redis, the evolving landscape of MLOps, and Redis' strategy in the AI/ML data platform space."
+}

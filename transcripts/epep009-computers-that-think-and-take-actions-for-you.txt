@@ -1,0 +1,389 @@
+Being between 5 to 10 years.
+ The computer will change a lot and interface between humans, and computer will also change a lot. And the fundamental
+ Enabler of this is the AI agents who understand the human intent and being able to operate the digital device by the cells. What's your? What's your story?
+ I started working on the ammo's since 2016, where I just got into college and
+ People were working on the soft driving.
+ and a specialty, the computer vision where
+ He preached, the car, she's perception system to detect the cars and pedestrians surrounding you. So Sudoku him
+ and,
+ because,
+ I don't like.
+ I don't like, take a crosses. I don't like doing. Okay. He's so I so I find Opportunities to
+ Ah, to do the research in our University's lab and later, I was pushing enough to go to Microsoft, research. Asia.
+ As an second year college student. But they
+ Typically take a graduate students but I was fortunate enough to to prove myself and get into it. So I was doing the self-driving, 3D computer vision problem.
+ And later I went to Stanford the Faith Hill East lap. Oh pioneered the computer vision and their started walking on a Nachos. The perception, not just sensing the environment but also, um,
+ Taking actions on the apartment, which is secular robotics, the closest perception action Loop.
+ perceiving garment, and
+ taking the actions on the Facebook environment. This robotics, I really like the concept of closing the perceptron action Loop
+ So later I went to MIT for PhD but that's it but SS just said before, I don't like taking classes at taking his arms, so I feel that either. I in the future I go to
+ A big company such as Google and Maddox Etc. All starting my own company. I don't like go to Academia because I don't like writing papers. So
+ So, that's why.
+ I was doing, I might teach the MIT.
+ I started.
+ The first company called Maisha, which is a agent platform.
+ and basically provide infrastructure for the creators or developers who doesn't know how to eat ammo's, but we provide all those animals as a Lego bricks so that they can orchestrate out morals to their
+ own applications. So right now it has around 6 billion active users and AIDS when publicly listed around having a year ago
+ and,
+ during that time, we also did a lot of Open Source open source research work because I believe the science is
+ better to be to be opened and
+ Be released two open source models at that time. One is the
+ open voice mode called open voice and
+ it released just after church BT released their Voice voicemail.
+ So, because our model at that time Compares April forms on par with opium or by this free open source. So it immediately be called a lot of tension, and it went straight into GitHub trading Global top one. After two days, we put the model on Gita.
+ And they has around 30 35k Stars right now. And I believe he wrecks around top is 0.3% of the keitha project that time.
+ and,
+ We here had another, we had and another model later, we just called metal TTS, which is a stage to text model. We also ranked GitHub Global, top one. We were at least based on my understanding we were the only team that has more than one projects on training. Get up, top one in 20.
+ Ah, some things can get into once but it will to get into the fun one twice. Its
+ A very long tree.
+ later, we released
+ a model called Jetta Moi. So the concept was, you know,
+ At that time, there was the Llama toaster, the Llama to model very famous. And a lot of Frontier labs, they claim they have
+ hundreds of millions of billions of dollars to train them all and it was
+ It was commonly believed that is impossible for a small team to train the model from scratch.
+ Although they can.
+ Of course, painting the model based on already, turned all the book training from Square.
+ Doing the pre-training stage.
+ Is extremely challenging. So we didn't believe that and we
+ tried to train a model from scratch.
+ And try to match the number two's performance, which was trained by 100 million dollars. So give it the conspiring. Their
+ meaning to teachers, why is where can a data, high quality data and the second where the compute
+ Uh both questions are extremely critical basically means.
+ You don't have the flu how to drive a car. So,
+ so we but creativity, like,
+ Constraints, we so far from the data set from the data perspective.
+ We were able to extract.
+ From.
+ The public data set and layered.
+ Data set, which means on the button.
+ there's a large quantity, but the quality is relatively
+ Not very good. But
+ As a gradually, go up into the pyramid.
+ The quality decreased by the quality increase. So when we trim them all with first train with the low quality data, and then quite really Converse the high-quality data. So even though we don't have the
+ a too much high-quality data, we eventually converge to that eventually converge to the data in the training process. So it turns out to be extremely effective and for
+ The motor architecture. We did a novel.
+ Architecture, which is called mixture of attention, which saved the computational costs by 75%. So eventually, we were able to train that model and with around 100K dollars and match the Llama tools performance and it was the first time that the community proves that within 0.5 million but 0.1 million dollars, they can trade it extremely good motives. So we called a lot of attention there.
+ yeah, but that's the the pastor but it's the not quite
+ not quite focused on the current model where building but that's my butt back for.
+ all right, so you have a very decorated past, like you said going from, basically all the top,
+ Academia spots to then training your own large language model at one tenth or one 100th of a cost that normally it takes to train, you've done voice models. All so
+ Now, you're focused on computer use.
+ Yeah, a computer use.
+ that is because we
+ discovered a very new opportunity.
+ For.
+ The computer being able to operate itself with computer. Use the model is just basically taking the screen as input and control the people allows
+ so,
+ These makes.
+ All the tools on the computer available for the model to use, not just leaving side.
+ A chat box like how chess Vita this. So when
+ Motor have access to the computer. He can empower.
+ A huge amount of why Carrick drop.
+ Empower them to help them to to faster even handling the top by by AA self. And this could be something that Frontier that such as opening.
+ Not doing quite well. Although they have very good days model.
+
+They don't have a very good computer use model and this requires a very, very different training paradigm.
+ and given the massive potential and economical potential of these capability and also the current states
+ of this field where the big lab is not doing up.
+ So we feel that there's a new opportunity to a new model that around around this topic.
+ What is different about training?
+ Computer use models than training large language models.
+ Chronological.
+ He has a two stages. One is called a pre-training, a wine is called postmen. So, in the pre-training stage, open Google the base Cody fit the entire internet knowledge for
+ in text format and feed it to the model and the model to a compressed and remember and
+ generalized.
+ only Spanish, but
+ the issue is said.
+ The model is not able to understand.
+ How to interact with the environment and they don't understand the causality.
+ And what does causality?
+ imagine that your
+ going to driving school and learn to drive.
+ and,
+ It will Coach.
+ Give you all the training materials, for example, driving manuals, and all the YouTube videos, or the internet knowledge of how to drive and just give it to you, okay? Let you recycle that you remember,
+ but they don't actually test the car.
+ So, by training you these weigh.
+ you're able to become a very good Chapel of a very good person who can understand almost all knowledge, always driving and seems that, you know, all the dragons like,
+ But actually, because you didn't touch the car, don't know how to drive.
+ So we knowledge is missing.
+ Because all the training materials are written by people who know how to drive and you read that.
+ True. It should know that, but when you actually learned to drive you learn the causality.
+ For example, your driver on the rule and you turn the wheel that and then you see the car going left, you see the cargo left. So you understand that this action calls that observation.
+ Or that word state.
+ And then after you turn left, and then you turn the real, right? And then the carton Sprite, so you have the observation. So you have the action and observation and then observation taken by your gray and produce the next action.
+ So you clearly understand, what is the consequence of doing that action? What we will be the next worst date of doing the action. This is strong causality.
+ And why remembering this driving manuals? Doesn't give you the causality.
+ It's because
+ you don't experience that.
+ And even though the Germany is the text contains some causality, but
+ it's very different from Trying by yourself and embarrassing and the strong collide
+ parasoft and in the pre-training data that trumpet Google and they they used
+ He just attacks or the videos on the internet doesn't contain any strong causality, especially in the computer use. And also considering that the internet doesn't have too much, too much confuse data so they were performing not very good in a sub.
+ And how are you then going about it are you giving models sandboxes? So they can understand that. Or are you training how like are you training World models? Is that what they're specifically called?
+ Know we're not training, the ward models. We do have a extremely large scale of the symbols.
+ so that the Asian can roaming that sandboxes and do some tasks and collect the trajectories, and we have a reward on
+ to have identify, which part of trajectory is good and which part is no good. So that agent can have a feedback signal for to optimize yourself. So, basically learning by doing learning by Krause.
+ This is how hot is the most honest and the cause and so I'm assuming it's a little bit easier because the end State, you know, and it's like in a way it's did it. Do that thing or did it not? It's not subjective at all. It's very objective.
+ And so that gives you the ability to create a stronger reward state.
+ These seems correct. But in reality,
+ How the model reached? The state can be, can have a lot of various. For example, if they take 10 steps or 20 steps or 30 steps to go into that states.
+ Apparently the 10, step one could be the best, but you cannot tell.
+ Probably the 20.
+ The 20 step way is the most standard way.
+ And it considers some other configurations on the computer, Etc. So just by checking the end state is
+ Actually not.
+ Sufficient. And there's also very challenging to actually check the in-state because
+ Lenny gave you a simple.
+ Your training Asian to manage the healthcare.
+ Training. Agent to manage these electronic Healthcare.
+ Record system. You have a lot of patience and you want to transfer the patient data from from a database to that Healthcare System.
+ And you need to copy every detail.
+ every digit into their system and you have extremely large and state is not captured by the single screenshot
+ is deeply.
+ integrated with how the computer is deeply integrated with the internal state of the computer and
+ You cannot use the code to.
+ Just the in-state.
+ in many cases because those software's, they are very, very
+ Exclusive you actually don't have access to the internal State don't have the internal API of their software. So just by feeding the forms, feeling the data transfer in the data is non-trivial to judge whether it's successful or not. I'm not sure if I
+ I'm not sure if I make it clear.
+ but,
+ you know, there are a lot of technical details, which
+ we there's the
+ the difficulty cannot be understood that in the end of the
+ end State, like tell me about some of the technical details. For example, if you are asking the agent to offer the PowerPoint,
+ and,
+ Like a part of you.
+ but,
+ But it's really hard to identify. Whether it is slice, is looking good or not, although it's very easy for the human to understand, but if you're training the Asian, their more than one thing wrong and you need something to church, whether it's PowerPoint is
+ Whether it looks good on or not. Because it's not a
+ It's not a.
+ Objective judgment. So he could be very difficult. And also
+ Another situation. He said, if you are operating
+ if you are letting the agent to operate and enterprise software,
+ And enterprise software itself has its own state. For example, there are already a lot of information stored on that.
+ Software.
+ for example, the contact information, and you need to let agent to modify or transfer or
+ send some messages to someone Etc. So
+ but after you agent,
+ taking the action towards State change and you cannot reproduce that state. Unless you
+ But internal State again. So the Asian faces very non-stationary State doing training. And although
+ it could be is not very difficult for the humans to judge, but it's actually very
+ Difficult for the Asians to to charge because at first they don't have the knowledge of that domain. I mean if they already have the knowledge of the domain, then why would we need to train them? It's a, it's a chicken at problem.
+ How are you doing with the state changing constantly? We, we must accept that and we are training in non-stationary States.
+ and so, you just
+ Are figuring out how to make that work within your training and and are you simulating these states? Also because you mentioned that you have a lot of sandboxes.
+ And then are you simulating different states so that you can get that training?
+ That happens, we do run a lot of softwares on their sandbox and to simulate the environment that agent might work on.
+ So by running to Adrians with collect a lot of trajectories, the screenshot action sequences.
+ and we were able to either use humanitarian or the trainer reward model to
+ To figure out which is a school and which is now good and used that to to update them all. And when we train, the model is another very
+ Very challenging point. So you see the deep sea and those open, they use reinforcement learning to train their Motors so that they can chief.
+ International gold medals in math and physics. And we all know they are using rainfall learning. And the same Works in this way. So the first gave the model
+ A math problem and let the model to to solve it to roll out the tokens to roll out the solutions. And then they have a judging function to judge whether the solution is correct or not. This solution, may, these judging function is very, very simple because they only need to check whether the answer. The correct answer is in the
+ inside ends of this light level of the world. So they were able to every time they have
+ a problem, we draw out around 10 or 20 times so that they pay out.
+ which is good, which is not good and to optimize the model based on the
+ reverse signal.
+ And one difficulty that we face is that solving the math home is.
+ You don't need to interact with the environment. So just need to roll out probably after two seconds, they finished the world, but so interacting with a computer, it has the latency.
+ You need to do with the worst states and every role I'll take some minutes. So many minutes, it is around 100 times longer than roll out. A mess solution. Yeah. Yeah. And all. So you need to maintain extremely large infrastructure.
+ For example, when you manage one or two virtual machine or sandbox, it's totally fine. But if you have 1,000,
+ Or 10,000 sandboxes, then you frequently almost frequently encounter the sandbox failure.
+ So you need to have extremely robust methodism, to let it recover from a failure.
+ and we,
+ We do have a very robust mechanism where during our evaluation we start from complete failure. The complete crash of the entire system
+ And then see, how long does it take for the system to go back to normal? And when they're around, 32 sandbox, it takes around 80 Seconds to go back to the normal to go back to 100% healthy from 100% failure. A fever around.
+ 1000 sandboxes. It takes around three 300 seconds to
+ Go from complete, failure to complete a health States. So it is actually quite quite impressive because all those things are automatic and in reality you won't start with the state where there's a complete failure. So you probably don't need actually 80 Seconds to to do that.
+ How are you getting the data for all this, like to train? Because I imagine you have to train in specific software. Like maybe it's Google flights, or maybe it's HubSpot, or maybe it's Salesforce, right? We use
+ all the softwares available on the computer and basically, we for the real website, if we can access that website without being blocked, then we use that real website directly used
+ And the wrong Rebels learning on Google flights.
+ and for other,
+ Father apps for in South Pole. Google Docs or Michael soft. PowerPoint or Microsoft worse? Yeah we just used to Software.
+ And we just installed them in the sandbox and running.
+ But I guess there's going to be.
+ instances where the agent encounters software, that it was a trained on and you're going to want it to be able to
+ Try things and make it work, right? So maybe it wasn't trained on HubSpot but it was trained on Salesforce.
+ And you're gonna hope that it can go and figure out HubSpot.
+ When the agent.
+ Is trying to operate a soft relay never seen before.
+ And we, at least hope that he can.
+ Have a cold start.
+ This.
+ Comes from two perspectives. One is that? Because the agent already? See a lot of data.
+ A lot of screenshots data and a lot of data.
+ That is being trained on.
+ so, it has a
+ Relatively General on the standing of how the UI works.
+ So that when they see a new
+ Screenshot, see a new software.
+ At least, they understand that. Okay, that part is set if I go through that button and I've only changed
+ The thing to talk.
+ So that's a general knowledge, which is observed by offering with fear.
+ Existing software.
+ So I mean, if that doesn't work, we'll collect the human data to let humans to operate the computers.
+ And all through the software tend to keep the model, some prior knowledge so that it comes from one is the natural.
+ Generalization.
+ From existing training. And the second part is human, teaching them.
+ 12 weeks.
+ and the human teaching them or the human data that you're collecting, you then fine-tune the models with
+ Yeah, we we find in the model with human data.
+ and we actually collect a huge amount of human data and it,
+ It's not confined, it's called meet training.
+ We're.
+ There's a huge amount of data.
+ Much more than what the typical fine tuning neat.
+ Yeah so it's it's not fine tuning. It's basically like step two and training. Yay. Okay, so I'm starting to get a picture of this and tell me if I'm going down the right track.
+ You have a large amount of sound sandboxes, you have models that are trying things inside of these sandboxes, and then they're getting rewarded when they are completing the right task in the best way possible.
+ The meeting. I imagine the least amount of steps.
+ so,
+ From there, you get a base model that understands how to do things with your computer like scroll, and take a screenshot, and then submit click buttons, whatever it may be, go back, go forward.
+ and then when you want to use a specific tool,
+ that is a tool that the models never seen before you're giving it human data. So you can do that stage 2 training.
+ That's very correct. The model needs a hair first. Have what channel and knowledge and and then trained on relatively specific tools.
+ And the general and the training needs to happen in these sandboxes or the sandboxes are just how you're generating data to then train.
+ Oh yeah. The symbols
+ it is only for generating the data because
+ Training needs a lot of GPU Nisa Reddy TV, centralized infrastructure.
+ Up where the sandboxes are, just the desktop environment of Ubuntu, or Windows or Mac OS layer just just playing desktop environment and let the agents ranked, but agents. But when collected data,
+ They just is not trained inside. The sandbox is trained on a GPU class.
+ Here, our training infrastructure.
+ Yeah, and we actually already open sourced our training infrastructure with a lot of sandboxes. And oh oh by the way, we just launched our model in December 1st Justice yesterday. Yeah.
+ and,
+ I can't actually send you the yet. Tell me more about the model.
+ yeah, you see the comparison between the Luxe thinker and also
+ feminized. All the other computer use. Yeah.
+ Doing really well.
+ Yes. Yes. Doing extremely well and the online mentor and Benchmark is The Benchmark with around. 300. We were computers tasks and his widely Nolan in the community. So many models are evaluating on that Benchmark and we were able to reach a score of at
+ 3.6, which is
+ A much higher than Google's, Gemini model.
+ and also opening operator and also called
+ And it's not just more powerful. It's also faster. So it's on average to two times, a two to three times faster than this competing models. And also, the token cost is around just 10% of this models. So it's extremely powerful and we are releasing the model and all the SDK and all the API so that the developers can be their own computer use applications.
+ and so now,
+ I've seen quite a few folks.
+ Trying with computer use, it's captivated our imagination. Why did you feel like you want to go to the model level versus trying to just give existing models more infrastructure? That is called, the current model is not quoting enough and by giving the infrastructure you cannot solve the
+ Fundamental performance issue. You cannot stop the speed issue and you probably have higher cost.
+ So by giving the model, probably some tools.
+ And you can do something more easily but it's not General enough.
+ and also, if
+ if I'm
+ starting a company but just wrapping around others model.
+ And what is my, my Competitive Edge. We must have some very fundamental
+ Have our own space in the, in the, in the field of computers models. And I think that's is
+ That is not a easy path, but it's definitely the most promising passed in the long run.
+ Do you feel like you also want to or need to add to the different framework layers also, or is it something that you're just going to focus on the model? Make sure the models as good as possible and let others build on top of it.
+ Very good question. I. So when released our model called Lux, we also released the Asian framework.
+ For example, in our SDK page, there is a thing called Tasker agent. What is Tasker agent
+ Is an Asian structure that?
+ Is based on our Lux model.
+ But it gives extremely high controllability.
+ For a fixed workflow. For example, in that agent.
+ The task agent, the developer can specify each tutu.
+ each precise tutu for the model to
+ each subtask so that the model can do it one by one and inside the task creation.
+ If a subtask is not completed.
+ Correctly. Then the model will know how to make up the mistakes and
+ correct mistakes. So basically husky agent
+ can keep the developer extremely high controllability.
+ To do a workflow Wonderland to do repetitive workload. Step by step.
+ And to a fast and have the ability to correctly, only Stakes. But if you're just using the model itself, is not very easy to achieve their level of control ability.
+ So we also build the framework around that one model. There are three three ways to use the model. One is called the actor node where it runs placing fast and much faster than existing competitive models.
+ And the second.
+ Mode is called thinker mode, where?
+ It's able to handle very queries, and Lahore resident task. And it can think before it take, take actions and it can also run for
+ More than one hour, on a task.
+ And it needs to let me in the middle.
+ Even encounter some public in those how to fix it by itself.
+ That is the Thinker.
+ thinker mode, and
+ There's a tasker mode. We we just talked about it.
+ where it offers extremely high controllability and these
+ Nice, especially suitable when you already know how to to this workflow but you just need an agent. Just need an intern to help her to do it.
+ So, you need to give the intern a to-do list or subtask leads and can do it.
+ With extremely high comfortability and stability.
+ In The Thinker mode.
+ And actually for all these different modes, how different was it to train each of them? Or was it just that stage 2 training? That was the different part, you had the base model and then you added these different
+ flavors of the model.
+ Or are you just giving more compute a test at runtime for The Thinker?
+ yeah, so the training is actually
+ Very very similar. We shared the first stage of training in a second stage, for the extra mile. We prayed the speed. So we don't like them all to think too much, but for the Thinker model, we like the model thinking. Extremely deep.
+ So it's basically the station stage 2 training is quite different, the objective.
+ or the alpha is a
+ Perfect. Taste different.
+ Okay, so, stage two, you're just giving it more time to think about what its gonna do. And then
+ Try it, come back, try again, that type of thing.
+ Yeah, yeah. He's at
+ And this is so cool. What have you done with it so far?
+ You mean the model release? Or
+ Like what you playing around with the model? What are some things that you've done?
+ Yeah, yeah. So
+ We actually have some examples that we really like.
+ On the website, for example.
+ Letting the model to software QA.
+ Is one example is doing the software QA where you are developing a software and a new feature you want to make sure.
+ All the features are functioning correctly, so you need to run over the software and do the QA on each part. So this is something that can be done with the, with the Tasker agent, where you specify, all the features, you want to test all the tools.
+ so he just do it one by one and every time you add a new feature, you can spin
+ So every time you run a new feature, you can start a taxi agent in the virtual machine and added to the QA.
+ For you. Another example is finding the insider trading activities for all those stocks.
+ so, you just
+ Have you just asked the model to find The Insider training activities for Apple stocks on NASDAQ?
+ So, it will just go to the website and search for the APR. And then, inside the page, somewhere in the page, is able to find inside their trading activities.
+ That's an interesting is up.
+ Wow. Yeah, yeah and also helping you following your text on, Turbo Tax is able to just feel those boxes one by one.
+ And based on some information that you, you give it.
+ That's a.
+ Godsend specially right around March April time.
+ so we're we're building the so we're increasing the reliability of the model so that
+ So that you can.
+ Completely trust it. So,
+ There's another.
+ Very important aspect about the visibility.
+ Of the of the null.
+ Because for some tasks, when the mode operates, the computer you actually want to have the control of it, but for some tasks, you don't even want to look at it. So to be specific, there are three situations, one is the completely background tasks. For example, helping you to
+ Corey information from Amazon.
+ or buying a toilet paper, and
+ So you don't even want to take a look at it.
+ So in in that case, agent just do it.
+ and the second level is where
+ you don't care the process. You just care the results and when
+ So in the last stage, you need to check the results. So the second level is where the Asian can do the process, but you need to confirm at the end.
+ But actually don't don't care or don't want to look at the process.
+ For example.
+ Feeding your information to the health insurance provider you on the agent to do it. But before the agent he submits, you want to stop and YouTube it and you keep a submit
+ And a text value is also this category you want agent to do it, but actually, you don't want to submit for you.
+ You want to check before is emit.
+ And the second level are.
+ And the third level is where you want to see every step of the agent to it.
+ For example.
+ A moving or a banking for me.
+ from here to there, or
+ feeding some extremely important information where you don't want any digit going walk. So in that case, you observed agent step by step. So for those three scenarios we offer or different
+ but for for this threes Sonos, we offered different visibility for for the developers so that they can build
+ Corresponding or applications.
+ one thing I think about a lot with
+ computer use models is sometimes I also want to be using my computer
+ And so, what in your mind does the infrastructure look like for these different models? Is it that they're going out?
+ into the cloud and doing things, or
+ They're not doing this on your computer, they're looking at other resources or they're doing it in the background like you said, but then maybe it's up. If it is doing it on my computer the whole time, it eats up all of my memory or my just my computer usage.
+ yes, so the local background note can
+ have a virtual textile on the local machine.
+ So, they can do without we thought.
+ Interfering with your work. So you can still use the computer place to eat in the in the background.
+ It's also possible to run a congress machine, but you have to, to open something information to the comment machine or a, or if you only asked if you do some proposal operations,
+ It can just retrieve the information from the browser and that's completely fine.
+ So there there, there, there are different modes.
+ Or Postal.
+ Dude, what else do you want to talk about? I would like to talk about the last thing.
+ Our imagination and vision?
+ Of the future of computers because we see several stages evolution of stages of computer. In the in the history, the first one is probably the Mainframe and the second one is the PC and the third one is the mobile phone. And what is the fourth one? It's very likely that in the future. The computer will not in these current four,
+ that's possible that
+ the keyboard will disappear the most appear or you have some other important.
+ Such as voice.
+ To let the computer understand your intent.
+ And then the computer can do it for you and probably we can still have some some keyboard but eventually the computer it starts subscribing just like the current submarine cars but this probably won't happen in one of three years. But in
+ Between 5 to 10 years.
+ The computer will change a lot and interface between humans, and computer will also change a lot. And the fundamental
+ enabler of this is the AI agents who understand the human intent and being able to operate the digital device by themselves.
+ So we are going to watch the direction right now is computer use and the future is probably just a operation system.
+ Are operating system. That is completely autonomous. And you only have a hardware and you don't need to touch it. And you just say your intent and it does, and it does the things for you.

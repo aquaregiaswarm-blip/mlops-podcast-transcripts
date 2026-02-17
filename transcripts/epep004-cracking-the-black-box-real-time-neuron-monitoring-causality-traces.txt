@@ -1,0 +1,277 @@
+But yeah. So I don't see I don't see the regulations as a barrier, like if you get it, right. They're they're reflecting what good practice should be anyway. So deal, you know, think of it like that. These are the expectations of people of good systems that integrate with Society. So we get that right. Then? We should, which will be able to move moving on a bit quicker. Let's talk regulations compliance. We're gonna make it fun today and hopefully help. All of the engineers listening understand.
+ What is important?
+ You have the hidden sexiness that lies under the surface of compliance regulations.
+ Yes, so be careful listener. You may fall in love after this episode.
+ Why, and what have you been focusing on in the regulatory space recently? Mike
+ How we've been pretty much solely focused on.
+ The Beast that is the EU AI Act.
+ Which is a piece of horizontal legislation. So it's kind of space to be applied across the whole, you know, the whole territory of the EU regardless of what business you're in, or what your activities on.
+ And it's kind of the tip of the iceberg because the the ACT is like a piece of legislation. So it lays down
+ This is what you got to do. Basically all these are. These are the things we expect you.
+ To achieve the standard really.
+ To not get into any trouble.
+ But that sent me the start of the story because kind of Hidden Away in dark rooms around Europe for many years of being, lots of experts who've been working on what's known as harmonized standards. So, this is the kind of implementation layer under the ACT
+ and there are
+ Thousands of people that'd be involved with that process over many years.
+ And they've been writing these the standards which actually are full of real gold. They tell you if you need to comply with like the most stringent rules are in
+ a system that's supposed to be biased unbiased and fair. Okay. That's everybody knowledge. Is that somewhere that you'd like to get to
+ But what does it really mean in practice? So you've got all of these, these underlined documents they give you a real kind of penguin numbers, nearly kind of walk through of what you should focus on in terms of your systems and your models and the sorts of things, which would if you can
+ If you can match the standards, you've got a presumption of Conformity with the ACT.
+ So, our product basically is reverse engineered against the EU act, but actually it's reverse engineered against this whole raft of Standards harmonized standards, which sit below it.
+ Okay, so if I'm understanding this correctly, you're saying there's the EU act, which is very fuzzy and interpretable by lawyers. It can go many different ways.
+ But there's also a group of folks across Europe that are trying to say here's like numerical and kind of tangible ways that we can put this legislation into practice and we can cover our ass. So that if for some reason
+ it seems like our
+ AI is acting bias. We can say, well, we followed all of these steps that
+ we were told our best practices.
+ That's right. Yeah. So you got this this phrase called presumption of conformity in this world which is if you do if you have actually if you can demonstrate that you follow the standards then you will automatically be complying with the act. So all the wrist teams and big businesses, they you know, get very hot under the collar back.
+ The risk of all this stuff like regulatory finds and reputational damage and all that kind of stuff. So, in terms of how Insider mlops team or a Dev team, who are putting this stuff trying to get it into production for business value, You've Really Got A roadmap as long as you can follow the instructions in the standards, then you don't have to stray from that. Essentially, if you follow it, then you're wrist, team, will be happy, because you've got this presumption of Conformity, there's still some interpretation from those standards. It's not, it won't apply clearly. And for every single case that they could possibly be. So you have to sort of interpret it and say all right well this is my reading of how it would apply in our particular case. So there's still work to do with the risk team and to kind of Define exactly what these testing evals and sort of monitoring systems need to do, but the gaps pretty small. So you know most people who are familiar with the space would be able to you know, spec out what those tests should be to to make sure that you can form.
+ but yeah, so it was kind of like
+ I think it's just like gold really, you're nobody really knows about that. You just find these standards. I mean, one of the things is, is that they are
+ Generally you've got to buy them so if they're not like they're not like freely available because they get produced by standards organizations like the iso or here in the UK. But BSI British standards Institute, which it kind of they license out. All of their
+ Oh, they know how in these in these documents.
+ and,
+ You mentioned words like eval is an observability.
+ How does that way that they interpret observability differ from like me? And my head were just observing the systems and we're seeing
+ Is the traffic going through. Is it not? Are we predicting things? Are we not? How are the predictions coming? Are they drifting etc? Etc.
+ like, what kind of observability do you think about to
+ Um it's more about a. So I think there's like the starting point for most Engineers who would do in observation tasks are, we want to make sure our systems work well, all the time and we're aware of the failure modes.
+ And we kind of patch for that and we work that in and try and fix it. Whereas from the perspective of
+ Complying with regulatory demands like the eui. So there's others in different places. They got different flavors, they tend to all have the same types of themes in the
+ They're coming out of purely from a risk perspective. So the idea there would be right, we've done an audit of our
+ inventory, all our AI systems and the models inside them.
+ And we compared that to, let's say you're deploying a system is the EU.
+ We then check it to see whether any of those systems are in fact, classified as high risk, because as there's prohibited systems not switching at all, then you got the high-risk ones and then you got literally everything else and everything else kind of gets a pass. It's like, well, if it works, it's fine, it's probably hurt anyone. So the ones in the high risk category tend to link to
+ Where the you can be discriminated against your basic human rights. So you, you're not getting a loan because you're, you know, you're this type of person other than that, type of person. Okay, so that would fall on it or if it's a system which is already needs. Some kind of Conformity from a product.
+ Safety angle. So if it's a AI system, that's in a car in a lift in a toy in some Machinery, then automatically it's classed as high risk because it already needs to prove it safe without an AI element with an AI element. You've got to then apply the same kind of stringent
+ A rules to it. So all of the thinking around observations then becomes, what's risky here and therefore, what have we got a track? So if you take the example of like a loan application, that might be biased to some applicants. The risk is is that you are potentially going to cut across that human, you know, those human values.
+ Measures so then you identify, okay. We've got a system here, which is going to be called by the ACT. It's going to be caught by the app because it's potentially could be unfair to certain people. So then you've got to build your monitoring tests and evals around trying to catch that.
+ So from a, you know, the state's quote, is it work? Well we don't, we don't want to buy a model but in this case, the demands of making sure that isn't biased go up several notches. So they'd have to kind of engineer to a much higher level of granularity.
+ and on that particular Point, our kind of our secret sauce with our technology is really around in mechanistic, interpretability we're getting inside models, when they're running inference time and we're pulling out, those calls all chains of decisions so we can have a kind of ground, truth of what's actually running in the model when it spits out an output to say, oh, you get a loan or you don't, and then we build tooling, observation and testing, tooling on the back of those raw traces,
+ Up. So this may be a bit naive but if I am
+ Sending.
+ everything to a model provider like anthropic or openai, am I not offloading the risk onto them or is it like oh no they're a black box system and should be treated like so and so it is much more dangerous if I have them as part of my flow
+ you inherit, whatever their
+ Regular tree risk song standard. You have the disadvantage that you can't see it. She'll they'll produce motor cars for all, you know, for all their models. And you can do some due diligence around that and do some testing and some drag race type testing, or with these kind of metrics. But they are only impact output type tests. So you know, that's pretty sophisticated that world but it won't necessarily comply with the the highest demands, the AI act. So in those cases the risk assessment around that when you're planning that system might be
+ Okay, we don't want to inherit a closed commercial model where we can't get access to the internals. So we use an open way to model. Okay. So it you know you've then got a kind of performance decision to make if we get an open weights model we have to make sure that it's going to do the job. Well, there's often a trade-off between those things. What's the risk of the system? Fully foul, the compliance and the regulations? And what are the downsides to all of that versus what's performance hit? We might take if we have to use an open weights model
+ but you know there's a there's more people that kind of considering there because a gives you more insight into the internal operations of the model. Get more control over it.
+ And you can, you can get more, the more flexibility on finding and sort of rag based systems that sort of thing. So for llms,
+ In very high stakes situations like defense Financial Services Healthcare. There's a kind of a move.
+ I would say wholesale, but there's a growing movement to
+ Take the open weights models because they've got this level of control and you can then prove to The Regulators what you're doing with them to a much much higher, much higher level of granularity.
+ It. And so I remember back in the day,
+ When we used to call it machine learning.
+ there were some folks that would come on the podcast that were in the financial services world and they would talk about how
+ Every time they released a new model, there was a whole rigmarole process that they had to go through, to get it approved. And then there were things that they could do. Once a model was approved and it was able to go out into production.
+ But like if they needed to retrain it or things like that.
+ but I'm wondering if
+ and how that world has changed since the Advent of llms.
+ No lol for financial services, that's my mind standing. I mean we got two target markets, financial services and defense and we're having early conversations with clients.
+ With in both of those sectors.
+ The.
+ In the UK. So I can speak more more specifically around the situation in the UK.
+ there is has, been a tendency to
+ Lean on in use more linear systems, like, gradient gradient boosted models, run and forests and that kind of thing.
+ And they'd become very sophisticated at doing things like fraud and credit decisioning and that kind of stuff.
+ But they are inherently more explainable and interpretable because they are not you know, opaque models. So they're more linear. So they so basically there's been sort of a branch in that decision, way back to say okay well the compliance tells us that we have to be able to stand behind the decisions to a certain level of understanding. So this whole class or models like all the learning is off the books because it's just won't ever give us that. So, they've gone this other way historically, and have neighborhood and have made those Motors very, very sophisticated and do their job very well.
+ but even yeah, but there's no kind of a
+ I think a drive to sort of say okay well we're missing out here, we're leaving things on the table, leaving on the table. If we had a better model
+ Then, you know, we should be using it. So let's try and make that work.
+ And the regulations in that space. There's a sound like a bit now ss1 slash two three, which is the pra Bank of England, Prudential regulatory Authority.
+ Who basically bought a whole piece around explainability and they're saying, lime sharp impact output kind of feature relevance type metrics, aren't really good enough. You're getting calls really, you know, get a variety of correlation type insights, but you're not getting causality. So you don't know where and when these things might what's going on inside
+ So yeah. And because of that, same argument around using language models. I think, I mean they are used, but I think people there is teams are very cautious about, where they're being deployed back office stuff, passing a load of PDFs and doing some structured output into some of the part of the system, kind of okay. You know, it's just kind of just admin type processing. But if it gets close to the regulatory sensitive areas, like customers, and buyers fairness, that sort of thing, then then these they get more, highly scrutinized
+ Yeah, I was fascinated in the financial sector.
+ back, when llms came out, I spoke to one of the lead machine learning engineers at Angelus and he was telling me about how
+ He was using them and he came on the podcast and he was like, dude llms are amazing. They're much better than any of the models that I built myself and it's way faster to get into production because I just have to hit an API versus me figuring out the whole platform side of things.
+ but,
+ I was kind of looking at him, like
+ Oh, so are you just like, how are you dealing with the compliance side of this? Because I know it, it's in the financial sector, and
+ It does feel like that is dangerous.
+ Area. You're kind of like walking on thin ice the whole time. Yeah, it's a driver. I think a big driver is. So raced on Annex.
+ Is.
+ I guess boards and people who make investment investment decisions around it.
+ They are in a race something, they against the next guy. And the next girl, you know, we're kind of you. If you were overly prudent and you just didn't invest R&D into this, you might end up, it could be a company killer. So the boards are really kind of, I think quite scared around. We need to be in the race, but we need to do it in such a measured way that we're very aware of what the risks are and the compliance risks
+ And just the business risk of falling behind so that I mean they've been recruiting. I think quite a lot especially in the UK a lot of complaint, a lot of financial services. Businesses being beefing out there kind of responsible ai ai ethics AI committee type staff because historically it's not necessarily a kind of horizontal decision.
+ team, you've got your
+ Risking business team you it or devs team or whatever.
+ And the AI challenge in that sector kind of sit across all those things. They kind of been recruiting to form.
+ Forums, which can get the expertise into shaping. What do we invest in?
+ What risks are we happy to take and what kind of goals are we setting? And the progress against those gold, you know, Visa V their competition.
+ All right, y'all. Real quick, let me talk to you about hyperbolic GPU Cloud. It delivers Nvidia h100 at one dollar and 169 cents per hour.
+ And h200 at one dollar and ninety nine cents per hour. And this is with no sales calls, no long-term commitments or hidden fees, you can spin up, one GPU or scale to 1000 in minutes with VMS, bare, metal clusters and high-speed networking. You've also got attachable storage and you only pay for what you use? Save up to 75%, less than Legacy providers.
+ And oh yeah, by the way, you need steady production grade inference. Well, you can choose dedicated model hosting with single tenant, gpus and predictable, performance without running your own Hardware. Try now at app. Dot hyperbolic AI, let's get back into this show. Yeah, talk to me a little bit more about
+ This stakeholder alignment and how you've been?
+ Seeing technology help in that regard. Because it does feel like where you're trying to do is
+ Help bridge a people issue with tech in a way or just make people's lives easier to communicate against certain standards.
+ yeah, it's probably the biggest challenge, we have, I think is because there is an established
+ Sales process because it's not really something. What we're selling is not really.
+ In a category yet. So we'll chill trying to work out who are all of those key decision makers and how do we Corral them into a decision-making group?
+ It's not easy. And I think the main, the main challenge is still the
+ Business leads and the you know, inside of business there is a business need. We want to invest in and a system.
+ to make it happen and they would deal with the tech team and then scope it out and they build it and then later,
+ or at some point later, the wristing would come along, GRC team and start to, you know, be seen as the fun police basically and say, oh no, you know, prove me to
+ You know, prove this model against his metrics and then the scope of the project could shrink or there's a load of tech debt and builds up because you've got to start wrapping everything in loads of additional tests.
+ And if you change any component so that I don't think historically the cultures between those teams have been, like, let's just go down the pub for a couple of beers at the end of the day. They kind of that's my take on it anyway. So we're trying to we're trying to work. How do we how do we get in to that? How do we get into that world and make these people love each other dearly?
+ So what can we give both both parties. Something that is helpful to the other as basically being strategies. So for the
+ For the for the tech teams we're trying to produce materials which explained in absolute definite detail. You will need eventually to make a system of this type comply with the following
+ And this is exactly the walkthrough in the regulations, which means why you've got to do that. That's the kind of the justification for including that particular thing in your testing regime or in the product basically or in the service.
+ And then tell them you whilst it's all very boring.
+ You're gonna when you show that to your wrist team, they're just gonna throw their arms or edgy. Because the problem that the wrist thing about is exactly the other way range, they come into the and they don't really understand the Nuance of the tech, but they do understand is what they systems have to achieve. So we're kind of give the other party.
+ The secret sauce, basically all the keys to the kingdom. And then
+ when they both meet up, then they got this shared ground, even though they might not even
+ kind of internalize all the details their armed with the right information to say, well that we put these two things together and then we're going to get where we need to get, because I think the
+ The frustration with building stuff that doesn't get into production is like nearly taking his taken for granted. Oh yeah, we're working on something. And we got excellent of projects on. And this many are in Prototype. And this many got this far, and this many got this far. And this, like,
+ Can we can we actually get it through and push it to production?
+ so everything which doesn't make it which is still got a, valid business case, is
+ You know some cost isn't it? Apart from what? You might learn all the way. It's like kind of waste and redundancy. So if you can get rid of as much of us possible and get your prototype to kind of production conversion rates,
+ You know higher, then everybody's going to be happy because you know somebody as Builders you see all that you build go out in the world and do good things and you don't have it not down or rescued as the project goes along because of this kind of ugly.
+ spiky compliance issue that keeps
+ keeps coming in.
+ Well, it does feel like those two sides of the business or these different. Stakeholders are almost like at odds with each other and there's different incentives there and different goals. So they're going to have that.
+ Friction. But
+ I would love if you can walk me through since I've never been in.
+ One of these.
+ Companies that is in a highly regulated space and putting AI in a production in a company like that.
+ What is it that the technical team now needs to do?
+ I know you mentioned like having a certain set of tests understand it. I am guessing there's like special kinds of documentation that hit criteria but can you give me like a concrete, use case, and then concrete needs that they would need to perform
+ Yeah. Okay we've got a project which was scope at the moment.
+ In the Defence sector.
+ which,
+ Is for an autonomous surface vessel.
+ okay, so it's going to
+ Slice up the classes under 24 meters, and these are kind of engineer, sure?
+ Doing survey, you know, whatever they're doing. They're right there. There's nobody out on board and they've got to not hit anything, that's the thing they got hit. So to scope that project,
+ on day one, we have to
+ Understand what the domain of.
+ Operation is.
+ When she spent that you then spec what are the Prevailing regulations that this system? It once it's been deployed needs to comply with of which there are
+ Several as the maritime and coast guards regulations, which have got AI sections in them. There's the mods, internal version of that. There's rules of the sea, there's lots of. So, all of these things are, if there were people on that boat or on that vessel, they would have to comply with all these regulations. You take the people off and there's it's autonomous. It still has to comply with all of these things.
+ so,
+ Sensing. But visibility help me, understand because it's if there were people on the boat, they would need to wear life preservers and they would need to have horns that they honk. But
+ If it's autonomous.
+ What is it on the level of compliance that they need to be doing?
+ Besides just not hit something. I'm not, I can't, I'm trying to connect those dots, you know, like the code needs to comply with all of these different regulatory bodies idea of what autonomous code should look like.
+ now a it's more about what are the
+ What is the cape? What are the capabilities of the Lesser trying to do? So then you specify it sort of domain of operations. So this when we deploy this autonomous vessel, we are going to follow operate within a certain area.
+ We are going to report our status back to, you know, some reporting station every X. Whatever seconds minutes, whatever.
+ We are going to alert other C.
+ Fairing vessels to our presence. We are going to scan through the following sensors. Radar lidar sonar we're going to ingest GPS data of other vessels. So the kind of you you work out what it's going to do. So it's very much just like specking any other system. It just happens to be the system is a boat on the sea
+ And then, once you know what your domain of operation is you, then isolate off the sub parts of that system. So you say right? For the bit, which is going to be
+ Tracking the GPS of other vessels. Like, what what does that sub component of the system? Do what are the autonomous bits? And how do those autonomous bits relate to the prevailing regulations? So, as doing all of that scope in work, you need to do that right at the beginning.
+ is because it literally leads the rest of the project in this case, because it's such a sort of Safety and Security focused project, so it's really that kind of mindset is that you have to do all of that scope in
+ And translation of the regulations and then you map what your automated systems are doing. Now, some of this stuff is all, you've got lots of electrons Electronics on boats. Anyway, so there's these things are covered by safety cases and safety tests, and certifications, and inspections. So just mapping that kind of world onto.
+ What are autonomous or AI or a genetic type functionality within that. But that's the kind of world compared to like build something. Is it a good model? Does it? Is it great at predicting a b or c and then
+ Ship it and just check it works all the time when you get into these high-risk scenarios. It literally is a wholesale change mindset change that you don't build a damn thing.
+ For at least the first third is all scoping checking compliance work in kind of coping to fit the, to the rules.
+ yeah, because
+ you could end up burning a whole lot of money.
+ If you don't go that way.
+ Yeah, and I suppose our business is predicated on, on the fact that whilst there aren't that many systems which get caught by the EU AI Act of the moment. It is the gold standard because it's people been working on, since the late teens, there's thousands of experts that have kind of fed into this this harmonized standards Library sits below it.
+ That even if you're not caught by it, if you are taking a belt and kind of a gold. Yeah. Copper bottom approach. Like we, we don't want unknown unknowns.
+ Cropping up in our risk as a business. So we want to ship the most responsible and trustworthy system. We possibly can
+ Then you would need to hit these sorts of standards anyway, in which case it then starts to make the working practice more. Like they're just explained loads of scope and loads of checking so our businesses trying to take that pain away basically. It's like we can plug into all these different rules and regulations and then the metrics can map quickly to all of these, all of these very specifics and then when you're building, you know, that you're going to be compliant to these higher standards without all that pain.
+ Cruel, talk to me more about the product. Then is it. I come to the product and say I'm building an autonomous boat and what do I need to?
+ Know about.
+ Or how like, how do I interface with the product itself? So that it can give me the right regulation and map to the standards? I need to hit all
+ okay, so the
+ The first it's easy, the integration we give you an SDK.
+ And that hooks into your deep learning model. So you've got to basically have your own open weights model that you can get in that you basically develop yourself or you've got access to an open waste model. So the SDK has got some boilerplate in there. That just hooks in
+ when you run that model, we then pull out the inference data. So that's kind of raw. Vector style data.
+ Which then depends on the deployment. So lots of these higher risk or high-risk scenarios, they
+ don't want, you know, they won't complete.
+ They want their hands completely around the data.
+ Governance piece. So no date. They want any any data missing. So our product roadmap we don't do this at the moment, but on the roadmap is it's basically completely sast Deployable solution. You put it in your world, on your client, turn integrate it with your models. The data doesn't go anywhere. Just this process by our kit in your world, but the moment we're not there. So the inference data comes to us,
+ With that rule inference data. We then do a couple of data, proprietary data Transformations, which get it basically, it's data, it's a information minimization is the first step, so we squeeze out all of the
+ Noise and hang on to the signal. So every time, the model runs, we get an inference log for that particular output store, it
+ You then do this information minimization.
+ And then we end up with a trace. Basically a causality trace of what's happened inside. And that's basically
+ A representation of what's Happening. Inside that deep learning model when it ran on that particular time.
+ You can then run it.
+ You know, in your test 10,000 times, then we'll end up with 10,000 cases and then we start to do post processing on those to analyze them to work out.
+ Against certain metrics, what is good and what is bad. So you would end up the goal for a user is to Define like gold and set.
+ In this.
+ This system when we build it, normal and expected use looks like this. So input select this. We expect the outputs to look like this. That's gone through, you know, other types of like accuracy testing you might've done and once you're happy with that and you run a load a test cases, we then you hook our kitten, we drag out the data and then we do different analysis over. The top two, find out whether they are robust accurate unbiased. Whether the transparency standards are there, that kind of thing. So depends what
+ What is the specific metric that we're testing against basically?
+ And then that becomes your basically you end up with an in profile setting that out profile set so normal use.
+ Look at the trace. Fine. This one's fine because it's in profile. It's great. Let it go. Next one comes through, right? There's something wrong here. What's that? Well, let's say there was a prompt injection for open weight to llm. There was something weird with the input that meant that the internal activations. And the model just were
+ squiffy.
+ And then we can classify what squiffy looks like for certain things, and then we can say, oh that looks like is a prompt injection, so we can hold the process at that point. So in a life deployment, we'd be able to get that output.
+ Because we say red flag.
+ There's some something up here because it's a profile.
+ Yes, so that's the kind of data bit and then we've got a SAS front end platform which does dashboarding basically, you know, load up your models, configure your tests and then report on them in you know in in graphical format and hang on to all the source locks. So the that's how it works. And then your question was about how do you tune that to the specific needs of various regulations? We're building it to fit with all of those requirements for the EU AI Act and the difference between those and let's say nist. It was to the American AI risk management framework.
+ It's more, it's more in that case, it's not the law. It's like recommended best practice but there's so much crossover because they've had the same people work on what are the principles here, accuracy, safety security. They all crop up in the same in the same, kind of ways. That tell me a small tweak very often to, to make, you know what, what is robustness in the Through. The Eyes of the EU, AI act what is robustness Through, The Eyes of the nist. AI rfm. They're very, very similar. So little tweaks. So these are kind of like a layer that sit on top
+ Yeah. So basically to summarize there's modules like if you want to comply with like you know the the FCA in the UK, that's a financial regulator. They got a whole sort of Suite of your system, must do this and must not do this by building modules so that they as a user, you just choose what you need and you just plug them in.
+ You know what, what I didn't understand is how you have all these rich data.
+ And then you have this.
+ Compliance or these modules, as you're calling them, how do you map those two together or how do you connect those two worlds?
+ Okay, and so the thing around, like the bias as an example.
+ the law, our paraphrase, but the Lord basically says,
+ What you do a risk assessment of your system if you think that. So go back to the loan example, that your system could be biased against your basic human rights, which is you're being discriminated of because of your sex, gender, race, whatever.
+ Then that would be, then that system would fall of the the bias.
+ Requirements in the EU, AI act in practice. What it means is, you have to build a system which can identify When Buyers might be creeped into your system.
+ So, how do you do that? Well, if you're using a deep learning model as a classifier in some part of your system, that
+ Can be tested. So this is a separate part, you know, we can do this or the client can do it, you could use a fairly standard
+ Assessment to say, okay, is this potentially biased? Other? Anything is a course for concern around this model.
+ As its operating at the moment. If it's yes then our systems can then go and do this internals analysis which then can report any event. Any individual output from the model which is out of scope. So you have your in scope, these are all normal and unbiased because you've you've got a golden set which we can kind of get a kind of a like a thumb print. You know what I mean? It's like a fingerprint of that. So we know the profile of what what normal looks like. And then if we have that model run and do a loan application decision where
+ Compared to what the normal profile looks like around these features.
+ Yeah, we then have some which is out of scope.
+ That indicates that that model has now fallen foul. So you have to have this logging at that kind of granular level because your wrist
+ Manageable of that system says, we must be aware to be complying with that. We must be aware every and any time that the model could be
+ biased. So the only way to do that is actually to get that information out inference time and make this calculation against whether it is potential. You know, whether it's in scope or ask scope. And if that's go then
+ if that output goes as far as the customer,
+ you have to say all that stuff.
+ And because you never know what's wrong or could be wrong. You've got to save the logs for every time that system runs in production,
+ yeah, every time for every model because you need that audibility right to backtrack,
+ Yeah, exactly. So that order having that chain of custody all the way back down to the internal activations and signal is necessary because you will have internal audit which is like your third line of defense in punch services. This example, who are like, they have nothing to do essentially with the operations of the business. They walk in internal police, right? We're going to test your systems, they need to get access to this stuff. External regulators need it for either doing investigations or you report this kind of stuff to them, usually an aggregate.
+ or, and probably most personally,
+ Any end user, who's a citizen who gets an output of one of these systems has got the calls for contestability and redress. So if they think I've not sure this is right. I feel someone's wrong here. I like to ask a question so the comparison with gdpr would be a subject access request.
+ Send me all the data you have on me because you know I just don't like what you've got and then you can have you can ask them to remove it. You've got the right of removal under gdpr.
+ So in the EU AI actually got the same thing. You can contest it and to contest it. The only way to contest it is to get all the information and have it presented back to you in an explainable format. So there's no good. As a bank, who's denied me alone, sending me a load of logs, with Vector matrices or whatever and go. There you are. That's why that's why we could give you like you have to then
+ Build systems, which explained in that particular case. What were the features in the model? What was their particular?
+ You know, characteristics of them as the, the input database Glee, why it was right or wrong. So you have to build our load of explainability. Kit is no good, just having the rule information you have to then take it to this explainability level.
+ Wow, yes. So the log of the login is like, the is where it all starts. You have to be able to grabble grab everything. Otherwise, you can do everything else and because you never know when something might be wrong.
+ You've got saved.
+ Are you creating?
+ Different.
+ The data sets or more data or less data depending on the use case or that module, that you're talking about.
+ Are you loging different things or you doing it differently? Or is it that you just capture all the data you possibly can? And then depending on the module you're applying it to one or the other.
+ So you can do so as long as you as long as you say those traces like you get the raw inference data, that's kind of step one. Then we do this data transformation into our own proprietary kind of data structures then we say those. So we don't need to do the next bit if the client doesn't want that if they say all we want to do here is have a complete system of record. So every time the model runs we just watch it and we know that if we get a complaint from a customer or a regulator puts a request into cie XYZ we can then pull that from Storage then we can run
+ The analysis over it. Yes. So they don't necessarily have to run all of this stuff in real time as like a monetary thing. It can be saying stored. I mean this is a decision for the client in line, but they're risk management approach really
+ So yeah, you'd like the bum braces approach is that you would have everything monitored live with reporting on all of these sensitive areas live. Engaging the answers live as a huge overhead and begin engineering challenge to make that work or you take a risk-based approach.
+ Why is it a huge engineering overhead?
+ Just well, you might have Motors that are running.
+ And then 100,000 times a day. So the amount of data which is being collected and then processed know that would that be great for us because it's a matter of work and therefore a very big contract. So yeah, it's not it's not into manageable. I think you know, you have to optimize quite a lot the date of stuff because otherwise it would just become over and quite quickly. So that's part of our
+ Part of our value proposition, I guess is to be able to make it more manageable, then it will be if you try to build something like that yourself.
+ Hmm.
+ Dude this is fascinating to me because it is a whole world that I do not play in at all. And I know living in Europe. I just hear
+ People complaining about the EU, AI act because yeah. All right. Back in the day, it's like, oh we're not gonna open doors models to Europe, that's just the pain in our ass. And so we didn't get I think like llama 3 winning came out. It wasn't open source in Europe or something. And
+ so, I
+ Have seen.
+ And that side of it, I haven't seen that.
+ In-depth side of it that you're talking to me about right now? Yeah, which I feel like the Assumption. You know, I'm coming for like a free market here and I was thinking like you know put regulations anywhere they're just a pain and you want to just at the market decide.
+ But I kind of think that because this technology, this current wave AI has is hit like society. And, and as become a very immediate thing that they think about is like, the socio-technical thing, you know, it's not just technology, it's not just Society. These two things are kind of blending together, quite tightly and quite quickly.
+ That in that space. It's probably it. The regulations are just reflecting or they should just reflect what
+ Everybody wants, right? I don't want to be in interacting with the system which is going to be
+ Difficult to understand and could be unfair to me or could disadvantage me or if I wanted to ask why I got an answer from it? It was unable to do that. I just think it's common sense that whether you call it regulations or whether you say this is just the expectations of stakeholders, like, you know, the users and the system zoners and the companies and all the rest of it, then we should aspire to be able to make these things work like deterministic software systems. Like it's really hard because they're not nodded me a stick and you will live in a world probabilities really, but we should be able to not shy away from that as a challenge. That's what we're doing is why our company exists. We're trying to attack that black box issue and try and make it as transparent and explainable and there's kind of deterministic as possible. So that if you have this trust, that's then.
+ Kind of accepted. Like we can prove things to everybody. Then the adoption rates for the for this technology.
+ speed up and the companies, what we might be in danger of now is, like, having all this promise, and all this investment
+ But because you can't cross this cross Bridge.
+ we're all ever is on one side, being a little bit cautious about it and then you don't get the kind of wise prep adoption, and then you can't complain the benefits, which, you know, should be amazing for, you know, medical research and, you know, all the
+ All the big problems of the world. Could be attacked. Not men necessarily solve quickly, but you can make some great progress on lots of them, but you're not going to. If you can't bring everybody with you so you need this trust to get in there somehow. And you know what we do is only a tiny part of that. There's lots of other things around, AI literacy and
+ Other policies like that, that will help.
+ But yeah, so I don't see I don't see the regulations as a barrier like if you get it right they're there. Reflecting what good practice should be anyway. So deal, you know, think of it like that. These are the expectations of people of good systems that integrate with Society. So get that right then we should we should be able to move move along a little bit quicker.
+ Yeah, we can't have no hacks build in our systems around here.
+ No shortcuts, right?
+ No. Well, we'll do. This has been great. Is there anything that you want to talk about that? I didn't ask you about yet.
+ Not really enjoyed that. I think that was like other, right? Kind of level in terms of, you know, we're deeply technical. So my co-founder the 10 year, AI research career.
+ PhD solely, focused on AI, trust reasoning explainability. So he's kind of been in deep deep deep.
+ In that world for a long time.
+ So we could have done more kind of technical bits, but really, I wanted to have the opportunity to kind of fly the flag for white regulations and compliance is a good thing.
+ And that it's it's basically a false mob Force multiplier for good systems if done right. It should be seen as, like, kind of a water try and hop over or dig underneath or get around the sides.
+ Okay, real quick. If you happen to find yourself in the South Bay on March 3rd, we're going to be taking over the Computer History Museum for our coding agents conference. That's right, we're organizing another conference despite me telling myself so many times after we did our AI quality conference that I would never do another conference because of the stress that it caused somehow I seem to have broken my vows because the pool was too,
+ I have been.
+ Falling in love with all of these new ways to code and use coding agents. So, I wanted to organize a place where we can learn from the best in the game at how they are getting the most out of them. Some of the notable speakers that we have already announced our CID friend of the Pod and co-creator of Claude code, Harrison chase, the founder of Lang chain Thomas reamers, the founder of graphite who just sold it to cursor.
+ Good old decks, the founder of human layer and the dude who popularized the term Context, Engineering, and harness, engineering. And last but not least, someone I consider a very close friend. Michael Eric is going to be doing a workshop. He's a Stanford lecturer. And actually he was a past co-host of this here podcast that you're listening to
+ You know.
+ Before he got all famous and stuff.
+ Come join us, it's intimate by Design. There's only 450 people that were going to let in to the room to try and keep the signal as high as possible. We've got early bird pricing happening until February 1st.
+ So, I'll see you there.

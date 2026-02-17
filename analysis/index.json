@@ -1,0 +1,452 @@
+{
+  "generated_at": "2026-02-17T15:03:07.534441",
+  "episodes_analyzed": 8,
+  "top_tech_themes": [
+    [
+      "llms",
+      2
+    ],
+    [
+      "gpt",
+      2
+    ],
+    [
+      "ai",
+      2
+    ],
+    [
+      "ai agents",
+      2
+    ],
+    [
+      "nvidia gpus",
+      1
+    ],
+    [
+      "cpus",
+      1
+    ],
+    [
+      "inference engines",
+      1
+    ],
+    [
+      "cxl (compute express link)",
+      1
+    ],
+    [
+      "ram",
+      1
+    ],
+    [
+      "slurm",
+      1
+    ],
+    [
+      "kubernetes",
+      1
+    ],
+    [
+      "cuda",
+      1
+    ],
+    [
+      "hip (amd)",
+      1
+    ],
+    [
+      "llms (large language models)",
+      1
+    ],
+    [
+      "streaming aggregation",
+      1
+    ],
+    [
+      "windowed aggregation",
+      1
+    ],
+    [
+      "feature stores",
+      1
+    ],
+    [
+      "spark",
+      1
+    ],
+    [
+      "airflow",
+      1
+    ],
+    [
+      "flink",
+      1
+    ],
+    [
+      "vector search",
+      1
+    ],
+    [
+      "vector indexing",
+      1
+    ],
+    [
+      "online serving",
+      1
+    ],
+    [
+      "redis",
+      1
+    ],
+    [
+      "feature store",
+      1
+    ]
+  ],
+  "top_business_themes": [
+    [
+      "open source",
+      3
+    ],
+    [
+      "acquisition",
+      2
+    ],
+    [
+      "ai infrastructure economics",
+      1
+    ],
+    [
+      "data center conversion",
+      1
+    ],
+    [
+      "hardware repurposing",
+      1
+    ],
+    [
+      "resource optimization",
+      1
+    ],
+    [
+      "ai inference",
+      1
+    ],
+    [
+      "fraud detection",
+      1
+    ],
+    [
+      "real-time data",
+      1
+    ],
+    [
+      "search personalization",
+      1
+    ],
+    [
+      "data engineering",
+      1
+    ],
+    [
+      "mlops",
+      1
+    ],
+    [
+      "return on investment (roi)",
+      1
+    ],
+    [
+      "data platform",
+      1
+    ],
+    [
+      "context engineering",
+      1
+    ],
+    [
+      "enterprise solutions",
+      1
+    ],
+    [
+      "ai adoption",
+      1
+    ],
+    [
+      "software development",
+      1
+    ],
+    [
+      "productivity",
+      1
+    ],
+    [
+      "context management",
+      1
+    ]
+  ],
+  "top_topics": [
+    [
+      "leveraging existing hardware for ai inference",
+      1
+    ],
+    [
+      "the role of cxl in expanding memory for ai workloads",
+      1
+    ],
+    [
+      "tooling and developer experience for non-gpu ai",
+      1
+    ],
+    [
+      "converting bitcoin mining data centers to ai data centers",
+      1
+    ],
+    [
+      "the shift from training-focused to inference-focused ai",
+      1
+    ],
+    [
+      "feature platforms",
+      1
+    ],
+    [
+      "challenges of building and deploying real-time features",
+      1
+    ],
+    [
+      "evolution of cronon and its use cases",
+      1
+    ],
+    [
+      "relationship between search and ai/agentic applications",
+      1
+    ],
+    [
+      "open source and company building",
+      1
+    ],
+    [
+      "context engineering",
+      1
+    ],
+    [
+      "feature store acquisition",
+      1
+    ],
+    [
+      "mlops efficacy",
+      1
+    ],
+    [
+      "redis strategy",
+      1
+    ],
+    [
+      "online store comparison",
+      1
+    ],
+    [
+      "using ai effectively in software development",
+      1
+    ],
+    [
+      "best practices and anti-patterns with ai coding tools",
+      1
+    ],
+    [
+      "leveraging ai for both greenfield and brownfield projects",
+      1
+    ],
+    [
+      "the importance of context in ai coding",
+      1
+    ],
+    [
+      "breaking down problems for ai assistance",
+      1
+    ]
+  ],
+  "episodes": [
+    {
+      "file": "epep006-how-universal-resource-management-transforms-ai-infrastructure-economics",
+      "summary": "Using existing CPUs and expanding memory with CXL can make AI inference more economical by repurposing hardware and avoiding reliance on expensive, scarce GPUs.",
+      "guest": {
+        "name": "Will Wilder",
+        "role": "Not specified in prompt",
+        "company": "Not specified in prompt"
+      },
+      "tech_tags": [
+        "Nvidia GPUs",
+        "CPUs",
+        "Inference Engines",
+        "CXL (Compute Express Link)",
+        "RAM",
+        "Slurm",
+        "Kubernetes",
+        "CUDA",
+        "HIP (AMD)",
+        "LLMs (Large Language Models)"
+      ]
+    },
+    {
+      "file": "epep010-real-time-features-ai-search-agentic-similarities",
+      "summary": "The podcast discusses the challenges and solutions for building real-time feature platforms, focusing on Cronon's journey from Airbnb open source to addressing fraud and search use cases.",
+      "guest": {
+        "name": "Not Explicitly Named",
+        "role": "Contributor",
+        "company": "Cronon / Formerly Airbnb"
+      },
+      "tech_tags": [
+        "Streaming Aggregation",
+        "Windowed Aggregation",
+        "Feature Stores",
+        "Spark",
+        "Airflow",
+        "Flink",
+        "Vector Search",
+        "LLMs",
+        "Vector Indexing",
+        "Online Serving"
+      ]
+    },
+    {
+      "file": "epep013-context-engineering-20-agents-structured-data-and-the-redis-context-engine",
+      "summary": "Discussion on Context Engineering, Featureform's acquisition by Redis, the evolving landscape of MLOps, and Redis' strategy in the AI/ML data platform space.",
+      "guest": {
+        "name": "Unknown",
+        "role": "Unknown",
+        "company": "Featureform (now part of Redis)"
+      },
+      "tech_tags": [
+        "Redis",
+        "Feature Store",
+        "Transformers",
+        "GPT",
+        "Postgres",
+        "Cassandra",
+        "Elasticache",
+        "Feast"
+      ]
+    },
+    {
+      "file": "epep018-building-cursor-a-fireside-chat-with-vp-solutions-ricky-doar",
+      "summary": "Ricky Doar discusses best practices for leveraging AI (Cursor) in software development, emphasizing context, problem decomposition, and avoiding over-reliance on AI while building.",
+      "guest": {
+        "name": "Ricky Doar",
+        "role": "VP Solutions",
+        "company": "Cursor"
+      },
+      "tech_tags": [
+        "Cursor",
+        "AI",
+        "LLMs",
+        "GPT-4",
+        "GPT-5",
+        "Codecs",
+        "Anthropic Claude",
+        "Semantic Search",
+        "Parallel Grep",
+        "API"
+      ]
+    },
+    {
+      "file": "epep000-rethinking-notebooks-powered-by-ai",
+      "summary": "Marimo, an AI-powered notebook platform, was acquired by Weights & Biases, enhancing Moab with cloud compute and integrating LLMs, while maintaining its open-source focus.",
+      "guest": {
+        "name": "Unknown",
+        "role": "Unknown",
+        "company": "Unknown"
+      },
+      "tech_tags": [
+        "Python",
+        "JavaScript",
+        "Colab",
+        "SQL",
+        "LLM",
+        "Claude",
+        "Codex",
+        "Gemini",
+        "Weights & Biases",
+        "GPU Cloud (Nvidia h100, h200)"
+      ]
+    },
+    {
+      "file": "epep004-cracking-the-black-box-real-time-neuron-monitoring-causality-traces",
+      "summary": "Navigating AI regulations, particularly the EU AI Act, through harmonized standards for compliance and risk mitigation, emphasizing observability and interpretability of AI models.",
+      "guest": {
+        "name": "Mike",
+        "role": "...",
+        "company": "..."
+      },
+      "tech_tags": [
+        "AI",
+        "Machine Learning",
+        "Models",
+        "OpenAI",
+        "Anthropic",
+        "MLOps",
+        "Inference",
+        "Monitoring systems",
+        "Testing evals"
+      ]
+    },
+    {
+      "file": "epep017-hardening-agents-for-e-commerce-scale-from-rl-alignment-to-reliability-panel-2",
+      "summary": "Panel discusses AI agent reliability challenges in e-commerce, focusing on post-training, model selection, customer interaction, and real-world examples of success and failure.",
+      "guest": {
+        "name": [
+          "Swati",
+          "Arushi",
+          "Audi",
+          "Isaias"
+        ],
+        "role": [
+          "Product Leader",
+          "Senior Applied Scientist",
+          "Senior Product Manager",
+          "Head of Technology and Innovation"
+        ],
+        "company": [
+          "Google",
+          "Microsoft",
+          "Inworld AI",
+          "iFood"
+        ]
+      },
+      "tech_tags": [
+        "AI Agents",
+        "Large Language Models (LLMs)",
+        "Speech-to-Text (STT)",
+        "Text-to-Speech (TTS)",
+        "GPT",
+        "Hugging Face",
+        "Google Cloud Compute (GPUs, TPUs)",
+        "Microsoft Copilot",
+        "Post-Training",
+        "Cascade Model Architecture"
+      ]
+    },
+    {
+      "file": "epep009-computers-that-think-and-take-actions-for-you",
+      "summary": "The guest discusses building AI agents to control computers by understanding human intent and operating digital devices, emphasizing the importance of causality-based training.",
+      "guest": {
+        "name": "Unspecified",
+        "role": "Founder",
+        "company": "Maisha"
+      },
+      "tech_tags": [
+        "AI Agents",
+        "Computer Vision",
+        "Robotics",
+        "Open Source Models",
+        "Large Language Models",
+        "Mixture of Attention",
+        "GitHub",
+        "Open Voice",
+        "Meta TTS",
+        "Computer Use Models"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "tech_tags": [
+    "AI",
+    "Machine Learning",
+    "Models",
+    "OpenAI",
+    "Anthropic",
+    "MLOps",
+    "Inference",
+    "Monitoring systems",
+    "Testing evals"
+  ],
+  "business_tags": [
+    "Regulatory Compliance",
+    "Risk Assessment",
+    "EU AI Act",
+    "Harmonized Standards",
+    "Reputational Damage"
+  ],
+  "key_topics": [
+    "EU AI Act and Harmonized Standards",
+    "Risk-based approach to AI Compliance",
+    "Observability in AI Systems",
+    "Model Interpretability",
+    "Open vs. Closed AI Models"
+  ],
+  "guest": {
+    "name": "Mike",
+    "role": "...",
+    "company": "..."
+  },
+  "summary": "Navigating AI regulations, particularly the EU AI Act, through harmonized standards for compliance and risk mitigation, emphasizing observability and interpretability of AI models."
+}

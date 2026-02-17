@@ -1,0 +1,34 @@
+{
+  "tech_tags": [
+    "Streaming Aggregation",
+    "Windowed Aggregation",
+    "Feature Stores",
+    "Spark",
+    "Airflow",
+    "Flink",
+    "Vector Search",
+    "LLMs",
+    "Vector Indexing",
+    "Online Serving"
+  ],
+  "business_tags": [
+    "Fraud Detection",
+    "Real-time Data",
+    "Search Personalization",
+    "Data Engineering",
+    "Open Source"
+  ],
+  "key_topics": [
+    "Feature Platforms",
+    "Challenges of building and deploying real-time features",
+    "Evolution of Cronon and its use cases",
+    "Relationship between Search and AI/Agentic applications",
+    "Open Source and company building"
+  ],
+  "guest": {
+    "name": "Not Explicitly Named",
+    "role": "Contributor",
+    "company": "Cronon / Formerly Airbnb"
+  },
+  "summary": "The podcast discusses the challenges and solutions for building real-time feature platforms, focusing on Cronon's journey from Airbnb open source to addressing fraud and search use cases."
+}

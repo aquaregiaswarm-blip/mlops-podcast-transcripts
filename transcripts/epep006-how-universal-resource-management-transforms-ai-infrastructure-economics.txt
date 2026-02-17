@@ -1,0 +1,336 @@
+People in Africa. For example, they are trying to get second-hand data centers from banks in order to build AI data centers.
+ So, you can only imagine like what is a second-hand data center that was used in a bank by a bank for over 10 years.
+ What does it look like?
+ You know, can you even program that thing?
+ I'm sure you get this all the time being in Oklahoma people. Mispronounce your name, I guess left. And right. They. Yeah. And it's spelled so perfectly. It's like why they're you are the Wilder one but you pronounce it differently, right? Yeah. We say Wilder in Brazil but you can call me will
+ Ya. All right well or will
+ The wild.
+ I'm excited to talk with you about.
+ This whole generation of hardware and accelerators, that is being.
+ Almost like forgotten about because we think that we need the newest h100 B100, whatever, insert, whatever the top notch Hardware is from Nvidia. That just came out.
+ And you're taking a bit of a different approach. Can you explain this approach to me?
+ sure, so the basic idea here is that
+ We already have enough compute power outside of Envy the gpus in order to run.
+ A lot of this AI workloads.
+ So what is this? Compute power. This is basically CPUs and other accelerators that people are not using
+ so, when you need to understand that since three or four years ago,
+ The situation changed from, you know, prioritizing training to prioritize in France. And this is a, you know, mentality change in my first company.
+ That was founded in 2018, we are just focusing on training how can we make training better? How can we make that more efficient? And the answer was usually like either making better algorithms for the best hardware or no just buy like more hardware and this usually meant
+ and we did gpus great. And then comes like to talk to anyone, to talk to 22.
+ We see inference start to start becoming this main workload and then gpus the way they were made before were not the Silver Bullet anymore. So now you see, a lot of companies. I run a lot of workloads. AI workloads, inference workloads using just a machine with CPUs.
+ And how is this possible?
+ Well, there are many things in there that maybe two technical for this conversation, but that's the kind of understanding that I think that a lot of people forgot because Hardware became so cheap, cheap opted to to 2020 one that, okay, let's just buy more harder, but now we don't even, we don't even have the resources to make the harder that we need.
+ You know, we have to wait for six months. So are we gonna wait six months to get the Best Hardware in the world, or are we going to start doing work right now?
+ And that's the mentality that I think we need to re-adopt because we forgot about that.
+ Well, so I know that there's been
+ A ton of work. That happens around things like llama.
+ CPP or CCP. I can't remember which one you get a confused.
+ and,
+ there's ways that you can obviously distill models, or you can make them smaller
+ But our first instinct is, let's try and get the biggest model on the biggest machine possible.
+ Can you just talk to me about what the shift is like, if we're gonna be running it on CPUs or if we're going to be running it on a bit older Hardware? How
+ Do you think about that?
+ So, the the great thing about the GPU abroad is that you have to consider that the mothers are very big, but the data is even bigger.
+ So what you're trying to do is to get a bunch of gpus together to work as one and then they're going to have this pool of memory.
+ And that where we're going to be able to fit the, the motto in the theater.
+ Great. But doing this is very, very, very expensive, especially because, you know, those gpus are. They have a lot of
+ Power computing power embed in them.
+ when you go to inference,
+ The main roadblock is not a compute, its memory.
+ So if you are trying, if you thinking about creating or designing a system for inference only, then you want to prioritize your resource resources to get as much memory as possible while still keeping a good compute power, but you don't need to have the best bass bass in the world.
+ so,
+ with this, if you understand this, you can see that systems today that are
+ Equipped with CPUs only can benefit from memory expansion in order to run inference. And there is a technology that has been, you know, in the market for a while now that's called cxl, which is basically RAM on a steroids and a few key companies around the world. Sell that, like, for example, my current here in the US and these are like chips that the basically only people who deal with data center know, what cxl is if you are just like an AI guy or if you're working on or not, in other areas, people never even heard of that.
+ But this can be really helpful in order to expand the ram, the memory capabilities of a server. So there are companies that already mentioned that are selling just an expansion card and then you can get a server that has already a good amount of RAM and then expand that even more enabling you to load to load models and load data on the go.
+ This way, you know, you don't need to spend
+ hundreds of thousands of dollars getting a GPU system that will have a lot more compute power that you need just because you are after the run that it carries.
+ So that's that's the idea. So there are technologies that are getting more and more popularized such as cxl and you will see a lot more now because you know the price of RAM is no increase in a lot since the since December 2015. So you see a lot more people trying to Leverage cxl
+ What are the trade-offs that you have to be thinking about when you are doing something like that, like leveraging cxl?
+ Uh, I wouldn't say like cxl per se, I mean, there is a matter.
+ there is an issue with
+ capability here and compatibility because not all servers are cxl compatible, but this is going to change quickly. But I think the main trade-off here is going to be tooling. So as I said, people are so focused on gpus and the tools work so well, they they don't even want or can take the time to do the transition, get that all the tooling that works out of the box with gpus to work on other chips or CPUs. So that's telling you mean, like slurm and kubernetes or what kind of tooling are you talking about slurm, kubernetes and mainly, like the lower level tools such as Cuda, for example, how do you program a GPU? How do you program, you know, all those Advanced chips. So, if you compare side by side, like Cuda, with other tool that I don't know hip for example, from from AMD
+ Coulda seems to be way more developer Center or developer friendly. At least for the AI crowd. If you are a data center guy you will see. Okay, I can I can handle that. But this is the main trade-off. And that's exactly, you know, one of the points where I've been working with with a few leads and clients
+ yeah, because a lot of times, especially for the folks that are
+ Doing AI workloads.
+ All of the Cuda stuff is abstracted away.
+ and it's even,
+ Like sometimes you're looking at managed slurm and you're looking at managed kubernetes you don't have to even be thinking about that layer either, you're right doing your stuff and it works. And so right feels like what where you're
+ Saying there is this issue. Like we've got all this Hardware. We've can leverage this Hardware that we haven't been thinking about, but we need to make it more developer friendly so that you don't have to be thinking like oh,
+ I was proficient in Cuda or maybe I wasn't even, I didn't even think about Cuda. Now I've got to learn some other random thing because this doesn't even run with Cuda.
+ Right. And you know, I'm all about
+ All four abstraction.
+ However, abstract abstractions are great. If you grade if you live in a Ideal World, if we were able to get all the compute power we needed from Nvidia and if we were able to fabricate that, yeah, sure.
+ But that's not how the world works. And on top of that, there are different applications and there is, you know, companies have already invested.
+ Hundreds of millions of dollars. Even billions of dollars buying for structured that wasn't AI friendly.
+ And now they just want to date their asking people like me and say, hey how can I make this thing that I already have?
+ To work for AI.
+ And I mean, there are many ways you can answer this question and
+ That's a real neat. You're just, you know, not gonna just throw that Hardware away. I mean that's a waste
+ Yeah. So
+ You're almost like, dragging forward.
+ This.
+ Expense that companies have had, you're bringing it into the new age of AI.
+ Right. Right. One. Very common use case and you will see more and more into 2026.
+ is the we call it, like the conversion of data centers that were previously dedicated to Bitcoin mining and AI powerhouses
+ There's a lot of money into that like a from private equity and Venture capitalists who are investors in data. Centers that today are not profitable anymore because Bitcoin mining is not profitable, but they do have the compute power, sitting there and they have the contracts for, you know, power and like electricity. So, those two things combined. If you can have tools and knowledge in order to convert that to be AI friendly, then you are already have a data center, ready to go to run AI, at least inference.
+ and coming back to the developer, who is
+ Just try and run an llm on a machine that isn't necessarily A GPU.
+ where,
+ And how should they be thinking through? Like,
+ The best ways to go about that.
+ I still keep.
+ Running through my head, like, is it, should we be thinking about smaller models? Should we be thinking about a shirt, a certain shape of AI workload or
+ Is it that you can kind of retro fit any?
+ Type of Hardware to the needs that we have.
+ Right. So
+ Let's start with these motorcycles. So there is a lot of interesting smaller models and I think that's the way to go for most use cases.
+ I mean many people rope papers like proving that the small models perform even better than bigger ones for a very self-contained use case. So I think that's the way to go. I see a lot of developers going this direction and yeah that's great.
+ the thing is when you start to scale, even if it's a small model, you still have that date,
+ Sitting there. You want to still process that data, right?
+ So, and you want to process that fast.
+ this, if you continue to use the same tools or if you continue to adopt the same Hardware that we do today for bigger models, you're not gonna
+ Get that because first you're working with a small use case so you probably don't have the money to spend the latest and greatest Hardware.
+ Second once you, if you had that thing, it would be an Overkill.
+ So what is, how can you solve this equation of like the relevance and the size of your problem?
+ And being compatible with the compute power that you have and the compute power that we have. As you know, Society is already great.
+ I mean think about it, like when was the last time that he considered like, you know, changing your personal computer like getting a new one, like the computer I'm talking to you from right now. It's like it's three years old and I'm a computer guy like, you know, like I could I could easily be buying like the latest and greatest I just don't need. I can extract maximum performance from an older machine.
+ so, this philosophy
+ I think will be necessary for developers to continue to move forward. Because again, supply chain is a problem, even if you had the money, you couldn't buy the latest and greatest today.
+ So there's the small model.
+ Revolution that we're seeing. And I also wonder about the idea of
+ Coding agents and the shape of that workload. And if you have any thoughts there,
+ I've been working a lot with Agents from users then point like I use,
+ 10s of agents to do several working parallel for me, and what is great. I think the way agents work is like
+ From a developer perspective. I give them very well defined tasks.
+ Meaning that they don't diverse, they don't get out of their Lane.
+ This reduced computational need so you can do that work for one agent in a very you know small containerized so to speak hardware and software space. So if we scale
+ Our work in order to use hundreds of thousands of Agents. Then we can have like smaller machines or hundreds of thousands of smaller machines, providing the infrastructure for those little guys. So again, I see that you don't need the latest and greatest to run agents.
+ so that's the way I think this is very important to emphasize because when I talk to people who are not technical, they are like, you know, they are CFOs, they are CEOs were just trying to
+ To go into the AI era. They always ask me. Hey, but I don't I need to buy
+ A GPU server know, you can start with this regular Dell server that you are already having your office.
+ And this is going to be more and more evident that people start to get or to embed AI agents within their you know, software sasser's using a lot of this and the developer workload.
+ Yeah. It's almost like how far can you get with just the consumer Hardware that you have? And once you've maxed that out then you can upgrade to the pro version and really see what is needed. But
+ I,
+ Appreciate your vision a lot because it's, it's kind of saying, hey, let's take a step back, and let's leverage what we already have. And for,
+ a lot of the workloads that we
+ instantly, just default to let me go grab some gpus off of
+ Wherever it may be like the newest nio cloud.
+ We probably don't need that.
+ In a way that we think we do. And so getting creative on,
+ How we use?
+ the hardware that we have, it is fascinating and it makes me think like
+ Up until now, we've been talking about.
+ How to leverage Hardware that potentially you've already bought but then you can retrofit and you can add it and almost like Pimp My Ride of my old Hardware, right?
+ I feel like there's all so a world where
+ we're gonna start seeing these offerings happening just like we have the Neil clouds that are offering GPU time.
+ Uh-huh. Why and it probably is already happening and I just haven't seen it as much but why not have the hey this is a really cheap.
+ Option for you.
+ And it gets the job done.
+ I think this will happen. People are already starting to change that because in a sense Cloud providers have done this.
+ For over a decade. Now, if you go to AWS and you try to get a machine there, what you're getting is, what is a virtual CPU is basically, it's a virtual things. You're not getting the whole, the whole Hardware. So what they're doing here is they're basically proving that
+ You can run a lot of those tasks using less hardware and we've done that for over a decade. Obviously they charge a lot for that and I believe it can be way cheaper.
+ so,
+ As people wake up to this problem, you know, they've perceived that they're not going to be able to buy the latest in Raiders from in Media.
+ So, how can they better use the machines that are in the cloud?
+ The wave to do this is to change the weighted apply stuff. So
+ With the Nvidia tools with the AMD tools, it is somewhat easy. So everything is abstracted, as he said, so you are seeing a python code and everything is done in the back in the back end.
+ For the other chips and here I'm including as well. The new chips that are arriving in the market, right? So we can talk about that later on, but there are one of the biggest
+ Attractive points for developers when they see a new chip is, oh, I can do the same task.
+ For, you know, it's much cheaper, it's going to be faster. However, I need to learn an entirely new language.
+ And no, professional developer. At this very few will do that. They don't have the time.
+ They just don't have the time, they are excited about it but they need to get work done.
+ so,
+ In this point, like we need, I see that there is a huge gap there in terms of infrastructure.
+ To help those guys. So how can we help them to do this transition?
+ As easily as possible as is smoothly as possible. And there aren't enough tools out there.
+ Yeah.
+ The.
+ Idea of learning a new language is great in theory, but then I guess what is probably happening now? Is that you'll just
+ send Claude code over to learn the language for you and hope everything goes well,
+ Right. Yeah, the cloud code is a very good, you know.
+ Window into this world because it already has some might have some knowledge about this.
+ either not a language per se but a framework that's so obscure that almost nobody knows and it can give you like a
+ nice little platform in order for you to build your application at
+ Aspen gets get better or faster than we're gonna be able to just hate. We're going to get some agents in charge to do this.
+ and then get just get the results but again,
+ when you're talking about Enterprise and realize,
+ Production grade software.
+ We are not at the point right now where we can leave agents by themselves to do that. So we need still like to give the tools to the human developer so they can learn and assess if what the agents are doing is correct.
+ yeah, the
+ phrase that comes to my mind is Hope is not a strategy.
+ And if you're just throwing a bunch of coding agents at it, that is literally the definition of
+ Hoping everything is going to work out, right?
+ The other thing that I was thinking about too is
+ Talk to me more about the other.
+ Chips because I think we hear a lot. And we see a lot especially now recently
+ Crock pot semi bought by Nvidia and then you have what is it? Cerebrus is another, ya new chip. There's all of these chips that are coming out and saying for inference were faster and we are going to
+ Be a better bet cheaper faster, whatever better.
+ Up right, there were multiple bats in the last let's say five years, seven years.
+ And let's go through their perspectives. A lot of them were about saving energy so let's make a very efficient chip that can do the same job.
+ For a fraction of the power consumption.
+ To my knowledge. Most of those companies have failed because
+ Unfortunately, in this area, nobody's thinking about saving energy. You know, that's not a first priority and a lot of those companies had like amazing chips and they weren't just picked up because people don't care about that feature. Specifically. And again the developers needed to learn something completely new.
+ The technology still, there can still be useful but it didn't become a mainstream. The other perspective was about,
+ How can you do the math?
+ Inside a chip in a completely different way.
+ And I was involved with that in my very first company.
+ We were doing some stuff, we are starting to make a chip in order to do the mathematical operations in a different way. Not based, on linear algebra based on something else.
+ And it's kind of stuff is also very very very very interesting and people get excited about it but then you hit the wall of fabrication, there are so many problems that need to be solved at the hardware level.
+ That it becomes impossible. Like you can't even model that.
+ you know, like using a regular fpga because the benefits that come from those new mathematical strategies,
+ You cannot even prove them. Fiscally you implementing an fpga. You would have to do like in ufpd or a new chip, completely from scratch. Just to prove that it works. And as you know, this is very expensive. So you need to have millions of dollars.
+ and what is on the level of the
+ Like the silicone or the Wafers that you're creating, not only silicon, not only the silicon and the actual architecture, you know, how you build. But also in the microcode which is like think of like a firmware for the chip. So you know, the operations are done differently there. So,
+ Technology. Still exists, still exciting but it requires like he didn't find you a killer application.
+ What I see today especially in the last two years, it has become more and more mainstream is still like coming from this idea that by changing the math, you can do something better.
+ There are companies like I think a tensor dine they're actually from Germany. Yeah, the headquarters in Munich.
+ And they're doing something that's great. It's basically, they're using logarithm logic logarithm arithmetics in order to do AI computation because in AI if you know I mean I'm sure you know this you don't need this huge Precision in order to calculate the weights. So you can do that with
+ Much lower precision and when you adopt logarithm arithmetics you can even like decrease it further. So I mean I recommend you to have a look at those guys. I think, I think it's great what they're doing. I don't think they have a chip yet.
+ But that's something I've been in touch with them. I wanted to test their chip and those are basically the approaches. And I think again just to summarize, if you
+ Chips that have prioritized saving energy have failed because nobody cares about it, unfortunately.
+ The ones who are probably going to win.
+ Are the ones who really focus on one thing only.
+ Which is in our case. AI inference. How can we make the best inference chip in the world? And that's what rock was trying to Doc, is amazing. I mean, what they were doing with such like every chip has, you know, the amount of memory there, like, ridiculous, very small.
+ So, they needed to put thousands of chips together just to run on. I don't know. Okay, don't fuck me on that. I don't know if it's hundreds or thousands, but
+ Just to run one llm, but it was fast very, very very, very, very, very, very, very fast and that's why, like, even in Vita had to go.
+ Out and shop for them. You know, they had to admit to the world. Yeah, our technology cannot do that.
+ And do you see fundamental?
+ Approaches that are different.
+ Coming forward like on top of this do you feel like there's still room for the innovation in that regard?
+ Yeah, but it's not in Silicon. I think and photonics there are a few photonic.
+ Chip startups.
+ coming out right now, and they have
+ Some impressive benchmarks.
+ And you know photonic you're doing like a competition straight with light.
+ So, when you do that, you can get rid of a lot of the limitations that exist in the silicone world.
+ but what was, what's probably going to happen is to have like a
+ Photonic shit. Chip.
+ Working together with the CPU.
+ Like it always is right. There is an accelerator that
+ communicates with the CPU so I don't have, you know,
+ Hands-on experience in with photonic chips, but from the conferences, I've been attending, like, I've been talking to those people. It is very exciting and
+ Another thing that I've been seen as well as like, a Revival in HPC.
+ So AI has become so big that started to, you know, incorporate HBC into it and it's great. Hey, I can solve a lot of the traditional HPC problems, much much faster.
+ But there are still problems. That cannot be solved by AI, at least AI that we have today and we still need like this.
+ High Precision, like 64 beds. So, I see companies coming out with new CPUs and gpus that are focused on high Precision like 64 bits.
+ And I I see that there is a lot of space for this right now as well because, you know, in a video has I want to say a abandoned but they focus so much on AI.
+ That their chips became way too expensive for HBC. So if you are a regular HPC shop,
+ You probably wouldn't be doing this with any video anymore. You can do this with other chips that are will give you the Precision that you need and are going to be much cheaper.
+ And can you talk to me a bit about how you've seen the best hardware combinations as far as maybe it's gpus working with CPUs and what that looks like.
+ well, in terms of architecture, I think
+ Each company or each team.
+ Is different because they have different problems. I have a ton of experience with the traditional CPU, plus some accelerator, and this could be an Nvidia GPU, an AMD GPU or even fpgas.
+ So, to make those guys to communicate with each other, because they have to you, traditionally, you have to use pcie.
+ And there has been.
+ Throughout the years, a bunch of upgrades to the pcie protocol in order to be able to exchange as much data as possible.
+ and,
+ This is great for this vision.
+ Of, you know, let's use the compute power that you already have because if you can update pcie in order to exchange as much data as possible, then you gonna have a fairly fast machine to perform your AI workloads.
+ now, if you're building something like the
+ The Starship from open AI, you need a completely different way?
+ Of a completely different protocol to communicate data. Like how can you make those hundreds of thousands of gpus to perform as one? That's why you know Nvidia has an envelope link and other things that are so specific because those are the extreme use cases and it's great. I think that's the way to go but that's one.
+ Company.
+ 99% of all the companies don't need that thing.
+ For their use case.
+ So how can we still like use or reuse the protocols, that we are used to like the pcie for example. And I see that this continues to be very strong. I went to supercomputing last year in. Yeah, it was in
+ Was in November December. Now, I don't remember and people are, you know, continuing to push the limits of this thing. And there is so much coming out from this are
+ and with pcie,
+ is it possible to mix and match different gpus?
+ Yes. Yes, you can do that.
+ I used to have a machine where I was running a different gpus from different vendors and it works great. It's it's always about the work you're willing to put in in order to make those tools work. You know, we've done this so much and I personally have done this so much that
+ We started to create like a framework on how to do this and that's what we are trying to to deliver to our clients today. So how can you make some match, have an heterogeneous system that works for you?
+ Yeah, talk to me more about what you're working on and what you're building because I find that fascinating too.
+ We are devtools company. So we are developing first. We are trying to help the developer to have an easier life when deploying AI
+ So what we build is a tool that's based on a, we call it a transpiler.
+ We assume that the world is the world speaks good, the world speaks and video, but we still need to speak all the languages because we have different applications. So, how can we have like an instantaneous translator from the Cuda world to another world?
+ And that's what we're trying to do here is like a plug-and-play solution, a transpiler that, you know, it's a common line, very low level. But for the developer, who is doing this every day, it's not difficult to use. So you just need to install the transpiler. And then you go inside the folder, you're working. The folder that contains your Cuda code. And then this will
+ Convert. That could a code to the computing power that you have in a given computer. Let's say that you you develop your in your laptop, you developed everything to run.
+ On an Nvidia capable server, but then the server that's available to you which will be much cheaper. Only has
+ AMD gpus. How do you do that? I mean you can't you won't be able to just rewrite everything from scratch. Those are different animals.
+ So, how can you quickly move from one world to another? And that's what we are. We are working on today. So we have our first MVP. We are working on a use case, specifically the use case already mentioned, which is helping the
+ previously, beat coins, Centric data centers to, to transitioning, to AI
+ Um but yeah, there is so much more to be done because it's a very low level work. Like we we're not even touching python so we're doing a lot of stuff with C+ and
+ using, you know, the llvm framework in order to break down stuff and see how intermediate representation works for several different types of workloads.
+ Yeah, it's not easy. It's not supposed to be easy. Otherwise, everybody could do that, and it would be great. So we're trying to make it easier for people to use because we believe in a world where
+ You know who they will be a lingua Franca but there are there's gonna be huge communities that don't speak good. And we want to enable those developers to tap into those communities. And by Community, I mean,
+ Computing power. Yeah, Hardware of course and you want to stick to the software layer as a post to because I feel like there's an easy play for someone to say, look I'm just gonna go and I'm gonna grab
+ a lot of these.
+ Abandoned Hardware accelerators and create like a misfit cloud nio cloud, where you could have that as your, your value prop too. Oh, yeah. That's that's our very next step because nice. It is, this all depends on Capital. So you're, like, at the very beginning of the company, but if things work out, one idea and I dream about this every day, is to have this, you know,
+ I don't know the best way to put this, but it's
+ A cloud of you know, heterogeneous Cloud. So we can offer you every
+ Chip did exist Under the Sun and you as a developer have two options. You can give us the cold or Divine area and let us handle that for you. So we gonna optimize for what is the best harder to run your code or you can have the power to choose from all of those options.
+ The second option or any kind of exist in the traditional hyper scalers.
+ But it's so difficult to use. So if you try to use not CPUs, but like for example, if you are like at the
+ At the Leading Edge of trying, trying new ideas on the hardware, you want to use an fpga, AWS offers fpgas in the cloud.
+ It is so complicated. It is for somebody like me who is experienced with fpga. So the whole the whole tools
+ The tooling and everything. It is so difficult to make it work. That I would love to have just like a translated to just, hey, grab it. Grab my code and just put in there. Actually, this is something. Hopefully, I'll be able to push this in a couple of months. I'm working. This is small. If PGA from this company walking tree, it's a very small fpga.
+ And creating like an example here on how to help AI developers on how can they make like a minimal very minimal accelerator? So they plugged this into their computer.
+ And then they can just play with, you know.
+ Moving operations. Let's see, a matrix multiplication to this little guy here. The focus here is not to be fast, is just to teach them or to give them more visibility on what he takes to actually make an accelerator. And once you understand that, you can see like the possibilities like, oh wow, I can do a lot if I just if I have the chance.
+ To, to spend more time on the harder side.
+ and that's, I think that's the main thing that we lost in the last 20 to 30 years as a community,
+ Hardwick has become so good.
+ That people are abstracted everything and they just assumed that it would be there and they can just code something and it will work. And for the most part he did
+ Now we hit another wall and we need to go back to harder and I'm an electrical engineer by training. I'm not a computer scientist so I didn't start with coding. I started with like actually designing this sort of you know little boards
+ So, I see the problems that we're facing today in the AI Community from a different lens.
+ I see this as a really harder problem, understanding what you can do with the, you know, as little hard responsible.
+ I do love the vision of
+ bringing your code to the
+ Nio cloud, and I don't have to think about what kind of Hardware I'm gonna get. I just know, I'm gonna get a screaming deal.
+ And I have it in my, I write it in whatever language, I'm trying to write it in and then you do all the hard work of figuring out how to make it. Work on all these random red-headed, stepchild of hardware.
+ Right, exactly exactly. And I think,
+ Chip designers are not going to stop, there's gonna be every week. I see like a new idea, I'd come in out, you know, as a spin off, from a lab or somebody who is a veteran industry like spent like you know,
+ Tens the 15 years at in town and now they're coming out with a new company that promised a new kind of chip.
+ So, these is not going to stop, but they are only gonna be successful.
+ If?
+ The tools that connect those chips to the Developers.
+ Are there?
+ 100%. Otherwise you have this fragmented ecosystem, and
+ So, I'm gonna put in the time to learn how to leverage your accelerator. If
+ It's like, yeah, I may encounter that.
+ In a random job, but let's be honest, I'm gonna get way more bang for my buck. If I learned Cuda,
+ Right? And another Speck of that is like, if you think about geopolitics,
+ We are like, I mean, you're in Germany. I mean, the US,
+ Relatively, you know, they're privileged countries when he comes to access to compute power, if you start talking to people in South America and Africa, and I I do like, I'm from Brazil.
+ And I know people also Dean similar work in other parts of the world.
+ You will see that.
+ People in Africa. For example, they are trying to get second-hand data centers from banks in order to build AI data centers. So you can only imagine like, what is a second-hand data center that was used in the bank by a bank for over 10 years.
+ What does it look like?
+ In a. Can you even program that thing?
+ most, yeah, most most programmers today they can't, but that's the kind of material they have and they're not stopping because of that, you know, they know they can't get
+ The the Envy to gpus, so.
+ We these people, they have to outsmart.
+ Their competitors, in order to be able to do the same work with less Hardware.
+ So changing gears for a second. I know that you are in Oklahoma.
+ and,
+ Around there. You got a lot of oil men. I'm currently watching this series called landman and I feel like I am living vicariously through the oilmen. It's through that series, but that's your day and day and I know that you have some thoughts on
+ like,
+ the middle of America and the AI Revolution, as they perceive it versus
+ the coastal cities and how they perceive it.
+ Right? So we you and I as I said, we are used to the Silicon Valley mentality, like very open. Let's build the future.
+ There is a lot of here, I would say, like, it's not there, not excited about the future.
+ As the problem is, they are very risk averse.
+ And that's most of the country, actually.
+ I think people in the US who are actually excited and excited and building the future, those are only two cities, it's New York, and San Francisco and Silicon Valley.
+ when you go,
+ Everywhere else you talk to people, they are excited, they see the opportunist, they just don't take the first step because there are many roadblocks.
+ And this, in my opinion, this comes from education and exposure.
+ We simply don't have.
+ Enough people with experience leaving those areas. I came here because of family, but, you know,
+ it's hard to find people to even talk about this.
+ On the street. Like obviously I after three years. I found a little Community here.
+ But it's hard to find those people have this experience like in big Tech or, you know, big Enterprise, and were in charge of making these decisions in the past. So you just have the culture.
+ How do you change this? Because there is money here, there are use cases, you know, it's a perfect place, you know, we have energy, which is the commodity that you need for AI today,
+ You have tons of energy. How do you change that? Well, you need first more people
+ with the right background to be here, we need to create more opportunities for people to leave the coast and this is hard to do.
+ Yeah, you need to create more opportunities here for those people to meet. It's even hard to meet those people. We don't know we exist. Like, I have to go out hunting here, like, or on LinkedIn. Hey, what are your working on? And once you did this connection, then people get excited. Like in start working side projects, like
+ What I'm doing today but I don't have a perfect answer for that.
+ I think.
+ if we are able as technologists, if we are able to show them that we have,
+ Killer solution for the problems that they have here today.
+ Then they're going to be excited about it. It's not about selling the technology, this doesn't help here. I can go to Silicon Valley tomorrow and start talking about this and everybody's gonna be excited. Like, even at I get out of the airplane and start talking to people and oh yeah, let's do something.
+ Here, you cannot sell the technology, you can only sell, you know, like a real.
+ Close solution. And since AI is very experimental experimental right now,
+ we're probably not in the right phase to do this, but this is going to change and I think 2026 is the year for that because
+ Wow, data centers are being built and this region is very attractive for this area.
+ Yeah, you got the energy.

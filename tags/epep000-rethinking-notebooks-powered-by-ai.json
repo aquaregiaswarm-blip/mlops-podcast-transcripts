@@ -1,0 +1,34 @@
+{
+  "tech_tags": [
+    "Python",
+    "JavaScript",
+    "Colab",
+    "SQL",
+    "LLM",
+    "Claude",
+    "Codex",
+    "Gemini",
+    "Weights & Biases",
+    "GPU Cloud (Nvidia h100, h200)"
+  ],
+  "business_tags": [
+    "Acquisition",
+    "Open Source",
+    "Cloud Compute",
+    "Model Hosting",
+    "Integration"
+  ],
+  "key_topics": [
+    "AI-powered Notebooks",
+    "Marimo's Acquisition by Weights & Biases",
+    "Integration of LLMs with Marimo",
+    "Moab (Marimo in the Cloud)",
+    "Coding Agents Conference"
+  ],
+  "guest": {
+    "name": "Unknown",
+    "role": "Unknown",
+    "company": "Unknown"
+  },
+  "summary": "Marimo, an AI-powered notebook platform, was acquired by Weights & Biases, enhancing Moab with cloud compute and integrating LLMs, while maintaining its open-source focus."
+}

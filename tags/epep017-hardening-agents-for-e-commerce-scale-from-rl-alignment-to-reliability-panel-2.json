@@ -1,0 +1,49 @@
+{
+  "tech_tags": [
+    "AI Agents",
+    "Large Language Models (LLMs)",
+    "Speech-to-Text (STT)",
+    "Text-to-Speech (TTS)",
+    "GPT",
+    "Hugging Face",
+    "Google Cloud Compute (GPUs, TPUs)",
+    "Microsoft Copilot",
+    "Post-Training",
+    "Cascade Model Architecture"
+  ],
+  "business_tags": [
+    "E-commerce",
+    "Customer Acquisition",
+    "Customer Retention",
+    "Reliability",
+    "Enterprise Compliance"
+  ],
+  "key_topics": [
+    "AI agent reliability in production",
+    "Post-training methods for LLMs",
+    "Model selection for conversational agents",
+    "Troubleshooting and support with AI",
+    "Balancing automation and customer choice"
+  ],
+  "guest": {
+    "name": [
+      "Swati",
+      "Arushi",
+      "Audi",
+      "Isaias"
+    ],
+    "role": [
+      "Product Leader",
+      "Senior Applied Scientist",
+      "Senior Product Manager",
+      "Head of Technology and Innovation"
+    ],
+    "company": [
+      "Google",
+      "Microsoft",
+      "Inworld AI",
+      "iFood"
+    ]
+  },
+  "summary": "Panel discusses AI agent reliability challenges in e-commerce, focusing on post-training, model selection, customer interaction, and real-world examples of success and failure."
+}

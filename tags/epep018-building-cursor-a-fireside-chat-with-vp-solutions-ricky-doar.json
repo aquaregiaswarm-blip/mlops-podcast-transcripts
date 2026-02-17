@@ -1,0 +1,34 @@
+{
+  "tech_tags": [
+    "Cursor",
+    "AI",
+    "LLMs",
+    "GPT-4",
+    "GPT-5",
+    "Codecs",
+    "Anthropic Claude",
+    "Semantic Search",
+    "Parallel Grep",
+    "API"
+  ],
+  "business_tags": [
+    "Enterprise Solutions",
+    "AI adoption",
+    "Software Development",
+    "Productivity",
+    "Context Management"
+  ],
+  "key_topics": [
+    "Using AI effectively in software development",
+    "Best practices and anti-patterns with AI coding tools",
+    "Leveraging AI for both Greenfield and Brownfield projects",
+    "The importance of context in AI coding",
+    "Breaking down problems for AI assistance"
+  ],
+  "guest": {
+    "name": "Ricky Doar",
+    "role": "VP Solutions",
+    "company": "Cursor"
+  },
+  "summary": "Ricky Doar discusses best practices for leveraging AI (Cursor) in software development, emphasizing context, problem decomposition, and avoiding over-reliance on AI while building."
+}

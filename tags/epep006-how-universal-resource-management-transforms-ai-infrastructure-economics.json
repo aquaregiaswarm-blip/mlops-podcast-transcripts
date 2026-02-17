@@ -1,0 +1,34 @@
+{
+  "tech_tags": [
+    "Nvidia GPUs",
+    "CPUs",
+    "Inference Engines",
+    "CXL (Compute Express Link)",
+    "RAM",
+    "Slurm",
+    "Kubernetes",
+    "CUDA",
+    "HIP (AMD)",
+    "LLMs (Large Language Models)"
+  ],
+  "business_tags": [
+    "AI Infrastructure Economics",
+    "Data Center Conversion",
+    "Hardware Repurposing",
+    "Resource Optimization",
+    "AI Inference"
+  ],
+  "key_topics": [
+    "Leveraging existing hardware for AI inference",
+    "The role of CXL in expanding memory for AI workloads",
+    "Tooling and developer experience for non-GPU AI",
+    "Converting Bitcoin mining data centers to AI data centers",
+    "The shift from training-focused to inference-focused AI"
+  ],
+  "guest": {
+    "name": "Will Wilder",
+    "role": "Not specified in prompt",
+    "company": "Not specified in prompt"
+  },
+  "summary": "Using existing CPUs and expanding memory with CXL can make AI inference more economical by repurposing hardware and avoiding reliance on expensive, scarce GPUs."
+}
