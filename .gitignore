@@ -1,0 +1,10 @@
+# Audio files (too large for GitHub)
+episodes/*.mp3
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# OS
+.DS_Store

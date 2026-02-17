@@ -1,0 +1,182 @@
+[
+  {
+    "title": "Rethinking Notebooks Powered by AI",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/115454105/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-13%2F418036639-44100-2-1cf8d7510cce7.mp3",
+    "pub_date": "Fri, 13 Feb 2026 18:00:33 GMT",
+    "duration": "00:26:13",
+    "description": "<p><em>Vincent Warmerdam</em> is a Founding Engineer at <a href=\"https://marimo.io/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">marimo</a>, working on reinventing Python notebooks as reactive, reproducible, interactive, and Git-friendly environments for data workflows and AI prototyping. He helps build the core marimo notebook platform, pushing its reactive execution model, UI interactivity, and integration with modern development and AI tooling so that notebooks behave like dependable, share...",
+    "local_file": "episodes/epep000-rethinking-notebooks-powered-by-ai.mp3"
+  },
+  {
+    "title": "Software Engineering in the Age of Coding Agents: Testing, Evals, and Shipping Safely at Scale",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/115304186/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-10%2F417834561-44100-2-32c1411bf9507.mp3",
+    "pub_date": "Tue, 10 Feb 2026 18:00:07 GMT",
+    "duration": "00:57:24",
+    "description": "<p><em>Ereli Eran</em> is the Founding Engineer at <a href=\"https://7ai.com/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">7AI</a>, where he\u2019s focused on building and scaling the company\u2019s agentic AI-driven cybersecurity platform \u2014 developing autonomous AI agents that triage alerts, investigate threats, enrich security data, and enable end-to-end automated security operations so human teams can focus on higher-value strategic work.</p><p><br></p><p>Software Engineering in the Age of Coding Agen...",
+    "local_file": "episodes/epep001-software-engineering-in-the-age-of-coding-agents-testing-evals-and-shipping-safe.mp3"
+  },
+  {
+    "title": "Physical AI: Teaching Machines to Understand the Real World",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/115127698/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-6%2F417599641-44100-2-b7037fd434326.mp3",
+    "pub_date": "Fri, 06 Feb 2026 19:01:42 GMT",
+    "duration": "00:52:03",
+    "description": "<p><em>Nick Gillian</em> is the Co-Founder and CTO at Archetype AI, working on physical AI foundation models that understand and reason over real-world sensor data.</p><p><br></p><p>Physical AI: Teaching Machines to Understand the Real World // MLOps Podcast #360 with Nick Gillian, Co-Founder and CTO of Archetype AI</p><p><br></p><p>Join the Community: </p><p><a href=\"https://go.mlops.community/YTJoinIn\" target=\"_blank\" rel=\"ugc noopener noreferrer\">https://go.mlops.community/YTJoinIn</a></p><p>...",
+    "local_file": "episodes/epep002-physical-ai-teaching-machines-to-understand-the-real-world.mp3"
+  },
+  {
+    "title": "Speed and Scale: How Today's AI Datacenters Are Operating Through Hypergrowth",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/114972764/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-3%2F417394904-44100-2-451b18cae6d3.mp3",
+    "pub_date": "Tue, 03 Feb 2026 18:00:00 GMT",
+    "duration": "01:07:16",
+    "description": "<p><em>Kris Beevers</em> is the CEO at <a href=\"https://netboxlabs.com/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">NetBox Labs</a>, working on turning NetBox into the system of record and automation backbone for modern and AI-driven infrastructure.</p><p><br></p><p>Speed and Scale: How Today&#39;s AI Datacenters Are Operating Through Hypergrowth // MLOps Podcast #359 with Kris Beevers, CEO of NetBox Labs</p><p><br></p><p>Join the Community: <a href=\"https://go.mlops.community/YTJoinIn\" targe...",
+    "local_file": "episodes/epep003-speed-and-scale-how-todays-ai-datacenters-are-operating-through-hypergrowth.mp3"
+  },
+  {
+    "title": "Cracking the Black Box: Real-Time Neuron Monitoring & Causality Traces",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/114639408/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-27%2F416954268-44100-2-eb0b9db75c747.mp3",
+    "pub_date": "Tue, 27 Jan 2026 19:02:31 GMT",
+    "duration": "00:47:25",
+    "description": "<p><em>Mike Oaten</em> is the Founder and CEO of <a href=\"https://tikos.tech/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">TIKOS</a>, working on building AI assurance, explainability, and trustworthy AI infrastructure, helping organizations test, monitor, and govern AI models and systems to make them transparent, fair, robust, and compliant with emerging regulations.</p><p><br></p><p>Cracking the Black Box: Real-Time Neuron Monitoring &amp; Causality Traces // MLOps Podcast #358 with Mike Oate...",
+    "local_file": "episodes/epep004-cracking-the-black-box-real-time-neuron-monitoring-causality-traces.mp3"
+  },
+  {
+    "title": "A Playground for AI/ML Engineers",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/114435862/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-23%2F416681357-44100-2-4e1efed8e8014.mp3",
+    "pub_date": "Fri, 23 Jan 2026 17:59:53 GMT",
+    "duration": "00:54:41",
+    "description": "<p><em>Paulo Vasconcellos</em> is the Principal Data Scientist for Generative AI Products at <a href=\"https://sso.hotmart.com/login\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Hotmart</a>, working on AI-powered creator and learning experiences, including intelligent tutoring, content automation, and multilingual localization at scale.</p><p>Join us at Coding Agents: The AI Driven Developer Conference - https://luma.com/codingagents</p><p>MLOps GPU Guide: <a href=\"https://go.mlops.community/gp...",
+    "local_file": "episodes/epep005-a-playground-for-aiml-engineers.mp3"
+  },
+  {
+    "title": "How Universal Resource Management Transforms AI Infrastructure Economics",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/114281481/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-20%2F416480151-44100-2-965e300ad37c6.mp3",
+    "pub_date": "Tue, 20 Jan 2026 18:00:23 GMT",
+    "duration": "00:48:21",
+    "description": "<p><em>Wilder Lopes</em> is the CEO and Founder of <a href=\"https://ogre.run/\" target=\"_blank\" rel=\"noopener noreferer\">Ogre.run</a>, working on AI-driven dependency resolution and reproducible code execution across environments.How Universal Resource Management Transforms AI Infrastructure Economics // MLOps Podcast #357 with Wilder Lopes, CEO / Founder of Ogre.runJoin the Community: </p><p><a href=\"https://go.mlops.community/YTJoinIn\" target=\"_blank\" rel=\"noopener noreferer\">https://go.mlops.c...",
+    "local_file": "episodes/epep006-how-universal-resource-management-transforms-ai-infrastructure-economics.mp3"
+  },
+  {
+    "title": "Conversation with the MLflow Maintainers",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/114038747/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-15%2F416171553-44100-2-9a5aad00c0f58.mp3",
+    "pub_date": "Fri, 16 Jan 2026 18:00:10 GMT",
+    "duration": "00:58:23",
+    "description": "<p><em>Corey Zumar</em> is a Product Manager at Databricks, working on MLflow and LLM evaluation, tracing, and lifecycle tooling for generative AI.</p><p><br /></p><p><em>Jules Damji</em> is a Lead Developer Advocate at Databricks, working on Spark, lakehouse technologies, and developer education across the data and AI community.</p><p><br /></p><p><em>Danny Chiao</em> is an Engineering Leader at Databricks, working on data and AI observability, quality, and production-grade governance for ML an...",
+    "local_file": "episodes/epep007-conversation-with-the-mlflow-maintainers.mp3"
+  },
+  {
+    "title": "Leadership on AI",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/113928097/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-13%2F416030736-44100-2-bbb4f540e3212.mp3",
+    "pub_date": "Tue, 13 Jan 2026 14:14:46 GMT",
+    "duration": "00:47:24",
+    "description": "<p><em>Euro Beinat</em> is the Global Head of AI and Data Science at Prosus Group, working on scaling AI-driven tools and agent-based systems across Prosus\u2019s global portfolio, deploying internal assistants like Toqan and generative AI platforms such as PlusOne, and building initiatives like AI House Amsterdam and interdisciplinary AI residencies to explore intent-driven AI and strengthen Europe\u2019s AI ecosystem.</p><p><br></p><p><em>Mert \u00d6ztekin</em> is the Chief Technology Officer at Just Eat Tak...",
+    "local_file": "episodes/epep008-leadership-on-ai.mp3"
+  },
+  {
+    "title": "Computers that Think and Take Actions for You",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/113405932/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-2%2F415369764-44100-2-526b6cdaa3cea.mp3",
+    "pub_date": "Fri, 02 Jan 2026 16:58:58 GMT",
+    "duration": "00:45:08",
+    "description": "<p><em>Zengyi Qin</em> is the Founder of the <a href=\"https://www.agiopen.org/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">OpenAGI Foundation</a>, working on computer-use models and open, agent-centric AI infrastructure.</p><p><br></p><p>Computers that Think and Take Actions for You, Zengy Qin // MLOps Podcast #355</p><p><br></p><p>Join the Community: </p><p><a href=\"https://go.mlops.community/YTJoinIn\" target=\"_blank\" rel=\"ugc noopener noreferrer\">https://go.mlops.community/YTJoinIn</a></p><...",
+    "local_file": "episodes/epep009-computers-that-think-and-take-actions-for-you.mp3"
+  },
+  {
+    "title": "Real time features, AI search, Agentic similarities",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/113142207/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-26%2F415035512-44100-2-018b64f553218.mp3",
+    "pub_date": "Sun, 28 Dec 2025 16:59:37 GMT",
+    "duration": "00:29:27",
+    "description": "<p><em>Varant Zanoyan</em> is the Co-founder &amp; CEO at Zipline AI, working on building a next-generation AI/ML infrastructure platform that streamlines data pipelines, model deployment, observability, and governance to accelerate enterprise AI development. </p><p><br></p><p><em>Nikhil Simha Raprolu</em> is the Co-founder &amp; CTO at Zipline AI, focused on architecting and scaling the company\u2019s AI data platform \u2014 extending the open-source Chronon engine into a developer-friendly system that s...",
+    "local_file": "episodes/epep010-real-time-features-ai-search-agentic-similarities.mp3"
+  },
+  {
+    "title": "Tool definitions are the new Prompt Engineering",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/112784573/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-17%2F414582145-44100-2-c43b79946a40f.mp3",
+    "pub_date": "Tue, 23 Dec 2025 18:00:17 GMT",
+    "duration": "00:58:08",
+    "description": "<p><em>Alex Salazar</em> is the CEO and Co-Founder of <a href=\"https://www.arcade.dev/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Arcade.dev</a>, working on secure AI agents and real-world automation integrations.</p><p><br /></p><p><em>Chiara Caratelli</em> is a Data Scientist at <a href=\"https://www.prosus.com/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Prosus Group</a>, working on AI agents, web automation, and evaluation of robust multimodal models.</p><p><br /></p><p>Join the Commun...",
+    "local_file": "episodes/epep011-tool-definitions-are-the-new-prompt-engineering.mp3"
+  },
+  {
+    "title": "The Future of AI Agents is Sandboxed",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/112883405/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-19%2F414705068-44100-2-758c8328fdb9c.mp3",
+    "pub_date": "Fri, 19 Dec 2025 19:35:06 GMT",
+    "duration": "00:58:03",
+    "description": "<p><em>Jonathan Wall</em> is the CEO at <a href=\"https://runloop.ai/\" target=\"_blank\" rel=\"ugc noopener noreferrer\"><em>Runloop.ai</em></a>, working on enterprise-grade infrastructure and execution environments for AI coding agents.</p><p><br></p><p>The Future of AI Agents is Sandboxed // MLOps Podcast #353 with Jonathan Wall, CEO at Runloop.ai.</p><p><br></p><p>Join the Community: </p><p><a href=\"https://go.mlops.community/YTJoinIn\" target=\"_blank\" rel=\"ugc noopener noreferrer\">https://go.mlops...",
+    "local_file": "episodes/epep012-the-future-of-ai-agents-is-sandboxed.mp3"
+  },
+  {
+    "title": "Context engineering 2.0, Agents + Structured Data, and the Redis Context Engine",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/112708575/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-16%2F414479791-44100-2-a1ef04da8aa91.mp3",
+    "pub_date": "Tue, 16 Dec 2025 18:00:17 GMT",
+    "duration": "00:45:33",
+    "description": "<p><em>Simba Khadder</em> is the founder and CEO of <a href=\"https://www.featureform.com/\" target=\"_blank\" rel=\"ugc noopener noreferrer\"><em>Featureform</em></a>, now at <a href=\"https://marketing.redis.io/blog/real-time-structured-data-for-ai-agents-featureform-is-joining-redis/\" target=\"_blank\" rel=\"ugc noopener noreferrer\"><em>Redis</em></a>, working on real-time feature orchestration and building a context engine for AI and agents.</p><p><br></p><p>Context Engineering 2.0, Simba Khadder // M...",
+    "local_file": "episodes/epep013-context-engineering-20-agents-structured-data-and-the-redis-context-engine.mp3"
+  },
+  {
+    "title": "Does AgenticRAG Really Work?",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/112478096/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-11%2F414187232-44100-2-8bab1d0a4ce58.mp3",
+    "pub_date": "Fri, 12 Dec 2025 14:45:46 GMT",
+    "duration": "01:01:39",
+    "description": "<p><a href=\"https://www.linkedin.com/in/satish-bhambri-9164b997/\" target=\"_blank\" rel=\"noopener noreferer\"><em>Satish Bhambri</em></a> is a Sr Data Scientist at Walmart Labs, working on large-scale recommendation systems and conversational AI, including RAG-powered GroceryBot agents, vector-search personalization, and transformer-based ad relevance models.</p><p><br></p><p>Join the Community: </p><p><a href=\"https://go.mlops.community/YTJoinIn\" target=\"_blank\" rel=\"ugc noopener noreferrer\">https...",
+    "local_file": "episodes/epep014-does-agenticrag-really-work.mp3"
+  },
+  {
+    "title": "How Sierra AI Does Context Engineering",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/112430774/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-10%2F414126123-44100-2-d5db123970f2.mp3",
+    "pub_date": "Wed, 10 Dec 2025 17:00:08 GMT",
+    "duration": "01:04:03",
+    "description": "<p><em>Zack Reneau-Wedeen</em> is the Head of Product at Sierra, leading the development of enterprise-ready AI agents \u2014 from Agent Studio 2.0 to the Agent Data Platform \u2014 with a focus on richer workflows, persistent memory, and high-quality voice interactions.</p><p><br></p><p>How Sierra Does Context Engineering, Zack Reneau-Wedeen // MLOps Podcast #350</p><p><br></p><p>Join the Community: </p><p><a href=\"https://go.mlops.community/YTJoinIn\" target=\"_blank\" rel=\"ugc noopener noreferrer\">https:/...",
+    "local_file": "episodes/epep015-how-sierra-ai-does-context-engineering.mp3"
+  },
+  {
+    "title": "Overcoming Challenges in AI Agent Deployment: The Sweet Spot for Governance and Security // Spencer Reagan // #349",
+    "episode_number": "349",
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/112139813/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-4%2F413751274-44100-2-75feea55ed19f.mp3",
+    "pub_date": "Fri, 05 Dec 2025 18:00:20 GMT",
+    "duration": "00:54:17",
+    "description": "<p><em>Spencer Reagan</em> leads R&amp;D at Airia, working on secure AI-agent orchestration, data governance systems, and real-time signal fusion technologies for regulated and defense environments.</p><p><br></p><p>Overcoming Challenges in AI Agent Deployment: The Sweet Spot for Governance and Security // MLOps Podcast #349 with Spencer Reagan, R&amp;D at Airia.</p><p><br></p><p>Join the Community: </p><p><a href=\"https://go.mlops.community/YTJoinIn\" target=\"_blank\" rel=\"ugc noopener noreferrer...",
+    "local_file": "episodes/ep349-overcoming-challenges-in-ai-agent-deployment-the-sweet-spot-for-governance-and-s.mp3"
+  },
+  {
+    "title": "Hardening Agents for E-commerce Scale: From RL Alignment to Reliability // Panel 2",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/112019489/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-2%2F413593912-44100-2-c4bd04f78b8e6.mp3",
+    "pub_date": "Tue, 02 Dec 2025 18:02:46 GMT",
+    "duration": "00:29:16",
+    "description": "<p>Thanks to\u00a0<a href=\"https://www.prosus.com/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Prosus Group</a>\u00a0for collaborating on the Agents in Production Virtual Conference 2025.</p><p><br></p><p>Abstract //</p><p>The discussion centers on highly technical yet practical themes, such as the use of advanced post-training techniques like Direct Preference Optimization (DPO) and Parameter-Efficient Fine-Tuning (PEFT) to ensure LLMs maintain stability while specializing for e-commerce domains. We c...",
+    "local_file": "episodes/epep017-hardening-agents-for-e-commerce-scale-from-rl-alignment-to-reliability-panel-2.mp3"
+  },
+  {
+    "title": "Building Cursor: A Fireside Chat with VP Solutions Ricky Doar",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/111839693/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-28%2F413358670-44100-2-c6747ea3dbb09.mp3",
+    "pub_date": "Thu, 27 Nov 2025 18:00:00 GMT",
+    "duration": "00:26:44",
+    "description": "<p>Ricky Doar is the VP of Solutions at Cursor, where he leads forward-deployed engineers. A seasoned product and technical leader with over a decade of experience in developer tools and data platforms, Ricky previously served as VP of Field Engineering at Vercel, where he led global technical solutions for the company&#39;s next-generation frontend platform.</p><p><br></p><p>Prior to Vercel, Ricky held multiple leadership roles at Segment (acquired by Twilio), including Director of Product Mana...",
+    "local_file": "episodes/epep018-building-cursor-a-fireside-chat-with-vp-solutions-ricky-doar.mp3"
+  },
+  {
+    "title": "Relational Foundation Models: Unlocking the Next Frontier of Enterprise AI // Jure Leskovec // #348",
+    "episode_number": "348",
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/111689278/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-25%2F413142419-44100-2-ffeed768dfb92.mp3",
+    "pub_date": "Tue, 25 Nov 2025 16:15:38 GMT",
+    "duration": "00:49:00",
+    "description": "<p><em>Dr. Jure Leskovec</em> is the Chief Scientist at Kumo.AI and a Stanford professor, working on relational foundation models and graph-transformer systems that bring enterprise databases into the foundation-model era.</p><p><br></p><p>Relational Foundation Models: Unlocking the Next Frontier of Enterprise AI // MLOps Podcast #348 with Jure Leskovec, Professor and Chief Scientist, Stanford University and Kumo.AI.</p><p><br></p><p>Join the Community: </p><p><a href=\"https://go.mlops.community...",
+    "local_file": "episodes/ep348-relational-foundation-models-unlocking-the-next-frontier-of-enterprise-ai-jure-l.mp3"
+  }
+]
