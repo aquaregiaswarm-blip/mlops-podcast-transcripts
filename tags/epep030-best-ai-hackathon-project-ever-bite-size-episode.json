@@ -1,0 +1,31 @@
+{
+  "tech_tags": [
+    "AI Travel Agent",
+    "WhatsApp API",
+    "11 Labs voice API",
+    "SkyVerge (browser automation)",
+    "Stripe API",
+    "Browser Automation Tools",
+    "Multi-modal agents",
+    "Credit card processing",
+    "LLMs (inferred)"
+  ],
+  "business_tags": [
+    "Travel Planning Automation",
+    "Group Travel Coordination",
+    "Payment Processing",
+    "Customer Acquisition"
+  ],
+  "key_topics": [
+    "AI-powered travel planning for groups",
+    "Automating travel booking processes",
+    "Integrating various APIs for travel services",
+    "Hackathon project development"
+  ],
+  "guest": {
+    "name": "At least 3 people mentioned (including Marissa, Ferg, Alex). Full names and specific roles not stated",
+    "role": "Developers/Hackers",
+    "company": "Yate Travel (formed during hackathon), Unicorn Mafia (developer group)"
+  },
+  "summary": "A team built an AI travel agent during a hackathon that automates group trip planning, booking flights/hotels, and even handles payments, generating revenue within days."
+}

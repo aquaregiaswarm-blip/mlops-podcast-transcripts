@@ -1,0 +1,287 @@
+We've got Kiara to my left, Alex to my right CEO of arcade. Kiara is working on iFruit. She's a process lead data, scientists.
+ I'm just,
+ Your lead in our book.
+ Yeah.
+ You've been working on a project that if you gave a talk last night, I loved it. I wanted to bring you on here to talk about some of your learnings for those who don't know, my foot is the biggest delivery company in Brazil. It has a order volume 160 million per month Brazilians, use it a lot. What we realized is that users often go to the app and they don't know what to order. They are undecided and sometimes I get frustrated because they have too many options. It's a paradox of choice, right?
+ So the problem with this agent is to help them decide. We built something that knows what the users are nose their preferences, their habits and the price range, they're willing to pay and we used that plus the user's questions to suggest the best options for them.
+ Even proactively and we yeah we have a flow where the user can search and refine and then order at the end we prepared to interfaces for the agent, one is in the up.
+ He wanted on WhatsApp. WhatsApp is very popular in Brazil. I think there are 160 million active users
+ So they use it a lot. If you don't know, people use it to order food with just voice messages. It's it's really smooth. They just send a voice note to the to the restaurant and they can order like that. So we will leverage this family already with the conversational interface.
+ Both had different challenges in terms of ux how we show results to the user, it often happens with agents, right? So, the biggest challenge is not AI related but ux and adoption related.
+ so, the agent that we build is,
+ Kind of a react agent. We didn't use like two fancy multi-agent set up, because we needed things to go very fast. Users are hungry. They don't want to wait. So we need to have the simplest flow. We need to make sure that the recommendations that we give to them are good. They work for them and we know need to remember, if they don't like certain foods, like the agent really needs to be a smart companion, almost reading their mind, one of the things we wanted to make sure is that the conversational interface was not just textual and they were multiple modalities for the user to talk to the agent. Because when they're hungry, they don't want to spend time typing, right? So, we made sure that the tools that we build were connected to ux and UI elements so that the user could directly interact with them, to have some short circuits, let's say swiping oh, so yeah, we will implemented. Those swiping interface also,
+ Also voice. Yeah.
+ So voice is a modality but it's still textual in a way. What we did was also making sure that they were buttons to click to do actions quickly without having to type like I won the third item that you show me. That's not needed.
+ One interesting thing we noticed is that people on WhatsApp were way more lenient towards this conversational Behavior than in up in up really. People really want to use buttons, they expect the different type of interface.
+ So, our tools needed to work very well.
+ one of the chance to challenges we encountered was that the tool definitions that we had made a lot of sense for us, but it didn't make sense to someone external that would see them for the first time, we realize this afterwards, of course, with trial and error,
+ What we notice was that we created the tools, right? Things made sense. But as soon as we were getting edge cases in production, we were adding this to the tool so whenever the user wants to work or something and you don't have enough information about him, make sure to call the getting information tool, like a lot of education for this flows and it quickly becomes code like okay, false statements, and that you don't want, right? So the exercises we made was to try to to standardize this tools. Like think if I would share this to with another team.
+ And if they would want to use it in their own agent, how would I write things there? Like the idea is to make them as clear as possible with the name of the tool even make sense, right?
+ And after that, we had a massive Improvement in latency because we could cut a lot of tokens and our system become became much more stable, making sure that the tool encapsulates, the right things is the hardest part of the problem and I think people really struggle with that. They think of it as an API, oh, which have an API will call it? Well, that's not really gonna work, right? You know, there's a lot of usability it's like, well, what's the user experience going to be? What's the intention that the user has? What's the intention of the Asian needs to have and then figuring out, okay, well, what's what's right? In capsulation of that. In a tool is what everybody struggling with. It's a new paradigm, it's a mental model.
+ what we, what we see, as a best practice, if people try and build that
+ is that it's, you know, there's like a lot of Ring of tools.
+ And so you might have a shared tool.
+ That is a workflow or maybe even an mCP server that's integrating to another service.
+ But even if you have those things, the agents tend to do better.
+ if you then build a very domain specific or agent specific tool,
+ To capture that particular agent's nuances and so when you get that, you get both the accuracy and the lower latency that you're looking for.
+ Because you're pushing more off to deterministic Software.
+ And then you're able to abstract out the common elements so that other teams can reuse them really easily.
+ I love how you talk about the difference between just a basic API and then in agent needing to consume some kind of a service and that one key word which is the intention. Yeah. And how that intention plays such a big part in what is trying to consume. Yeah, I think there's a lot of confusion right now because
+ Every engineer is from with apis. Yeah. And then you throw in mCP people go oh it's the same thing. Let me just wrap an API and mCP and success. We we have an agent and we have tools and it doesn't work for a bunch of reasons.
+ mCP says to wire protocol but more importantly tools are not apis and so in engineering speak
+ an API is a service contract.
+ For the downstream service. So we'll use Google Drive. As an example, it has an API that API is a service contract on how Google Drive works. And yes,
+ There's a lot of work that goes into building a really nice Google Drive mCP server like we have to make it a bit more workflow is to be making more intention based to kind of remove or at least abstract away the structure inputs that are required. So
+ And I'll have no idea. What do you next time? Stamp is so your mCP tool has to like know what yesterday is as a concept and then translate that Phoenix timestamp.
+ but even with all of that,
+ if you're building a sales agent for example,
+ and and a wrap is going to ask, hey I need the brochure for this product so I'm going into this customer account.
+ The agent doesn't care at all about Google Drive.
+ That's not its intention, its intention to find the brochure that it needs.
+ And so you give it even a pristine, beautiful.
+ Google Drive, mCP server, you're asking for higher latency and you're asking for hallucinations because now if the stuff the context window with explanations of how to find the brochure using the mCP server which means it's going to have to take multiple turns figuring out what the right folder is and whether write files are and how to determine which ones are brochures and which ones are brochures which is the right brochure.
+ But if you instead give it a get brochure tool and that get brochure tool can call the Google Drive and CP server.
+ Then all of a sudden all the agent has to do is say oh I need a brochure, there's a brochure tool, I have the context that I need, let me submit that as arguments and then it's done, it's one call, it's low latency. You don't have to stop the context window. You minimize the amount of tool definitions that you passed over and then likely much of the code inside of the get brochure tool is deterministic. You know, chances are, it's not calling a model or if it is it's calling one, maybe once I think very specific so the whole system just gets more accurate and faster. And so what that means is
+ a tool is actually kind of the inverse of an API. Well, an API is a service contract of what a what a downstream service looks like like Google Drive, in my opinion, a tool. It's kind of like the service contract for the agents intentions. It's it's what it expects to do.
+ Okay? And being able to write the proper tool, definition is really the key. It's a half the battle. Yeah, it's like half the battle, that's why evaluations are so important as well. Something funny happened to me, six months ago, I asked deep research for a report on different GPU providers and it was absolutely shit. I couldn't figure out what each nio cloud value prop was so that set me off on my latest side quest of creating a practitioner's guide to choosing gpus. I'm happy to announce this guide, is now ready to see the light of day and you can download it for free right now by clicking the link in the show notes, we've already got some community members feedback of what they wish. They would have known before signing a gigantic contract and I would love to hear from you if this provides any value or you have some things that the rest of the community should be thinking about.
+ When they're on the market for gpus, go ahead. Download that resource right now. Completely free. It's in the link in the show notes. Well, I think, I just want to highlight such a important thing that you said yesterday, and just now again, which is, let's somebody else. Look at your tool definitions, let them see if they can understand it, and if they can, then you
+ Can try it with the agent but if they can't, you already know, all right? This is probably where the problem is. Yeah, exactly. And
+ Exercise really forces you to to have clear tool definitions, and I think it's so important to try to limit the agent choices as much as possible. I think if there is a lesson I've learned in this year's building agents, that's, that's this one, it decreases. Hallucinations it decreases bloating as well. If you have tool that like tools that are always called together like in the get brochure case, it makes so much more sense to create a workflow and encapsulate that into a tool.
+ A tool is something that llm can use to take action. It doesn't need to know what's inside. It can be, it can even be another agent, right? So yeah, one way is so to use multi agent set up of course, but for the point of view of the main agent, it doesn't really matter. Yeah, we think a lot about this. So, yeah, in a perfect world. You give it you give it one tool, right? And a perfect world, the agent doesn't have to think at all, and you don't even need an llm, right?
+ Um, because it's faster. It's cheaper. It's deterministic.
+ But that's not the real world. The power of an agent is that it can handle generality.
+ and so,
+ There's this careful balance, you know, Sam my co-founder talked about turning the knob on determinism.
+ and so,
+ you can give it fewer tools, and you in arguably today you should
+ because you want to minimize error rates,
+ But the point of all of this that we're all, this is going.
+ We're all the Investments are going where the model companies are investing heavily where the orchestration systems like Lane graph or investing heavily, we're investing heavily as a world which is the opposite where you can turn up.
+ The, you know, the non-determinism, you can turn up the ability to give it as many tools as you want.
+ And then let the agent intelligently decide what to do, that's very hard. That's where we're going to get to at the limit.
+ You know we ourselves have achieved, you know, incredible things in the lab that we haven't yet announced we're making it possible to kind of turn that that dial up on the tool level.
+ but for most people today,
+ You're right, you're better off. Really thinking through in a multi-agent system.
+ you know, which are the right tools based on the Node that I'm in or the state that I'm in,
+ And trying to be very specific.
+ But the benefits of giving it more tools are huge because then you have fewer nodes the agents more intelligent, but it really depends on where you're trying to do.
+ Yeah. Well so I think the we haven't touched on this topic but the way outputs I would wear your construction tool output is also important because you can put a lot of instructions there as well.
+ so, by limiting the amount of choices, I don't mean the agent, you don't have
+ Tools. Like we should try to make it as deterministic as possible we can still live freedom, but I think we need to be smart in where we put the information where we put the instructions.
+ So if for instance I always have a certain options for tools after a given tool is called I can put the instructions in the tourist spots. I don't need to to bloat the system from with those instructions that return the dynamically inserting context in there. That's one way of doing it. There's all kinds of fancy ways that you can make sure to leave things out that need to be left out and then when it needs it, if it needs it's like this is a need to know basis here. Yeah, well I think I'll go back to this concept of
+ layering up.
+ Tools, if you look at apis, this pattern already exists, you've got your your low level system apis.
+ You've got your workflow apis in the back end and then you have the apis that the that the mobile application or the JavaScript application talks to and they're like three different sets of apis. And when you get all the way to the top, where it's a JavaScript, I've talked to the back ends, those apis are very, very specific to that application most of the time and similarly in what you're describing and we talked a little more about this last night so I'm going to
+ Steal from last night.
+ You can insert UI code.
+ In the response, right? You can present a table, it doesn't have to be just text, you can present a react component.
+ In a tool that gets very agent specific but that's kind of the point. You minimize the amount of work being done by the rest of the system, by the tool caring and doing a lot of the heavy lifting
+ And you know I'll go back to the Google Drive example, right? Sure can pull the brochure but it can also go pull a bunch of contacts that you know the models going to need on the next turn.
+ Yeah, it reminds me of a conversation I had with Zach from Sierra and he was saying that a lot of times since they're doing voice agents, and it's real-time voice agents. What happens is, they'll have almost like a supervisor agent that will recognize and pre-emptively assume. If this conversation is going in a direction that I think I may need this context for, they just go and grab it just in case it comes up. And all right, we have it. Now, I can give it to you. And then you don't have that user experience where the person is waiting, on the other line, because the context needs to go, and you need to grab it and bring it back, and that takes a little bit longer. It's just like, let's have everything kind of load it up, and then if we need it, we can serve it to the agent that's interacting with the human. Well, I mean, I think that speaks to, you know, how quickly in the history has changed its November of 2025 right now.
+ and,
+ The conversations is no longer about accuracy and consistency. Being the blocker to production.
+ Five months ago, maybe even less. That was the only conversation we were having. Now we're talking about latency. Yeah, everyone like that is the biggest problem. We're going to prod now, but now we're just having, you know, mediocre experience because we're all waiting 30 seconds. Yeah. And and now and it's it's amusing to me because if we were waiting 30 seconds, five months ago, we would have been totally cool with it but now we're like 30 seconds. So connects to what I said earlier about, what's up versus op experience. So what's up people are totally fine, we're waiting
+ Because they expected it's a familiar interface. They don't expect it to go so fast. Probably, because normally you have another person speaking on the other side, but I don't up your punished if you if you don't deliver in time.
+ They, they expectations are completely different even for the same user in a perfect world where you had user feedback.
+ from everybody who's using her acting with her agent in real time, I be very curious to see a generational Distribution on patience, for waiting, for the agent, because one of the things that one of the things that I see, but I'm very curious is,
+ The.
+ The generation of people who are, let's say under 30.
+ Expect everything to be agentic if they see a menu, you know, they've got to click around, they just they bail.
+ Right.
+ The later generations are the opposite. They expect a Snappy UI very Snappy and responsive buttons and clicks.
+ But I'm very curious how the generational distribution might be on, on patients for latency and I also feel like when you're in WhatsApp, you can go and you can talk to your friend, you can look at something else and then come back. And so you get that because I imagine that you get a notification when the agent is done and it's sending you the information, you don't have to sit there and wait the 30 seconds looking at the WhatsApp chat, when I'm in WhatsApp, I'm talking with three or four people at the same time and I'm going back and forth between those conversations, the data that we got was really clear about this. That's why we spent so much time refining us thinking how to present, you know, the data to the user. There's a lot of work done around the Asian, that is not Asian itself. And I think this was one of the biggest challenges also users, you know,
+ They are familiar with AI by now, but it's still hard to to trust any interface to suggest your food. People are pretty sensitive around that they have their preferences, so we really needed to build customer adoption. Make it also, in terms of the Persona that we developed in order to be friendly but also engaging, we wanted people to come back, right? It all connects tools at the end to the how do you define it? How you use it? How smart you want to be. Can I call something you said that? I think it's perfectly on point today.
+ The.
+ The intersection between an application and an agent is now complete and you mentioned earlier, right? Like so many things that you ran into
+ As you were building this.
+ Weren't necessarily like the model or the AI. It was the the application. Yeah. And and I feel again, you know, speaking at least today, you know.
+ We'll see what the world looks like. In three months. That's itself. A huge transition. And now we're having the bait is now, well, how do I make this UI work properly? And you know, how do I deliver this to the to the, to the, to the user properly as a posted to getting all caught up in this super deep?
+ Ml data science of the AI.
+ There's also connects to evaluations. How do you evaluate such a system? Because when we talk about evaluations, we have this standard metrics in mind like fateful helpfulness, so you name it but they're not necessarily connected to the business value that you're up, brings like how can you live ux out of the evaluation? Like you need to take this, ux elements into account that's part of the user journey and that's all part of the agent. It's really, really hard to to separate this to we were joking last night that every developer
+ Believes so strongly and test driven development that they recommend every other developer to test or development. They just too lazy to do themselves, right. But I feel with agents,
+ Especially around evals, you have to start there.
+ and so, I'm curious on this point, which I think is really incredible Point around
+ Assessing the connection to a business value and in the user UI. How did you how did you structure your emails? What were the evals you ultimately landed on?
+ We have different levels. So we both write, you have those more connected to development, like, making sure everything works, a regression test things you can evaluate with code that's like the foundation. We also have a golden data set that we run.
+ What we realized after I think the evil communities shifting towards towards this as well is to that error analysis is really really important. Like we started like many teams to think of metrics like is the agent helpful did the agent satisfy the user requests which are like they're okay. But they're very generic. You need to write them in a way that is very specific for your product and when you don't have a product yet, this is really, really hard to Define.
+ so, we were lucky enough to have
+ Community of Eiffel employees. There are more than 7000 people employed at high food so they use are up and they give us feedback.
+ There is nothing that can substitute looking. At the data, we had to go and look at the traces, identify the errors that we were seeing, and once you have the, you have a good overview of what can go wrong in your application. That's when you can build a taxonomy of Errors. So, with this era, taxonomy you can build a test set and it can inform me of
+ you know things like how good you're doing with your evaluation and if the agent is performing better or not,
+ And this is connected to llms judge when you write an element's, judge having this very specific domain, knowledge helps a lot.
+ So, we couldn't separate it from error analysis. It's something we learned later. If I would start a new project, I would start from that straight away. And but you're also checking for EVS on the tools and yeah, it's tools were called, was it the right to
+ So there's like higher level objectives. Did it satisfy the user? But then there's those very nuanced pieces, right? Yeah. We have of course, it was for the tools, some of our tools are smart tools, you could call them agents themselves like searching in our food costs a look, you need to take it to user preferences, a source, the audience pick the ones that have most variety and like match with the user intent and profile.
+ So that's that's just a tool. But deserves a whole set of evaluation itself is that and just is that how you were able to see which tools were used to gather and then create workflows from the tools. We analyze the data like we did a lot of
+ For a dog analysis. Team member of us is completely completely dedicated to this, like assessing the quality of the agent and like understanding what goes on behind the scenes and also what goes on in front of the, of the user?
+ Another thing that we did, I didn't mention yet, but I presented yesterday was to create an evil set, that was gonna pick be picked up by an agent. That would impersonate a user.
+ So, that was something that was defined by product team. So,
+ What what we noticed was that was very easy to Define scenarios and what the agent should do in the scenarios. What was hard was to create a llm. Georgia could judge any scenario, but give us a scenario. You could say, like the agent should do this and that.
+ so we started with a set of queries to find this way and sometimes you need some preprocessing steps to get there like
+ For instance, when you have an item in the cart like when you start you need to make sure there is a radian item things like that. And then we we built an interface between the agents that would test our endpoint and the endpoint and this interface made sure that when we were returning UI elements, these were also shown to the user impersonating agent. So we like the agent, could choose to click on certain UI elements. And at the end, we would judge the outcome of all of this.
+ So, I think this allowed us to also test the ux in a way.
+ It doesn't substitute a b testing. Of course that's like online. Testing is another story but it helped us to identify regressions.
+ On the tool side.
+ How much work went into evaluating the tools themselves to make sure that you design them at least their definitions properly and the parameters. The parameter definition is properly to see if the model was selecting them correctly at the right time?
+ Yeah, so we
+ We did the evaluated the agent who was calling the right tools of course.
+ Depends on the tools. I think like some tools are so clear to use like create card, you know, some definitions that are so clear that you don't need to spend too much time on that. You just want to know that the agent can pick it up correctly but some others are whole workflows like searching. What I was talking about before that had a lot of the evaluation being done and there is still a lot going on there.
+ Because it's building a recommendation system basically, right?
+ Yeah, so like what we have is a user who is searching for something, or maybe just exploring options. They just say, I'm hungry. Surprise me, give me promotions without any intent.
+ What are building is is a homepage right in the agent.
+ So you want to show options that are really really good for them even when they don't specify anything.
+ So that's yeah, that's a recommendation problem.
+ is there ways that you are plugging in because I imagine when it comes to the workflow, you plugging in structured data and unstructured data in this like you're giving the context the agent of the last
+ three five meals that this person ordered when they ordered it the timing, what they like in general, all of these features quote unquote that you would normally put in a recommendation model but now
+ you're serving it up to the agent in different moments of that workflow.
+ Yeah. Yeah exactly. We have a team that process AI that is completely dedicated to building model we call LCM, large Commerce model.
+ So it's a model that was fine-tuned based on user behavior in our Ops in the ecosystem. So what are user searches for something? Like something, or there's so using this model, we build representations of who, the users are. So it goes Way Beyond the last order. We know what type of customers they are, we have some segmentation as well in there the coordination really well.
+ While using this model, we know the patterns. So that's like the core of who the user is. We have similar things for restaurants items. So it's it's much more nuanced than just a list of like order history.
+ So we use that in the main agent to to select the best way to communicate to them select to select the tools in the best way. But within the tools also we are connecting to what food recommendation system. So when we plug dishes, we also have models that were trained to
+ to show the best recommendation. So it it's in several places that we're doing this. It's almost like there's like a Rex's tool in a way or like I'm gonna use the recommendation tool and it's called The Machine learning model.
+ Yeah. Yeah.
+ different use cases where that
+ Yeah, that's the agent. Has the brain and we have llm friendly representation of the user.
+ Like, for instance, if you order pizza in Brazil, you can put a lot of toppings and customization. If you always put pepperoni on your pizza, I know you're a meat-lover. This, you don't see it from the order history, but I can extract this new ones information. So, the next time you say, I want something healthy. I'm gonna propose you something with meat, because I know you like it, right?
+ So the yeah there is a lot of emergent patterns that you just can't get with traditional machine learning models because they're so specific and so here you can infer it because of the LM being that intelligence. Yeah. Exactly. That's the beauty of exploring this field.
+ We learned this as we go.
+ There is so much.
+ Yeah, so many learnings on this and we also get feedback from the user, which is amazing to see. I feel like, I feel like I am now, like, excited for this app when you guys can be in San Francisco, that's it. We gotta go to Brazil. That's the easier option. Then come in the same friend. Do you have some kind of a checkered agent? That makes sure what's happening is actually. What should be happening like overseer. I don't know what that would. How you architect it? But we have a system in place for guardrails and making sure you know the response that we were giving us.
+ Make sense, I'd say but we didn't choose a full blown multi agent set up because we wanted to keep it simple. Are you scared? It's relatively simple. I think what, what is difficult is giving the right recommendations having the right context. But, you know, the the context of the agent is pretty.
+ Self-contained. We don't have an agent to schedule a trip. For instance, that would be another agent with a set of tools that our agent has
+ are, you know, compatible with each other. We don't need another agent for that. What we did, however, was to have a dynamic system prompt that would change based on the state so that we would not need to, to have so much information every time. And yeah, that of course, help with latency and having less choices to make to go back to the stratification. We were talking about earlier the way that
+ someone interacts, with I thought on WhatsApp is still almost like
+ Through the iPhone app, but that's just to verify their profile, and then they go back to Whatsapp. Understand it correctly. This is just to kick off the first authorization flow. So, we need to make sure that you are you, you know, connect to your profile.
+ So yeah, they if they don't have an account, if they write to us from a phone number, they don't have an iPhone account. We need to make sure that they create one. Like and then you have all the information about that user in iFood. Yeah. And we connect yeah, including the payment options and all of that stuff. And so the
+ Agent. I'm assuming just says, do you want to use your regular credit card? Or do you want to use one of these options? There are some systems in Brazil for payments that we are connecting with yeah. But I remember Nishi talking to me about how hard it was to context engineer.
+ The types of payment systems that people would ask for.
+ and it goes back to what you were talking about at the beginning of
+ You end up, just adding all these edge cases to the prompt and before you know, it you're prompt is so bloated. And if last night, six hours, stream taught, me anything, it is like the least amount of context as necessary. If you think about what a user can ask in an app to order Foods, they could ask for specific payment method, price range delivery time like this distance from the resturant or their vegetarian. They're one gluten-free discounts. They have a specific membership that they went up, like that allows them specific discounts and want to use that. Like, there is so much. It's really impossible to give all this information to the agent because then you need to like there's a need to convert that in the equator, right? If you give all this information to the main agents, it's gonna blow up the prompt. So what we did was
+ Like having a conversing, the query into something more llm friendly with some basic knowledge from the main agent and then giving context. So like who the user, what the user wants?
+ And in a way this is like preparing a task for another agent. So we delegate and the managing doesn't need to worry about anything and that first touch is just through like a small language model or sentiment analysis or it's still as an LM call know. We use them all alarms straight away.
+ It's simpler.
+ But we implemented some classification letter in the way. So yeah. We have some classifiers steps to simplify
+ How much are you using?
+ The foundation foundational models like open AI, or Claude versus your own.
+ I would say we use foundational almost everywhere, we use smaller models function, models for specific steps in the workflow, like creating representations for the users. For instance, it's a task where there is a fine tune model but for the conversational part we have an explored yet. I think foundational model or models are so good right now that if you don't need to find tune that's probably you shouldn't do it.
+ I think I hear a lot about fine-tuning like maybe we should find tune that to fix the output. Now, it's a specification problem. You're not specifying enough or maybe you're specifying too much in the front if something can be fixed.
+ There, that's the first step. Well, I think it's great. I think it's a great point. I love to dig into because, you know, you know so much more about this than most people.
+ Where do you draw the line on?
+ When and where to find tune, maybe you guys have an incredible amount of data.
+ And I know that much of it is Leverage.
+ Where do you decide to do that work?
+ So I think one of the because reasons why you might want to find tune is coast and Laden see as well.
+ If you're building a model for a very specific task and the model doesn't need to be able to converse with the user. They just need to
+ take user data and build the representation of the user for instance. So it's very specific task. And then you want to scale it to 60 million users and they want to do it every day.
+ Foundational model is not gonna work very well expensive. Yeah. So and also performance wise, right? Because
+ At the end we're talking about embeddings. And you want if you if you're working on a very specific space like food delivery, you want to we want the model to clearly differentiate terms that might look the same but are actually semantically different
+ And that's nuanced, you don't get in Foundation model.
+ So you at the end when you're fine tuning, your changing the space for your model moves and you're making this
+ The meaning of words that might look similar more for apart from each other.
+ So that that thing you want to do and we proved that for our application, it's better actually we have been tested this and yeah it get better results.
+ If you want to just Kickstart a project then. Yeah first you know, make it, work them, make it cheap, make it fast. It's interesting. We see this as well with a lot of customers.
+ Is again today versus last year.
+ People used to start with all of their own data and with fine-tuning and that's that was the beginning of the journey.
+ And now today it's the end of the journey you instead, you throw a financial model at it most of the time. It's good enough.
+ You do some prompt engineering, you, tap some tools and you're good to go. But when you want that extra last inch now that's where everybody's using fine-tuning. I'm curious within the work that you've been doing.
+ Where's the dividing line of fine-tuning? An existing large language model?
+ whether it's a foundational model or Resource One,
+ Versus building your own model that might not be llm based. Yeah, it's very fine lines. Sometimes I think
+ Regular like more traditional machine learning approaches are good to get patterns from the data like when the data is no Maric or when you have graph type of data, like collaborative filtering for instance. We're also working on that I think.
+ Traditional ml can find patterns that.
+ And an Alum like conversational type of would not necessarily find because it can leverage also connection between user data points.
+ You're embedding different type of information. So for instance, to give an example with collaborative filtering.
+ The, the model might know that we are similar users and I ordered some foods that you have an order yet and it will suggest you this food. I don't necessarily have this connection in an llm that this conversation all
+ So yeah, that's there is a very fine line. What we're trying to do is use llm for finding patterns.
+ Based on the user Behavior things that are not just hard data. Like the example, I mentioned before where you order pizza with pepperoni, might be a meat-lover. I know you're not but, you know, just to give you an idea and I can extract the filter that I will use in every query to filter, the data that I show you.
+ Yeah, with traditional machine learning, I wouldn't get this patterns out.
+ yeah, it's it's a hard question I think because
+ It. Yeah, they ended boils down what, what type of data you want to show to the user?
+ I think for data to fit to llms sometimes, it makes more sense to get like text based representation.
+ Um but when you need to do operations like search in a database. Yeah. That you need vectors. You need to
+ to optimize. Yeah. Based on Vector representations.
+ Yeah. It's it's a very good question. Yeah, it's cool to hear that you're still grappling with it and there are these pros and cons of each and obviously, it's always a trade-off. I like the idea of how you can
+ Leverage one.
+ And at the same time kind of plug in the machine learning models. So it's like the majority of the stuff is happening with the large language models and the Agents that are going and they're doing stuff. And maybe one note or one tool that it can call is a machine learning model. I think, one of the things that I find most most interesting about roses,
+ Is how far how far are the head and how advanced you focus are in agent building?
+ You've got a target for what 30,000 agents in the organization. Yeah. Which, you know, the keynote, which is funny because, you know, we can laugh about how crazy that number is. But then how many do you actually have right now? It's, it's more than anyone else and so, not that far off. Yeah. Like you, you have at least over 1,000 at this point. And yeah, over 10,000. Yeah, and so, you know, we can joke about 30,000, but most people are struggling to get one out right? And, and we've talked and we've talked a fair bit and I'm sure we'll talk more in different sessions about how what it took to get there, both from a technical perspective and from an organizational perspective, but you had made a really interesting point.
+ About tools. And
+ And how, you know, different teams start in one way, but then eventually, yes or something. You start layering in governance. I'm wondering if you could share more about that. Yeah, this is I think trying to transition out happens in other organization as well, where we are approaching Jenny, I and we have very vertical type of vision. We're trying to build a product for specific use cases, right?
+ So what what you do? If you're a team building this is you go very early in and very deep in this vertical Direction. But if you do this and you multiply it for 10, 20 teams in an organization, you realize that often similar tools have been built. For instance, answer the user questions using knowledge base. Right? So what I think tools are really good for is also creating layers of governance where
+ For instance, in the case of the knowledge base, there is a team that makes sure that that works very well and then can be shared across different teams.
+ The trick here is the teams, the, the fun in this rules needs to be very Alum saviors. Well, because the interface that this tool would use needs to be used by an agent. What we see sometimes is that the definitions get too verbose. There is a lot of requirements for how the tool should be used and like the language that should be used. Sometimes you don't need all of that and you really need Engineers to work together to to define the interfaces of this. And I think if your nail that, then you can really scale up because you can then share tools across the organization and this applies to agents by the way, in motion setups.
+ It's having that ownership of the tools being able to clearly Define this is your tool. You're expected to keep it up to date to make sure that it's working. And
+ That the agent can consume it in a way. Yeah, exactly.
+ and when you create tools that can,
+ That are directly connected to the public image of the company. Like we've defined in Persona, that represents the company.
+ Then the type of people who write this rules are not developers, right? So,
+ The person in this rules maybe is a designer or like product team.
+ But you cannot give them to the agent as they are. You need some some translation layer in here and I think, yeah, governance is really
+ It's really important and it's important to get it, right? Because once you do it once then,
+ You know, it's it's more maintainable and if I would let Aiello be used by other agents. For instance like expose it through agent to agent framework, or let other teams use it then I know need to make sure that that is used correctly.
+ yeah, I I think
+ I think what we've been seeing.
+ Which Echoes your experience.
+ Is.
+ It's very easy for an agent team.
+ To get their agent working in a silo.
+ And they'll build the tools they need and and it'll work.
+ But there's almost always an organizational context.
+ That agent team is focused on its agent but it's manager or the director, or the VP, or the CTO over CIO is looking horizontally and they're the most organizations are typically building more than one agent.
+ And the same problems that are pretty saw and the last cycle.
+ With apis is exact same problem. Now, with tools, mCP or not, take the wife protocol out of it. It's okay great. These two people are inserting user records into the CRM. Why do they have two different tools that are being maintained separately with different logic? Like that should all be the same thing. Let's Elevate that and make that a shared tool, but then when you do that, you suddenly introduce a governance problem. That's never been resolved before tools. Wow. You know, how do we do versioning?
+ How do we do ownership? Who gets access to which tools team a which is working on customer faces? We talked about this last night agent a is a customer-facing agent.
+ And Agent B is an internally facing agent and those teams probably shouldn't be seeing the same tools because the policy at an organization. I think which is the policy here. Is that internally phasing agents shouldn't have any access to anything outside of the organization. And so
+ like,
+ Sharing is the beginning of it, but the moment you start sharing tools, which is a best practice, it looks at first, like a productivity game, but he inherit a bunch of governance challenges and governance gains.
+ so, for example,
+ Who has access to the tool?
+ This agent, what's the policy?
+ For how access is being told out, not just to the individual developers on different teams, but to the nature of the agent itself, internally facing Asian versus externally facing agent.
+ And how do you handle Virginian? And if you're the one that wrote the user insert tool for the CRM and my agent depends on it.
+ Who owns the tool, yeah. Like who's in charge of bug fixing it?
+ Is it me? Is it you? Yeah. And when does impacts multiple agents like changing a tool definition is actually changing the The Prompt that the agent has access to. So it's crucial to evaluate because if you if you change that you're gonna impact all the downstream tasks.
+ And it's, yeah, it's really crucial to have good evaluations in place, not just for the tool, but for how the agent will use this tool and will interact with that.
+ And I to link it back, I mean I think this is where laddering up tools really matters because my agent consuming the shared you know user insertion into the CRM tool.
+ Is going to likely have different set of evals then your tool because we just have different contacts. We have a different intentions.
+ and,
+ and I'm gonna blow your tool.
+ It reply for all the other ages if I try and insert all of my needs and demands onto it.
+ But if I, then if I'm just anybody instead, I just layer up.
+ My own domain specific tool or age-specific tool that sits on top of yours then suddenly sharing and repeatability still works.
+ Without having to sacrifice accuracy and consistency and latency for, for the agent. So now I can share that we can share the same tool and I can have my own little domain specific issues with my own set of evals that are maintained in my agent, suffer from yours. I see what you're saying, where it's like, you normally have to go really deep on something and really craft it so that you understand the problems that you understand, how to build that agent in the best way possible.
+ But at the same time, I feel like if you're getting that details with it, you're now creating a whole lot more work. Absolutely every team. Yeah, you are, you are absolutely creating more work but this is, this is the trade-off, right? It's all about knobs and dials. It's if you're single agent team, you don't need this right? But the and and individual agent developer's.
+ You know, aren't going to be thinking about this. It's the moment that you're running an agent program.
+ You know, call it a center of excellence, or whatever. I mean, what, the moment You're Building multiple agents, across an organization. If you're a fortune 2000, and you're, you know, human here even many for 30,000 agents,
+ and this becomes a requirement at scale, if everybody's rebuilding the wheel every single time you have, you
+ The productivity gains.
+ of flipping the script become pretty high because when I go start my my new agent,
+ I don't have to go build all this stuff from scratch. I can go see in the registry. Oh what are all the different tools that already exist? Oh, let me pick that one and pick this one. Pick this one and then I can build my top to personalize them.
+ And everybody wins, but that's just a productivity piece.
+ if you think about senior leadership,
+ And the governance problems.
+ It becomes possible to put your arms around it.
+ If you don't have any kind of reuse for reusability or registry or things like that,
+ you know, when the CEO or the compliance team or senior leadership, worried about performance.
+ Wants to go see what's happening.
+ They have to go look at what 300,000 tools.
+ That's not going to work. They're all marginally different. And that's a fail, right? Yeah. The same time. There is no substitute for really, you can deep into a problem because starting the other way around, I think would be a disaster. Like, if you start from defining, what tools can be built for the teams before, even, you're solving the business problem. That is a recipe for disaster, like, you've gone over engineering things and like, this will is gonna have to be changed so many times.
+ So we are what we found at Works was really to to build something, you know you know like building an agent in production is way different from thinking about an agent. You if you find challenges you didn't even think about. So before you have done that, thank you shouldn't even even start thinking about how this can be shared across teams.
+ I I agree with a few new ones as I think that's the only best practice we
+ Again, we talked to a lot of customers and they're all coming from different angles, right? You know, there's a particular agent team that needs to go. Unlock a particular, he's a functionality that I want to talk to email or calendar or, you know, some Custom Service
+ Women will also talk to cios and, you know, their VPS who are trying to architect the organization and the Enterprise for agents.
+ And we have a saying internally which is regardless of where we come in as a vendor and to help an organization.
+ We always drive the conversation to the first each.
+ For that same reason. It's like, well, before anybody gets caught off,
+ You know, in building like the Sistine Chapel of complex agent governance and systems. Let's first make sure that you've got your agent, your first agent at least successful and working. And you got the right patterns and
+ Absolutely. Right. You should go deep first and then once it's working then abstract out and then start optimizing for sharing and reusability and all that fun stuff. But you can't start there whatever with some third-party tools that are, you know, pretty widely accepted by now, like managing Collins or emails, I think, you know, that's a
+ It's a good bet to those reasons how you guys and on that dude, the governance piece is wild.
+ Oh my God, it's become like the conversation everywhere. It's crazy because like
+ Three months ago, I never heard the word.
+ Well, I remember, I told you after I was in San Francisco. I was like, oh, you see? So I was talking about government when you and I spoke. I was like, governance, yeah. Now it has been every single conversation we're in. It is just, it's wild to me how fast everything's changing. Yeah. The maturity curve for most organizations is rapid, we know it's also teams using multi-agent setups, way more. And sometimes agents look like they have a motion set up where agents look very similar to each other.
+ And when you start to dig deeper into the reasons, its governance. Yeah. I'll tell you what I'm seeing. Now, I'm my bed a year from now when we do this podcast again, I think moldy agent systems are going to be a lot less common. Oh, interesting. Yeah, we're starting to see the early signs. It fell like as we talk through this,
+ Agents and tools can be almost like interchange in a way. Yeah. Actually, we are actually our sales engineer shoe whose incredible
+ He he basically proved to all of us in a really dramatic way. I don't think he's doing on purpose.
+ That an agent is really just a collection of prompts and tools. Yeah and people say it but nobody really believes it, excuse me. They all want to use all all the big systems and shoe just like slammed together a little yaml based Asian Builder and it fucking works like take that. Yeah, it just works. You just really prompt the tools and you're done and it's got land graph under the hood, but it's wild, right? And what we've been seeing is the scope definition of a sub-agent.
+ Is, is getting bigger and bigger and bigger, as context. When does get bigger as it can handle more tools, all of a suddenly, you're seeing bigger sub agents. And so, if you take that to the Limit,
+ you're not gonna see that's complex of sub agents.

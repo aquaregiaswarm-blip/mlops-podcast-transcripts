@@ -1,0 +1,34 @@
+{
+  "tech_tags": [
+    "Large Language Models (LLMs)",
+    "Vector Databases",
+    "Context Windows",
+    "Haystack Benchmark",
+    "Semantic Search",
+    "Hybrid Search",
+    "Distributed Systems",
+    "AI Agents",
+    "Information Retrieval",
+    "Chroma"
+  ],
+  "business_tags": [
+    "AI Development",
+    "Information Asymmetry",
+    "Competitive Advantage",
+    "Modern Search Infrastructure",
+    "Recall vs. Precision"
+  ],
+  "key_topics": [
+    "Context Rot and Context Window Limitations",
+    "The Evolution of Search in AI",
+    "The Role of Vector Databases",
+    "AI Model Spikiness",
+    "Challenges of Transparency in AI Development"
+  ],
+  "guest": {
+    "name": "Jeff Huber",
+    "role": "CEO",
+    "company": "Chroma"
+  },
+  "summary": "Jeff Huber, CEO of Chroma, discusses context rot in LLMs, the evolution of search for AI, and the importance of modern retrieval infrastructure, arguing against vector databases being a panacea."
+}

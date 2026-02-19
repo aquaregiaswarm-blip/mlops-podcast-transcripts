@@ -1,0 +1,34 @@
+{
+  "tech_tags": [
+    "Data Centers",
+    "GPU Clouds",
+    "AI",
+    "HPC (High Performance Computing)",
+    "AWS",
+    "Azure",
+    "Google Cloud",
+    "Telecom infrastructure",
+    "Fiber",
+    "GPU"
+  ],
+  "business_tags": [
+    "Sovereign AI",
+    "Data Residency",
+    "Power Generation",
+    "Renewable Energy",
+    "Scale"
+  ],
+  "key_topics": [
+    "Economics of data center construction",
+    "GPU cloud infrastructure",
+    "Sovereign AI and data residency requirements",
+    "Power sources and energy efficiency for data centers",
+    "Regional cloud providers"
+  ],
+  "guest": {
+    "name": null,
+    "role": "Canadian cloud service provider",
+    "company": "Corrective Errors & President Seal (High Performance Computing)"
+  },
+  "summary": "Building data centers for sovereign AI and GPU clouds requires strategic decisions about power sources, location, and catering to data residency requirements."
+}

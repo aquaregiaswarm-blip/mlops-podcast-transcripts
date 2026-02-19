@@ -178,5 +178,365 @@
     "duration": "00:49:00",
     "description": "<p><em>Dr. Jure Leskovec</em> is the Chief Scientist at Kumo.AI and a Stanford professor, working on relational foundation models and graph-transformer systems that bring enterprise databases into the foundation-model era.</p><p><br></p><p>Relational Foundation Models: Unlocking the Next Frontier of Enterprise AI // MLOps Podcast #348 with Jure Leskovec, Professor and Chief Scientist, Stanford University and Kumo.AI.</p><p><br></p><p>Join the Community: </p><p><a href=\"https://go.mlops.community...",
     "local_file": "episodes/ep348-relational-foundation-models-unlocking-the-next-frontier-of-enterprise-ai-jure-l.mp3"
+  },
+  {
+    "title": "Context Engineering, Context Rot, & Agentic Search with the CEO of Chroma, Jeff Huber",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/111515473/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-21%2F412916747-44100-2-0cb0f712b55f3.mp3",
+    "pub_date": "Fri, 21 Nov 2025 17:52:10 GMT",
+    "duration": "00:44:55",
+    "description": "<p><em>Jeff Huber</em> is the CEO of \u200b<a href=\"https://www.trychroma.com/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Chroma</a>,\u00a0working on context engineering and building reliable retrieval infrastructure for AI systems. </p><p><br /></p><p>Context Engineering, Context Rot, &amp; Agentic Search with the CEO of Chroma, Jeff Huber // MLOps Podcast #348.</p><p><br /></p><p>Join the Community: </p><p><a href=\"https://go.mlops.community/YTJoinIn\" target=\"_blank\" rel=\"ugc noopener noreferrer\">ht...",
+    "local_file": "episodes/epep020-context-engineering-context-rot-agentic-search-with-the-ceo-of-chroma-jeff-huber.mp3"
+  },
+  {
+    "title": "Reliable Voice Agents",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/111347801/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-18%2F412694374-44100-2-af5bc3e3fa699.mp3",
+    "pub_date": "Tue, 18 Nov 2025 18:00:00 GMT",
+    "duration": "00:38:21",
+    "description": "<p><em>Brooke Hopkins</em> is the CEO of <a href=\"https://www.coval.dev/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Coval</a>, a company making voice agents more reliable. </p><p><br></p><p>Reliable Voice Agents // MLOps Podcast #347 with Brooke Hopkins, Founder of Coval.</p><p><br></p><p>Join the Community: </p><p><a href=\"https://go.mlops.community/YTJoinIn\" target=\"_blank\" rel=\"ugc noopener noreferrer\">https://go.mlops.community/YTJoinIn</a></p><p>Get the newsletter: <a href=\"https://go.m...",
+    "local_file": "episodes/epep021-reliable-voice-agents.mp3"
+  },
+  {
+    "title": "The Future of AI Operations: Insights from PwC AI Managed Services",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/110838267/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-7%2F410795119-44100-2-9b39efd83d341.mp3",
+    "pub_date": "Fri, 14 Nov 2025 14:31:35 GMT",
+    "duration": "00:41:27",
+    "description": "<p><em>Rani Radhakrishnan</em> is a Principal at PwC US, leading work on AI-managed services, autonomous agents, and data-driven transformation for enterprises.</p><p><br></p><p>The Future of AI Operations: Insights from PwC AI Managed Services // MLOps Podcast #345 with Rani Radhakrishnan, Principal, Technology Managed Services - AI, Data Analytics and Insights at PwC US.</p><p><br></p><p>Huge thanks to\u00a0<a href=\"https://www.pwc.com/us/managedservices\" target=\"_blank\" rel=\"noopener noreferer\">Pw...",
+    "local_file": "episodes/epep022-the-future-of-ai-operations-insights-from-pwc-ai-managed-services.mp3"
+  },
+  {
+    "title": "GPU Uptime with VAST Data CTO",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/111012012/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-11%2F412255272-44100-2-2893b8b860dd5.mp3",
+    "pub_date": "Tue, 11 Nov 2025 18:00:04 GMT",
+    "duration": "01:33:45",
+    "description": "<p><em>Andy Pernsteiner</em> is the Field CTO at VAST Data, working on large-scale AI infrastructure, serverless compute near data, and the rollout of VAST\u2019s AI Operating System.</p><p><br /></p><p>The GPU Uptime Battle // MLOps Podcast #346 with Andy Pernsteiner, Field CTO of VAST Data.Huge thanks to\u00a0<a href=\"www.vastdata.com\" target=\"_blank\" rel=\"ugc noopener noreferrer\">VAST Data</a>\u00a0for supporting this episode!</p><p><br /></p><p>Join the Community: </p><p><a href=\"https://go.mlops.community...",
+    "local_file": "episodes/epep023-gpu-uptime-with-vast-data-cto.mp3"
+  },
+  {
+    "title": "The Evolution of AI in Cyber Security // Jeff Schwartzentruber // #344",
+    "episode_number": "344",
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/110686974/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-4%2F410591468-44100-2-7ec08f2bb2d18.mp3",
+    "pub_date": "Tue, 04 Nov 2025 18:10:47 GMT",
+    "duration": "00:35:14",
+    "description": "<p>Dr. Jeff Schwartzentruber is a Senior Machine Learning Scientist at eSentire, working on anomaly detection pipelines and the use of large language models to enhance cybersecurity operations.</p><p><br></p><p>The Evolution of AI in Cyber Security // MLOps Podcast #344 with Jeff Schwartzentruber, Staff Machine Learning Scientist at eSentire.</p><p><br></p><p>Join the Community: </p><p><a href=\"https://go.mlops.community/YTJoinIn\" target=\"_blank\" rel=\"ugc noopener noreferrer\">https://go.mlops.co...",
+    "local_file": "episodes/ep344-the-evolution-of-ai-in-cyber-security-jeff-schwartzentruber-344.mp3"
+  },
+  {
+    "title": "Thousands of Fine-Tuned Models",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/110620766/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-3%2F410504336-44100-2-6c847aa44ea8e.mp3",
+    "pub_date": "Mon, 03 Nov 2025 16:34:41 GMT",
+    "duration": "00:37:47",
+    "description": "<p>Jaipal Singh Goud is the CTO at Prem AI, working on model customization and privacy-preserving compute. </p><p><br></p><p>This episode was recorded at the Plan B studios in Lugano, Switzerland. For more information, visit https://pow.space/</p><p><br></p><p>How do fine-tuned models and RAG systems power personalized AI agents that learn, collaborate, and transform enterprise workflows? What kind of technical challenges do we need to first examine before this becomes real?</p><p><br></p><p>Dem...",
+    "local_file": "episodes/epep025-thousands-of-fine-tuned-models.mp3"
+  },
+  {
+    "title": "The Semantic Layer and AI Agents // David Jayatillake // #343",
+    "episode_number": "343",
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/110161586/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-24%2F409904523-44100-2-81c7131991fa7.mp3",
+    "pub_date": "Fri, 24 Oct 2025 17:00:17 GMT",
+    "duration": "00:50:37",
+    "description": "<p>The Semantic Layer and AI Agents // MLOps Podcast #343 with David Jayatillake, VP of AI at Cube.dev.</p><p><br></p><p>Join the Community: </p><p><a href=\"https://go.mlops.community/YTJoinIn\" target=\"_blank\" rel=\"ugc noopener noreferrer\">https://go.mlops.community/YTJoinIn</a></p><p>Get the newsletter: <a href=\"https://go.mlops.community/YTNewsletter\" target=\"_blank\" rel=\"ugc noopener noreferrer\">https://go.mlops.community/YTNewsletter</a></p><p><br></p><p>// Abstract</p><p>David Jayatillake a...",
+    "local_file": "episodes/ep343-the-semantic-layer-and-ai-agents-david-jayatillake-343.mp3"
+  },
+  {
+    "title": "Building Claude Code: Origin, Story, Product Iterations, & What's Next // Siddharth Bidasaria // #342",
+    "episode_number": "342",
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/109808923/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-17%2F409440920-44100-2-86bd592ea126d.mp3",
+    "pub_date": "Tue, 21 Oct 2025 17:00:04 GMT",
+    "duration": "00:50:28",
+    "description": "<p>Building Claude Code: Origin, Story, Product Iterations, &amp; What&#39;s Next // MLOps Podcast #342 with Siddharth Bidasaria, Member of Technical Staff at Anthropic.</p><p><br></p><p>Join the Community: </p><p><a href=\"https://go.mlops.community/YTJoinIn\" target=\"_blank\" rel=\"ugc noopener noreferrer\">https://go.mlops.community/YTJoinIn</a></p><p>Get the newsletter: <a href=\"https://go.mlops.community/YTNewsletter\" target=\"_blank\" rel=\"ugc noopener noreferrer\">https://go.mlops.community/YTNew...",
+    "local_file": "episodes/ep342-building-claude-code-origin-story-product-iterations-whats-next-siddharth-bidasa.mp3"
+  },
+  {
+    "title": "Building an Agentic AI Memory Framework",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/109447900/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-9%2F408968711-44100-2-9a3fbd58d5f39.mp3",
+    "pub_date": "Tue, 14 Oct 2025 17:00:34 GMT",
+    "duration": "00:50:34",
+    "description": "<p>What if AI could actually remember like humans do?</p><p><br /></p><p>Biswaroop Bhattacharjee joins Demetrios Brinkmann to challenge how we think about memory in AI. From building Cortex\u2014a system inspired by human cognition\u2014to exploring whether AI should forget, this conversation questions the limits of agentic memory and how far we should go in mimicking the mind.</p><p><br /></p><p>Guest speaker: Biswaroop Bhattacharjee - Senior ML Engineer at Prem AI</p><p><br /></p><p>Host :Demetrios Brin...",
+    "local_file": "episodes/epep028-building-an-agentic-ai-memory-framework.mp3"
+  },
+  {
+    "title": "LLMs at Scale: Infrastructure That Keeps AI Safe, Smart & Affordable // Marco Palladino// # 341",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/109336174/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-7%2F408822893-44100-2-72697f8780dfb.mp3",
+    "pub_date": "Tue, 07 Oct 2025 17:00:14 GMT",
+    "duration": "00:51:13",
+    "description": "<p>LLMs at Scale: Infrastructure That Keeps AI Safe, Smart &amp; Affordable // MLOps Podcast #341 with Marco Palladino, Kong&#39;s Co-Founder and CTO.</p><p><br></p><p>Join the Community: <a href=\"https://go.mlops.community/YTJoinIn\" target=\"_blank\" rel=\"ugc noopener noreferrer\">https://go.mlops.community/YTJoinIn</a></p><p>Get the newsletter: <a href=\"https://go.mlops.community/YTNewsletter\" target=\"_blank\" rel=\"ugc noopener noreferrer\">https://go.mlops.community/YTNewsletter</a></p><p><br></p>...",
+    "local_file": "episodes/epep029-llms-at-scale-infrastructure-that-keeps-ai-safe-smart-affordable-marco-palladino.mp3"
+  },
+  {
+    "title": "Best AI Hackathon Project Ever? [Bite Size Episode]",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/108956464/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-29%2F408328939-44100-2-18c4aa1228da3.mp3",
+    "pub_date": "Fri, 03 Oct 2025 17:00:08 GMT",
+    "duration": "00:09:08",
+    "description": "<p>AI Conversations Powered by <a href=\"https://www.prosus.com/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Prosus Group</a> </p><p><br /></p><p>Unicorn Mafia won the recent hackathon at Raise Summit and explained to me what they built, including all the tech they used under the hood to make their AI agents work. </p><p><br /></p><p>Winners:</p><p>Charlie Cheesman - Co-founder at 60x.ai</p><p>Marissa Liu - Tech Lead, Reporting at Watershed</p><p>Ana Shevchenko - Software Engineer II at Spotif...",
+    "local_file": "episodes/epep030-best-ai-hackathon-project-ever-bite-size-episode.mp3"
+  },
+  {
+    "title": "On-Device AI Agents in Production: Privacy, Performance, and Scale // Varun Khare & Neeraj Poddar // #340",
+    "episode_number": "340",
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/108842154/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-26%2F408182272-44100-2-53ae65c4bbbb9.mp3",
+    "pub_date": "Tue, 30 Sep 2025 16:00:04 GMT",
+    "duration": "00:46:10",
+    "description": "<p>On-Device AI Agents in Production: Privacy, Performance, and Scale // MLOps Podcast #340 with NimbleEdge&#39;s Varun Khare, Founder/CEO and Neeraj Poddar, Co-founder &amp; CTO.</p><p><br></p><p>Join the Community: </p><p><a href=\"https://go.mlops.community/YTJoinIn\" target=\"_blank\" rel=\"ugc noopener noreferrer\">https://go.mlops.community/YTJoinIn</a></p><p>Get the newsletter: <a href=\"https://go.mlops.community/YTNewsletter\" target=\"_blank\" rel=\"ugc noopener noreferrer\">https://go.mlops.commu...",
+    "local_file": "episodes/ep340-on-device-ai-agents-in-production-privacy-performance-and-scale-varun-khare-neer.mp3"
+  },
+  {
+    "title": "Are Evals Dead?",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/108694799/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-23%2F407998018-44100-2-4625ae0cd88ad.mp3",
+    "pub_date": "Fri, 26 Sep 2025 16:00:04 GMT",
+    "duration": "00:25:24",
+    "description": "<p>AI Conversations Powered by <a href=\"https://www.prosus.com/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Prosus Group</a>\u00a0 </p><p><br /></p><p>Your AI agent isn\u2019t failing because it\u2019s dumb\u2014it\u2019s failing because you refuse to test it. Chiara Caratelli cuts through the hype to show why evaluations\u2014not bigger models or fancier prompts\u2014decide whether agents succeed in the real world. If you\u2019re not stress-testing, simulating, and iterating on failures, you\u2019re not building AI\u2014you\u2019re shipping expe...",
+    "local_file": "episodes/epep032-are-evals-dead.mp3"
+  },
+  {
+    "title": "The DuckLake Lakehouse Format // Hannes M\u00fchleisen // #339",
+    "episode_number": "339",
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/108528271/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-19%2F407774943-44100-2-544185dd3fe51.mp3",
+    "pub_date": "Fri, 19 Sep 2025 17:00:20 GMT",
+    "duration": "00:57:24",
+    "description": "<p>The DuckLake Lakehouse Format // MLOps Podcast #339 with Hannes M\u00fchleisen, Co-founder and CEO of DuckDB Labs.</p><p>Join the Community: <a href=\"https://go.mlops.community/YTJoinIn\" target=\"_blank\" rel=\"ugc noopener noreferrer\">https://go.mlops.community/YTJoinIn</a></p><p>Get the newsletter: <a href=\"https://go.mlops.community/YTNewsletter\" target=\"_blank\" rel=\"ugc noopener noreferrer\">https://go.mlops.community/YTNewsletter</a></p><p><br></p><p>// Abstract</p><p>Managing data on Object Stor...",
+    "local_file": "episodes/ep339-the-ducklake-lakehouse-format-hannes-m\u00fchleisen-339.mp3"
+  },
+  {
+    "title": "How LiveKit Became An AI Company By Accident",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/108320006/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-15%2F407509525-44100-2-82f3c8b2bdf64.mp3",
+    "pub_date": "Tue, 16 Sep 2025 16:00:04 GMT",
+    "duration": "00:32:34",
+    "description": "<p>AI Conversations Powered by <a href=\"https://www.prosus.com/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Prosus Group</a>\u00a0 </p><p><br></p><p>Russ d&#39;Sa shares how LiveKit went from a small open-source project during the pandemic to powering voice interfaces for giants like OpenAI. He talks about the turning point when LiveKit teamed up on ChatGPT\u2019s voice features, the challenges of making AI sound human, and why voice could be the future of multimodal AI. It\u2019s a story of chance, big shi...",
+    "local_file": "episodes/epep034-how-livekit-became-an-ai-company-by-accident.mp3"
+  },
+  {
+    "title": "Economics of Building Data Centers, GPU Clouds, Sovereign AI",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/108178195/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-11%2F407328204-44100-2-9553b71cdff43.mp3",
+    "pub_date": "Fri, 12 Sep 2025 17:00:00 GMT",
+    "duration": "00:45:59",
+    "description": "<p>AI Conversations Powered by <a href=\"https://www.prosus.com/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Prosus Group</a>.\u00a0 </p><p><br></p><p>Craig Tavares, COO of Buzz High Performance Compute, shares lessons from building GPU cloud infrastructure worldwide. He stresses the role of sovereign mandates, renewable power, and modular cooling in scaling data centers, while highlighting NVIDIA partnerships and orchestration as key to sustaining AI workloads.</p><p><br></p><p>Guest speaker: Crai...",
+    "local_file": "episodes/epep035-economics-of-building-data-centers-gpu-clouds-sovereign-ai.mp3"
+  },
+  {
+    "title": "Trust at Scale: Security and Governance for Open Source Models // Hudson Buzby // #338",
+    "episode_number": "338",
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/108066257/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-9%2F407185294-44100-2-d889bc2ee387f.mp3",
+    "pub_date": "Tue, 09 Sep 2025 16:00:05 GMT",
+    "duration": "00:59:22",
+    "description": "<p>Trust at Scale: Security and Governance for Open Source Models // MLOps Podcast #338 with Hudson Buzby, Solutions Architect at JFrog.</p><p>Appreciate <a href=\"https://jfrog.com/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">JFrog</a> for their support in bringing this blog to life.</p><p><br></p><p>Join the Community: <a href=\"https://go.mlops.community/YTJoinIn\" target=\"_blank\" rel=\"ugc noopener noreferrer\">https://go.mlops.community/YTJoinIn</a></p><p>Get the newsletter: <a href=\"https://...",
+    "local_file": "episodes/ep338-trust-at-scale-security-and-governance-for-open-source-models-hudson-buzby-338.mp3"
+  },
+  {
+    "title": "LLM Search, UI/UX challenges, Context Engineering and the 80/20 of Eval",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/107879906/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-5%2F406949787-44100-2-8a840a3ac3c47.mp3",
+    "pub_date": "Fri, 05 Sep 2025 14:01:15 GMT",
+    "duration": "00:52:36",
+    "description": "<p>AI Conversations Powered by <a href=\"https://www.prosus.com/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Prosus Group</a>\u00a0 </p><p><br></p><p>Nishikant Dhanuka talks about what it really takes to make AI agents useful\u2014especially in e-commerce and productivity. From making them smarter with context (like user history and real-time data) to mixing chat and UI for smoother interactions, he breaks down what\u2019s working and what\u2019s not. He also shares why evals matter, how to test with real users, ...",
+    "local_file": "episodes/epep037-llm-search-uiux-challenges-context-engineering-and-the-8020-of-eval.mp3"
+  },
+  {
+    "title": "The Era of AI Agents in Marketing // Joel Horwitz // #337",
+    "episode_number": "337",
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/107525961/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-7-29%2F406514939-44100-2-e89165bf7df78.mp3",
+    "pub_date": "Mon, 01 Sep 2025 15:27:25 GMT",
+    "duration": "00:48:56",
+    "description": "<p>The Era of AI Agents in Marketing // MLOps Podcast #337 with Joel Horwitz, Growth Engineer at Neoteric3D.</p><p><br></p><p>Join the Community: <a href=\"https://go.mlops.community/YTJoinIn\" target=\"_blank\" rel=\"ugc noopener noreferrer\">https://go.mlops.community/YTJoinIn</a></p><p>Get the newsletter: <a href=\"https://go.mlops.community/YTNewsletter\" target=\"_blank\" rel=\"ugc noopener noreferrer\">https://go.mlops.community/YTNewsletter</a></p><p><br></p><p>// Abstract</p><p>We\u2019re entering a new ...",
+    "local_file": "episodes/ep337-the-era-of-ai-agents-in-marketing-joel-horwitz-337.mp3"
+  },
+  {
+    "title": "Distilling 200+ Hours of NeurIPS: What\u2019s Next for AI // Nikolaos Vasiloglou // #336",
+    "episode_number": "336",
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/107434056/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-7-27%2F406392903-44100-2-4527e28c5647d.mp3",
+    "pub_date": "Wed, 27 Aug 2025 17:38:39 GMT",
+    "duration": "00:57:35",
+    "description": "<p>Distilling 200+ Hours of NeurIPS: What\u2019s Next for AI // MLOps Podcast #336 with Nikolaos Vasiloglou, VP of Research ML at RelationalAI.</p><p><br></p><p>Join the Community: <a href=\"https://go.mlops.community/YTJoinIn\" target=\"_blank\" rel=\"ugc noopener noreferrer\">https://go.mlops.community/YTJoinIn</a></p><p>Get the newsletter: <a href=\"https://go.mlops.community/YTNewsletter\" target=\"_blank\" rel=\"ugc noopener noreferrer\">https://go.mlops.community/YTNewsletter</a></p><p><br></p><p>// Abstra...",
+    "local_file": "episodes/ep336-distilling-200-hours-of-neurips-whats-next-for-ai-nikolaos-vasiloglou-336.mp3"
+  },
+  {
+    "title": "Building Coding Agents: Design Decisions, Prompting Tricks, GUI Anti-patterns",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/107202296/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-7-22%2F406096692-44100-2-c633845e6f06a.mp3",
+    "pub_date": "Fri, 22 Aug 2025 15:00:10 GMT",
+    "duration": "00:49:48",
+    "description": "<p>AI Conversations Powered by <a href=\"https://www.prosus.com/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Prosus Group</a>\u00a0 </p><p><br></p><p>Demetrios chats with Beyang Liu about Sourcegraph\u2019s AMP, exploring how AI coding agents are reshaping development\u2014from IDEs to natural language commands\u2014boosting productivity, cutting costs, and redefining how developers work with code.</p><p><br></p><p>Guest speaker:</p><p>Beyang Liu - CTO of Sourcegraph</p><p><br></p><p>Host:</p><p>Demetrios Brinkma...",
+    "local_file": "episodes/epep040-building-coding-agents-design-decisions-prompting-tricks-gui-anti-patterns.mp3"
+  },
+  {
+    "title": "A Candid Conversation with the CEO of Stack Overflow",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/107173066/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-7-21%2F406059198-44100-2-e773a9f0a09d4.mp3",
+    "pub_date": "Thu, 21 Aug 2025 17:48:50 GMT",
+    "duration": "00:32:50",
+    "description": "<p>AI Conversations Powered by <a href=\"https://www.prosus.com/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Prosus Group</a>\u00a0 </p><p><br></p><p>Stack Overflow is adapting to the AI era by licensing its trusted Q&amp;A corpus, expanding into discussions and enterprise tools, and reinforcing its role as a reliable source as developer trust in AI output declines.</p><p><br></p><p>Guest speaker:</p><p>Prashanth Chandrashekar - CEO of Stack Overflow</p><p>Host:</p><p>Demetrios Brinkmann - Founder ...",
+    "local_file": "episodes/epep041-a-candid-conversation-with-the-ceo-of-stack-overflow.mp3"
+  },
+  {
+    "title": "Knowledge is Eventually Consistent // Devin Stein // #335",
+    "episode_number": "335",
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/106874474/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-7-14%2F405673722-44100-2-18715969337a.mp3",
+    "pub_date": "Sun, 17 Aug 2025 14:00:34 GMT",
+    "duration": "00:55:14",
+    "description": "<p>Knowledge is Eventually Consistent // MLOps Podcast #335 with Devin Stein, CEO of Dosu.</p><p><br></p><p>Grateful to <a href=\"https://studio.youtube.com/channel/UC3q8O3Bh2Le8Rj1-Q-_UUbA\" target=\"_blank\" rel=\"ugc noopener noreferrer\">\u00a0@Databricks\u00a0</a> and <a href=\"https://studio.youtube.com/channel/UCTjlZ7x7mUM9BwJaixgZKEw\" target=\"_blank\" rel=\"ugc noopener noreferrer\">\u00a0@hyperbolic-labs\u00a0</a> for supporting our podcast and helping us keep great conversations going.</p><p><br></p><p>Join the Com...",
+    "local_file": "episodes/ep335-knowledge-is-eventually-consistent-devin-stein-335.mp3"
+  },
+  {
+    "title": "LinkedIn Recommender System Predictive ML vs LLMs",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/106717772/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-7-11%2F405471138-44100-2-9a9d56edfe2e.mp3",
+    "pub_date": "Tue, 12 Aug 2025 17:00:16 GMT",
+    "duration": "00:47:39",
+    "description": "<p>Demetrios chats with Arpita Vats about how LLMs are shaking up recommender systems. Instead of relying on hand-crafted features and rigid user clusters, LLMs can read between the lines\u2014spotting patterns in user behavior and content like a human would. They cover the perks (less manual setup, smarter insights) and the pain points (latency, high costs), plus how mixing models might be the sweet spot. From timing content perfectly to knowing when traditional methods still win, this episode pulls...",
+    "local_file": "episodes/epep043-linkedin-recommender-system-predictive-ml-vs-llms.mp3"
+  },
+  {
+    "title": "GPU Considerations, Labeling Privacy, Rapid Fine Tuning, and the Role of Private Eval Pipelines to Benchmark New Models",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/106564040/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-7-7%2F405274448-44100-2-9e7eb6e48289d.mp3",
+    "pub_date": "Sat, 09 Aug 2025 12:30:10 GMT",
+    "duration": "00:55:46",
+    "description": "<p>Agents in Production [Podcast Limited Series] Episode Nine \u2013 Training LLMs, Picking the Right Models, and GPU Headaches</p><p><br /></p><p>Paul van der Boor and Zulkuf Genc from Prosus join Demetrios to talk about what it really takes to get AI agents running in production. From building solid eval sets to juggling GPU logistics and figuring out which models are worth using (and when), they share hard-won lessons from the front lines. If you're working with LLMs at scale\u2014or thinking about it\u2014...",
+    "local_file": "episodes/epep044-gpu-considerations-labeling-privacy-rapid-fine-tuning-and-the-role-of-private-ev.mp3"
+  },
+  {
+    "title": "The Hidden Bottlenecks Slowing Down AI Agents",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/106465056/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-7-5%2F405167156-44100-2-a41b3c2e5665c.mp3",
+    "pub_date": "Tue, 05 Aug 2025 19:38:19 GMT",
+    "duration": "00:47:59",
+    "description": "<p>Demetrios chats with Paul van der Boor and Bruce Martens from Prosus about the real bottlenecks in AI agent development\u2014not tools, but evaluation and feedback. They unpack when to build vs. buy, the tradeoffs of external vendors, and how internal tools like Copilot are reshaping workflows.</p><p><br></p><p>Guest speakers:</p><p>Paul van der Boor - VP AI at Prosus Group</p><p>Bruce Martens - AI Engineer at Prosus Group</p><p><br></p><p>Host:</p><p>Demetrios Brinkmann - Founder of MLOps Communi...",
+    "local_file": "episodes/epep045-the-hidden-bottlenecks-slowing-down-ai-agents.mp3"
+  },
+  {
+    "title": "9 Commandments for Building AI Agents",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/106275047/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-6-31%2F404905506-44100-2-e97f5e94697a5.mp3",
+    "pub_date": "Fri, 01 Aug 2025 16:30:05 GMT",
+    "duration": "01:20:33",
+    "description": "<p>Building AI agents that actually get things done is harder than it looks. Demetrios, Paul, and Dmitri break down what makes agents effective\u2014from smart planning and memory to treating tools, systems, and even people as components. They cover the &quot;react&quot; loop, budgeting for long tasks, sandboxing, and learning from experience. It\u2019s a sharp, practical look at what it really takes to design useful, adaptive AI agents.</p><p><br></p><p>Guest speakers:</p><p>Paul van der Boor - VP AI at ...",
+    "local_file": "episodes/epep046-9-commandments-for-building-ai-agents.mp3"
+  },
+  {
+    "title": "Enterprise AI Adoption Challenges",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/106161065/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-6-29%2F404756787-44100-2-2ee594931f1b4.mp3",
+    "pub_date": "Tue, 29 Jul 2025 16:00:24 GMT",
+    "duration": "01:05:00",
+    "description": "<p>Building AI Agents that work is no small feat.</p><p>In Agents in Production [Podcast Limited Series] - Episode Six, Paul van der Boor and Sean Kenny share how they scaled AI across 100+ companies with Toqan\u2014a tool born from a Slack experiment and grown into a powerful productivity platform. From driving adoption and building super users to envisioning AI employees of the future, this conversation cuts through the hype and gets into what it really takes to make AI work in the enterprise.</p><...",
+    "local_file": "episodes/epep047-enterprise-ai-adoption-challenges.mp3"
+  },
+  {
+    "title": "Real-time Feature Generation at Lyft // Rakesh Kumar // #334",
+    "episode_number": "334",
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/105990142/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-6-25%2F404540508-44100-2-c35475d6ad3c2.mp3",
+    "pub_date": "Fri, 25 Jul 2025 18:58:27 GMT",
+    "duration": "00:58:04",
+    "description": "<p>Real-time Feature Generation at Lyft // MLOps Podcast #334 with Rakesh Kumar, Senior Staff Software Engineer at Lyft.</p><p><br></p><p>Join the Community: <a href=\"https://go.mlops.community/YTJoinIn\" target=\"_blank\" rel=\"ugc noopener noreferrer\">https://go.mlops.community/YTJoinIn</a></p><p>Get the newsletter: <a href=\"https://go.mlops.community/YTNewsletter\" target=\"_blank\" rel=\"ugc noopener noreferrer\">https://go.mlops.community/YTNewsletter</a></p><p><br></p><p>// Abstract</p><p>This sess...",
+    "local_file": "episodes/ep334-real-time-feature-generation-at-lyft-rakesh-kumar-334.mp3"
+  },
+  {
+    "title": "AI Agent Development Tradeoffs You NEED to Know",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/105828724/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-6-22%2F404331910-44100-2-3cfe40edfc518.mp3",
+    "pub_date": "Tue, 22 Jul 2025 14:01:18 GMT",
+    "duration": "00:57:06",
+    "description": "<p>Sherwood Callaway, tech lead at 11X, joins us to talk about building digital workers\u2014specifically Alice (an AI sales rep) and Julian (a voice agent)\u2014that are shaking up sales outreach by automating complex, messy tasks.</p><p><br></p><p>He looks back on his YC days at OpKit, where he first got his hands dirty with voice AI, and compares the wild ride of building voice vs. text agents. We get into the use of Langgraph Cloud, integrating observability tools like Langsmith and Arize, and keeping...",
+    "local_file": "episodes/epep049-ai-agent-development-tradeoffs-you-need-to-know.mp3"
+  },
+  {
+    "title": "From the Legal Trenches to Tech // Nick Coleman // #332",
+    "episode_number": "332",
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/105538644/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-6-15%2F403961606-44100-2-bf07150df819e.mp3",
+    "pub_date": "Tue, 15 Jul 2025 16:22:17 GMT",
+    "duration": "00:35:51",
+    "description": "<p>From the Legal Trenches to Tech // MLOps Podcast #332 with Nick Coleman, Attorney/Founder of LexMed.</p><p><br></p><p>Join the Community: <a href=\"https://go.mlops.community/YTJoinIn\" target=\"_blank\" rel=\"ugc noopener noreferrer\">https://go.mlops.community/YTJoinIn</a></p><p>Get the newsletter: <a href=\"https://go.mlops.community/YTNewsletter\" target=\"_blank\" rel=\"ugc noopener noreferrer\">https://go.mlops.community/YTNewsletter</a></p><p><br></p><p>// Abstract</p><p>Nick Coleman shares his jo...",
+    "local_file": "episodes/ep332-from-the-legal-trenches-to-tech-nick-coleman-332.mp3"
+  },
+  {
+    "title": "The Rise of Sovereign AI and Global AI Innovation in a World of US Protectionism // Frank Meehan // MLOps Podcast #331",
+    "episode_number": "331",
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/105358718/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-6-11%2F403729854-44100-2-f203ab9eefa1e.mp3",
+    "pub_date": "Fri, 11 Jul 2025 16:10:17 GMT",
+    "duration": "00:54:13",
+    "description": "<p>The Rise of Sovereign AI and Global AI Innovation in a World of US Protectionism // MLOps Podcast #331 with Frank Meehan, Founder and CEO of Frontier One AI.</p><p><br></p><p>Join the Community: <a href=\"https://go.mlops.community/YTJoinIn\" target=\"_blank\" rel=\"ugc noopener noreferrer\">https://go.mlops.community/YTJoinIn</a></p><p>Get the newsletter: <a href=\"https://go.mlops.community/YTNewsletter\" target=\"_blank\" rel=\"ugc noopener noreferrer\">https://go.mlops.community/YTNewsletter</a></p><...",
+    "local_file": "episodes/ep331-the-rise-of-sovereign-ai-and-global-ai-innovation-in-a-world-of-us-protectionism.mp3"
+  },
+  {
+    "title": "A New Way of Building with AI",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/105255395/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-6-9%2F403597703-44100-2-81bdf6a484203.mp3",
+    "pub_date": "Wed, 09 Jul 2025 16:17:54 GMT",
+    "duration": "01:04:49",
+    "description": "<p>Thanks to <strong>MLflow</strong> for supporting this episode \u2014 the platform helping teams track, manage, and deploy ML and GenAI projects with ease. Try it free at <a href=\"https://mlflow.org/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">mlflow.org</a>.</p><p><br></p><p>What if AI could build and maintain your software\u2014like a co-worker who never forgets state? In this episode, Jiquan Ngiam chats with Demetrios about agents that actually do the work: parsing emails, updating spreadsheets, a...",
+    "local_file": "episodes/epep052-a-new-way-of-building-with-ai.mp3"
+  },
+  {
+    "title": "Inside Uber\u2019s AI Revolution - Everything about how they use AI/ML",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/105026993/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-6-4%2F403306804-44100-2-1858046985138.mp3",
+    "pub_date": "Fri, 04 Jul 2025 16:42:26 GMT",
+    "duration": "00:45:23",
+    "description": "<p>Kai Wang joins the MLOps Community podcast LIVE to share how Uber built and scaled its ML platform, Michelangelo. From mission-critical models to tools for both beginners and experts, he walks us through Uber\u2019s AI playbook\u2014and teases plans to open-source parts of it.</p><p><br></p><p>// Bio</p><p>Kai Wang is the product lead of the AI platform team at Uber, overseeing Uber&#39;s internal end-to-end ML platform called Michelangelo that powers 100% Uber&#39;s business-critical ML use cases.</p>...",
+    "local_file": "episodes/epep053-inside-ubers-ai-revolution---everything-about-how-they-use-aiml.mp3"
+  },
+  {
+    "title": "The Missing Data Stack for Physical AI",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/104878060/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-6-1%2F403114405-44100-2-7f170897674ed.mp3",
+    "pub_date": "Tue, 01 Jul 2025 16:11:32 GMT",
+    "duration": "00:52:42",
+    "description": "<p>The Missing Data Stack for Physical AI // MLOps Podcast #328 with Nikolaus West, CEO of Rerun.</p><p><br></p><p>Join the Community: <a href=\"https://go.mlops.community/YTJoinIn\" target=\"_blank\" rel=\"ugc noopener noreferrer\">https://go.mlops.community/YTJoinIn</a></p><p>Get the newsletter: <a href=\"https://go.mlops.community/YTNewsletter\" target=\"_blank\" rel=\"ugc noopener noreferrer\">https://go.mlops.community/YTNewsletter</a></p><p><br></p><p>// Abstract</p><p>Nikolaus West, CEO of Rerun, bre...",
+    "local_file": "episodes/epep054-the-missing-data-stack-for-physical-ai.mp3"
+  },
+  {
+    "title": "AI Reliability, Spark, Observability, SLAs and Starting an AI Infra Company",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/104721011/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-5-27%2F402915425-44100-2-8501bbc130a06.mp3",
+    "pub_date": "Fri, 27 Jun 2025 13:29:53 GMT",
+    "duration": "01:37:22",
+    "description": "<p>LLMs are reshaping the future of data and AI\u2014and ignoring them might just be career malpractice. Yoni Michael and Kostas Pardalis unpack what\u2019s breaking, what\u2019s emerging, and why inference is becoming the new heartbeat of the data pipeline.</p><p><br></p><p>// Bio</p><p>Kostas Pardalis</p><p>Kostas is an engineer-turned-entrepreneur with a passion for building products and companies in the data space. He\u2019s currently the co-founder of Typedef. Before that, he worked closely with the creators o...",
+    "local_file": "episodes/epep055-ai-reliability-spark-observability-slas-and-starting-an-ai-infra-company.mp3"
+  },
+  {
+    "title": "Greg Kamradt: Benchmarking Intelligence | ARC Prize",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/104567092/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-5-24%2F402716503-44100-2-76cc4880ea81c.mp3",
+    "pub_date": "Tue, 24 Jun 2025 11:21:14 GMT",
+    "duration": "00:48:30",
+    "description": "<p>What makes a good AI benchmark? Greg Kamradt joins Demetrios to break it down\u2014from human-easy, AI-hard puzzles to wild new games that test how fast models can truly learn. They talk about hidden datasets, compute tradeoffs, and why benchmarks might be our best bet for tracking progress toward AGI. It\u2019s nerdy, strategic, and surprisingly philosophical.</p><p><br></p><p>// Bio</p><p>Greg has mentored thousands of developers and founders, empowering them to build AI-centric applications. By craf...",
+    "local_file": "episodes/epep056-greg-kamradt-benchmarking-intelligence-arc-prize.mp3"
+  },
+  {
+    "title": "Bridging the Gap Between AI and Business Data // Deepti Srivastava // #325",
+    "episode_number": "325",
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/104409155/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-5-20%2F402521359-44100-2-6945f69f5f792.mp3",
+    "pub_date": "Fri, 20 Jun 2025 14:13:16 GMT",
+    "duration": "00:57:13",
+    "description": "<p>Bridging the Gap Between AI and Business Data // MLOps Podcast #325 with Deepti Srivastava, Founder and CEO at Snow Leopard.</p><p><br></p><p>Join the Community: <a href=\"https://go.mlops.community/YTJoinIn\" target=\"_blank\" rel=\"ugc noopener noreferrer\">https://go.mlops.community/YTJoinIn</a></p><p>Get the newsletter: <a href=\"https://go.mlops.community/YTNewsletter\" target=\"_blank\" rel=\"ugc noopener noreferrer\">https://go.mlops.community/YTNewsletter</a></p><p><br></p><p>// Abstract</p><p>I\u2019...",
+    "local_file": "episodes/ep325-bridging-the-gap-between-ai-and-business-data-deepti-srivastava-325.mp3"
+  },
+  {
+    "title": "The Creator of FastAPI\u2019s Next Chapter // Sebasti\u00e1n Ram\u00edrez // #324",
+    "episode_number": "324",
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/104255040/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-5-17%2F402318351-44100-2-ff9c557ccc595.mp3",
+    "pub_date": "Tue, 17 Jun 2025 15:33:57 GMT",
+    "duration": "01:09:37",
+    "description": "<p>The Creator of FastAPI\u2019s Next Chapter // MLOps Podcast #324 with Sebasti\u00e1n Ram\u00edrez, Developer at FastAPI Labs.</p><p><br></p><p>Join the Community: <a href=\"https://go.mlops.community/YTJoinIn\" target=\"_blank\" rel=\"ugc noopener noreferrer\">https://go.mlops.community/YTJoinIn</a></p><p>Get the newsletter: <a href=\"https://go.mlops.community/YTNewsletter\" target=\"_blank\" rel=\"ugc noopener noreferrer\">https://go.mlops.community/YTNewsletter</a></p><p><br></p><p>// Abstract</p><p>The creator of F...",
+    "local_file": "episodes/ep324-the-creator-of-fastapis-next-chapter-sebasti\u00e1n-ram\u00edrez-324.mp3"
+  },
+  {
+    "title": "Everything Hard About Building AI Agents Today",
+    "episode_number": null,
+    "audio_url": "https://anchor.fm/s/174cb1b8/podcast/play/104075540/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-5-13%2F402093896-44100-2-9fea7a8a6b789.mp3",
+    "pub_date": "Fri, 13 Jun 2025 14:00:46 GMT",
+    "duration": "00:47:02",
+    "description": "<p>Willem Pienaar and Shreya Shankar discuss the challenge of evaluating agents in production where &quot;ground truth&quot; is ambiguous and subjective user feedback isn&#39;t enough to improve performance.</p><p><br></p><p>The discussion breaks down the three &quot;gulfs&quot; of human-AI interaction\u2014Specification, Generalization, and Comprehension\u2014and their impact on agent success.</p><p><br></p><p>Willem and Shreya cover the necessity of moving the human &quot;out of the loop&quot; for feedb...",
+    "local_file": "episodes/epep059-everything-hard-about-building-ai-agents-today.mp3"
   }
 ]

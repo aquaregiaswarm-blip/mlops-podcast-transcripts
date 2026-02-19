@@ -1,0 +1,34 @@
+{
+  "tech_tags": [
+    "LLMs",
+    "Spreadsheets",
+    "Databases",
+    "Slack",
+    "Teams",
+    "Jira",
+    "CRMs",
+    "Data Normalization",
+    "Prompt Engineering",
+    "AI Agents"
+  ],
+  "business_tags": [
+    "Data-driven decision making",
+    "Customer Experience",
+    "Data Organization",
+    "Real-time issue resolution",
+    "Efficiency"
+  ],
+  "key_topics": [
+    "Transforming unstructured data into structured data",
+    "Use cases for AI agents in business",
+    "The importance of data organization for AI adoption",
+    "AI Agents for Summarization and Expansion of Ideas",
+    "Overcoming data silos"
+  ],
+  "guest": {
+    "name": "Spencer Reagan",
+    "role": null,
+    "company": null
+  },
+  "summary": "Spencer Reagan discusses using AI agents and LLMs to transform unstructured data into structured data, improving customer experience and business efficiency by normalizing data across disparate sources."
+}

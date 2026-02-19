@@ -1,0 +1,34 @@
+{
+  "tech_tags": [
+    "AI",
+    "MLOps",
+    "AIOps",
+    "Data Modernization",
+    "App Modernization",
+    "Low-code/No-code",
+    "Alerting Systems",
+    "CPU Utilization",
+    "Resource Utilization",
+    "Data Analytics"
+  ],
+  "business_tags": [
+    "Managed Services",
+    "AI Enablement",
+    "Digital Transformation",
+    "ROI",
+    "Process Standardization"
+  ],
+  "key_topics": [
+    "AI Operations",
+    "MLOps and AIOps Integration",
+    "Agents in IT Operations",
+    "Proactive Monitoring",
+    "Data Quality and Standardization"
+  ],
+  "guest": {
+    "name": "Ronnie",
+    "role": "Partner",
+    "company": "PwC"
+  },
+  "summary": "Ronnie from PwC discusses AI-driven managed services, focusing on MLOps/AIOps integration, agent deployment challenges, and the importance of data quality for successful AI adoption."
+}

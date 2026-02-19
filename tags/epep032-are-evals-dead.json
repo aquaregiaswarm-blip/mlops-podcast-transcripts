@@ -1,0 +1,30 @@
+{
+  "tech_tags": [
+    "LLMs",
+    "APIs",
+    "CI/CD pipelines",
+    "A/B Testing",
+    "Prompt Engineering",
+    "Guardrails",
+    "Foundation Models"
+  ],
+  "business_tags": [
+    "Agent Evaluation",
+    "Risk Mitigation",
+    "Productionization",
+    "Software Engineering",
+    "Model Deployment"
+  ],
+  "key_topics": [
+    "Evaluation of AI Agents",
+    "Multi-turn conversation evals",
+    "Prompt rollouts and A/B testing",
+    "Guardrail implementation"
+  ],
+  "guest": {
+    "name": "...",
+    "role": "Data Scientist (implied)",
+    "company": "..."
+  },
+  "summary": "Evaluating AI agent performance is crucial for reliable deployment. The discussed methods leverage offline evals, simulations, and careful prompt engineering, with insights from traditional machine learning practices."
+}

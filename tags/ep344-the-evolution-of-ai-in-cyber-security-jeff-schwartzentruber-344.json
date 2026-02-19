@@ -1,0 +1,33 @@
+{
+  "tech_tags": [
+    "Signatures",
+    "File Hash",
+    "Malware",
+    "Antivirus",
+    "Firewalls",
+    "Anomaly Detection",
+    "ETL Pipeline",
+    "Splunk",
+    "IP Addresses",
+    "NLP"
+  ],
+  "business_tags": [
+    "Risk Management",
+    "Security Operations Center (SOC)",
+    "Alert Fatigue",
+    "Managed Service Providers (MSPs)",
+    "Data Security"
+  ],
+  "key_topics": [
+    "Evolution of cybersecurity defenses",
+    "Limitations of signature-based and anomaly detection systems",
+    "The impact of AI on cybersecurity threats and defenses",
+    "Risk assessment and security investment decisions"
+  ],
+  "guest": {
+    "name": "Jeff Schwartzentruber",
+    "role": null,
+    "company": null
+  },
+  "summary": "Jeff Schwartzentruber discusses the evolution of cybersecurity, the challenges with current methods, and the potential of AI while considering the organizational risk involved."
+}

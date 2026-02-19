@@ -1,0 +1,163 @@
+We started live kit right in the middle of the pandemic. We're really fast. We had a lot of, like, big companies that started to use it product Market fit, right from the get-go. But we didn't have a product. I mean, we had an open source project. I got pinged by a really large cloud provider and they're like, can we buy you? Can we license live kit cloud? Or maybe we'll just kill you without open source.
+ You're The Accidental AI company.
+ Wow, I didn't think you're gonna open up with that, but yes. Yes, we are jumping right into it. Right in let's go. How did that happen?
+ Oh man, that's a crazy story. I've told it once on a podcast, but I'll tell it again. Since you probably have a bigger audience than they do. I think you're overestimating me. My mom listens to this podcast and that's about it. I can tell you, funny story, my mom listens to a lot of podcasts. This one, not this one probably. She's a huge fan, though of Dylan Patel. Oh, I just interviewed him yesterday. Did you? That's so funny. Yeah, so crazy. The sad part, is that this machine right here? Crapped out 10 minutes in. So, it wasn't a podcast. It was a conversation. Oh, no. Yeah, he's so smart. Yes, my mom told me so smart. He wasn't really demonstrating how smart he was when we were talking, but,
+ You should put this part in too. Yeah. Shout out to Dillon I can tell you a funny story about Dylan too. He'll be mad though. If I tell you that story on air.
+ Off air off air offer. We'll talk about that. He's awesome now. So how do we become an AI company?
+ So live kids been on kind of a journey. We started the live kid right in the middle of the pandemic.
+ Kind of towards the start 2020.
+ Pandemic was a weird time in the world.
+ You couldn't leave your house, right? And
+ The only way you could connect with other people, was through the internet. Yeah.
+ And the way people did that predominantly was using a camera and a microphone on their computer, right?
+ it turns out that
+ When you go to do that, like transmit data, from your camera, on your microphone.
+ The internet as we mostly have known it for the last 30 years.
+ Wasn't designed for that.
+ HTTP stands for.
+ Booth. You're testing my knowledge huh? No idea. It stands for hyper text transfer protocol. Yeah, I never would have got that. So it was designed. It was designed for you to transfer text HTML, which is just text over a network. It wasn't called hyper voice transfer protocol. Hyper video as needed to be.
+ And during the pandemic, we needed a protocol for transferring data, over a network that was rich richer than text audio and video data from your camera and your microphone.
+ And so there is another protocol for doing that called Web RTC. Yeah, but it's just not commonly used up until leading right up to the pandemic. They're really only three apps at scale that were using that protocol. Google meet Discord and zoom, and so Zoom uses a kind of a custom version of it.
+ So it should be no surprise that when the pandemic hit those are the three apps that everyone was using
+ Because they were the only three one was. There were you? Yeah, they were the ones designed for this kind of world. We found ourselves in
+ but if you are a developer that was trying to build your own application, that needed real-time audio and video,
+ You had to build a ton of infrastructure yourself. Think of it as like you had to, you didn't have stripe for this kind of
+ Need you had to go build all of this stuff, yourself to interface, directly with the payment, Gateway in our world here. We're talking about with networks raw kind of network protocols.
+ and so,
+ I discovered this limitation of how much I would have to build myself.
+ By actually working on a side project during the pandemic. I was working on a clubhouse for companies when Clubhouse is kind of Clubhouse, I know, right? Forgot about throwback very pandemic and so I was trying to build a clubhouse for companies and I had to build all of this infrastructure myself.
+ To.
+ Actually ship the product.
+ and so, I'm like,
+ Maybe this infrastructure that I had to build myself.
+ Could be valuable to other people.
+ So I pinged my, you know. Now co-founder David we had done a company before that and sold it to medium. And so I picked him and I said, hey,
+ I want to, like,
+ I want to build this side project but I also think it'd be cool if we could like
+ Give this infrastructure away to other developers so that they can use it. And that was what turned into life kit. Was, it was an open source project that built real time audio video streaming infrastructure in a world where
+ you needed to connect with other humans over the internet and it was very hard to do so or build an application that needed to do so and so that's how we started.
+ We were really fast. We had a lot of, like, big companies that started to use it, you know, Spotify and Adobe and eBay and Oracle and all this stuff. So product Market fit. Right from the get-go is product Market, fit. Almost from the get-go, but we didn't have a product. I mean, we had an open source project. Yeah, okay. But we didn't have a commercial product and so we decided, hey, like these big companies are using us. Let's go talk to them and find out why. And what they said was like, hey, we love the product you've built. We can see her code clearly. You guys are good programmers, or my co-founder is maybe not me so much full credit to him, but
+ Can we have a commercial product? Like we don't want to deploy and scale this ourselves. We want you to deploy and scale this for us and run a network and we'll pay you money. So we said okay well that's a path to continue working on this for the long run you know so why don't we do it? So we raise some money and we started working on this live kit cloud system which is like this Global Network for streaming audio and video we'll go too much into the details of it because that's not really the question you asked me is how do we become an AI company?
+ But I promise this part is kind of relevant. So we launched the cloud product at the end of 2022.
+ And at the end of 2022, chat GPT, the website comes out. Oh, and I'm like wow, this gpt-3 model is like so good or 3.5 is so good. It feels like I'm texting with a human.
+ I'm like, what if I took life kit? And I paired it with this website and
+ Like I combine the two things together, you know, run check that openai.com in a puppeteer session, a headless browser and then like take the speech convert into text pipe it into the Headless browser into like the div tag. Hit the submit button, so ahead of your time, right. Like what if I Jerry rig this thing together where you could talk to Chachi PT? Instead of text with it voice? Say I wasn't a space, right? I think deep Grandma had been around, but I put out this demo. I tweet it and I'm like, I'm for sure. Going viral, like belted in your boat. I'm like, this is her like, Samantha from her. I'm definitely going viral.
+ Except without the voice. And, and it just goes nowhere, nobody notices. Well, 90 people saved it. So maybe 90 people noticed, but definitely didn't go viral. So it's pretty disappointed.
+ Fast-forward. Five months later.
+ Is a really long amazing story that I won't tell.
+ Because it'll take a long time.
+ Something happened in that morning. That was pretty interesting and now I'm like teasing it. Yeah, maybe you can just cut it out if it's wrong. Yeah, we got full directors cut. I got pinged by a really large cloud provider.
+ A up to I think it was August 4th 2023. So five months after I put out this demo.
+ I get pinged by a large cloud provider and they're like, I go have lunch with them for five hours and they're like, can we buy you? Can we license cloud?
+ And deploy our own network. Or maybe we'll just kill you with open source.
+ And I'm like down dude that's usually what happens after seven years. It's happening. After 2, I was like I'm flattered and I'm also terrified
+ And so they say, Well, they're like look, I'm like, how much would you offer just curious? You know, maybe I'll maybe I'll sell. Who knows? What's the number? And they're like 20 mil and I'm like,
+ Not a bad payout, not bad to your project but we raise 15. Oh okay. Sounds like not the best. I'm not gonna be the best.
+ So sorry guys, you're like wait wait wait wait. They're like look.
+ if you can, somehow,
+ Thai. What you're doing this audio video streaming stuff. If you can tie it to Jenai know, you're like, you didn't see my tweet, 200, 200 million. If I could tie to Nye, and I said, dude, that's ridiculously. You said that.
+ And I can't tie to Jenny. I have no way. I wear a video conferencing live streaming company I didn't think about my demo.
+ So I leave this meeting.
+ Co-founder and I are talking David and I are talking. We're like terrified. It's large companies coming out for us.
+ What do we do? We're like, okay, I guess we've got to move fast. It's only Advantage. We have
+ driving home.
+ After you know, during rush hour, I get this email that comes in and says hello from openai.
+ And I I jump on a call with them, they found you because of what you and they're like we found your blog post.
+ and the demo you build that you tweeted,
+ and we,
+ Have been wanting to build a voice interface to Chachi PT.
+ And so, three weeks ago, we signed up with a personal Gmail.
+ Seated knows us.
+ This is the content right here and dipity and and
+ we love the platform and now we want to
+ Build this thing for real and ship it.
+ And so,
+ I was like,
+ what?
+ Okay.
+ Which you still didn't connect the 200 million at that point you were like, I gotta go back to nice guy. You know what's funny? I say now that I did I'm like, wait, I have a generous story. I didn't really actually, I didn't connect it, I don't know. I think I was too, like, just mind-blown.
+ What's also interesting is that so we were you know we got in a month of building this with them and we shipped voice mode in September the first version of it before Advanced and all of the GPD 40 and all of that stuff.
+ and,
+ In that moment was when I realized that this is an AI company.
+ And the realization and then soundbite exists everywhere in other places too. Because I have set it a lot. The realization was
+ Oh man. Open AI wants to build AGI.
+ AGI in my opinion is a human like computer. It's a synthetic human if we're successful and get all the way there, synthetic human.
+ How are you going to interact with a synthetic human? You're gonna talk to it. You're going to interact. The way that humans interact like how we're interacting. And we use eyes ears and mouse predominantly to interact with one another
+ The equivalent sensors.
+ The equivalent sense is for a computer how it gets that information, our cameras microphones speakers. It turns out that live kit which was built for connecting human, Southern humans, using cameras, microphones and speakers, you can swap out one of the humans because all of a sudden that computer is now human like and you can use the same technology to connect a human to a machine.
+ And so if open Ai and anthropic and Gemini and you know, the labs are going to build the brain.
+ Live kit has an opportunity to build the nervous system.
+ Carry signals to and from that brain wherever they originated. Wow. And with you know, ultra low latency
+ and so then I was like, wow, this is going to be, this could be
+ It has a good shot of being, a core piece of like infrastructure.
+ That is the backbone of multimodal AI and in the future you want to qualify it as multimodal AI it'll just be AI, right? Because that's where this is all going to go. Once the model gets smart enough and capable enough, it's all going to be multimodal. So
+ Oh, that's how we became an AI company.
+ I was not expecting that when I asked the question, I did not think that it was going that deep, but what a story, what a way to just live serendipitously and recognize that it's crazy. Just rode the wave. You know what Justin Kahn is a friend and an investor first check actually into live kit. And he was a, the guy that started twisting TV, right? Yeah. Just twitch twitch. And we were just talking about this the other day where Emmett one of his co-founders who was a CEO of twitch, very briefly, maybe the CEO of two, but so many dramas. I once ran into him at a party in YC, in the early days and I had taken a job at 23 and me and like anyway that's not really part of the story. I ran into I met at YC party in the early days and I was asking him how was how was Justin TV going? It wasn't twitch yet and he was like, you know, we're doing great. We're running these Interactive.
+ Ads for horror movies. We're getting paid, but then this other thing going on on Justin TV, which is everyone keeps streaming StarCraft videos. So, we're thinking about doubling down on people streaming StarCraft videos. And, you know that became twitch.
+ And throughout my whole career as an entrepreneur I've just been like, why the heck can't that happen to me? Why can't I get lucky where people just start to use something in a way that I never predicted and then I can just ride the wave into success. You can't engineer that, right? And so it's kind of surreal honestly, that it ended up happening because I've been thinking about like why can I just have that happen? Why can't I get lucky? And then it had ended up happening, it's it's wild. Maybe there's things that now you're like okay I've seen this five times and it works out in the end. So I'm not gonna be so stressed about it. I think it's interesting because it's like my fifth company.
+ And I have a lot of learning from the previous ones.
+ But I think the learning that I have can be kind of like distilled down into one important Point, not even necessarily that I've seen it play out and I missed something more. So that the thing that I didn't do with my previous companies was, I did not think long term,
+ Always think long-term when you're doing something right? What kind of value, you're creating long-term? What kind of movement are you attaching yourself to long term?
+ In the past. I've kind of optimized for
+ more reactive things like how do I compete with this other person or
+ How do I position myself around? What is like the Zeitgeist at this moment and build for that, right? Or you guys don't have mCP server.
+ You know what? We actually might but I hear don't you. But that's not what you're talking about. We might, that's not what I'm talking about, you know? And that's not what stresses you. I imagine whether or not you have mCP server isn't something that keeps you up at night. These days. It's not and and for what it's worth, Shane. Built the mCP server if we have one. So blame him. It's I had nothing to do it. I wasn't part of the conversation, so it's all about him. We're going to talk about that later actually, because he's not thinking long term. I'm just kidding. Hi Shane know, but Shane's Awesome by the way, but it sounds like, yeah. But
+ you know, like,
+ We've always optimized in my past companies like around some kind of like myopic or small or near term thing.
+ Okay, what we did differently. This time was we actually didn't start live kit to be a company, right? We started it as an open source project because you had a pain because we had a pain and I actually was this is the truth, DZ my co-founder and I we thought that we were gonna build a Bitcoin wallet DC sounds like a Bitcoin name. He well and I think he puts like Bitcoin Maxine is like Twitter. His Twitter bio maybe he does, I don't know but perfect. If he doesn't he is a Bitcoin Maxi so don't talk to him about crypto. You'll never hear the end of it but I did see he's awesome too. But no we want. We were like you know what? We want to work in crypto's getting hot again. See, not thinking long term but in the meantime like we don't really have a good crypto idea. So we'll like just try to build some value for people. Hey you know what like we're in this pandemic and people need to like use audio and video a lot.
+ Why don't we make that infrastructure easier for developers? We've been developers we've benefited from open source, why don't we give it back and like build something so that they can go faster. And so that was really what it was were like you know there's gonna be more video on the internet not less, the internet's gonna get more real time not less real time and so that's truly like how we started
+ And then when the AI stuff happened, we said okay well we have this magical llm technology, right? We now have a probabilistic computer.
+ That's like kind of like a raw material. How are you going to interact with that raw material? How do you harness it and like, Leverage it in an application? And deliver that value to users and scale it. And so, it turns out that you need a lot of infrastructure around, like a lot of deterministic regular old code infrastructure around this like statistical, or probabilistic or stochastic computer.
+ To really leverage it and harness it. And so that's kind of been our Guiding Light is we're going to build all of that infrastructure, all of that muck. So that developers who are building apps, that need to use this magical technology. Don't need to. Yeah, and you're the rock. Yeah, and then everything else Foundation more fungible. Yeah. Yeah. And so I think, think long term is the big lesson that I have is there
+ A place where you are doubling down your bets right now.
+ Yeah, for sure.
+ You know, we now the way I like, even if you're going to our website, like we pitched the platform a little bit differently because we are kind of all in on AI infrastructure. It's not that video conferencing and live streaming companies don't use us, they still do. But every product is trying to figure out how does AI fit into my product and how can it make my product better?
+ And so, even video, conferencing and live streaming is going to have ai as part of it. So, we're really focused on AI infrastructure. What I say now is, we're kind of building the platform for voice video and physical AI, right.
+ The other way that I say it is, you can now give your application an ability, it never had before. It can see, it can hear it can speak. And in the robotics case, it can move.
+ and,
+ so,
+ what's interesting about where we are today, you know, I just gave you the pitch or the one linear. But what's interesting about where we are, is that
+ We actually don't have the complete platform yet.
+ We're not a complete product, this is like kind of anti selling our stuff, right? Maybe I should be doing something different, but the honest truth is, we don't have a complete product yet.
+ We have the transport Network, which is how we started prey.
+ Then with open AI, we build, this agents framework, which allows you to orchestrate and build voice agents and you can think of that as like our next JS, write for voice agents.
+ So, we have the next JS and we have the network that when you build an agent, using our next.js, it can connect to our Network and stream the audio and video, that's nice.
+ But in the middle, you have like some gaps. Like, so when you build your voice agent, using our framework, how do you test and evaluate that framework? How do you know what it's doing, right? Or if it's doing the right thing or the intended thing, and then once you have a statistical confidence, that it's doing the right thing,
+ How do you deploy it and scale it and load balance, right? Because voice agents are not web applications, they are stateful, they're always running for as long as the session is running. They're constantly processing voice and generating voice. So it's not like a connect, send some data, do a database operation, disconnect kind of thing, it's stateful and always on. And so how do you deploy and load balance? Something like that. It's just a different Paradigm. Than, of course, you have the Run part of it, like so you deploy it now, how do you run it? That's our Network infrastructure. That's our toffee infrastructure. And then on the end, it's like, once you're running it, how do you observe it? Where is the data dog? Or the New Relic for voice AI?
+ So to Tom that's I think another great member of your team. Um yeah it's very deep. I want to say something bad about Tom and then say he's awesome afterward but yeah we gotta have nothing bad to say about Tom Tom's amazing and and so building that end-to-end platform is really what we're trying to do, right? Like and it's not because we are dreaming it up and it's like this is what everyone needs and if we build that they will come, you know, field of dream style. It's because like our community and users are literally asking for this stuff every day. They're like, I built this agent. I'm running this agent on the network, it's working great. But like, I'm struggling with deploying it. So, we working on a hosting product, I'm struggling with testing and evaluating. So we're looking at partnering with people who are working in the evaluation space, right? But also we're exploring whether we should do some stuff ourselves or on evaluation that works really well within the life can because system, and then they are observe ability side where like, okay, well, how do we monitor this stuff people want visibility?
+ Into these systems to know what are the user experience is like that might that they're having with my application. And so we're kind of trying to tackle all of these things and build that kind of all in one platform. So that you can go from zero to shipping and scaling and production and making money and building a successful business all with using life. Get that Foundation, you just plug in and then your golden 100%. Yeah, I love that vision. And so, now it's doubling down on the platform ecosystem. Yes.
+ 100% tuned. So cool. You should pitch this. I'm thinking is better. You said it like in like 10 seconds and I didn't have that. I took like two minutes. Wow. That's easy to do. Yeah, one thing I do think about voice which is fascinating is how much of a rich medium it is. And how many? Oh yeah signals you can get. Yeah. Yeah from voice which is very unlike text I mean you're right about all those things right? Thank you. So voice is fundamentally higher bandwidth than text right? It carries more data, you know it's more dense per packet let's say right or per bite and
+ The reason why is because it's caring more information right. Voice data has
+ it has prosody and intonation and a Cadence all kinds of these aspects of sound that humans like
+ automatically pick up on and can change the semantics of what you're saying, right? The way you say something absolutely matters, maybe not as much as what you say. But it definitely makes a difference right in interpretability or how that information is perceived by your brain, right on the receiving end. And so
+ The other part about this is like so yes that's kind of just the law of physics of voice.
+ And it simultaneously.
+ Makes it an amazing medium.
+ For interaction and a very natural medium. I mean, this is what we've been doing for thousands and thousands of years, right?
+ Is using voice to communicate ideas to one another, but it also makes it incredibly difficult.
+ To.
+ Build a synthetic human-like experience.
+ Encode. That matches the Fidelity of like a human like conversation and so
+ I think a lot of possibility which is exciting but also it requires a lot of experimentation to get, right? And there's a lot of moving pieces in between, as you said, like, our framework tries to reduce the amount of entropy in the system by handling, a lot of things for you like interruptions and turn taking and the low latency back and forth streaming of the data.
+ but then, you also have things like
+ Transcriptions, and the quality of those when you turn that voice into text and you have the brain piece of it, the llm is it going to understand those prompts in the way that you want them to and call that tool correctly. Exactly. Is it going to call that tool? Reliably? How long does that tool call? Take, do you generate a response in the middle? So that people don't think that you're waiting forever. It's like they're all these aspects, conversational, Dynamics, and reliability aspects of a conversation that if you don't get it right, then you fall into this like uncanny valley and then people kind of rejected.
+ And I think what also makes it even more difficult
+ Is.
+ The thresholds for when someone rejects it or doesn't think it's useful are very use case to pendant.
+ So if you are building, for example, if you're building like patient didn't get a hospital.
+ We've just been talking to a company, I'll give them a shout out. We've been talking to a sword Health there, a user of live kit. They're awesome. They're growing, they're amazing. One thing that we were talking to them about was around latency and they're like, you know, we're like, you know, like the latency, how do you feel if we got that latency even lower and it's maybe coming in at like a second or something for a full kind of turns, or maybe around, 750 milliseconds, somewhere in that range. 750 to a minute, to a second for, you know, time between AI speaking to you speaking Ted, the term latency
+ It and they said, you know, honestly Ferraris case it doesn't matter.
+ They're like when people are on the phone.
+ That are like doing patient to take at a hospital.
+ They don't really care if it takes a second or two seconds, they just want to get an appointment on the doctors calendar and they want to talk about the issue that they're having and like whether it's like super fast, like look if it takes five seconds or 10 seconds yeah it's gonna be a problem. But the distance between like
+ Yeah, 200 vs. 500 versus a second, verse two seconds. They're like what we have found is sometimes the llms take a while to respond, not a life, could prom just want to say. But sometimes they take a while to respond the llm and so it does once in a while. Hit two, two and a half seconds, they actually don't see any drop off from that. If you think about a human doing the same thing, there's a lot of times where I wait. Oh yeah, for sure because somebody is writing something down or they're pulling something up on a computer. So it's not like were unused to, it's not an unnatural Behavior, so that is true.
+ But there are use cases where there are high sensitivity to latency and now I'll give you an example and then I'll talk about a technique. So for language learning,
+ Speak is another company, they build immersive language learning. So if you want to learn how to speak a different language, you can kind of have like an experience where you're talking to a native speaker of that language. And it feels very conversational like you're in their country and you're talking to them and these live kit for this and latency is very sensitive there because like it's supposed to feel like a human conversation. And so if you're not responding very quickly, it starts to feel unnatural, right? And it breaks the experience or the believability of the experience, that's the young Kenny Valley I guess.
+ And so for that use case latency is does matter a lot.
+ What's interesting about what you said about how in like a use case like customer support or patient intake, the person is like looking up information or doing something on their computer and then they respond after a while. What's interesting is? Yes, that is true.
+ but,
+ Usually you're getting some kind of nonverbal feedback you're hearing papers in their hearing people in the background. Okay. Or their or they're saying, you know what I'm gonna do something? Can I put you on? Hold for a second or they're saying oh let me see, ha like and so either non lexical or actual lexical responses that are coming back very, very quickly. And then you're like, you're primed. Okay, I'm gonna wait and so if you just hear silence
+ Your go crazy. That's the part that is like wait, this isn't this isn't working today, right? Is it broken? That's funny. Let me ask again. So you know where this is becoming a thing that people are starting to think about is in reasoning models. Because anthropics model
+ And some of the other models now they don't have like a separate reasoning and then a separate like regular single shot. Llm is they have thinking tokens and a thinking budget. And you can apply like a certain amount of thought to different kind of operations or prompts. And you're like, well, if I'm gonna like apply a high thinking budget, how do I build voice? AI around a reasoning model that can like dynamically think for different periods of time? Well, my recommendation is you need to figure out how do you respond and what do you respond with immediately before you trigger, or in parallel, with triggering? Kind of like a thinking process. So funny, you mention them because I was talking to Elliot who runs Voca and then similar, where she, I'm actually meaning that the guy's tomorrow really Paris. Yeah. Oh, hanging with them for coffee, he's one of the deepest thinkers on conversational design that I have talked to be. Yeah, he's done some really fun stuff where he said
+ We put background noises in so that it feels more human. You know, you don't want, just like a voice agent. There that you can't hear anything else except for the voice. And then he also said that they will intentionally make the agent a little bit like, Dumber, quote unquote, because the human tends to enunciate more. And they tend to be a lot more forgiving and say, what they want in a very articulate way when they think that like, oh, this is just some, like, shity AI. Oh wow. And so, I'm an empathy. Exactly right so funny. It's like this trick, it's such a nice little hack that you have and what he was saying too was, yeah, you have to mention that you're thinking or you're doing something that action is being taken. If you're making someone wait, yes. Because otherwise they think that it just went offline right there has to be that feedback that you get right to kind of. Yeah, prime your mind as to
+ What is happening, right? Even if you can't see what's happening like hearing over, hearing it over the phone, you need some signal dude I think that's perfect way to end it. Is there anything else that you want to hit on that? We didn't talk about know? It's great man. Yeah love chatting with. This is very cool. Yeah you doing this.

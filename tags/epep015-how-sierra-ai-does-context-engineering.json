@@ -1,0 +1,32 @@
+{
+  "tech_tags": [
+    "AI",
+    "LLM",
+    "API",
+    "Unit Testing",
+    "Simulations",
+    "CI/CD Pipeline",
+    "Deterministic Systems",
+    "Access Controls"
+  ],
+  "business_tags": [
+    "Context Engineering",
+    "AI Agent Development",
+    "Software Testing",
+    "Customer Specific Solutions",
+    "Self-Serve Product"
+  ],
+  "key_topics": [
+    "AI Agent Testing",
+    "Simulation-based Testing",
+    "Security and Access Control in AI Systems",
+    "Voice vs. Text Simulation",
+    "Balancing AI and Deterministic Systems"
+  ],
+  "guest": {
+    "name": "Not specified in transcript",
+    "role": "Not specified in transcript",
+    "company": "Sierra AI"
+  },
+  "summary": "Sierra AI uses simulations and AI agents, including LLMs, to test AI systems, focusing on context engineering, abuse detection, and secure access control with customer specific simulations."
+}

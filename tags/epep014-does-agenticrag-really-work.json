@@ -1,0 +1,35 @@
+{
+  "tech_tags": [
+    "Large Language Models (LLMs)",
+    "SQL",
+    "Neural Networks",
+    "CNNs",
+    "RNNs",
+    "LSTMs",
+    "GRUs",
+    "Transformers",
+    "Vector Stores",
+    "RAG (Retrieval Augmented Generation)",
+    "Agentic RAG"
+  ],
+  "business_tags": [
+    "Data Analysis",
+    "Production Systems",
+    "Scalability",
+    "Microservices",
+    "Contextual Relevance"
+  ],
+  "key_topics": [
+    "Evolution of AI architectures",
+    "Limitations of RAG",
+    "Agentic RAG as a solution",
+    "Hallucinations in LLMs",
+    "Contextualizing Agents for Specific Use Cases"
+  ],
+  "guest": {
+    "name": "...",
+    "role": "...",
+    "company": "..."
+  },
+  "summary": "The podcast explores the evolution of AI architectures, focusing on Agentic RAG as a solution to the limitations and hallucinations found in standard RAG systems."
+}

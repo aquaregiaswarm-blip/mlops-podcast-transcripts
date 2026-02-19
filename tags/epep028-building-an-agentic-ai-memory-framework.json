@@ -1,0 +1,29 @@
+{
+  "tech_tags": [
+    "GPT",
+    "Langchain",
+    "AM (Associative Memory)",
+    "LLM",
+    "Knowledge Graph",
+    "Semantic Search",
+    "Anki"
+  ],
+  "business_tags": [
+    "Memory Management",
+    "AI Agents",
+    "Knowledge Representation",
+    "Personalization"
+  ],
+  "key_topics": [
+    "Agentic AI Memory Framework",
+    "Long-term vs. Short-term Memory",
+    "Relationships Between Memories",
+    "Retrieval and Insertion of Memories"
+  ],
+  "guest": {
+    "name": "...",
+    "role": "...",
+    "company": "..."
+  },
+  "summary": "Discussion on building an agentic AI memory framework, drawing inspiration from human memory and existing tools like AM, focusing on relationships and context."
+}

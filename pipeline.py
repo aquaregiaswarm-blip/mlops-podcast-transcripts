@@ -17,8 +17,9 @@ from datetime import datetime
 from google.cloud import speech_v1p1beta1 as speech
 from google.cloud import storage
 
-# Google Gemini for tagging
-import google.generativeai as genai
+# Vertex AI Gemini for tagging
+import vertexai
+from vertexai.generative_models import GenerativeModel
 
 # Paths
 EPISODES_DIR = Path("episodes")
@@ -32,10 +33,12 @@ PROGRESS_FILE = Path("pipeline_progress.json")
 GCP_PROJECT = "prj-cts-lab-vertex-sandbox"
 GCS_BUCKET = "mlops-podcast-audio"
 GCP_CREDENTIALS = "/home/jdgough/.openclaw/media/inbound/file_4---961897d5-1212-4747-bf78-cdf8829e5295.json"
-GEMINI_API_KEY = "AIzaSyCGzlZd01l0Gy7cfn66HKxvxbiPv11VO_s"
 
 # Set credentials
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = GCP_CREDENTIALS
+
+# Initialize Vertex AI
+vertexai.init(project=GCP_PROJECT, location="us-central1")
 
 
 def load_progress():
@@ -95,7 +98,13 @@ def upload_to_gcs(local_path: Path, bucket) -> str:
         return f"gs://{GCS_BUCKET}/{blob_name}"
     
     print(f"    Uploading to GCS...")
-    blob.upload_from_filename(str(local_path))
+    # Use resumable upload with longer timeout for large files
+    from google.cloud.storage import retry
+    blob.upload_from_filename(
+        str(local_path),
+        timeout=600,  # 10 min timeout
+        retry=retry.DEFAULT_RETRY.with_deadline(600)
+    )
     return f"gs://{GCS_BUCKET}/{blob_name}"
 
 
@@ -133,9 +142,8 @@ def transcribe_from_gcs(gcs_uri: str) -> str:
 
 
 def tag_episode(transcript: str, title: str) -> dict:
-    """Use Gemini to extract tags and themes from transcript."""
-    genai.configure(api_key=GEMINI_API_KEY)
-    model = genai.GenerativeModel("gemini-2.0-flash")
+    """Use Vertex AI Gemini to extract tags and themes from transcript."""
+    model = GenerativeModel("gemini-2.0-flash-001")
     
     prompt = f"""Analyze this podcast episode transcript and extract:
 

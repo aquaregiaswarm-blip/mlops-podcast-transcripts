@@ -1,0 +1,30 @@
+{
+  "tech_tags": [
+    "DuckDB",
+    "Duck Lake",
+    "Iceberg",
+    "Delta Lake",
+    "Postgres",
+    "SQLite",
+    "Object Storage",
+    "Docker"
+  ],
+  "business_tags": [
+    "Data Lakehouse",
+    "Multiplayer Use Case",
+    "Open Source Adoption",
+    "Database Architecture"
+  ],
+  "key_topics": [
+    "Duck Lake architecture and design",
+    "Solving the multi-user concurrency problem with DuckDB",
+    "Comparison of Duck Lake to existing Lakehouse formats (Iceberg, Delta Lake)",
+    "Early adoption and positive feedback on Duck Lake"
+  ],
+  "guest": {
+    "name": "Hannes M\u00fchleisen",
+    "role": null,
+    "company": "DuckDB Labs"
+  },
+  "summary": "Hannes M\u00fchleisen discusses Duck Lake, a new format designed to solve DuckDB's multi-user concurrency issues by leveraging object storage and a separate metadata server."
+}

@@ -1,0 +1,32 @@
+{
+  "tech_tags": [
+    "MLflow",
+    "Spark",
+    "AI Agents",
+    "Chatbots",
+    "RAG (Retrieval Augmented Generation)",
+    "API Calls",
+    "Speech to Text",
+    "Text to Speech",
+    "Multimodal Models",
+    "HTML"
+  ],
+  "business_tags": [
+    "Open Source",
+    "Developer Relations",
+    "Production Deployment",
+    "Customer Use Cases"
+  ],
+  "key_topics": [
+    "Evolution of Chatbots",
+    "Multi-Turn Evaluation",
+    "Agent Observability",
+    "Tool Calling in Chatbots"
+  ],
+  "guest": {
+    "name": "Jewels, Danny, Corey",
+    "role": "Lead Engineers, Developer Relations Lead",
+    "company": "MLflow Team"
+  },
+  "summary": "MLflow team discusses the evolution of AI agents, the move towards tool-calling chatbots, challenges in multi-turn evaluation, and the growing importance of agent observability."
+}

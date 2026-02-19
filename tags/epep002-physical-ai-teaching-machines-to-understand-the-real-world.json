@@ -1,0 +1,32 @@
+{
+  "tech_tags": [
+    "Physical AI",
+    "Robotics",
+    "Sensors",
+    "Machine Learning",
+    "Signal Processing",
+    "Foundation Models",
+    "Natural Language Processing (NLP)",
+    "Lidar",
+    "Cameras",
+    "Time Series Sensors"
+  ],
+  "business_tags": [
+    "Industrial Automation",
+    "Predictive Maintenance",
+    "Real-time Analytics",
+    "Horizontal Platform"
+  ],
+  "key_topics": [
+    "Definition of Physical AI",
+    "Building Foundation Models for Sensor Data",
+    "Applications of Physical AI in various industries",
+    "Challenges in processing diverse sensor data"
+  ],
+  "guest": {
+    "name": "Unknown",
+    "role": "Co-founder",
+    "company": "Archetype"
+  },
+  "summary": "Exploring Physical AI: A horizontal platform using foundation models to perceive, reason, and act on real-world sensor data for applications ranging from factories to autonomous vehicles."
+}

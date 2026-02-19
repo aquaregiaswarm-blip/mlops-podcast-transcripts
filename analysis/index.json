@@ -1,9 +1,65 @@
 {
-  "generated_at": "2026-02-17T15:03:07.534441",
-  "episodes_analyzed": 8,
+  "generated_at": "2026-02-17T18:56:36.441706",
+  "episodes_analyzed": 17,
   "top_tech_themes": [
     [
+      "ai",
+      7
+    ],
+    [
+      "machine learning",
+      5
+    ],
+    [
       "llms",
+      3
+    ],
+    [
+      "ai agents",
+      3
+    ],
+    [
+      "api",
+      3
+    ],
+    [
+      "llm",
+      3
+    ],
+    [
+      "large language models (llms)",
+      3
+    ],
+    [
+      "kubernetes",
+      2
+    ],
+    [
+      "llms (large language models)",
+      2
+    ],
+    [
+      "spark",
+      2
+    ],
+    [
+      "rag (retrieval augmented generation)",
+      2
+    ],
+    [
+      "github",
+      2
+    ],
+    [
+      "python",
+      2
+    ],
+    [
+      "sql",
+      2
+    ],
+    [
+      "transformers",
       2
     ],
     [
@@ -11,11 +67,23 @@
       2
     ],
     [
-      "ai",
+      "cursor",
       2
     ],
     [
-      "ai agents",
+      "claude",
+      2
+    ],
+    [
+      "gemini",
+      2
+    ],
+    [
+      "github copilot",
+      2
+    ],
+    [
+      "robotics",
       2
     ],
     [
@@ -33,83 +101,27 @@
     [
       "cxl (compute express link)",
       1
-    ],
-    [
-      "ram",
-      1
-    ],
-    [
-      "slurm",
-      1
-    ],
-    [
-      "kubernetes",
-      1
-    ],
-    [
-      "cuda",
-      1
-    ],
-    [
-      "hip (amd)",
-      1
-    ],
-    [
-      "llms (large language models)",
-      1
-    ],
-    [
-      "streaming aggregation",
-      1
-    ],
-    [
-      "windowed aggregation",
-      1
-    ],
-    [
-      "feature stores",
-      1
-    ],
-    [
-      "spark",
-      1
-    ],
-    [
-      "airflow",
-      1
-    ],
-    [
-      "flink",
-      1
-    ],
-    [
-      "vector search",
-      1
-    ],
-    [
-      "vector indexing",
-      1
-    ],
-    [
-      "online serving",
-      1
-    ],
-    [
-      "redis",
-      1
-    ],
-    [
-      "feature store",
-      1
     ]
   ],
   "top_business_themes": [
     [
       "open source",
+      4
+    ],
+    [
+      "e-commerce",
       3
     ],
     [
+      "fraud detection",
+      2
+    ],
+    [
       "acquisition",
+      2
+    ],
+    [
+      "ai adoption",
       2
     ],
     [
@@ -133,10 +145,6 @@
       1
     ],
     [
-      "fraud detection",
-      1
-    ],
-    [
       "real-time data",
       1
     ],
@@ -149,39 +157,31 @@
       1
     ],
     [
-      "mlops",
+      "developer relations",
       1
     ],
     [
-      "return on investment (roi)",
+      "production deployment",
       1
     ],
     [
-      "data platform",
+      "customer use cases",
       1
     ],
     [
-      "context engineering",
+      "agentic execution",
       1
     ],
     [
-      "enterprise solutions",
+      "security",
       1
     ],
     [
-      "ai adoption",
+      "orchestration",
       1
     ],
     [
-      "software development",
-      1
-    ],
-    [
-      "productivity",
-      1
-    ],
-    [
-      "context management",
+      "workflow",
       1
     ]
   ],
@@ -227,43 +227,43 @@
       1
     ],
     [
-      "context engineering",
+      "evolution of chatbots",
       1
     ],
     [
-      "feature store acquisition",
+      "multi-turn evaluation",
       1
     ],
     [
-      "mlops efficacy",
+      "agent observability",
       1
     ],
     [
-      "redis strategy",
+      "tool calling in chatbots",
       1
     ],
     [
-      "online store comparison",
+      "sandboxing ai agents",
       1
     ],
     [
-      "using ai effectively in software development",
+      "security and isolation",
       1
     ],
     [
-      "best practices and anti-patterns with ai coding tools",
+      "agent tooling and capabilities",
       1
     ],
     [
-      "leveraging ai for both greenfield and brownfield projects",
+      "using machine learning at scale",
       1
     ],
     [
-      "the importance of context in ai coding",
+      "balancing cost, speed, and accuracy of ai models",
       1
     ],
     [
-      "breaking down problems for ai assistance",
+      "leveraging classical machine learning vs. llms",
       1
     ]
   ],
@@ -311,6 +311,90 @@
       ]
     },
     {
+      "file": "epep007-conversation-with-the-mlflow-maintainers",
+      "summary": "MLflow team discusses the evolution of AI agents, the move towards tool-calling chatbots, challenges in multi-turn evaluation, and the growing importance of agent observability.",
+      "guest": {
+        "name": "Jewels, Danny, Corey",
+        "role": "Lead Engineers, Developer Relations Lead",
+        "company": "MLflow Team"
+      },
+      "tech_tags": [
+        "MLflow",
+        "Spark",
+        "AI Agents",
+        "Chatbots",
+        "RAG (Retrieval Augmented Generation)",
+        "API Calls",
+        "Speech to Text",
+        "Text to Speech",
+        "Multimodal Models",
+        "HTML"
+      ]
+    },
+    {
+      "file": "epep012-the-future-of-ai-agents-is-sandboxed",
+      "summary": "Sandboxing AI agents provides a secure, isolated environment for them to operate with broad access to tools and resources, preventing harm to host systems while maximizing capabilities.",
+      "guest": {
+        "name": "Unidentified",
+        "role": "Developer/Engineer/Speaker",
+        "company": "Run Loop AI"
+      },
+      "tech_tags": [
+        "GitHub",
+        "API",
+        "Run Loop AI",
+        "FFM PG",
+        "npm",
+        "Python",
+        "Nodes",
+        "Docker",
+        "Docker file",
+        "Temporal",
+        "LLM"
+      ]
+    },
+    {
+      "file": "epep005-a-playground-for-aiml-engineers",
+      "summary": "Hotmart uses both LLMs and classical ML (SpaCy) for tasks like fraud detection and customer support, balancing speed, cost, and language considerations in a complex ecosystem.",
+      "guest": {
+        "name": "Demetrius",
+        "role": "Data Scientist",
+        "company": "Hotmart"
+      },
+      "tech_tags": [
+        "Machine Learning",
+        "AI",
+        "LLMs (Large Language Models)",
+        "SpaCy",
+        "Kubernetes",
+        "Microservices",
+        "Classical Machine Learning",
+        "Open Source Frameworks"
+      ]
+    },
+    {
+      "file": "epep014-does-agenticrag-really-work",
+      "summary": "The podcast explores the evolution of AI architectures, focusing on Agentic RAG as a solution to the limitations and hallucinations found in standard RAG systems.",
+      "guest": {
+        "name": "...",
+        "role": "...",
+        "company": "..."
+      },
+      "tech_tags": [
+        "Large Language Models (LLMs)",
+        "SQL",
+        "Neural Networks",
+        "CNNs",
+        "RNNs",
+        "LSTMs",
+        "GRUs",
+        "Transformers",
+        "Vector Stores",
+        "RAG (Retrieval Augmented Generation)",
+        "Agentic RAG"
+      ]
+    },
+    {
       "file": "epep013-context-engineering-20-agents-structured-data-and-the-redis-context-engine",
       "summary": "Discussion on Context Engineering, Featureform's acquisition by Redis, the evolving landscape of MLOps, and Redis' strategy in the AI/ML data platform space.",
       "guest": {
@@ -327,6 +411,25 @@
         "Cassandra",
         "Elasticache",
         "Feast"
+      ]
+    },
+    {
+      "file": "epep011-tool-definitions-are-the-new-prompt-engineering",
+      "summary": "AI agents need well-defined 'tools' (not just APIs) reflecting user/agent intent; clear tool definitions and domain-specific tools are crucial for accuracy and speed.",
+      "guest": {
+        "name": "Kiara",
+        "role": "Process Lead Data Scientist",
+        "company": "iFood"
+      },
+      "tech_tags": [
+        "React",
+        "AI",
+        "API",
+        "MCP",
+        "Google Drive",
+        "GPU",
+        "WhatsApp",
+        "LLM"
       ]
     },
     {
@@ -348,6 +451,27 @@
         "Semantic Search",
         "Parallel Grep",
         "API"
+      ]
+    },
+    {
+      "file": "epep003-speed-and-scale-how-todays-ai-datacenters-are-operating-through-hypergrowth",
+      "summary": "Building AI infrastructure faces challenges from power and component shortages to logistical complexities, but Netbox aims to manage this chaos, amidst rapid growth and high demand.",
+      "guest": {
+        "name": "Chris",
+        "role": "CEO",
+        "company": "Confetti"
+      },
+      "tech_tags": [
+        "AI",
+        "Machine Learning",
+        "GPU Servers",
+        "Switching",
+        "Cabling",
+        "IP Addresses",
+        "Switch Configs",
+        "Server Configs",
+        "Fiber Optic cabling",
+        "Liquid Cooling"
       ]
     },
     {
@@ -389,6 +513,68 @@
         "Inference",
         "Monitoring systems",
         "Testing evals"
+      ]
+    },
+    {
+      "file": "epep008-leadership-on-ai",
+      "summary": "A discussion on leading AI adoption within an organization, focusing on developer tools, measuring impact, balancing freedom with guidance, and the importance of continuous learning.",
+      "guest": {
+        "name": "Unclear from transcript excerpt",
+        "role": "CTO or similar technology leadership role",
+        "company": "Unclear from transcript excerpt"
+      },
+      "tech_tags": [
+        "AI",
+        "ChatGPT",
+        "Large Language Models (LLMs)",
+        "GPT-3",
+        "GitHub Copilot",
+        "Amazon Qodana",
+        "Cursor",
+        "Gemini",
+        "Coding Agent Tools"
+      ]
+    },
+    {
+      "file": "epep001-software-engineering-in-the-age-of-coding-agents-testing-evals-and-shipping-safe",
+      "summary": "The discussion focuses on how software engineering is changing with agentic systems and AI, touching upon challenges like reliability, testing and ensuring deterministic behavior.  ",
+      "guest": {
+        "name": "Incomplete, requires full transcript",
+        "role": "Not determinable from provided text",
+        "company": "Not determinable from provided text"
+      },
+      "tech_tags": [
+        "Claude",
+        "VS Code",
+        "GitHub Copilot",
+        "LLMs",
+        "APIs",
+        "Big Data",
+        "Hadoop",
+        "AI",
+        "Machine Learning",
+        "Predictive Analytics"
+      ]
+    },
+    {
+      "file": "epep002-physical-ai-teaching-machines-to-understand-the-real-world",
+      "summary": "Exploring Physical AI: A horizontal platform using foundation models to perceive, reason, and act on real-world sensor data for applications ranging from factories to autonomous vehicles.",
+      "guest": {
+        "name": "Unknown",
+        "role": "Co-founder",
+        "company": "Archetype"
+      },
+      "tech_tags": [
+        "Physical AI",
+        "Robotics",
+        "Sensors",
+        "Machine Learning",
+        "Signal Processing",
+        "Foundation Models",
+        "Natural Language Processing (NLP)",
+        "Lidar",
+        "Cameras",
+        "Time Series Sensors"
       ]
     },
     {

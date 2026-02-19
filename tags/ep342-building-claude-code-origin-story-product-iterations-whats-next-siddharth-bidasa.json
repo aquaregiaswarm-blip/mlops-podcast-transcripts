@@ -1,0 +1,32 @@
+{
+  "tech_tags": [
+    "Claude",
+    "Python",
+    "Spotify API",
+    "Terminal",
+    "Docker",
+    "Git",
+    "Models (3.5, 3.7)",
+    "MCB Servers"
+  ],
+  "business_tags": [
+    "R&D",
+    "Product Iteration",
+    "Early Access Program (EAP)",
+    "User Adoption",
+    "Experimentation"
+  ],
+  "key_topics": [
+    "Origin story of Claude Code",
+    "Product development and iteration",
+    "User feedback and adoption",
+    "Impact of model improvements (3.5 vs 3.7)",
+    "Low Friction Development"
+  ],
+  "guest": {
+    "name": "Siddharth Bidasaria",
+    "role": "Unknown",
+    "company": "Anthropic"
+  },
+  "summary": "Siddharth Bidasaria discusses the creation of Claude Code, its internal adoption, the impact of file access, the to-do list feature, and significant improvements with model 3.7."
+}

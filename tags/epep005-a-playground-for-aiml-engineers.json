@@ -1,0 +1,32 @@
+{
+  "tech_tags": [
+    "Machine Learning",
+    "AI",
+    "LLMs (Large Language Models)",
+    "SpaCy",
+    "Kubernetes",
+    "Microservices",
+    "Classical Machine Learning",
+    "Open Source Frameworks"
+  ],
+  "business_tags": [
+    "Creator Economy",
+    "Digital Education",
+    "Customer Success",
+    "Fraud Detection",
+    "E-commerce"
+  ],
+  "key_topics": [
+    "Using Machine learning at scale",
+    "Balancing cost, speed, and accuracy of AI models",
+    "Leveraging Classical Machine Learning vs. LLMs",
+    "AI applications in customer support",
+    "The challenges of multilingual NLP"
+  ],
+  "guest": {
+    "name": "Demetrius",
+    "role": "Data Scientist",
+    "company": "Hotmart"
+  },
+  "summary": "Hotmart uses both LLMs and classical ML (SpaCy) for tasks like fraud detection and customer support, balancing speed, cost, and language considerations in a complex ecosystem."
+}

@@ -1,0 +1,315 @@
+yeah, I mean I mean that's why
+ I believe in using a semantic layer in the way. Anyway, right, I don't want an LM to write me more sequel, every time.
+ Having you do it once like when it's building the semantic gland and then you reviewing it and approving it and then it uses it over and over again. That's fine. Right?
+ two days ago, I opened up one of
+ my email newsletters that I subscribe to its called
+ exploding topics or exploding Trends. I can't remember with name is but
+ In it. You know what was hilarious. Was that one of the trends that is more and more popular by the day is something called the semantic Slayer. And so I saw that and normally it's like talking about oh this trend of CBD gummies or whatever like magnesium gummies. Those that's a new trend now or hair loss, supplements type stuff. Those are trending and they just look at Google.
+ search results and I imagine now they're taking other Rich data sources to look at, but
+ The thing that blew my mind was I go and I look at it. And I see semantic layer is now a trending topic. And I laughed because I was like, all right, cool, I'm talking to you and I feel like, you know, all about that.
+ Yeah, that's definitely something. I I've spent a lot of time thinking about I and it's a mindset glad that I talked about and like some other semantic layer.
+ Yeah. Oh yeah. No. It's for sure. That would be hilarious. Yeah, if it's like no double entender. It actually means two things. Yeah. And it's not the same semantic layer. Yeah. Because I had to double click on it and think like is this the same semantic layer and the way they dumbed it down. I thought was kind of nice and I'm now going to start saying that was like this is how the Nerds make sure that the data is readable for the non nerds type thing. Yeah.
+ I was like, yes, I'm totally in.
+ Yeah, that's a fun way to describe it.
+ But you've been doing a lot of work in the semantic layer and just in data. In general. Can you give me the background on when you first got your, you found that the semantic layer was your true love?
+ I,
+ It's not that I wouldn't say it's my true love. I I just I just realized
+ That it's needed. And I think,
+ I am the thing that is funny, is I keep seeing people say, oh no, we don't need it. And I'm thinking everyone uses one, you just don't necessarily know you use one because that, if you don't think you need one, because you don't need the software, that means you're the semantic layer. You're the human's romantic. And I've spent
+ Big parts of my career being that human's magic. So I know that there's always one. It's just is it in someone's head? Or is it certified somewhere?
+ So inefficient for me in someone's head, but it makes you feel very powerful.
+ Yeah, it doesn't make you feel useful. Like, I remember being a junior analyst and
+ All these different, senior stakeholders would come up to me and say, hey, can I know this or what's this? And I, because I knew the day tomorrow, I could write any, you know, any reasonable sequel query, that could answer their questions and so yeah, that was cool but you know it like one week I did 77 of those like because I had tickets to do them and I was like, I think this could be automated. I don't think a human needs to do this every time.
+ So, how have you seen semantic layer is done? Well, and semantic layers. Done poorly.
+ so,
+ and there's a lot of context about this.
+ So one of the things I've already written about a bit is I don't really like semantic layers that are kind of baked into bi tools.
+ and I think, for,
+ The readers. Sorry, the listeners of this podcast, that would probably ReSound with them because they you know, that that logic gets locked into some like proprietary platform. Like so we've seen this with tools like looker and even with tools like power bi where you define your semantics in their proprietary DSL. Say it could be like look so easy yaml. But like with power bi looks a bit more like Sequel and so then that you've put that logic there and it can't be used anywhere else. Now, if you were a small company and you're only useful for that, semantic layer is reporting, and you only going to report with that tool. Maybe that's fine and actually, maybe that's perfect because then the semantic layer. And the thing using it are developed together, designed to work together perfectly as much as humanly possible. And it works well and we've seen, that's part of the success of why bi tools of magic players.
+ Succeed.
+ but,
+ If as soon as that's not true like as soon as you want to use that semantic layer for something else. Like maybe you want to pull a metrics into like an ml pipeline or into a data application or maybe you have multiple bi tools or multiple ways of consuming data and you know, you've got people using
+ Tableau power bi Excel, whatever else to access the same data, if then that logic is locked into one platform, then you either have to duplicate the logic across every other platform.
+ Or you just maintain that separately and then you have different versions of the truth. Either way, you end up with different versions of the truth and
+ Then you've kind of defeated the object, of, well, part of the object of having a semantic layer know that resonates 100% with me. It's, it's like, we spend so much time, time trying to avoid vendor locking with technology, and this is something that potentially, we don't necessarily think about on the vendor lock-in side where it's like, oh,
+ If the only place that we can translate the data is within this technology, it's not only that.
+ We are committing to this Tech.
+ Way more, we are now, like beholden to everything that they choose to do.
+ And as we grow, we're going to feel it more and more and you're just at the end of the day, building that technical debt.
+ 100%. And so,
+ If you know that that's coming and you you know, as a team that's maybe that's a resource. I just think it's a very bad idea like you could make better choices.
+ and then,
+ I'm assuming the way to do it is to abstract it out.
+ And make sure that you don't have any semantic layers within the specific tools. Yes, exactly. And so you so, where are you used to work with a company called Cube looked after an open source, semantics there? That's a magic there is hosted elsewhere, and therefore, you know, you could have, you know, like react apps.
+ He using that semantic layer. You could have bi tools, using that semantic layer. You could have ml pipelines using that somatic layer. You could have ai applications using that semantic layer as well. And so that, that is the principle. I I think is correct in terms of the way to deploy this. But yeah, it it's not without its drawbacks, you know, there's very little incentive for the bi tools to integrate nicely with that some antic layer because they like the lock-in, give me makes their customers stickier
+ so you in order for that to work, you end up
+ either having to build that integration yourself as the semantic layer. So like if it's an open source bi tool,
+ Or you have to pretend to be someone else's API. So like with Microsoft you can pretend to be a Dax or MDX API and then those tools like Excel and power, bi can use can pretend that you're their system and yeah. So it's there are drawbacks as well but it's it definitely stops you being locked in and you know, you you don't want it, you know, open sources important as well, right? Because fundamentally, if someone doesn't want to pay for cubes paid offering, they can just use the Open Source One. And
+ Um, you know that's that that's Freedom as well like that's important for a team.
+ now, I want to get into some of the work that you've done and the writing you've done around agents and
+ Like headless, bi and semantic layers and where that all fits in and almost like this new paradigm. But I also
+ Want to just close the loop on this and ask how in your mind? Do semantic layers and data modeling fit together?
+ Yeah. So they fit together very tightly but then not the same so with data modeling it's about arranging your business dates or company organization data so that it cleanly and clearly describes the activities and entities in your company so you can have. So you should have
+ Entities tables that describe any government entity whether that's like a customer or an order or a product and then possibly further models that describe the state change of those entities. And then you also have event type tables or fat type tables, as some people call them which describe interactions between the entities or creations of the entities by others and
+ That's like what I'd call data modeling and there's different methods. So, you know, there's quite famous ones, like Kimball and then like bit more obscure but becoming like more used, like Data Vault and things like that. And I'm not like beholden any of those. Like I think you know, choose which one makes sense, given the situation, I'm not even against like what one big table or some people call it. It's where you have like and I think this is quite popular sometimes in like the data Science World, just have like a very big wide table with how it was just has lots of different features on it and I think there's an actual reason why that is because of how it fits into pipelines. But I'm not against that as well. Sometimes it makes the most sense and if it's not hurting you go for it. But yeah, they that's that's what I think considered a date modeling and then what the semantic layer is
+ This romantic layered describes that data model in terms of, oh, here all those things in that dates more. How do they join together? How do you use them? How do you aggregate them, which ones are like things to group by. So you've got dimensions. And so what that then allows is a very simple API, which is quite close to that natural language whether that's in rest or graphql or something else.
+ And what that allows us someone to say, well here's the menu of things in the semantic layer. I don't need to worry about that data model. How it fits together or how to query or how to write SQL.
+ I can just ask for the things I want it will compile. My request of which is a list of items into quite complex SQL, sometimes and run it and give me back my answer and my data.
+ And that's, that's kind of like the difference between data modeling and somatic layers. They are very tightly linked and good data modeling makes using a semantic there. Have a lot easier.
+ But then they're not the same thing. Exactly. So it's almost like start with data modeling and then get to the semantic layer. Exactly. Yeah. But you can do them like you can go top down as well, right? Because actually the whole point of a data model is to be queried and so if you're querying it, your querying it through a mountain Clicker.
+ whether like I said before, whether that's human or bought software,
+ And so you think about how you want that data model to be created that really dictates how that data model should be built. Yeah, so it feels so little bit like
+ the more you
+ query it, the more you're going to see
+ the best ways to create the data model.
+ Almost like the more that you take a certain path that path is going to get well, defined.
+ when you're walking up the mountain,
+ It's very clear that here's one Trail, there's another Trail, there's another Trail and they get you to different parts of the mountain.
+ and I think this is where
+ data engineering goes a bit wrong. Sometimes is where they just stopped and they just stop. Okay. We're going to extract this data and you don't even know what you can do with it.
+ And then you just stop pressing it and then I only like you get they get to halfway and oh I kind of need to know. I'm gonna do with this before before I can continue and
+ They yeah that would have been much easier and you could have done less work up front. If you actually figured out firstly what you can do that, how it might not have needed all that did. Yeah.
+ Well, now, how does how do agents fit into all of this?
+ So I think agents can fit in a bunch of ways.
+ I think agents, if you think about,
+ Like data pipelines for us for a start. A lot of what companies do there is really wrote, like just setting up a connector. And this is what a lot of data engineering teams. Spend a lot of time doing is looking after connectors and you know, extractions from databases third-party systems which are databases and Rapa, right? And they just spend a lot of time dealing with that because they kind of reinvent the wheel every time they go about it. So either they're setting up five Tran connections for the 15th time or they're building their own custom connector which is again something someone's already done for sure.
+ And actually, if you had an agent, I think agents would be, I haven't, I haven't tried this but I know other people are working on it or have built things like this building and agent that could build connectors is very much achievable because there is no difference between how one company. Another company should just build that basic connector because most of the time people don't pick certain Fields, they just take everything from that sorts and dump it into. Like, raw storage, is that the elt way of working, which seems to be the norm today,
+ Not a lot of thought goes into it. No. So why does you know you should be able to ask an agent? Hey, connect to my Salesforce and pull my data here and into this like S3 bucket, right? That's that's why shouldn't an agent be able to do that. And why does data engineer have to say? I just think that can be automated.
+ and,
+ Then from there, I think there's transformation.
+ So like typically people use DBT or SQL Mash or something like that today to do that.
+ And I think even there a lot of transformation work is wrote as well. Like, if you think about what it takes to get from raw to staging data, like that is almost always the same as did you duplication? It's costing and dealing with null values, all that stuff.
+ That is known, right? It's a recipe to follow. We could definitely have an agent. Do that stuff?
+ And then then it gets a bit harder where I think you're doing things like identity resolution and you're starting to build those models. Describe the business world
+ Now.
+ If you think about that as something that could be anything, I think that's a bit hard for an agent.
+ But if you think that actually most businesses should be asking the same kinds of questions and doing the same things.
+ Then that actually dictates that their data models are quite similar. And then you're just conforming different sources of data to the same kind of data model.
+ and so if that latter, latter way of thinking is true,
+ Then I think you can have agents look after transformation as well.
+ And so, once you've got that data model and this bit, I have done building a semantic layer from a data model, is very easy or in using an agent. I've built agents to do that.
+ and,
+ and even from quite bad data models, where you've just give an it like,
+ A query that someone would run to get an answer, but the query exposes the joins and the entities of the data model.
+ it can land from Land Builders manicures so I know that's possible and I know then
+ Having an agent query that semantic layer as possible, you know a startup before. Yeah.
+ so, if I'm understanding this correctly,
+ The.
+ way that you're looking at it is, instead of
+ All right, let me, let me.
+ try and
+ compile this in my mind because I think you said something pretty important there.
+ The way that you're looking at business is there's going to be a certain amount of questions that every business is going to have, and they're going to want data that can answer those questions. So if you can know what,
+ Those questions are you can have an agent, compile, the data around it.
+ Yeah, exactly. So, you know, what those questions are, you know, this therefore that dictates the semantic layer you need because the question is like,
+ You know, this is a basic question that like, showing me Revenue by this Channel and buy those products filtered by this, right? That when you have a question like that, that dictates a metric and a bunch of dimensions and then some number of entities. So those are the things that need to then be in the semantic layer to answer the question and that's very close to what should be in the data model.
+ Okay, that makes sense. I think I guess the
+ yeah, the key piece there is
+ Giving the agent that glossary of what you mean. What those key terms are when you say XYZ? What does that actually mean?
+ For this company and specifically.
+ In the data. Yeah.
+ On the other piece, I think there is something worth saying, when you were talking about, how it's like the connector side of things, maybe the hard part on that as I was thinking through, all right?
+ Grab my Salesforce data and then just dump it in here or wherever, whatever, whatever the connector may be.
+ The permission issue is probably gonna be the biggest piece. Yeah, hundred percent. That's probably where the the connector is going to want to make sure that you have the right permissions for the data that you're getting and that agent that creates that connection or that agent, that pulls that data automatically is going to need to be equipped with that.
+ Right permission. Well, potentially all
+ You could kind of guide someone and I've seen this in elt tools like fivetran where they have a very long step by step guide. Here's how you create a role. Here's how you assign it.
+ Here's the permissions, you need to give to the role.
+ Okay. Brent, get the token, get the secret.
+ And then give me those things, right? And so,
+ that that's
+ that's what needs to happen, right? It's probably difficult for an agent to then go and touch the systems and get those things, right? That's probably difficult and probably breaks a bunch of security rules.
+ Whereas you just I think that bit is a bit any human could do, right? Any, any human who has access that system is an admin can do that and it's once, right? That's not a huge amount of work.
+ Yeah. Yeah, I can see that then.
+ on the other side of it saying, okay, now that we have this semantic layer and we can create
+ or we can have the agents link up and create the semantic layers. Is that what I understood? You said.
+ Yeah. So once you've done that because it's like Henry Ford model of like data production, right? And so everyone's doing a little piece.
+ There's the agent, doing the connector and running the extractions.
+ There's the agent doing the first bits of transformation. There's maybe an agent doing identity resolution and some other data enrichment. Then there's the agent building the exposed data model for the semantics there, the agent that builds the semantic, land maintains it and then the agent that queries it. So you just try and
+ get this like collection of specialists.
+ Yeah, I wonder have you tried?
+ To do this. Just
+ Without creating a specialist agent.
+ Um,
+ I've done.
+ The latter half of that.
+ With agents.
+ I haven't tried to necessarily do it all with one.
+ It's possible.
+ Yeah. It's actually like if you think about build the dates model, build the semantics there that last two steps could you know, they could easily be joined but then where
+ You're actually doing something quite different. Like where you're doing the extractor?
+ And just saving the data.
+ The difference between that and then doing any transformation and building this matter. There's a quite different activities and like having an agent that could do all of it.
+ Feels like you're asking too much, maybe you could, I don't know.
+ yet, or maybe it's that your
+ Just spending more time on the tools that the agent has accessibility. Yeah, do it.
+ As a saying, I'm going to build an agent that is specifically for this. I'm going to build tools that they agent can call upon and I'm gonna make sure that those tools can accomplish these tasks. Yeah.
+ As you went through and you build your agents, what were some of the hard pieces around?
+ Like building an agent force manic player.
+ Um,
+ the hot piece is there will contacts.
+ So if you have great contacts, you can build a very good amount of air and actually a good day tomorrow as well.
+ The so you it's about feeding that context into the llm.
+ In a way that's concise and Rich and fairly complete.
+ And, you know, I've noticed that you kind of want to be a short as humanly possible.
+ Otherwise, you know, it gets like attention drift or whatever you want to call it.
+ And so that those those are the the tricky things and actually I found using something like called code or cursor or windsorthe to help me build those like basically prompt stuffing systems like that. They're actually very good at helping me build those
+ The Prompt like template or definition, what was not only just a? Yes. So the template but then also the
+ The piece is which pick what goes into the prompt.
+ Almost like these variables that you're adding in in the different scenarios. Yeah.
+ Unlike causing things like knowing, like what you should pause and what's okay to leave as is like so sequel. For example, is something where I experimented with, can I just leave it as it is and let the llm read it? Or is it better for me to pause it into some kind of structure like Json or something? Where I can describe the joins. So I use a library called SQL block.
+ To parse SQL into that kind of format, which makes it very explicit. And I found there was left from doing that. Yeah,
+ that's a nice little secret.
+ So, basically parsing the sequel gave, you gave the LM better understanding of what you were trying to do with that sequel. Exactly.
+ It makes me all the less confident in the llm sequel output.
+ Yeah, I mean I mean that's why
+ I believe in using a semantic layer in the way.
+ Anyway, I don't want them to write me raw sequel. Every time having to do it once like when it's building the semantic land and then you reviewing it and approving it. And then if he uses over and over again, that's fine. Right?
+ Oh yeah, it's just that long tail of questions and I guess that's kind of where you go back to. Well look there's probably a bit of a 80/20 principle here where you have certain amount of questions that are always going to be asked. Yeah. And then you got that long tail and it reminds me of a guess that we all had on here. Donated who created a data analyst agent.
+ And she was talking about how
+ the majority of the productivity gains that they saw, when they gave their analysts access to this agent,
+ was on the
+ the like,
+ Middle questions. So not the super, super easy ones. Yeah.
+ And not the really, really hard ones, but those ones in the middle is where you really saw that. Wow. I used to have to spend a lot of time putting something together here, but now I can ask it and the way that they did is you just in slack asked in natural language.
+ And then the
+ agent would go and check the database and it only had access to one database
+ which so if it was the marketing channel, there was the marketing agent that could go and access the marketing database and
+ that was always that, that kind of stuck with me, how it is
+ really attacking.
+ Those that middle ground almost like that bell curve of there's probably a lot of questions that are very hard that are those long tail questions that you still need to sit down and think through and spend time with and then you have your shower moment of oh that's how it is. But
+ for those other ones that are like, you were saying very wrote,
+ Let's try and get as much Automation in there as possible. Yeah, it's interesting what I'm saying. Yeah, about the easy questions and I'm always someone would say that. Because the easy question, I like to five minute ping. I'm unless on slack and I'll do it. So you don't feel like it's a lot of Bali and it's maybe not in the actual time of auction list questions but I think in the times of like context switching and disruption, it probably is still really valuable to answer this easy question's. Yeah, well I I think the way if I'm remembering correctly she was talking about was that
+ It wasn't.
+ As helpful for people who had absolutely zero data knowledge, right?
+ so, it's not like,
+ The.
+ The random janitor at the company could jump into that slack Channel and be like, hey and they would know all the jargon and they would know how to ask the question correctly.
+ so those were the folks that were getting help and so it wasn't entirely self-serving that way, but
+ And then on the other side of it, it wasn't like the super hard questions that you need real in-depth thought about and what kind of played in that middle layer I guess. So maybe I didn't explain it correctly that first time. Yeah. It's only about like it's almost like this concierge War.
+ There are people out there who just don't think in a consultative way and they don't need to to do that job's.
+ And then they come to data and I they don't know how to conjugate the question. That would be easily answerable. Yeah. And I guess like there is an element of like coaching you could do is okay. Well, these are the things you can know about and these are the sorts of questions you could answer ask. And then I think you can kind of guide. Someone say, okay, I'm gonna ask a question in that kind of format and then yeah, but yes, yeah I can see and when you say that, it reminds me of way back in the day, I had someone on here from the financial times and they talked about how they and this was pre.
+ LMS era and agent analyst era.
+ And their data team was just getting rocked because everyone was coming to the dates team. As they do with these small simple questions, and or big questions and very important questions, but the team was
+ Understaffed and overworked. So, what they decided to do, instead of trying to do, like a self-serve motion, where you now can come and ask your own questions.
+ They said we're going to try and get.
+ Like a human API in a way that you asked this person only.
+ All the data questions and that person is going to then work with you on that question and come back and ask you, okay? So like if you had this information, what would you do with it? What kind of actions are you going to be able to take their and what's what is that?
+ Going to solve getting that information, what is it? And a lot of times folks would after talking through it, with somebody, they would realize like, oh, actually, I don't know if I want that kind of data. I really want this data and it would get to the Crux of the problem or they would just forget about it all together, which on the other hand is like a great argument as to why that's a horrible idea because sometimes you just want to know, you just want to say like I'm curious.
+ About this. If we could know this data, then later two weeks down the line you realize like these two data points. Connect. Yeah.
+ With this abstract questions as well. What I'm seeing is
+ is that these agents so just like a jumping off point and say,
+ If chat GPT and Claude like, desktop are being rolled out in companies, like Enterprise scale and people are beginning to use them, kind of like how they used to use Excel.
+ And so what we're seeing is and I've seen this be asked being asked by c-suite to data teams, is we want mCP access to our data in touch gbt or clawed and and what they'll do what they all what they want to do. And they have done before by taking csvs, is I'm going to ask, like questions of this data and manipulate it using Church EBT, then I'm going to get some other data. And then I'm going to like, draw like my conclusions based on using those, just like you wouldn't Excel, right? And that's what we're seeing. So I think there's abstract questions.
+ They can't be answered by an agent entirely, but their agent can provide the inputs to those.
+ And it's just like today, like where?
+ You get those people and they ask the data team. Oh, can you pull this stage from me? Can you pull this stage for me? And then they take the different things and do what they want with it.
+ Yeah.
+ Man, how fascinating is that just thinking about how much unstructured data?
+ Is out there because of every interaction. Every touch point with chat, gbt in the Enterprise that now is getting rolled out and
+ they're talking with Chachi BT and kind of creating these hypotheses and all right, cool. I think this, you know, this data makes sense or check out the CSV file. Tell me what you can see are, let me see what I see. And then, if you're trying to access that as a company wide, mCP server, that's sounds a little bit like a mess. Yeah. And I think,
+ This is again, why this amount? It is important because if that happens CP is setting on a semantic layer.
+ And we're seeing vendors do this, which is good.
+ Then when the, when they're taking that day to church, PT at least it's like from a government and known like way of calculation.
+ So that's great. So I've seen this all over the place like databricks thought. DBT key Cube the old offering this
+ because the idea is, you don't want
+ Folks just bringing in random CSV files. No, no, rather. They were taking it from like an Enterprise, like semantic layer. Yeah. Where people have agreed on some kind of Truth.
+ so then when you are trying to
+ Do some data stuff on all of the chat CPT conversations.
+ You understand? Wow. It seems like people continuously are asking about X. Yeah, data point. Why is that? Let's dig in
+ Yeah, that would be a great bit of metadata to have, right? How are people using the semantic layer in charge EPT? And they joining together that I didn't know. They wanted to join together. What I wonder, I I'm not familiar enough with Chachi BT and Enterprise to know if you can get that kind of access, if you can know everything that you're
+ Employees are talking to Chachi BT about. I'm not sure either I would imagine. Yes, I imagine that's something that they would want to log because of security reasons. So I imagine that exists.
+ Yeah, it feels a little bit.
+ Personal sometimes, but that just shows you like why you shouldn't be? You should use your own instance of Chad. Gbt not your company's instance. Yeah. Unless it's on the you generally don't care about or if it's work, right? So yeah. Yeah exactly. It just stays work related. But it reminds me back in the day when folks would be like, yeah, company can
+ read your emails.
+ And you're like, oh wow, I gotta be careful there, but then I realized like I have so many emails.
+ I who's gonna go through and look at my emails. Well that's the thing right? They unless it hits some obvious rule, right? Oh, they're now though like they can just get an album to read it? Yeah. Yeah. Give me the user sentiment here. Yeah. Oh, is this a stackable fence? Yeah.
+ Yeah, I'm just looking for a reason to fire this guy.
+ Completely. But, but I do think that
+ All of that.
+ Metadata there, around the way.
+ That the whole company is using.
+ An llm provider.
+ Is almost like it feels like there's a lot of products that could go with that that I have no idea what they are right now but that just made me get excited of like wow you could probably offer a lot of data products around the chat, gbt Enterprise version if you did have access to all of the data.
+ And that's what I think is still everyone's given the employees this because their employees were using it anyway, and it's just a massive security problem. But now they're like, well, what more can we do that? And you need to connect it to your Enterprise stores, whether it doesn't have to be a semantic layer for like tabular dating. It could be, you know, notion or whatever it might be. So that people are can pull the stuff together and play with it, which is what they were doing before, right? Just in manual tools.
+ Wow.
+ Yeah, I'm trying to think like what things could be valuable. If you knew everything that your company was talking to chat GT about and how that could because at the end of the day, you would hope that the most important data gets surface to the right people.
+ Yeah. I mean, I
+ there's like even indirect things, you can know because let's say company like takes
+ A ban on some like initiative and actually the the most of the staff don't really think it's gonna work, but you'll see them.
+ Kind of pulling, they won't say.
+ They won't just say something is obviously like, oh, I don't think this is gonna work. They wouldn't say that to Chachi BT but they'll start pulling
+ information about, oh,
+ you know, they'll say, oh, is this, is this like feature gonna work because have we got this thing? Or is this gonna have product Market fit. Like, let's see, what's in the data. You'll see all these different things where people are like kicking the tires on this idea.
+ How do I respectfully? Tell my boss? I don't think this is a good idea. Well maybe chat GPT should tell them, you know. Oh you're employees. They don't really trust. Yeah.
+ 100% that. Yeah, you'll get
+ almost like Trends or insights. It makes me think of how we started this conversation with the exploding topics and if you knew
+ Throughout your 10,000 person Enterprise, the different conversations that are happening with the llms. And you could see there's certain trends that are happening.
+ Then I don't know. Maybe this is very big brother.
+ In a way or maybe it can help you.
+ Be a better leader.
+ but,
+ Damn. I imagine sometimes if I had that I wouldn't want to know.
+ but I don't know, maybe there's other
+ good products that you could use from that, right, like
+ if you know, all that output and you know, all of the
+ Because right now, what we're thinking about the way that we usually think about using LMS is almost like one person to one elements and like one chat window. Yeah. And then you can start a new chat or whatever. And sometimes, we'll share it with people or sometimes. We'll take that output. And either we pipe it somewhere with a connector or we copy paste it. Yeah.
+ but looking at that output on more of a
+ Like hive mind, type of level.
+ Is totally different. Well, I mean there's even things like the concept of memories that they're trying to bring in. And like Sam Altman has said like
+ I think even like he's begun to accept that there's like a limit to this technology, like everyone is kind of expected. But what he's saying is now with gpg 6, there's not going to be such a gap between five and six and also, the thing that he's focusing mostly on is memories, I think about memories. Yes, it's between conversations, but it can also be between people so if you like get to some kind of conclusion with chat GPT in your organization and you've got a good result.
+ If the next time someone else in your company tries to do something similar, it's got that memory to draw upon so. Okay, maybe I can do use this. Either the bait him or like,
+ Modified. Yeah, that is always funny to me because it is memory is in a way. It's like one part. Evals
+ And one part like search.
+ And you have you have to be able to find that information and it has to actually be relevant and then you also have to know that that information was either good or bad. Yeah like got the person the outcome that they were looking for or it did not
+ Yeah, and I think about that from the like from a data point of view like, so for that agent, people ask data questions from it's like is there and their social part of that? Where
+ Like someone, oh, you know, Maria from marketing asked like which state has performing the best and and like that's a subjective question and through her chat. It starts off with just revenue and then she's like no I want ebitda or something and I want it by
+ You know, states which where we have business and where you know we have decent coverage of products, right? And so three through that conversation she's got to answer, she likes. And then the next time someone comes along like maybe it's the CEO and says I want to see like which state is performing well and why. And then it's I I feel like
+ The system should offer. Hey, Maria from marketing us. This question. Yes, they and she got to like an answer. She was happy with. Do you want to use the same way?
+ And like they can say, oh, okay. So this is the way that marketing and thinking about it. Yeah, that sounds good or maybe not, you know, maybe that's not how I want to look at it.
+ yeah, it's it's almost like oh well marketing when they say the best state they're looking at mqls that are generated and then Finance is looking at the bottom line or whatever it may be and so you can
+ ask the same question.
+ And that tends to happen, right? We're very vague in the beginning or we try to be descriptive as descriptive as possible, but we still forget about things and it's not until you have a few back and forth, turns
+ That you get to the answer that you're looking for and so that could be a great way to leverage memory and all. So a great way to
+ Leverage the data.
+ in a way, like,
+ you're not gonna be able to get that easily unless you have that semantic layer that we're coming back to.
+ Yeah. And I think it makes things more transparent as well because like let's say mocking have filtered that to yeah, states where they have business stays where they have good product coverage states where they're actually doing marketing activity and finance. Comes it. No, I don't want this filters. I want I want everything because they don't care like they just want to see the whole lot and the CEOs like well,
+ I do want to see the ones where we operate in because why do I want to look at the things? I've chosen not to operate in. Right. Let's say you've got these different versions of the truth. And I remember this, like, I used to work at an online grocer, like, very early on, in my data career and you had trading marketing and supply chain. All had different concepts of Revenue, like yeah. Marketing was everything sold trading was everything like that, got out the door and supply chain was everything that didn't get returned. Right? So you have these like three different definitions of the same thing and they're right, they're right to be different because there's a, like, how those people think about the world, but without that kind of semantic layer, that makes it easy to see that. That choosing that difference.
+ And he's really hard.
+ That goes back to the idea that I had of. Yeah. Like a glossary on you have to know when you say revenue and you're saying it, it's a marking person is saying it, they mean revenue in this way.
+ and,
+ That. It's so it's like yeah. Is it memory? Is it glossary whatever? It doesn't necessarily meant matter but what does matter is that
+ Like no two job roles, look at the data, the same. Yeah, well dude what is there? Anything that I didn't ask you that you want to talk about know? I mean I guess like one thing I'm interested in like if you think about your audience like how do they think about like this topic, this like semantic goes because sometimes I think about feature stores which they're much more interested in than Samantha and I think they're very, very similar that I only see one difference between like a cube and a feast, right? And the difference is like a temporal difference in that. There's a lot of concern in a feature store about being able to evaluate something at a certain point in time. Whereas that's not really a major concern for semantic layer.
+ But I was just wondering, like yeah. How do they think about it? What you. Yeah. But that's like one of the most important it. Is it right? Yeah.
+ because without that, the
+ Machine learning model. Target really predict, you know what it wants to predict, but I do see the point on. Like if you take that piece out,
+ Even though it is a key piece, it's kind of the same thing. Yeah, if you're talking about batch, I guess, if you're talking about real-time stuff,
+ Then.
+ It's a whole different semantic class can handle real-time now, so, yeah. Yeah.
+ okay, then
+ yeah, I mean
+ I'm just trying to think, like,
+ The.
+ Features your time I mean like yeah let's walk through that in a way. The features you're trying to describe something or someone an entity and you're trying to find the most relevant pieces of that entity that you can feed to a model so that it will help you make predictions. Yeah.
+ And a semantic layer.
+ Is descriptions of an entity. Yeah, usually serve to human there and not a model. Yeah, exactly. And I guess it is trying to be a lot more robust.
+ Like, you don't need to give a whole 360 View.
+ In a feature story, you just want the features that you care about you don't necessarily want everything. Yeah. Maybe it's not always obvious that this features in the feature store like looking at that feature. Why is that feature important? But it is, it's really important and whereas in some mindset then it's
+ Play very obvious like why you should want anything?
+ well, it's almost like you if you're doing the feature creation and
+ Correctly. You want to semantic layer for the features. Also, you don't want to just have some random feature in there. And then be like, well, what is this feature? Who created this? What's going on? And so, what's a 79? Yes.
+ How did we get this? And then all you see in the comments are do not ever delete this.
+ But I do.
+ I like that it just feels like semantic layers. Yeah, to me are more static and features stores are more in motion. I don't know why that's like a very
+ Not.
+ Clear way of putting it. Yeah, I think that's
+ that's true in some ways but less than others because I feel like definitions of the same thing will change over. Time in a semantic layer whereas in a feature store.
+ You'll just replace e79 with EA T, like, when you want to have a new beta version of it and then some things will keep using the old one. And some things we use the new one and that shouldn't happen in a semantic class situation. Yeah. You need that canonical source of truth, right? That's the whole reason. You're creating that semantic layer.
+ Yeah, exactly.
+ But the
+ yeah, because features you can be very
+ Like generous with feature creation.
+ In a way, you don't have to limit yourself or try to.
+ Create the one definition of whatever it is that you're looking at like you do in a semantic layer.
+ I do like that though, thinking about it, because it, it's like they're not that far off, but they
+ Are far enough to where I guess they weren't different names. Yeah they were in different names. They weren't being different tools for sure. But yeah, this so many similarities.

@@ -1,0 +1,33 @@
+{
+  "tech_tags": [
+    "LiveKit",
+    "WebRTC",
+    "HTTP",
+    "GPT-3",
+    "Puppeteer",
+    "OpenAI",
+    "Cloud Infrastructure",
+    "Headless Browsers",
+    "Audio/Video Streaming"
+  ],
+  "business_tags": [
+    "Product Market Fit",
+    "Open Source Business Model",
+    "Venture Capital",
+    "Acquisition",
+    "AI Integration"
+  ],
+  "key_topics": [
+    "Building real-time audio/video infrastructure",
+    "Transitioning from open source to a commercial product",
+    "Integrating AI (specifically voice interfaces) into existing platforms",
+    "Navigating potential acquisition offers",
+    "Leveraging AI trends for business opportunities"
+  ],
+  "guest": {
+    "name": "Not Specified (co-founder David is mentioned)",
+    "role": "Co-founder",
+    "company": "LiveKit"
+  },
+  "summary": "LiveKit became an accidental AI company by building open-source audio/video streaming, getting acquisition interest contingent on AI integration, and then partnering with OpenAI on voice mode."
+}

@@ -1,0 +1,31 @@
+{
+  "tech_tags": [
+    "LLMs",
+    "Chatbots",
+    "Data Pipelines",
+    "Real-time Databases",
+    "System Prompts",
+    "User Interface",
+    "AI Agents",
+    "Data Engineering"
+  ],
+  "business_tags": [
+    "E-commerce",
+    "Food Delivery",
+    "User Experience",
+    "Personalization",
+    "Customer Loyalty"
+  ],
+  "key_topics": [
+    "Context Engineering",
+    "Data Challenges in AI",
+    "User Memory/History",
+    "Search vs. Context"
+  ],
+  "guest": {
+    "name": "Unknown",
+    "role": "Building AI Agents",
+    "company": "Unknown (works with OLX and a food delivery business)"
+  },
+  "summary": "The podcast discusses the importance of Context Engineering over prompt tweaking for building effective AI agents, emphasizing data integration and user history for personalized experiences in e-commerce and food delivery."
+}

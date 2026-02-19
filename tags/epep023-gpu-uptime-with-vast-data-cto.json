@@ -1,0 +1,33 @@
+{
+  "tech_tags": [
+    "GPU",
+    "AI",
+    "Generative AI",
+    "Cloud provider",
+    "Parallel programming",
+    "Database",
+    "Storage",
+    "Machine Learning",
+    "Python"
+  ],
+  "business_tags": [
+    "Cost optimization",
+    "Technical Debt",
+    "Scalability",
+    "Infrastructure Management",
+    "Model Routing"
+  ],
+  "key_topics": [
+    "GPU Uptime and Costs",
+    "Expectations vs. Reality of AI Development",
+    "Scalability Challenges with AI",
+    "Technical Debt in AI Projects",
+    "Importance of Requirements Gathering"
+  ],
+  "guest": {
+    "name": "Unknown",
+    "role": "CTO",
+    "company": "VAST Data"
+  },
+  "summary": "Discussion on the challenges of GPU infrastructure management, the costs associated with downtime, and the need for scalable AI solutions and realistic expectations. "
+}

@@ -1,0 +1,34 @@
+{
+  "tech_tags": [
+    "Gemini",
+    "OpenAI",
+    "LLM",
+    "RAG",
+    "GPT-4",
+    "Fine-tuning",
+    "Small Language Models",
+    "Agents",
+    "Memory Frameworks",
+    "Semantic Similarity"
+  ],
+  "business_tags": [
+    "AI Workforce",
+    "Enterprise AI",
+    "Customer Support",
+    "Decision-Making Process",
+    "AI-Assisted Workflow"
+  ],
+  "key_topics": [
+    "Fine-tuning vs. RAG",
+    "AI Agents and their components (intelligence, memory, actions)",
+    "Building Trust in AI Systems",
+    "The role of small language models",
+    "Interaction design for AI tools"
+  ],
+  "guest": {
+    "name": "Unknown",
+    "role": "Works at a Company (enabling internal uses of AI)",
+    "company": "Unknown"
+  },
+  "summary": "The discussion explores the use of fine-tuned small language models and RAG in enterprise AI, focusing on building trustworthy AI agents and improving human-AI interaction."
+}

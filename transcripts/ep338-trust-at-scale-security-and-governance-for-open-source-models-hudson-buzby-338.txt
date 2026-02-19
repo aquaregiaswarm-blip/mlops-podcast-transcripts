@@ -1,0 +1,296 @@
+there's a ton of value there that I think the industry is like just starting to explore and how they
+ Yeah. Diversify the requests more efficiently use resources. That starts with some form of essentialized Gateway and some like semblance of control as to how these requests are being made. And if everything is just sporadic and every team is using a different model and you have no idea those kind of an end goals won't be you can't accomplish them.
+ What's the obsession with Point Break?
+ It's like one of the greatest movies ever. I don't think I need to. I don't think he did defend Point Break by any means.
+ You know, great.
+ Pure surfing scenes just peek Patrick. Swayze some great philosophical elements. Kathryn Bigelow's, kind of Debut movie.
+ Leading into a fantastic career.
+ All the above. Love that movie. And Kiara just
+ Anything with counter is so well worth.
+ Floors and very true. The reason I say that is because you mentioned that you've seen Point Break over 283 times, I think not, but yeah, her rough estimate.
+ I think I would probably say I'm the same way for The Big Lebowski
+ Oh, okay.
+ I can't tell you how many times I quote that movie.
+ Like weekly or I send people memes when or gifts when I'm like, yeah that's just your opinion man. So I feel you on that, that is crazy. So anyway, man, well we're gonna get into everything about
+ The Enterprise and their adoption of AI. I think it's timely because we all seen the headline of like 95% of AI initiatives in the Enterprise are doomed to fail. And it reminds me for anybody who's been in and the Ops for longer than a few years back in the day. When we said that stat, that either Gardener said or somebody said once and every single company quoted it on their website like 80% of all data science initiatives are do not make it into production and so everybody put like but if you use our tool you will make it into production that was kind of the marketing speak.
+ Now you you remember that one? I think we had it in in one of our, our intro slides for quack, the previous product that I was working for. Yeah. Absolutely. And it was true, I don't know. That was in general, I talked to a lot of customers and Prospects and when you ask them, how is your ml environment? How is it going?
+ maybe 10% say it's in a good State like we understand what we're doing but more often than not it's it's generally stitched together, barely holding on for dear life and
+ but that's kind of the on the traditional side, I think with gender of a it's kind of switched into now everybody's in production with it or what they consider production, but it's a different kind of
+ Type of development that's taking place. Yeah, different kind of production, right? I was talking to a buddy who works at one of these big fintech companies and he said,
+ yeah, it's super easy. We just whenever we can Outsource all of the infrastructure worries to open AI.
+ Yeah. And, you know, I think for certain
+ implementations certain services that works, but
+ yeah, I think there's kind of a fundamental shift happening between kind of how data science and data science, teams were originally defined as kind of
+ Their own little sector of an organization that like, you know, maybe see sweet through some money at them and they're kind of experimenting with projects for a few years, getting a few ideas, maybe they get something that works, but it's not necessarily taking seriously, as a part of the engineering or strictly enforced from like devops standards infrastructure standards. And
+ You know, now you're seeing that change with again. Now, they're getting things into production and now the rest of the organization backend teams, front end teams are starting to adopt AI services.
+ where there's a bit of a disconnect in terms of, you know, they had not traditionally treated their services in a production like way with
+ Tests multiple development environments. Like all those things, you ask data scientists that they're doing it and they kind of jump scare a little bit. But as all these services start getting incorporated into like more traditional engineering environments, they're going to be need to be treated with like a higher level scrutiny.
+ Then what's kind of the norm currently?
+ You know what? I was thinking about this week and it was for the swamp up, talk that I'm giving them thinking like oh, what is some stuff that I can mention? Has changed over the last year and
+ I was trying to figure out what the different developments Cycles are, when it comes to predictive ml versus this new generative, Ai workflows. And I'm
+ Qualifying generative AI is almost like image video generation. And then the
+ Other stuff I would say is like agentic development and the life cycle there because I think you probably have rag that fits in there somewhere, but most people are trying to do things, agentic more than rag. I think these days because rag kind of
+ Hit. I don't know if it hit a plateau or if it just became something that was a whole lot of squeeze for the juice that you were getting. And so maybe you've seen different life cycles or you've seen different
+ thoughts on on that.
+ Yeah, I don't know. I think with a lot of the organizations I talked to maybe it's just they're not throwing a I think a lot of them are still doing rag. Like services, not throwing as much of the rag label on it where I almost think of just additional context is become kind of the norm.
+ Maybe that just kind of coincided with like the vectors store kind of like boom and bust where everybody was looking and building Vector stores and then
+ PG Vector comes out and every database has some for a vector search now and that kind of got like, democratized and open source but yeah, I think
+ In terms of like the development lifecycle, it really varies. And I think that's kind of indicative of like
+ The wide degree of skill.
+ technical Acumen implementation in the data, science Industry, you know, from
+ Kind of low end of the spectrum of the kind of automl Click, Debs not writing a line of code or kind of a now, looking into more of like the vibe code world to the opposite. End of that. The
+ Opening eyes and the anthropics were fine-tuning massive foundational models. Those are two, all those environments. Look
+ drastically different even in the middle there in terms of how teams are
+ Thinking about development or thinking about the Safeguard. So for a lot of organizations
+ you know, it's I don't say it's deploying into production, but I don't know if there's that many steps before getting into production, I think a lot of it is
+ a bit of trial and error and trying out kind of
+ agentic services, almost like a Lambda function or serverless function and
+ Well, it's working. Great. And then we'll figure it out when it breaks, but not necessarily developing like this massive framework around failsafe and testing and what happens when this tweak is made to a model and it changes.
+ so, it's almost like,
+ in your eyes, the
+ Path to production has been short cutted in a way.
+ Yeah, where I just don't think that.
+ Just because it's so easy to get things into production and it's still relatively new. I still, you know, like there aren't as much in terms of standards that exist or being developed that.
+ Teams know to follow when it comes to development and deployment. I don't know if that's necessarily for I mean to a degree I think there's a sector of the developers who have never been exposed to a more sophisticated, kind of style of sophisticated bad word. But more yeah, Legacy form of like software development.
+ but I think something will emerge in terms of patterns, and
+ Yeah, it's developing environments. That will be, that will look up a bit more. You know, what we're used to, and kind of the sdlc of, like, last five, ten years. It's just so new and it's still being developed. And
+ Teams need to kind of experience the Pains of failing services and not having tests written until they, you know, decided that there's a better path.
+ Yeah. Wait Gemini. And Claude can't just write all my tests for me. What's going on here? Yeah, they can, they just like somebody has to run those tests and then they have to look at the results of the test and then fix them. That's the
+ that's the part where yeah, it takes you know just
+ a little bit more effort that teams have to put in but you know all of these
+ And it's one thing that's consistent in computer science and software engineering. Is that foundations and principles reemerge in the same way that event sourcing was hot five years ago and those are patterns that were developed and written in the 90s. And as more, you know,
+ computes scales and new patterns become possible and old ideas re-emerge. So I'm sure
+ Yeah, like I said, it's a temporary thing but we're starting to see more organizations look at it. Like,
+ Regular software, I would say.
+ Yeah, because that begs the question. Do you see these environments becoming a whole different thing or is it just bringing the old ways to what is new?
+ Yeah. And I think
+ That's, you know, the the product that seam that I'm working on, that's kind of a big thesis that we have is that they are many organizations because of what I was mentioning earlier data science teams, kind of existed in a vacuum. They weren't necessarily following the same like devops standards or practices. Now as those
+ AI Services go from
+ You know, cool, little feature that created a dashboard. That somebody might look at to very core fundamental Services. You're just not going to be able to have one, two different pipelines for managing, the rest of your organization software and then your ml applications doesn't make sense. Functionally, and then all. So from a security perspective, from a governance perspective, from a legal perspective, those can't exist as you know,
+ we can projects that are running in production, they need to have the same level of scrutiny or will start to see you know huge vulnerabilities and hacks and production which I'm sure is on the horizon either way but I think yeah just kind of coming to a maturity point and realizing that they will need to be treated at the same level of scrutiny and we it's just easier to have them managed under one process and there's another piece that I want to hit on with you which is just how
+ Adopting specifically open source llms.
+ Is at the Enterprise level.
+ And what that looks like, what you need the kind of resources that you have to throw at it and where there's challenges that you've seen. Yeah, it's really interesting. And I would say, kind of a complicated problem for a lot of Enterprises. Large companies.
+ You know, I would say on the whole of the portion, 500 or big tech companies that I talked to everybody is using open AI or anthropic to some degree that that wave has passed. I would say, most organizations went kind of Full Force into adopting, those managed llm providers to some degree. And I think all of them kind of see on the horizon. You know, either costs accelerating distrust of providers from like
+ competitive landscape or a data privacy landscape or just a you know desire to have an open source shop and we want to find an open source Alternatives. So I think everybody is kind of forward looking to
+ And also the conversion. So it say of like as open source models get better and better and kind of starting to reach that plot. So they I think long-term want to have a large presence with open source llms in their environment and they want to allow their developers and teams to freely build. But the problem is
+ Most organizations can't just you know allow their teams to build deep seek the day after it gets built. In fact, most of those organizations their main concern when deep seat comes out is how do I block it from every single computer? And it's not just from, you know, the
+ Perspective that you would see on Twitter, the news of like, you know, CCP stealing your data or something like that. It's more of like, from a licensing perspective. From a governance perspective, you know, even with licensing, it's really interesting.
+ We speak to companies all the time that spend, you know, a great deal effort deciding like which licenses they can adhere to or follow.
+ But it's hard to keep track of those licenses hunting for as you start pulling and playing around with random fine-tuning of any of the big models that might flip that license or switch it. Now it's kind of a larger legal question as to
+ Do we follow the original models license. We follow Joe schmoes. New license. All this like, you know, very, very mundane stuff. That is not like the, the sexy Vibe, code set the you see on Twitter. But the real problems that I think prohibit,
+ Development right now. So organizations are
+ You know, and kind of leading into like the security element as well hugging face is just gotten.
+ Like any other open source package provider flooded, with a lot of that models? Yeah, I work for jfrog. We have a, our own kind of dedicated research team, and we've done a lot of work. We scan hugging face models.
+ Several times a day and our results are often put into the hugging face console.
+ And basically we're seeing like I think the rate of models growing on hugging faces like five times month over month, three over here. So something like that and the rate of vulnerabilities is increasing by like seven times and just yeah I guess just like any other package provider going after misspelling or even going. As far as just fine-tuning models and including exploits, reverse shells.
+ It's just like any other piece of software, but the delivery mechanism through, you know, it seems so friendly and so easy to pull into your environment and easy to deploy into production. And that's that's kind of the problem here is that
+ You know, these large Enterprise is recognize all of this but they can't they need to have some degree of certainty with these open source models with the power and flexibility that they have. That they are not, you know, exposing their teams. And they can
+ Safely. Allow them to build a little detour. I download a hugging face model and it is compromised.
+ You're taught, you're not talking just like its data poisoned or there's something that is hiding in the latent. Space of the model, you're talking like the actual package that I pull from hugging face then.
+ Is a virus that gets Unleashed on my computer.
+ Could just be opening a shell and then you know sending out your your keys or something like that. Sending out your GitHub key, that's one example. But yeah, that and it comes, it could be in the
+ The code itself of the model or it could be an any of the packages that they're using. So it's important to I think scan for both.
+ because, yeah, but again, it's
+ Just like traditional software, you're gonna scan your Docker images. You want to scan your your pit packages, your content environment, whatever or poetry, whatever you're using, or JDM any of them. But yeah, both did exist and we see instances and examples of both.
+ So that's yeah. I think that's one aspect is just, you know, many organizations teams. They see the long-term benefit of these models. They see the cost benefits of these models, but they need to shrink the
+ The marketplace a little bit shrink what is available to maybe instead of you know thousands hundreds of thousands models and hugging face to like maybe five, maybe ten that there are certain work that still because of just generated by I, they had the flexibility to be able to implement so many different workflows. But shrinking that down a bit and not letting developers, basically, go directly to a Huggy phase or a llama, any of us.
+ You know, largely model providers.
+ Having a proxy or middleman at least so that they're not going directly to the source just because it's it's that easy to pull in something malicious.
+ That is fascinating, you mention? Because I have seen a fair amount of questions pop up on the mlops community slack like, hey, what is an alternative hugging face? My company doesn't let me use hugging face or and the way that it's generally framed in the slack questions is oh my company. So old school that they won't even add support to hugging face. But now seeing it from your side, it's like, oh maybe the company is actually kind of forward thinking in a way or they know what. Yeah, it's it's a bit of both. Yeah, I'm sure. There's I mean, one there isn't really a place right now to get my models out of you know, besides kind of the more like
+ Traditional machine learning, libraries the for the tensorflow's, the pie torches of the world.
+ You can get some models from GitHub, but yeah, hugging faces the marketplace right now for it and I agree. It's both kind of antiquated and also. Yeah, it's safe. It makes sense when you think about it and also, again looking at like the
+ The developers that are pulling those models. Yeah, it's not. A wild statement to say data scientists, don't really care about security data folk. It's not even, there are definitely some that are that are concerned with that, but it is not top of Mind by any means.
+ So yeah I think guardrails are really important especially just as more and more models keep coming out.
+ Yeah, it's like the double-edged sword. What makes hugging face so amazing is the ability for anybody to just go and add their model to hugging face. But then what makes it
+ Absolutely crazy. As far as security vulnerabilities, is anybody can add anything on there?
+ Yeah, and again, it doesn't even have to be.
+ You know, I feel like one of the most common forms of like, entry for malicious packages. It's just misspelling, you know, panda with a oh, or something like that, or Spa, you know, just swapping out a letter. And that's, that's all it takes for. You're not even, you're not even realizing that you're pulling in something bad.
+ Happens all the time. So
+ Yeah, trying to add.
+ some kind of a proxy, some kind of a curated list of
+ models that have been reviewed have been allowed do follow our organizations, legal and governance, and then also having a someone of a
+ Metadata record of these these events taking place.
+ Keeping track of the model cars that are being used from hugging face. We call it like an ml bomb, but it's really just, you know, a metadata stamp that has all the environments that were used. Well, the same tensor files that were used. That's really, I would say purely for thinking, is there a ton of benefit or values that today? No. But if a lawsuit comes out a year to down the road, and you need to figure out all of the relevant information around a training or a security leak happens, and you need to go back and kind of figure out what happened. It's helpful to have those things in some form of
+ a registry a central location that you can easily audit versus
+ having to go, you know, dive through developer notebooks and
+ Do that hunt. Yeah, and you're saying something where it's like, oh, New York Times is soon. Open, AI type of lawsuit or not? That's the most extreme case. But yeah, it's I think, you know, just have being prepared for those events and having the relevant metadata. Just give in like the flexibility and the power these models, how extendable they are. I think that's, that's one of the more kind of important governance perspective. You need to have as kind of like, we don't know how this will be used a new trend emerges in six months that completely throws out Ai and has the new pattern for development, but we do want that metadata to exist somewhere.
+ and,
+ Yeah, or at least one the license is actually start getting enforce. And then teams have to, you know, really care about that stuff or limit the types of models you're using.
+ Similarly, like another problem that we've heard from a lot of our customers and something that we're releasing a bear in the air. J frog, like stores a lot of organizations artifacts in code. We hear people basically saying,
+ For similar purposes. We need to keep track governance. We need to keep track of licenses, we have no idea where generative AI is being used in our organization.
+ They do and because teams have just you know pip install open AI start using the models. So that's one thing that we've been working on is basically just going through your whole organizations code base and detecting. All right, here all the instances where this is being used. Let's generate some of that metadata for you know for regulated Industries. If you know Wall comes out next month that says
+ you know any Financial companies need to have like a specific list of auditing requirements related to any applications using generative AI or they ban generative. AI with specific, human use cases, whatever it might be. It's just important to know where those applications exist, where those packages are being used. Also for vulnerabilities purposes like you know, more and more applications to start using
+ Open SDK Cloud, SDK, and something happens. You would want to know where everything has been distributed? Well, I know I've talked to folks about this, when it comes to
+ Auditing. How AI is being used throughout the workforce and
+ one person that I spoke to said yeah I just got done. I think they were in a data governance role and they were expecting to find maybe like 12 to 20 uses of generative Ai and they found over 90.
+ I think they're like, oh my God, I would have never have guessed but then you can also take it a step further and say because you're you're really talking about the stuff that you can see in the code base right or this stuff that did developers are doing. But what about the marketers that are using that new shining marketing tool? That helps you write copy and you send all of your
+ like positioning documents to that.
+ SAS tool and that is using generative AI on the background. Like, does that count? You know, from a governance perspective. Now, there's these third-party SAS tools that are using Ai and how do you qualify them too? Yeah, that's a great point in a whole other Pandora's Box if that needs to be
+ Yeah, categorizing classified as well. Yeah, we're like focusing on Purely, just the code but I mean the example that you highlighted is exactly what we're hearing and seeing, it's like, it's already out of the box, it's everywhere, and it's only going to
+ You know keep showing up everywhere. Not only, I mean from a development perspective, everybody is using some form of code gen tools at this point and then the actual models themselves, I think
+ you know, we kind of anticipate like in three to five years, it'll pretty much be any any service will have some component of
+ Generative developments. So yeah. Just keeping track of
+ Everywhere it's been used. I think that's the the important perspective.
+ having some kind of a framework there and yeah, treating it like
+ Any other?
+ You know, application or service, like that's the, it's a low bar, but it's important. And I think it's, you know, you see these like kind of very like diverging paths in development and like it almost feels like in many ways like the larger Enterprise organizations, I talked to are speaking like a different language of AI, then the startups of the world or the anything coming out of white calm day, or like, it's truly like two completely different Pathways two different focuses and two different like concerns.
+
+Um that I feel like often get Blended together. You know and people are looking for AI tools ways to improve their AI developing experience.
+ but yeah, it's just there's, there's
+ Two very different kind of Pathways emerging that do require kind of two different sets of solutions. And those Solutions are ultimately serving like an AI purpose.
+ But it's very different than I think the like the mlops landscape of five years ago.
+ Where I think everybody was more or less kind of, like, on the same page, to a degree but yes suffering together in trying to get those damn jupyter. Notebooks into production. Yeah, which is still a problem. Actually, I think team still have a hard time doing that but
+ You know, you just don't have the same. I mean, the startups should have the same security concerns but we've all been in a startup where everybody has AWS console access and we'll figure that out next round or after we get the next customer to sign, so it's that's understandable. But it's yeah, it is two different sets of concerns. Yeah. Yeah. It's almost like pmf, trumps everything and so you're building that organizational debt. Because you need to find pmf
+ When you're at the startup and if you're at the Enterprise you really have to think about all of these key concerns since you have a lot to lose when you're at a startup, you don't have as much to lose and so, whatever you can kind of play fast and loose.
+ yeah, and the cost of an exploit or vulnerability is, you know, tremendous for Enterprises when it comes to
+ Not only remediating the code but like auditing doing full and investigations autopsies of like every, you know, path that they could have been touched by it. It's a and that is how Enterprises are thinking when they're looking at different tools adopted from platforms to adopt because
+ Yeah, they have to be concerned. Yeah. It just sounds like a headache. Even in that Glimpse that you give me? Yeah, I think one other aspect of that the open source that's interesting or a lot of a big motivation for a lot of organizations that want to adopt open source development is just on Prem development or air gap environments. That is
+ Yep. Still, and again, this isn't in like the
+ The most pressing technology or bleeding edge. But there's still so many organizations that have massive on Prem clusters that will have massive on Prem clusters that have moved stuff out of the cloud.
+ It's not going in a way, and it's kind of this neglected.
+ Portion of the industry that doesn't get a ton of attention, but is massive. So trying to find solutions for
+ Defense industry that? Yeah, they want to use open source models as well. They don't, they also can't a lot of instances used in open AI use anthropic because the or maybe they can. But like those are large decisions that are made at the top level like heavily negotiated they would love to start implementing
+ gen AI a bit easier and they're trying to find ways to do that with open source.
+ You did say some I want to go back to it was on the yeah. Trying to just sniff out all the places that AI is being used. And if you're in that governance position, just how hard that is and how cumbersome it can be and then know it's it's, it is a problem. That's, I think, you know, previously you're not necessarily concerned with
+ Where is being used in my organization? Like, that's an interesting question but like what value does that really gave her dictate whereas
+ You know, not only from like a commercial standpoint, you're negotiating a deal with openai. I am sure, they can give you the you know, top dollar amount but you want to understand like where it's being used. It's just so easy.
+ To implement any of these services. That it there isn't always a clear auditing log you could you know, there's tools that can
+ Go through your entire code base and get Hub and detect these types of things but I think that's one reason why?
+ Jfrog kind of has like a unique offering here and being able to, because B Store a lot of organizations binary codes. So we can in our scanning processes, go through and kind of detect where those packages are being used where those libraries are imported and then provide a mechanism of
+ Creating guard rails or some kind of a Administration system.
+ Also providing kind of like a Gateway type feature, where you can yeah, limit access to models limit. Who's calling models
+ Yeah, I think again, going and just like the delivery mechanism of how most these models are being pulled into.
+ Products and services. It makes it just very easy to sneak in. Yeah, especially because you can almost like go around it too and so
+ I'm doing it in my CLI but then I can just go to the website and maybe I'm using, like, five different ones. And so, I have I'm paying for Claude code right now. I'm also paying for Gemini and I'm, I've got cursor set up. I've got amp and all of these different ones I'm using in some way, shape, or form.
+ but,
+ Maybe it's like not always the same. It's not just like a vs code plug-in that I'm using, I am going to Gemini directly on their website and talking to it or try to be or whatever it may be.
+ And maybe we have the Enterprise version or maybe it's just me using the free version. Hopefully like people aren't doing that but, you know, that there's going to be people that 100% are. Yeah, I mean either to test out a new model, I'm sure that's
+ You know, probably a challenging point for a lot of teams like you're not getting something to work and then 05 comes out and you're like maybe it'll work. Yeah Chesapeake 25.05.
+ Yeah but that yeah, it's a good point of like, how do you control those gateways? Again, It ultimately comes down to like, you need to block off access to
+ The chat tvt host in your organization, there has to be one Gateway or one pathway. I think all that does kind of come down to yes, some kind of a Gateway that each organization manages maintains on their own, has some form of a security, you know, user model where they're determining who can have access to certain models. Also, from a cost perspective like, you know, you don't want to be giving
+ SQL analysts access to the PHD level models. We don't need that, maybe something but
+ But yeah, I mean putting yeah the costs are that's a whole other thing and I think there's a lot of really cool companies and products that are focusing on that.
+ but yeah, I think just controlling Andrew point is the kind of the one of the main kind of feces that we have of
+ What creates a framework that will be scalable lasting and secure moving forward and can hopefully anticipate.
+ some of the different changes that might happen in the industry but you're you're almost like bottlenecking via the
+ Like, if they're using the Wi-Fi of work, or if it's the company computer because I can still see people inadvertently being like, Oh damn, I can't like reach chat GPT on this computer but if I bring my personal computer to work, I can still get to it when I need those questions answered that it won't let me answer.
+ Yeah, it's
+ I mean yeah that that's just Highway in the difference is between yes startups and Enterprise is like Enterprise is no that's a very standard thing that like specific hosts. I mean even yeah back in the day like
+ Certain content websites or blocked from your work machine. Robbie is purposes. It's all capable. It's all pretty easy to do.
+ But yeah, that's, that's how we see it. And I think a lot of other also, some cool tools that have seen coming out of, like, you know, not even also like functionally creating like
+ Oh I'm gateways that will allow you to really easily swap out models, direct requests to cheaper models. If there's like a intermediate model they can determine this is a you know
+ Low complexity use case, let's filter. This to the small language model there's a ton of value there that I think the industry is like just starting to explore and how they
+ Yeah. Diversify the requests more efficiently use resources. That starts with some form of essentialized Gateway and some like semblance of control as to how these requests are being made. And if everything is just sporadic and every team is using a different model and you have no idea those kind of an end goals won't be you can't accomplish them.
+ Fascinating and building that Gateway. Because I've heard this idea of
+ A Gateway before a few times. I know there's a few companies that are doing it, but it does feel like that's going to give the
+ the company, the most control of what is going out and coming in.
+ But yeah, you have to think on various levels, you're not just thinking on the level of everything that's going to the research Labs. But what's coming off of hugging face? Like you were saying and then what are we running locally and are we setting up these smaller models and setting up like a platform team? That's going to babysit those smaller models and that's us. Maybe it's on Prem, maybe it's not and
+ How that looks is is completely different. Also,
+ Now.
+ I know that we mentioned before we hit record.
+ The whole evolution of quack and how crack you've been there for a while. It was very ml Ops focused and now it's kind of grown it, joined jfrog. It now is
+ Security Focus. But you're also seeing this type of stuff, like on the platform engineering level, the devops level.
+ These folks are tasked with.
+ The AI Platforms in a way, you have almost like the conglomerate of ml AI Engineers, devops Engineers data engineers. And that's how you get the platform stood up. So, what have you been seeing? Since this Evolution took place of like mlops to platform maybe is the way that we could call it?
+ Yeah. And you know kind of the segue that you mentioned of those teams managing those small language models that is it's still mlops like it's a different type of model, it's a different type of latency and throughput. But at its core it's you know it it is mlops and it can fit into what organizations have already built for mlops. Maybe they're not spending as much time on, like the experimentation portion of that because, unless they're really fine tuning, you know? They might just be, you know, constructing an image or artifact that they're then going to turn into a service. But you still want all of those kind of core components of mlops, you
+ Like sophisticated a b testing. That's something that we see a lot with machine learning the Persistence of all of the results data into some easy. You know, easy to access easy format where developers data scientists can like query results do drift analysis on those results.
+ So all that's still relevant and I would say needed with generative AI, it was with large language models, it can fit into that pattern. I think it's just in like this kind of trailing way. Everybody kind of forgot about it for like two or three years with like the excitement of what they could do from a development perspective. And now as they get into, yeah, you know, maturing these models and services over time, auditing them needing of a system of record. They're kind of realizing we do need, you know, our llm results, persisted somewhere or
+ Even like regulated Industries, we have health care customers that you know, every single response with generative, AI needs to be persisted somewhere.
+ So I think yeah, in terms of the ml Ops industry, I think, you know, it's a you're deep in it, there's an insane number of like Point solutions that I can point Solutions platforms that I could cannot keep track of. And they're, you know, the ones that kind of fought or fade like they're getting replaced by some more solutions that are more generally. I focus but you know I think at the core
+ All of these organizations are looking for, like a platform as standard that will allow them to easily Define workflows in a safe reliable repeatable way. I think that's why you see so much, you know, excitement around, mCP, you know, mcp's,
+ Not like revolutionary from a code perspective but it's it's somebody like you know, defining and saying is a standard that we're going to follow. When it comes to the access of external data sources or data that we can feed to the language model functionality.
+ That type of standardization. I think like the whole Market is very hungry for and there's a lot of opportunity for products platforms to kind of Define that and to
+ Increase its use, that's such a good point. That it is like,
+ It didn't change it. Just changed in name.
+ In a way, like, the actual practice of ml Ops, didn't change too much. The models got maybe a little bit bigger for a minute and so you had to do certain things, but if you were at a certain scale, you probably were already messing around the gpus and you were messing around with like trying to make your whatever feature creation feature extraction faster and you needed gpus and you needed to get beefy gpus and then work with networking. But then that became very popular because of the training of llms. And so
+ we lost our way or not necessarily lost their way. We just got a little bit distracted for a minute and then came back and we were like, oh yeah.
+ So we still got a deploy, these models somewhere and we still got to make sure that they don't drift and that we can monitor them. And so it's
+ 100%.
+ The same problem just almost like in different clothing.
+ Yeah, yeah, completely. I mean, yeah. And just, you know, expanded functionality like the models aren't as focused even with, you know, agent dick workflows like there's still way more functionality and possibility than existed with your simple linear regression models but yeah, it's you know, maybe not the exact same use case of how they're monitoring the data, how they're monitoring these services for testing but a lot of it is the same or it's just a different spin on it. And yeah, organizations I think that were that did have mature.
+ Sophisticated kind of mop systems in place. I think are definitely kind of leading the way in terms of what they can do with children of AI and that.
+ at least it's more of like a lasting pattern versus
+ Yeah, throwing up the ad hoc services without a lot of.
+ Forces or thought? Yeah, and it's all so certain things got
+ like the time that you take on them.
+ disappeared in a way like you were saying before, you don't necessarily do all this experimentation unless potentially you're fine-tuning, you're not doing data curation in, unless you're maybe finding but
+ What you are spending more time on is figuring out the prompting and figuring out how that that fits into things. And so you're spending more time in different areas but they're
+ They're like they rhyme in that regard.
+ Yeah, and that's that's again, going back to kind of like the concept of a Gateway. Like, you know, this whole conversation is kind of focused on like everything that you can do like pre-deployment? Yeah, pretty prompt interaction to make sure your code is, you know, safely securely deployed and then you have the whole you know everything you just mentioned creating guardrails around content prompt injections, make sure the service is just doing what you want. That's a whole other kind of separate topic. That a lot of the industry is focused on. I think that all kind of kind of converges with. We should have a centralized Gateway where we can administer these different types of guardrails. We can administer these security policies that we want to enforce.
+ Yeah, all of it. Just comes down to like,
+ organization standardization some methods, some system that needs to be in place versus
+ You know, Wild West ad hoc five code, just through our services up. It works quickly in the short term but
+ to have the more mature systems there needs to be. Yeah, some form of a
+ some form of the gate in place, but you're not seeing Enterprises on the services side like the infrastructure side of
+ Oh, hey, we're going to spin up gpus or we're going to go in.
+ Contract a new GPU Cloud because we can't get the GPS for the price that we want your as J frog. The gateways that you're talking about. You don't go into that side of the house, do you?
+ We are going to. Yeah, our kind of the intent of our kind of rebuilt. It's a bit of our mlops platform from the quack days to jfrog Mel's, the new release term, but we're available on all three clouds now and we'll be available on Prem and a few months from now. But the idea would be that you could train
+ On a GPU cluster locally and then deploying to the cloud, which is a common pattern that I hear from a lot of customers. You know, there's been enough boom Cycles with gpus, where many organizations have bought gpus and they kind of are sitting there and it is cost-effective or cheaper for them to go that way rather than with on-demand gpus in the cloud but I think most organizations
+ Yeah, like an Enterprise scale.
+ Very, it's rare to be limited to a single Cloud at this point. Yeah, I think the yeah, the default now is usually a combination of clouds, a combination of on-prem and cloud. And there is a desire to be able to seamlessly go through each of those environments without having to completely re-engineer your
+ Machine learning, philosophies, the machine learning practices, being able to yes, switch seamlessly is huge for a lot of teams.
+ What other features and ways have you looked at expanding or evolving? The what was once the quack platform into the now jfrog platform?
+ Where the ml capabilities inside of jfrog or ml /? AI if we're going to get technical
+ Yeah, so, I mean, a lot of the core mop spot form still exists. We still do and then she letting obstacles. It's really nice. Easy way to kind of deploy models and services.
+ and then everything that we've kind of,
+ You know, what a lot of this conversations been about focusing on the security aspect, when you trigger machine learning training or build automatically scanning it and applying, you know, organizational policies around these packages are blocked or these packages are out of date. We only want to use open source packages that have 2000 stars on GitHub or have been updated in the last
+ Six weeks or four weeks, whatever that might be that's kind of what the larger jfrog platform and he go system is about is basically managing open source.
+ Development at scale for Enterprise and organizations, taking that applying its machine learning, kind of automatically. And that's the idea because we know the data science is machine learning Engineers. They don't really want to worry about security. Yeah. Slap it on that are you know, put the the scans right in their face. Make it easy for them to fix.
+ And then we've kind of combining products with jfrog has a cool product called curation that basically, kind of does what I just mentioned. Like creates you like, rule based systems as to what types of packages to developers can pull in from open source?
+ Language is from repositories combining that with, like, a really easy way to deploy.
+ LMS, you know, we've pre-configured the model, it has BLM already built into it where the, you know, the it manager, security manager, Dev ops manager, at an organization can go and click. I want llama 4, I want deep seek. I want quen. And those models then become available to developers to either pull the artifact or deployed as a service, as well as they can control. Who's actually able to to make requests to that model.
+ And so, we're going that AI catalog, and that's kind of it. Also includes a Gateway and some of the detection pieces that I was mentioning earlier about, like, okay, here are all the services that are using open AI. Like do you want to block them? Is this okay? Or here's everything using llama 4 or like we've determined that we can't use lawn afford an organization level. Now, you can
+ Block those services from being redeployed, and alert teams that they need to fix it.
+ That's so it's a where the the product is kind of landed, but we still do all the same mlops stuff that we've been before and
+ have plenty of, you know, several older customers still using the platform the same way. Yes. So it's like you thought about all of these different
+ Models that are the popular models and how can you just put your stamp of approval on them? So that folks have the trust
+ If like, I'm gonna use these, I know that it is not the Facebook llama model, which I remember back in the day that people were downloading and they were like, no, it was actually The Meta llama model that you had to get because of the Facebook. One was a, that was a virus. Yeah. We do some suggestions like that within the platform, like, we offer kind of like some statistics that show like the reliability or the viability of the model. And then, we also provide like, again, the kind of rules based framework where you can sort out. If that model, you know, based on a security scan or based on the number of downloads, like we can filter it. So it only includes like the
+ Models that you want your team where you can just go and wait list, select them and that works too, right? Yeah, creating a
+ Management management.
+ System. And this is also, you know, we spent the first year kind of after
+ I'm getting acquired into jfrog, kind of just talking to a lot of customers and
+ here's what we built. What do you want? And this was the kind of the biggest requests that we got from so many customers that were basically saying we need a management framework just like a basically, we need a governance layer.
+ Yeah, I mean both governance as well as just.
+ We need to have something in place. We cannot let it that this be the wild west and teams just using whatever packages and models. They want, why imagine most folks didn't even have any visibility
+ Not. Yeah. And that's that's their. Their initial reaction is when they don't have visibility like the the friend that you mentioned they shut off hugging face axis. And that's you know a temporary fix to or you know kind of delaying progress, right? Like I think you're ultimately going to be doing a lot of generative development in your organization. You need to find a solution for it. You can't just block it off.
+ So that's yeah. The and that's many organizations that we talked to that were like
+ We'd love to get into this type of development, but until we have something nobody's building.
+ Wow.
+ Yeah. And then some
+ More.
+ On this more, like, obviously a lot of them are using opening. I still but
+ I think in more limited scope and then like, what they're kind of envisioned would be
+ Yeah, yeah. It's
+ The using it right now, again trying to find like the pmf for the products that they're putting out with AI and even if they are at that Enterprise level, I think most folks are trying to experiment with how they're going to fully leverage Ai. And I know that I have some friends at an Enterprise and they are constantly saying like
+ I just want to know.
+ If it can work before I do anything. So the fastest way to know if it works, is to use the best models out there, because if I can't get it to work with the best models, then it doesn't matter if I can get like the 7D model running internally fully like secure and everything because it's not going to work. I pretty much guarantee that if it doesn't work on the best model is not gonna work on the small model.
+ Yeah, I mean yeah it just highlights that.
+ You're not gonna stop developers from using the best, the newest best. Yeah even even when as that Improvement gets more and more marginal if you're stuck on a problem and the new model might solve it. Yeah. Why not? Yeah yeah. And and it is that though like
+ To what you were saying. I try and get it working. But then once it's working and I understand that it can be done with AI,
+ That's when I'm going to try and optimize and I'm gonna make it fast and I'm gonna try and make it cheap and I'm gonna figure out all the ways to make his bulletproof. But let's like almost try to figure out how fast we can get it up and running and does it work? All right, cool. It looks like I'm kind of there and then you have that last mile problem of It, kind of works. I think it could work maybe and then you spend
+ The last 10% of the time, which is way longer than that initial 90% of the time. Trying to figure out the evals or figure out what if you need to do all these different prompt tricks or what are you doing over the tone of one word yeah just 90 10% of that point. That might be like 80% of the time. Yeah it's it's all that development work and again that's I think.
+ And there's so many tools to help with that aspect of development. There's so many like go to Twitter and just flooded with examples of people and tricks that stuff is has been discussed is being discussed.
+ And will continue to be.
+ But it is kind of like, after that point, what do you do after you get something that's working, how do you turn this into a safe Production? Service? That actually is going to last, but I do think what you mentioned in terms of like portability going back to that Gateway concept. I think that is a should be a very significant Focus for any organization just how quickly
+ You know, functionally can we set about this model, from a cost perspective, from a latency perspective, all of those concerns because you know we're just going to see more and more models that are suitable. For these use cases that have lower resources that have lower parameter counts.
+ And are cheaper. So, yeah, might and people everybody spending right now pretty.
+ wildly on AI but that won't always be the case and there will be a time when shrinking occurs and people do that to get more optimized
+ so, I'm fascinated by the whole
+ product discovery that you did. And you mentioned, when you had that first year, almost like,
+ Of.
+ Incorporating or acclimating into jfrog. And so you got to go and talk with all their customers and they have a ton of Enterprise customers and figure out like what's the story? What's the biggest pain point that folks are looking for in this cross-section of security reliability, machine learning AI
+ can you walk me through a few of the stories of like,
+ What were some ideas that you didn't go with what were some things? Or how did you eventually land on what you decided to build?
+ Yeah, it is. It is really
+ Interesting, kind of place to be in.
+ I think Jay frog is like, almost as ubiquitous as like GitHub. So we work with
+ I've over 80% of the Fortune 500 or something. So, like 10,000 customers, there's access to way more accounts. So you go from the startup perspective where like you get a Fortune 500 company on the phone. You're stoked. That is your whole week and what your focus is on, and now you're able to have those like more meaningful conversations and I think it's helpful when you have a really our product was great to begin with and like we're saying it's, you know, mlops Solutions still isn't really solved and people are still struggling with it. So those pain points, still resonated with a lot of these Enterprises, a lot of them had kind of solve them. All Ops 2 certain degree. They had built something because they had the resources.
+ Over the course of a few years to spend on it to make it functional.
+ But yeah, again, it was just kind of
+ Just asking organizations like what you know, what do you need, where you help, what would be helpful? What would allow you to build more? And yeah, this was the it wasn't too difficult I would say or like that much of a
+ Menu of options that we had. It was really get this platform out on all the cloud providers and as, and, and having a flexible on Prem Solution, that's definitely major. One of the major things we heard and then yeah, provide it making open source models easier to deploy and
+ The ensuring more trust in them. One thing that we we did play around more with was, I think on kind of the concepts a little bit before the acquisition, we were focused on kind of creating like more like rag. Tracing elements are kind of like complex dag style, agentic Pipelines.
+ That was one thing that we started building. I think it all did kind of we've had this idea of a Gateway though for quite a while. We just weren't looking at it as a startup from a security perspective it was more around.
+ Prompt management.
+ Content, card, rails, those types of that type of functionality, which we still want to implement down the road. Now, we're just starting from kind of the security layer and Enterprise layer.

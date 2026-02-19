@@ -1,0 +1,33 @@
+{
+  "tech_tags": [
+    "Claude",
+    "VS Code",
+    "GitHub Copilot",
+    "LLMs",
+    "APIs",
+    "Big Data",
+    "Hadoop",
+    "AI",
+    "Machine Learning",
+    "Predictive Analytics"
+  ],
+  "business_tags": [
+    "Security Startup",
+    "Software Engineering",
+    "Agile Development",
+    "Business Problem Solving"
+  ],
+  "key_topics": [
+    "Agentic Systems",
+    "Testing and Evals of AI Models",
+    "Software Engineering in the Age of AI",
+    "Reliability of AI Models",
+    "Prompt Engineering"
+  ],
+  "guest": {
+    "name": "Incomplete, requires full transcript",
+    "role": "Not determinable from provided text",
+    "company": "Not determinable from provided text"
+  },
+  "summary": "The discussion focuses on how software engineering is changing with agentic systems and AI, touching upon challenges like reliability, testing and ensuring deterministic behavior.  "
+}

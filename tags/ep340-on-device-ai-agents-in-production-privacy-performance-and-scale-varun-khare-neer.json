@@ -1,0 +1,39 @@
+{
+  "tech_tags": [
+    "On-Device AI",
+    "Machine Learning",
+    "Transformers",
+    "TensorFlow",
+    "PyTorch",
+    "TensorFlow JS",
+    "Kotlin",
+    "Swift",
+    "Pass Transformers",
+    "NLP"
+  ],
+  "business_tags": [
+    "Privacy",
+    "User Experience",
+    "Developer Ecosystem",
+    "Personalization",
+    "Scalability"
+  ],
+  "key_topics": [
+    "Challenges of on-device AI implementation",
+    "Bridging the gap between AI models and mobile apps",
+    "Performance optimization for diverse devices",
+    "Privacy considerations for AI applications",
+    "The future of on-device AI agents"
+  ],
+  "guest": {
+    "name": "Varun Khare",
+    "role": "Not mentioned",
+    "company": "Not mentioned"
+  },
+  "guest2": {
+    "name": "Neeraj Poddar",
+    "role": "Not mentioned",
+    "company": "Not mentioned"
+  },
+  "summary": "This episode explores the challenges and opportunities of deploying AI agents on devices, focusing on privacy, performance, and developer experience."
+}

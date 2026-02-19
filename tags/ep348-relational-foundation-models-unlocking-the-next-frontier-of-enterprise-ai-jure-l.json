@@ -1,0 +1,33 @@
+{
+  "tech_tags": [
+    "Machine Learning",
+    "Neural Networks",
+    "Large Language Models (LLMs)",
+    "Transformers",
+    "Graph Representation Learning",
+    "Graph Neural Networks",
+    "Relational Databases",
+    "Data Warehouses",
+    "GPUs"
+  ],
+  "business_tags": [
+    "Recommender Systems",
+    "Fraud Detection",
+    "Predictive Modeling",
+    "Data-driven Decision Making",
+    "Enterprise AI"
+  ],
+  "key_topics": [
+    "Relational Foundation Models",
+    "Learning directly on raw data",
+    "Feature Engineering Elimination",
+    "Graph-based approaches to data modeling",
+    "Structured data vs. Unstructured data"
+  ],
+  "guest": {
+    "name": "Jure Leskovec",
+    "role": null,
+    "company": null
+  },
+  "summary": "Jure Leskovec discusses Relational Foundation Models, a new AI approach to learn directly from structured databases, skipping feature engineering and improving model accuracy for enterprise applications."
+}

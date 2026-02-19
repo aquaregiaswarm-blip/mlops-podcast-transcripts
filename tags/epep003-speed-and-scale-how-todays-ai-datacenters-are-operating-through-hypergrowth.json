@@ -1,0 +1,33 @@
+{
+  "tech_tags": [
+    "AI",
+    "Machine Learning",
+    "GPU Servers",
+    "Switching",
+    "Cabling",
+    "IP Addresses",
+    "Switch Configs",
+    "Server Configs",
+    "Fiber Optic cabling",
+    "Liquid Cooling"
+  ],
+  "business_tags": [
+    "Data Centers",
+    "Infrastructure Investment",
+    "Supply Chain",
+    "Logistics",
+    "Cloud"
+  ],
+  "key_topics": [
+    "Challenges in building AI infrastructure",
+    "Bottlenecks in AI infrastructure development (power, logistics, components)",
+    "Role of Netbox in managing infrastructure",
+    "Speed and scale of AI infrastructure growth"
+  ],
+  "guest": {
+    "name": "Chris",
+    "role": "CEO",
+    "company": "Confetti"
+  },
+  "summary": "Building AI infrastructure faces challenges from power and component shortages to logistical complexities, but Netbox aims to manage this chaos, amidst rapid growth and high demand."
+}

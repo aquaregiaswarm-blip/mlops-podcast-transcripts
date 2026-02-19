@@ -1,0 +1,38 @@
+{
+  "tech_tags": [
+    "Semantic Layer",
+    "Looker",
+    "Power BI",
+    "SQL",
+    "YAML",
+    "Tableau",
+    "Excel",
+    "React",
+    "REST",
+    "GraphQL",
+    "DAX",
+    "MDX",
+    "ML Pipelines",
+    "AI Applications"
+  ],
+  "business_tags": [
+    "Vendor Lock-in",
+    "Data Modeling",
+    "Open Source",
+    "BI (Business Intelligence)",
+    "Data Applications"
+  ],
+  "key_topics": [
+    "Definition of a Semantic Layer",
+    "Drawbacks of Semantic Layers within BI Tools",
+    "Benefits of Abstracting the Semantic Layer",
+    "Integration with AI Agents and Headless BI",
+    "Relationship between Data Modeling and Semantic Layers"
+  ],
+  "guest": {
+    "name": "David Jayatillake",
+    "role": null,
+    "company": "Cube"
+  },
+  "summary": "David Jayatillake discusses the importance of semantic layers, their implementation challenges, and the benefits of an open-source, abstracted approach for broader data accessibility."
+}

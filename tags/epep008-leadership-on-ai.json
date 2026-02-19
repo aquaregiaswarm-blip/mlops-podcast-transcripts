@@ -1,0 +1,31 @@
+{
+  "tech_tags": [
+    "AI",
+    "ChatGPT",
+    "Large Language Models (LLMs)",
+    "GPT-3",
+    "GitHub Copilot",
+    "Amazon Qodana",
+    "Cursor",
+    "Gemini",
+    "Coding Agent Tools"
+  ],
+  "business_tags": [
+    "AI Adoption",
+    "Productivity Improvement",
+    "Digital Transformation",
+    "Competitive Advantage"
+  ],
+  "key_topics": [
+    "AI Adoption Strategies in Software Development",
+    "Measuring the Impact of AI on Developer Velocity",
+    "Balancing Freedom and Guidance in AI Tool Usage",
+    "Importance of Experimentation and Learning with AI"
+  ],
+  "guest": {
+    "name": "Unclear from transcript excerpt",
+    "role": "CTO or similar technology leadership role",
+    "company": "Unclear from transcript excerpt"
+  },
+  "summary": "A discussion on leading AI adoption within an organization, focusing on developer tools, measuring impact, balancing freedom with guidance, and the importance of continuous learning."
+}

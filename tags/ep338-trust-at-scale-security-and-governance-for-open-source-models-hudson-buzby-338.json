@@ -1,0 +1,34 @@
+{
+  "tech_tags": [
+    "Generative AI",
+    "RAG",
+    "Vector Stores",
+    "PG Vector",
+    "OpenAI",
+    "Anthropic",
+    "Lambdas",
+    "Serverless Functions",
+    "DevOps",
+    "MLOps"
+  ],
+  "business_tags": [
+    "AI Adoption",
+    "Enterprise AI",
+    "Software Development Lifecycle (SDLC)",
+    "Security",
+    "Governance"
+  ],
+  "key_topics": [
+    "Enterprise AI Adoption Challenges",
+    "Generative AI Development Lifecycle",
+    "Security and Governance of AI Models",
+    "Shift in Data Science Practices",
+    "AI in Production"
+  ],
+  "guest": {
+    "name": "Hudson Buzby",
+    "role": null,
+    "company": null
+  },
+  "summary": "Hudson Buzby discusses the shift in AI development, the challenges of enterprise AI adoption, and the importance of security and governance for open-source models in production."
+}

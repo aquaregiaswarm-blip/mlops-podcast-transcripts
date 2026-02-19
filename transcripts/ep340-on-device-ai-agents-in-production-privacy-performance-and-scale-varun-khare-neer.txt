@@ -1,0 +1,205 @@
+Nobody's gonna want to talk to their phone interact with their apps. If they aren't 100% confident, that, that interaction isn't staying on device. Yes, guys. We wanted to talk about on device.
+ Ai and machine learning.
+ It's been a Hot Topic and it reminds me of the internet of things because every time I talk to somebody about on device Ai and machine learning,
+ They give me the same thing that I hear from the iot folks where it's like, yeah, this year is the year. It's happening. It's gonna happen. I promise you.
+ Do you feel like you've been on the precipice for the past 10 years now?
+ I can start.
+ Class six years, we have been thinking, okay? Next to you is the time in the stock actually gets ready and we take it into production, but the funny stuff is, by the time the stock gets ready. Yeah, I changes. Right? So we used to have traditional lemon water and, you know, deceiving keys and all of those kind of stuff and then charge, everybody came and all everything is Transformers today. Yeah, I think it's a
+ Garden mouse. Gaining some sense you build this stack and your models. Come you add that option to those and then finally make it possible with at least the genie AI models. I do think we are close. Yeah, I'll just say sometimes the selling is way too hard. In reality dimitrios and with iot, that's what happened. You know, iot has worked wonders for industrial and you know it has been doing on for the last decade plus but then all the household and the home automation was way over to course. So right. Nobody really wants a refrigerator in the microwave to be that smart to you. So I think that's what happened with on device. So when there was no need there was a lot of selling just because some of the stuff was working. And I think now with AI things are gonna get merged and they are meeting in the right spot. There is a need AI, can't be where everyone becomes meta, and creates a five gigawatt data center. Yeah. And the same
+ Time. AI cannot be where it is a repeat of your search area and social era mistakes, where privacy sacrifice. So that's where I think on device. AI does have its unique space and hopefully it is going to be the beginning of the many years of Honduras, Ai and more real.
+ Yeah, I should say probably it's it might be a little bit.
+ Presumptuous or precarious. I'm not sure the exact vocab term. I'm looking for here of me to say that we don't have on device AI right now because I know that there are tons of models that are power
+ Powering lots of the experiences that I have on my phone.
+ and I've seen as like a meme, folks, starting up their
+ Dishwasher machine and it says powering up the AI. I think my friend, Nick shared that and he was saying like what the hell do I need AI in my dishwasher for exactly.
+ Exactly. It's the same thing, right? We oversell and every industry when the CIA if they want to get some marketing. So might as well introduce AI in your dishwasher in your microwave, in your car key.
+ Uh but but you're right. I mean so so I mean Varun has been working with on device for now close to how many years around. I'll let him answer what he has seen the evolution. Let me eat. Yes, I think. Yeah. And to that point, right? So all of this iot ecosystem the platforms from all the major players came out in open source. Trying to automate stuff. Make things get going in the factory side. You know, places like oil, drilling spaces, where it's very hard to get internet, but
+ The entire consumer space, the devices that we have others, right? The smartphones smart watches. Hopefully are glasses that are coming soon that set of devices and still not gotten a platform to even run some of the very basic machine learning models, right? And I think the primary challenge over here is the diversity of devices that you keep on. Seeing its, you have iPhones and galaxies with state of that, chips, trillions and trillions of transistors inside it. And then you have a nine year old Android smartphone with list in two gigabytes of RAM. But the user is equally using both of which device is Right. Different people, right? So how when you want to unlock on device AI, you have to build all the stock from the ground up while handling this diversity of device's.
+ And then unlock the experiences that we are talking about. So why the future looks good. The challenges are in terms of building all the different layers of the stack that I needed. So early days and like, in 2018, 2019 for me, I was converting operations between pytorch and tensorflow because those used to be the major machine learning platforms. Yeah. And we had to run tensorflow JS for web and by George stripped for mobile. So, to deploy a model, we had to compile it into two different formats from the same source. And the only way we could figure out as a 20000 member Community was to write a map between each operator from python to tensorflow, right? So it's the, it was that primitive, but fortunately, all of those complications have been resolved. The major run times have come up for devices, that can run equally.
+ Well, on different sets of devices, whether it's a glasses or it's a smartphone.
+ that simplifies the stack and then you need the next layer of
+ The interface which is actually interacting with your application. So we thought, let's just build it out. Make it possible for developers and take it from there.
+ Maybe now is a good point.
+ Where we can dive into some of these unique challenges. You kind of give us this quick overview of
+ what the evolution is been with on device and how the stack changed a bit but
+ Today.
+ Where do you feel like we're still hitting?
+ places that could be optimized or they're still inherently difficult, just because the problem is
+ A tricky one. So the way. So there are two parts of the puzzle. One is the TxTag Demetrius and other is from the benefits and the impact size, right? So I'll reverse this, I'll talk about the benefits and the impact site first. So I believe with AI, you know, a lot has changed in our daily way of interfacing with technology. We are not Googling as much. We are going to charge GPT and whatever your favorite tool is. But when you come to mobile and look at the apps, I can pretty much say, the apps are still quite dumb, right? Like that has been my punchline for the last one, you're like, why my app still dumb? Nothing is really changed. My recommendations are pretty much the way it used to be, I still can't do. NLP searches on half the things, including some of the most advanced apps. Where if I say, if I like if I'm a visual thinker and a person remembers things visually and you remember a dance scene and you search about it, nothing in the app world can give you. Oh, this is the movie.
+ You thinking.
+ Right. So there's a lot of gaps with AI has not really
+ penetrated.
+ The.
+ Appliance keep the way we want. And the impact of that is, the apps are pretty much the advanced use cases and all are used by people who are technology capable, but there is a whole Merit of people. Whether it's my dad who doesn't interface with technology, well, and my kid, who is three and a half year old, but he wants to use the technology, but I'm concerned about his privacy, right? So that's the impact side. I would say, from the tech side, I think our challenges are
+ Interestingly, even more complex compared to the machine learning world. So now with AI, the models are no longer few kilobytes or few MV is. No, we are dealing with gigabytes of models.
+ And how do we make? Sure we run them efficiently on device is, which are inherently resource constrained and we want to make sure that
+ They run like wouldn't was saying on the whole diversity of devices. We can't be the apples of the world and say, only iOS 18, and the next generation will support things, right? We have a whole variety of users who already are using their devices. So we need to get the experience for them all so optimized. Right? So that's a pretty big Challenge. And another technical challenge. I will add is
+ so, the developer ecosystem where,
+ How?
+ A kotlin developer or Swift developer who is used to creating, you know, Android apps or you know iOS apps.
+ How do they bring AI into their apps? Where is that ecosystem?
+ are they going to write complex, agentic, workflows and cochlear, have you written any
+ What is a?
+ And the other part of this is typically the machine learning course, in my machine learning teams. The AIT teams they write in Python, how many of them loved writing Cortland almost zero. So how do we bridge this Gap? Right? So, those are two aspects. I would say, most from the impacts are in a technology side. Well, if you have something more to add,
+ yeah, I think what I can share is
+ What is possible on the device front today committees? And, you know, the kinds of technical challenges that are there to
+ It runs some of these models, get the agentic workflows out. So one piece is at least supporting these 1 billion 2 billion parameter. Models that neeraj was sharing, they should be able to talk to you. They should have voice understanding inside them, maybe multilingual capabilities.
+ OCR text and understanding vision and visual understanding, they might not be great at solving PhD level research problem statements, but I don't need to do that on my smartphone. So for that cloud is still there. All the charge deputies and the trillion parameter models, they can do that, but it's about the personalization to your point. A model that is more tuned to me, has the memory more associated with the kinds of interactions that have been doing and utilizes them to work with all the different agents or tools, or even the cloud-based models to get the final response that you want at the day, right? And
+ For that. You need do need some interesting technical capabilities to be solved. So, one of the things, for instance, we open source recently was passed Transformers
+
+Which helps you will run these models two times faster but reduce your memory consumption by over 30%. Now what that means is you can learn a bit model that is bigger than the available RAM on your device. In general, you're the storage and hard disk is much larger than the RAM on the device, right? And you don't need all of these billions of parameter parameters at the same time, right? So if I'm thinking about food and recipes and cookbooks, I don't need a model that is expert in history to at least answer the questions in my current session, right? So that's what possibility leverages it turns off those levels in the models that are not supposed to be active for answering the current context, which helps you say memory. But at the same time, increase the
+ Inference speeds because now your Computing a lot lesser.
+ So these kinds of optimizations are there on the software stack and it's a open-ended research problem statement where some of our community members are also contributing to actually make these kinds of Technology possible then there is about it. Basically the technical challenges that needs to be solved in this space you know and there are research coming up possible directions. That
+ So we should be able to unlock bigger and bigger models on these smaller and smaller devices.
+ so, it's almost like,
+ We have the difficulty in the tech of running large models on device.
+ Which is there. But then if I'm also hearing you both correctly,
+ There is a difficulty on, in unlocking, what use cases we really want to use these models for, is it in each application? We're going to just have llm capabilities so we can talk to it. Is it that we want an llm, that is an Overlord and it's watching our phone and doing things and then it can have agent calls when we talk to it. And so it's seems like
+ Since it is so new, that hasn't shaken out.
+ At the same time, we're still trying to figure out like, what's the best way to power these on device? And so there's these parallels, that are probably, it's almost like the chicken and egg problem. Where we say, if we can get these models running, super efficiently on device,
+ The use cases will open themselves up or if we know one specific use case, then we can optimize it for running on the device. And I wanted to mention one thing around this memory piece which I find fascinating. And I wanted to just dive in how you're doing that because I had heard that one path forward was just
+ hot swapping out, Laura's in the moment of doing it are
+ Did you take that approach or is it a whole different route?
+ Actually, it's a mix of some of these are purchase. They're doing is
+ then you can multi-agent systems running on these mobile phones, right? One is more like a Marcus Market.
+ Oh, please. And an orchestra region, which is working for you across the context of multiple applications, right? Which is kind of looking as the supervisor of all the different agents and each of the mobile applications have agents inside them.
+ And both of these agents are interacting with each other communicating, whatever they want to do. Let's say if you ask the assistant to order of order food for you, it can go to your food delivery app and then the agent inside, that will figure out the right preferences based on what you have bought in the past. So just to back to the orchestrator region and then show it to the user. So, all of these, there are these multiple agents that would be running. But interestingly, the llms that would be powering all of these agents. They'll be similar. Same behind it, right? Because you have to fit off three billion for billion parameter model on a device. You cannot have multiple llms in those cases.
+ so, in those
+ Places, we do need Laura adapters in some of the cases. Very we want to personalize the responses of the model, add some additional information or generalization about the domain that that particular agents to work upon. But another aspect is more of the general model capabilities itself, right? So you don't have to build an explicitly trained, Laura adapters. Every model has this inherent
+ Clustering of Weights, in some sense and you can dynamically choose. There are these mixture of expert models that are coming up right where there are 10 or 20 experts in each expert is only maybe let's say 200 million parameters in our tilt parameter model case, but you choose one expert and only that goes into your memory and everything else is out in Flash, you use the same approach just to increase the number of experts from 10 and 20 that we see today to something like about 100 million experts. These are all smaller experts. I was gonna say, like, 100 100k
+ The topic, clustering itself becomes a 200 million parameter in that case, but it does give you the advantage of turning off your memory and turning off unnecessary computer that you are running. Yeah I would just add here to choose that. The question that you were hinting at is very interesting where
+ How will this shape out like like we can't imagine every app has its own llm but we can imagine every Hub have its own set of Agents.
+ We think that the future is going to be like, if you think about multiple steps that will take, I think multiple apps will come up, which will be AI native. First, they will have agents running. They will deliver experiences to the users, which are driven through llms some private on device and some with the cloud,
+ and when eventually,
+ you know, you do want the interface of
+ the phones and maybe not even the phones, maybe there's a future, a different device to through a different kind of assistant. There's a assistant, is your primary interface which decides which app to dispatch a particular action. So in that case that assistance is not like the overlord AI. But it is an AI layer that has the Super intelligence. It has the memory across apps and it can kind of lease out its capabilities to the agents running inside the apps. So
+ So this kind of fundamentally changes the way the apps have been working in the phones. And I believe like the apps. The way they work in the force is the same way the apps have worked on the laptops and our desktops then nothing has changed, right? You go to a particular app, you finish your work. If you have two apps to decide or go in one, then I go into another and then do your work. And then, you know, Steve Jobs, very nicely added the sheen of touchscreens, which was great. So now we can use our, you know,
+ a fingers to interact with it, but still
+ If your dad wants to book, a cab, and he's used to making a call.
+ Now, he hates your phone because he has to go through Uber and Uber changes, its screen with the new promotion, and then he's lost forever. He just wants to do the same thing with doing in his mind is like, hey, in the night. Be like, let me just call in the technology and meet can use Uber you can use theft, or whatever it is. So I believe that I really hope that happens, you know, that we created this interface which becomes the personal interface depending on how capable you are and the AI adapts underneath your needs. Yeah, there are few points on that. I have been pondering quite a bit and the first one is, if all of the apps are going to be okay,
+ With seceding.
+ This power to the overlord agent type of thing, because then they lose out on, you going to their application, they're just almost like a secondary, llm call, or a tool call.
+ And I know it kind of is likened to the way that
+ Agent to agent framework, wanted to make it work.
+ And so, there is movement, there is energy going in that direction. It just feels like if I'm Amazon, I've now lost the platform, I'm just a tool call. I'm not the platform that you go on and you search around and you end up buying a bunch more stuff because my recommender system is so good. And I find that
+ Really difficult to see Amazon, just giving up. Yeah, so dimitrios with the internet has happened. Right? Think about it. I used to own a website, but as to put recipes, I used to stuff that is at the bottom. And the beginning, I used to have all the story in the nonsense about. However, yeah. And eventually became popular, I used to monetize it. How do you monetize it? Now it's at GPT.
+ Right, how do you monetize it with publicity? So I think the resistance here is just that
+ The reward has to be high enough that they might be a net new deed of apps coming. Which will display a lot of the existing apps or the existing apps will evolve in this ecosystem. I think the bigger problem, I believe might be from the OS vendors, honestly, how will they react to it? What kind of control? Are they willing to give in this new AI native experience?
+ And because it's very hard for the AI for the apps to trust the OS with all the personal data all. So
+ On how will they monetize it? Because many and even yeah you don't really expect it not to be done by the OS but
+ everything we've seen from Apple so far shows. No inclination of being able to pull something like that off. Yeah.
+ And there's a bigger piece of trust and privacy there which I believe a lot has to play where whoever wins this will be.
+ Vaughn because it started being an open, it has to be open sourced. The primary objective of this platform and the assistant cannot be that you are directly monetizing it. You're enabling this ecosystem and people are trusting it because they know it's open. Just like, you know how Google displays a lot of the things with the Android ecosystem and the Chrome ecosystem, the open nature of things was a lot to do with its, you know.
+ Popular popular in the beginning. So I think open source.
+ The benefits.
+ And then I fundamentally hope that there is a net new deed of apps coming which are going to displace a lot of the existing apps.
+ Well, diving into the apps. And as you mentioned, like, AI first apps that come up, which I think, for all of us is still a little bit intangible to think what that looks like. And we, it's hard to imagine rethinking jira AI first. It's like, okay, is that linear? I guess, maybe well, but it was, yeah, I know, yeah.
+ but besides that,
+ you mentioned it before and we got to call it out. Every single app is not going to have.
+ A model because I can have three apps on my device. Before I fill up all of my storage or all of my capabilities unless the hardware capabilities just explode or
+ Like, you guys are saying the model capabilities are able to distill down, and you're able to really take advantage of these models. So, I think now is probably a good moment to just talk about what some of these constraints are.
+ If you are building an app that is AI native and you are expecting it to go on the phone. It's going to be llm or AI first.
+ But you can't just have.
+ A reasoning model there can you? You can offload some stuff to the cloud when you need to.
+ But is a one B type of model going to give a good enough experience for an AI first app.
+ Yeah, so I can take a job at the mirrors. You please add so Demetrius. I think it depends for instance, how the, what AI is actually controlling within the application, right? So there are different layers, just like you mentioned. But for instance,
+ You just at one level want, multi-modal multimodal interactions with the application, right? You should be able to talk to it. But at the same time, interact with all the UI and the widgets now there is a smaller model that is just transcribing. What you're seeing into an llm generating the response and understanding what you
+ Said. Right. And respond back to you invoice. Now, there is a full loop of multiple.
+ LMS or am models running on devices to get a full duplex conversation, going with you, right? And in terms of the experience that gets unlocked
+ so,
+ There was this example that came from Tinder actually, so the standard left side and right. Swipe matching approach this, for update out with a gamified horizon. And in that game, the AI was more like the orchestrator of the game asking the users to engage more with each other, to actually solve the puzzle of the game. And that was a way for them to, you know, get more engagement going amongst, the people they understand each other better and take things from there. Now, this is just swapping on where the decision making is happening. And in this case, that AI model doesn't need to be a very complicated model, right? It could be a simple model just understanding, okay? What the guys saying, what person bees singing and how they are matching? What kind of person should I throw for them to solve a very simple? Simple task?
+ But you get a bit more different experience Bandit snatch. I think it's a Netflix on Black Mirror bandersnatch. They tried with this, right? They had multiple story lines, interact with it and the story changes. Now, assume all of these kinds of interactions are also getting mobilized by the AI agents who are working within different contexts. Working over your memory and your preference to do this. Yeah. I'll just add I think we have what we see today based on our
+ Experience and working with the apps around 1 billion, but I am the models are pretty good at summarization.
+ Right now at one billion parameter models. We don't see reliable tool calling an agentic workflows you end up using around 1.5 to 1.7 1.9 billion permit models. Where it is not hallucinating to pick up tools and then copy the response of the tools in orchestrate more tools. And then The Sweet Spot is probably around 2 to 2. 5, 2 5.
+ so, we do think, I think, in the next six to one year, six months to a year, we will see some of these models coming, like Quinn had already released very powerful models in Quinn 3, which are
+ are pretty good in doing all sorts of tool calling and agentic workflows, we see already. So the next step will be how can we pack multi-modality voice invoice out? Duplex probably in a 2.5 billion range.
+ I like this Vision because as we're mentioning some of the hiccups here are that we don't have
+ Use cases, clearly defined and one that you.
+ Mentioned.
+ That could be a potential future is when we're able to talk to our app just as much as we're touching the screen.
+ And the app is doing things and then we can use the touchscreen when we want.
+ But we can also talk to it in an understands it so far.
+ every time that I've interacted with,
+ Siri the assistant. It's Fallen flat on its face so I'm very skeptical that that's actually going to be a reality and I I almost feel like Siri was better.
+ Before and somehow it got worse, it did.
+ It did. It's I think they're two parts here. The materials one is.
+ Sometimes when I come and I want to interact with my phone, my intent is very clear, this is what I want to do. So in that case I would like my phone to act like a real assistant.
+ Yeah, so that they're smart. They're capable they can fill in the dots.
+ Based on what my personal history is a primary is. So now, if I say I have to fly to us tomorrow, it should already know what kind of Airline they like, what time I pick. I have to book, my Uber, to my hotel. This one work. I want my breakfast. Done all of the nonsense. I don't need to deal with this. So that's what I meant. And intent is clear. And with the user preferences and users and understanding a lot of this can be done across apps by an assistant. If we have the right stitching done, the second part is, I don't know what I want to do. So that is where we are doing exploration, and sometimes Doom, scrolling, right? Like, Netflix is one of them where we are, continuously do scrolling nowadays, we don't know what we want.
+ Honestly, that UI and ux designing and thinking is the next, I think, Frontier for us. How do we enable AI LED exploration?
+ Where we can seamlessly transition from like an assistant to an actual app, and give them the space and then come back to it because as you are exploring, the user will be forming that intent and once that intent is formed, then you can finish the action.
+ We have to enable exploration through Ai and that interface doesn't exist today.
+ I do.
+ Want to have the ability winner. I'm scrolling through Netflix to say like I'm looking for a western but like a modern Western. I like this show and that show and then I'm still scrolling and it's populating it with rights that I have. But I understand the vision too. That you're saying,
+ Nobody's gonna want to.
+ Talk to their phone interact with their apps. If they aren't 100% confident, that, that interaction isn't staying on device. Yes.
+ Because we already, I, we're already like convinced that our devices are listening to us all the time. Now, when we actually start interacting with it like that, it's going to be really weird when we're thinking like, okay, everything that I'm saying here. How does it know when I'm talking to it about my recommendations or when I'm talking to my wife about whatever logistical things in the house? Oh I think one of the interesting pieces.
+ On the application side is all. So how do you make these apps work is specially in these games of exploded. He was kisses, coming back to the point to mention to eat. Why would apps want to do this?
+ So in this kind of an interface, it's a merged experience across the application and the agency. Open up your assistant, but it then actually fires up the application which evolves your intake helps to explore work towards the Direction's, all for, which it will require data, which is proprietary, at least for that application. So that agent has to run, within the context of the application, it cannot be that orchestrated agent in that case. And that's where both of these,
+ Intra app and interrupt communication needs to be orchestrated together.
+ Yeah. And and like
+ so, I think for me,
+ Inherently like an OS vendor doing, it will have its own problems. Because first of all, we have two giant OS, vendors, and trying to find commonality in AI or workflows between them is going to be next to Impossible.
+ And then, which app is gonna give them access to their?
+ Internal data is gonna be another problem.
+ So this has to be something outside and like I was mentioning, you know, before we still have a thing about this.
+ Swapping of context that is going to happen, both within the llm. And then within this apps, like from an assistant seamlessly, going to an app.
+ And even the app should be more adaptive, right? So one of the things that we did as part of deploying earlier machine learning models Demetrius.
+ A hooking each and every interaction of the user as the user is, navigating through the app that the Impressions and the clicks are getting captured on the device and it gets captured. Oops. Sorry my light is flickering and it gets captured on the device, right? As the events of flowing and in Python you can do feature engineering on it to understand what the user is trying to do and run machine learning in AI models to provide that level of personalization and recommendations, right? All of this also is nearly impossible to do it on the cloud, because the amount of fire hose, it takes to get this click stream event stream data into the cloud then run it and then bring the output back at scale of 50 million. 100 million users is just impossible. Doesn't work, doesn't work, doesn't work. It's speed that I'm not sitting there for a little bit and thinking I wonder what would be a good movie and it's populating for ages. I do I
+ Do find the level that we play at. Again, I'm keep coming back to it. Where
+ What would be really nice is that I'm not locked in to Netflix when I'm looking for a movie. Exactly. And I have my Netflix and my Apple subscription in my all my different movie, catalog subscriptions, that the agent could go pull from. When I say, I want something funny.
+ however,
+ Like, Netflix is Never Gonna want that because then I'm not locked in to Netflix. And so I I think that you raised two really good points that Netflix isn't gonna want,
+ Apple or Google to be getting all their data and having all of that information and Apple and Google. Also we inherently aren't necessarily going to want them to be having all that information. So it feels like there's this utopian world that we could be living in. That would be amazing. And we're trying to push towards it but potentially the hardest
+ challenge here is going to be user adoption.
+ Or everybody getting along and playing nicely together so that the users can have that utopian experience. So I'm gonna do right now. V I've been sacrificing on the user experience and use it privacy. I'm really to make sure that the apps have that hold over us, which I understand all of them are running a business but they are also inherently making sure that they're competitors are not enabled, which is the main driver. I think if you eliminate that piece where
+ if it can be a layer, which is open source driven, which is billed by the community,
+ And the information stays on device, nobody's taking that information out.
+ Right. So the the level of personalization and details that Netflix has to give
+ will only be given to the assistant and an assistant context to make the recommendations and depending on the level of cooperation and the level of details, they provide assistant might be incentivized to invoke Netflix rather than Hulu.
+ Right. So they can be very interesting. Rewarding Behavior here. Also on how you build this new app ecosystem,
+ In fact, we can start even thinking about how do we reward the users for their data?
+ Because some of them might want to give it for personalization to the apps.
+ And now you give the control to the user, some of them might be, I don't care, give everything away, fine. But for people who care, they can even monetize that piece. So we can build a whole
+ new way of not just interacting with the technology but also
+ making this whole experience so much personal and
+ Accessible there are not for me, it's very exciting just because I feel like, you know, when when I grew up for me mobile was the new thing like and we saw movie, it was like, oh my God, the things have changed and then the social era came even more. But then let us just stagnated for the last six. Seven years, we just keep up. We are cranking out the same thing in your, you know, like a lipstick on a big thing going on.
+ Yeah, I just wanted to add one interesting thing or what Apple did recently and how inefficient it was, you know. So just to get this context on what an application is doing, or the user is doing on that application, Apple built models where they were screenshotting your app and then doing the OCR over it to understand the context now because this happens as an OS because he was seeing every application is a binary.
+ Right? So it's running within its own container. So the only way for you to take some information out of that app, it's to screenshot the app, right? But on the other hand, if it's an open source Community, working with the applications and the application, developers are still first,
+ First Focus.
+ They can build Integrations directly inside the application, which means that you don't. First of all, need a computer vision model or multimodal capability, right? In that case, the app is filtering out, the data, doing the right things and giving you that compressed information that even a smaller model compatible. Yeah, I mean think about what we're doing on the browser automation on the desktops. We have to literally take screenshots figure out the pixels and then automate them and now you know publicity rightly is waking up and saying this can't be the way.
+ And that's where they came out with comets. So, I think similar ecosystem has three emerged in the mobile landscape. Demetrius
+ And the primary interactive engine is not going to be a browser because nobody's going to the browser on the phone. So it can be a new AI assistant.
+ Which can unlock this. So we will see you're right. There are lots of changes here which is exciting. It almost feels like you would need a new OS.
+ That's where the world is heading, you know, and
+ Every often new technology comes because of which we'll have to rethink things. I think cloud-native this this for a lot of things I think.
+ For AI, it's not far-fetched that.
+ For the tools that you have been using that are the most important tools, you will need them in AI native ways, where a native browser, a native OS.
+ And an initiative Marketplace.
+ Interestingly on that from. What is my engineering, right? So Andrea karpathy recently, he was talking about software, 2.0, software 3.0 and how this, and I think that will happen for OS as well. If not a separate OS, at least AI layer of who should definitely come up.
+ Right? And that would be the 3.0 version where rather than writing kotlin or C plus, plus code, you are prompting engineering, the entire thing out.
+ Yeah, it doesn't feel that for fish. I think one question I've got for you guys who are deep in this space is
+ these different constraints on the device, and
+ I know that we've talked to Qualcomm folks back in the day and they mentioned how
+ When you are playing at these.
+ On device levels, you need to be picking up, not only the size, and just how much storage you've got. And how much memory you've got all of that like the engine capacity, but also,
+ You can.
+ Do operations that drain the battery.
+ Really quickly. And so you want to be
+ looking at all the different vectors and maybe you've seen not only with the phones, but with other,
+ Iot devices. We could say that have
+ had AI enabled in them. I'm thinking about like factories primarily
+ How?
+ How have you tried to play around with maximizing the models on every vector?
+ All right, so are you sure someone new thoughts on this? Um, so
+ At least on the iot world. I think one biggest difference between designing stock for iot and Android slash IO is the consumable word, is the conclusion to Flip's.
+ Right in iot, there's a central entity The Hub, which is orchestrating all of these sensors, which are continuously generating some data. Right. In this case, the user who's sitting with the devices, the one who's actual source of data, right? So your API designs, the control centers. They flip when you move from iot to the consumer world,
+ and,
+ Secondly.
+ Some of these optimizations that you mentioned, those are the hardest pieces in managing the diversity, right? Some people will have strong internet connectivity, but as soon as the sit in the car and start moving their internet connectivity starts breaking down right.
+ It's much easier to do battery intensive tasks, when the phone is on the charge at night, rather than doing it while it's being heavily used for in the video call.
+ Right. So that is what a platform that is specifically catered for Consumer use. Cases can handle as compared to an iot platform.
+ Oh, and we do all of this management for the application. So they don't have to worry about. We directly look into whether this model needs to run on CPU or an npu or a GPU and what's getting bottlenecked and throttled. Right now, one of the interesting things, for instance, we solve it's more expensive for the battery to make API call to the cloud.
+ Then to run, 300 kilobyte or a 500 kilobyte, this is entry mode on device. Well,
+ Isn't that interesting? Yeah, just another reason the optimized on device.
+ Exactly. And you cannot come across these challenges unless or these optimizations, unless you actually go in production and deploy this systems out to understand these terms.

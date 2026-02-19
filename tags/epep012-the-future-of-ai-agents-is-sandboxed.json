@@ -1,0 +1,32 @@
+{
+  "tech_tags": [
+    "GitHub",
+    "API",
+    "Run Loop AI",
+    "FFM PG",
+    "npm",
+    "Python",
+    "Nodes",
+    "Docker",
+    "Docker file",
+    "Temporal",
+    "LLM"
+  ],
+  "business_tags": [
+    "Agentic Execution",
+    "Security",
+    "Orchestration",
+    "Workflow"
+  ],
+  "key_topics": [
+    "Sandboxing AI Agents",
+    "Security and Isolation",
+    "Agent Tooling and Capabilities"
+  ],
+  "guest": {
+    "name": "Unidentified",
+    "role": "Developer/Engineer/Speaker",
+    "company": "Run Loop AI"
+  },
+  "summary": "Sandboxing AI agents provides a secure, isolated environment for them to operate with broad access to tools and resources, preventing harm to host systems while maximizing capabilities."
+}

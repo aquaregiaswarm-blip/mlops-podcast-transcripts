@@ -1,0 +1,30 @@
+{
+  "tech_tags": [
+    "React",
+    "AI",
+    "API",
+    "MCP",
+    "Google Drive",
+    "GPU",
+    "WhatsApp",
+    "LLM"
+  ],
+  "business_tags": [
+    "E-commerce",
+    "User Experience (UX)",
+    "Delivery Services",
+    "Latency Optimization"
+  ],
+  "key_topics": [
+    "Tool definitions for AI agents",
+    "The difference between APIs and tools in AI",
+    "Importance of intention in agent design",
+    "Optimizing agent performance (latency, accuracy)"
+  ],
+  "guest": {
+    "name": "Kiara",
+    "role": "Process Lead Data Scientist",
+    "company": "iFood"
+  },
+  "summary": "AI agents need well-defined 'tools' (not just APIs) reflecting user/agent intent; clear tool definitions and domain-specific tools are crucial for accuracy and speed."
+}
