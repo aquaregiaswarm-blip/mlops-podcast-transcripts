@@ -1,0 +1,30 @@
+{
+  "tech_tags": [
+    "AI",
+    "AGI",
+    "Benchmarks",
+    "API",
+    "Models",
+    "Inference Time Compute",
+    "OpenAI API",
+    "Custom Built Solutions"
+  ],
+  "business_tags": [
+    "Benchmarking",
+    "AI Evaluation",
+    "Progress Measurement",
+    "Live Stream Promotion"
+  ],
+  "key_topics": [
+    "AGI Benchmarking",
+    "Arc AGI Benchmark Design",
+    "OpenAI Model Evaluation",
+    "Live Stream Collaboration"
+  ],
+  "guest": {
+    "name": "Greg Kamradt",
+    "role": "Runs",
+    "company": "Arc Prize"
+  },
+  "summary": "Greg Kamradt discusses the Arc AGI benchmark, its design for evaluating AI, and OpenAI's model evaluation results culminating in a live stream collaboration."
+}

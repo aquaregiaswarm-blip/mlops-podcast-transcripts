@@ -1,0 +1,34 @@
+{
+  "tech_tags": [
+    "Auto GPT",
+    "Baby AGI",
+    "LangGraph",
+    "Cloud",
+    "AWS",
+    "GPT 3.5",
+    "AI voice agent",
+    "Web scraping",
+    "Web search",
+    "Typescript"
+  ],
+  "business_tags": [
+    "Sales Development (SDR)",
+    "Lead Generation",
+    "AI-powered Automation",
+    "Digital Workers",
+    "Outbound Sales"
+  ],
+  "key_topics": [
+    "AI Agent Frameworks and their effectiveness",
+    "Building and deploying AI agents for sales",
+    "Trade-offs in AI agent development (e.g., control vs. automation)",
+    "Voice AI challenges (inflection, tone)",
+    "Sourcing and researching leads using AI"
+  ],
+  "guest": {
+    "name": "Not specified explicitly, but Tech Lead and Engineering Manager",
+    "role": "Tech Lead and Engineering Manager",
+    "company": "11x"
+  },
+  "summary": "A tech lead discusses building AI sales agents (Alice and Julian) at 11x, highlighting challenges, tradeoffs, and the evolution from previous voice AI experience."
+}

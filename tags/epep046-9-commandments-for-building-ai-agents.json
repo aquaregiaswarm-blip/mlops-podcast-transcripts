@@ -1,0 +1,32 @@
+{
+  "tech_tags": [
+    "AI Agents",
+    "LLMs",
+    "RAG",
+    "Embedding Stores",
+    "Chatbots",
+    "GitHub",
+    "Vector Databases",
+    "Authentication Solutions"
+  ],
+  "business_tags": [
+    "E-commerce",
+    "AI Adoption",
+    "Product Development",
+    "Innovation",
+    "Competitive Advantage"
+  ],
+  "key_topics": [
+    "Building Effective AI Agents",
+    "Design Principles for AI Agents",
+    "Forward Compatibility in AI",
+    "Balancing Build vs. Buy for AI Components",
+    "Experimentation and Rapid Prototyping with AI"
+  ],
+  "guest": {
+    "name": "Paul",
+    "role": "VP of AI",
+    "company": "process"
+  },
+  "summary": "Paul and Dmitri discuss building AI agents, emphasizing design principles, continuous experimentation, and strategic decisions around building versus buying AI components in a rapidly evolving landscape."
+}

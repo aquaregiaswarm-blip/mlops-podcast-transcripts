@@ -1,0 +1,30 @@
+{
+  "tech_tags": [
+    "Spark",
+    "Snowflake",
+    "AWS",
+    "EC2",
+    "DuckDB",
+    "Data Fusion",
+    "LLM",
+    "SAS",
+    "AI"
+  ],
+  "business_tags": [
+    "Data Products",
+    "Business Outcomes",
+    "Revenue Generation",
+    "Software as a Service (SaaS)"
+  ],
+  "key_topics": [
+    "Evolution of Data Infrastructure",
+    "AI's Impact on Data Workloads",
+    "Shifting from SaaS to Data-driven Products"
+  ],
+  "guest": {
+    "name": "Yoni",
+    "role": "Co-founder",
+    "company": "Not explicitly mentioned in the first 10000 chars"
+  },
+  "summary": "Discussing the evolution of data infrastructure due to AI, moving beyond traditional SaaS models to data-centric products, and the challenges in scaling data-driven solutions."
+}

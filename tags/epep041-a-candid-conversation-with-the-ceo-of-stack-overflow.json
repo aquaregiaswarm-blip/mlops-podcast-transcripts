@@ -1,0 +1,34 @@
+{
+  "tech_tags": [
+    "Stack Overflow",
+    "AI",
+    "Large Language Models (LLMs)",
+    "Pro LLM",
+    "Python",
+    "Kubernetes",
+    "Chat GPT",
+    "OpenAI",
+    "Google Cloud",
+    "AI Chatbots"
+  ],
+  "business_tags": [
+    "Knowledge as a Service",
+    "Data Licensing",
+    "Community Contribution",
+    "Attribution",
+    "Expert Knowledge"
+  ],
+  "key_topics": [
+    "Stack Overflow's relationship with AI",
+    "The evolving nature of Q&A and knowledge creation",
+    "Expanding beyond Q&A with new features",
+    "Data licensing and attribution",
+    "The value of expert knowledge and community contributions"
+  ],
+  "guest": {
+    "name": "Not explicitly mentioned in the provided transcript",
+    "role": "CEO",
+    "company": "Stack Overflow"
+  },
+  "summary": "Stack Overflow's CEO discusses the company's evolving role in the age of AI, focusing on data licensing, partnerships, and expansion beyond traditional Q&A."
+}

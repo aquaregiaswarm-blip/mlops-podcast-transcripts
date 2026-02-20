@@ -1,0 +1,34 @@
+{
+  "tech_tags": [
+    "GPUs",
+    "AI agents",
+    "Benchmarking tools",
+    "Voice models",
+    "Inference stack",
+    "Open source models",
+    "Stack Overflow API",
+    "Python",
+    "JavaScript",
+    "Go"
+  ],
+  "business_tags": [
+    "AI in production",
+    "Cost optimization",
+    "Model evaluation",
+    "Scalability",
+    "Private eval pipelines"
+  ],
+  "key_topics": [
+    "Model evaluation methodologies",
+    "Private benchmark development",
+    "Cost-effective AI deployment",
+    "Fine-tuning and distillation",
+    "Use case-specific model performance"
+  ],
+  "guest": {
+    "name": "Paul",
+    "role": "VP of AI",
+    "company": "Process"
+  },
+  "summary": "The discussion covers AI model training, private evaluations, fine-tuning for agentic use, and optimizing the inference stack for scalable, cost-effective AI deployment."
+}

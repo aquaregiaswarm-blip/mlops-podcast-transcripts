@@ -1,0 +1,360 @@
+And it's not it's not time it's like oh this is annoying to wait for. Its like the world continues to do things, you know independent on how fast or slow you are. Like if you are a slow person,
+ Doesn't change the speed of the rest of the world, right? And that's the same with the robot.
+ Okay, so I'm Nico West.
+ CEO of rerun, and
+ for my bulk use of coffee, it's pretty, it's
+ Filter coffee with milk.
+ But I'm enjoyer of many kinds of coffee. I think we should kick this off with
+ an overview of your opinions on.
+ Physical AI versus robotics because I have heard about Robotics and I've also heard from people who are doing robotics that the big let down is, there's not a lot of AI inside of Robotics, most robotics companies that you hear about sure. So, I think
+ Physical AI as a term. I at least saw it popularized by Jensen quite recently. So therefore it's always
+ subject to a lot of the problems of high, right? But I was really happy when that happened because we've been looking for a term that kind of encompasses.
+ a product that use AI, or
+ You know, AI in the broadest stance. Maybe, you know, the classic. I just algorithms that do intelligent stuff to like really deep models.
+ And that kind of stuff and the Tenant basically applies intelligence to the physical world either to just analyze it or to do something in it. So I include like intelligent sort of maybe some other autonomous Robotics and that but also spatial Computing and
+ Sort of, I don't know. We thought of something like long tail.
+ Physical and intelligence like I don't know, like security applications.
+ They're just a lot of different, I don't know, Sports on all the lyrics so just a very large amount of stuff you might want to do with intelligence software that somehow interacting with the world. So I put personally or we put with all of those things into the bucket of physical AI
+ like video games too, when you grab All Those sensors and yeah, I think well, for our what we were honest doing, I think
+ It's very relevant. Maybe. I don't put video games into physical AI, even though it's so close. That you could talk about it. I think there's also the other Jason things are like.
+ Like generative media, you could totally put in there. There are so many.
+ Similar kind of patterns to the software and the data and how you build these products that some aspects are, like, physical sort of generative media, particularly if they're like, yeah, video. And they're trying to be more like,
+ Realistic or so on. But
+ that's close enough that you could in some cases talk about that, too. But I think most people don't mean that say physical AI,
+ so, I think
+ I think there's a span of people meaning like the stuff that I said which is like the broad sense to some people. Just meaning it's robotics with a cool name. I think you're both a little slap them. Yeah.
+ it basically, if I'm grasping it correctly, it's
+ AI That's out in the world in the physical space, almost in a way that we can touch it. It's tangible. Yeah.
+ like interacting with the real world, and I think
+ not on these easy for us, like,
+ Tech people to forget, but in most of the world's GDP takes place in the physical world is historically.
+ Software has really not participated in that other than maybe administering stuff. So I mean, you have software for
+ Maybe managing a doctor's appointment but it's not us, it's not a robot. So, like doctor, right? But you have maybe software for keeping track of the building, like the schedule of construction or something, but they are sending the invoice is exactly, but you don't have
+ Your you don't have software Tech that is just doing all the construction. So I think that that's what we have in front of us. That's really happening right now and becoming possible and so,
+ In that sense, in the broad sense, I think physical AI is set up to transform.
+ Large huge, huge part to the economy. So I, at least believe that it has the potential and looks like it's going to also
+ Do that. And to be
+ one of the biggest changes to the world economy is sort of in history.
+ now, I happen to agree with you but I also want to
+ Raise a point which is we've been hearing that same thing from those iot folks for the past, like, two decades. Yeah. And I still have not seen iot. Totally transformed the way we live, right? Maybe there's cool stuff that you have with Smart Homes. If you're really into that or I noticed that certain parking garages have sensors on if there are free parking spots. Yeah. None of those. I would Buck it into life transformational, got it? Yeah, I I'm not going to defend iot height. I never understood it personally.
+ All right.
+ But certainly with anything new right that hasn't happened yet. So hasn't happened yet so it could not right. Yeah. So it comes down to belief I guess.
+ I come down to thinking, I know the thing I may have been around with iot was like, it sounded like a lot of very people who, like Tech,
+ Talking about like what is it like? Yeah, connecting everything. It's like that's not in itself solving a problem. Maybe you used to solve one but it's not actually describing something that you could do but
+ I think performing work in the real world, or
+ Or sort of automatically understanding what's going on the real world?
+ Those are like, let's work, like, that's about that. Like that's how you unlock value for, for real people. I think that's pretty unambiguous.
+ So in that sense, that is pretty different, but certainly it's up to if the technology works and if they can be, you know, brought to Market and affect the way. But I'm I think it's pretty dude. Or these categories are very different than those ways.
+ Why. Now why do you think that we are on the precipice of
+ Things changing.
+ I think it's I mean, it's mainly, I think the short it's the AI part of physical AI.
+ And that's not said that all the great Solutions will be dependent like where AI the most important thing. But
+ the real world is super
+ Complex. And
+ On this just sort of and ending complexity. There's a long tail of just things that can go wrong. The world will a super messy
+ It's very hard to build super General products that serve very large markets.
+ With.
+ When the software is not intelligent enough in that like fussy way like not able to handle ambiguous.
+ Sort of fussy situations, where things change?
+ so because with classic deck, like for the physical world, the way to make effective product is to
+ constrain the use a lot so that you can make, right? Like a person can write an algorithm that handles each situation and this would be like what we see these days with the coffee making robots. I think that's the I just constrain it, maybe it's a coffee, making robot, or
+ Or something like one cell and a manufacturing line. It's like super repeatable. But you just constrained at a really, really a lot on. If that thing is valuable enough, you can put all the effort into, just making something for that. But a lot of the physical world things that are out, there are much more messy than that.
+ so,
+ Yeah, basically.
+ You need something that's more flexible and more able to handle on the utility. And that's really the kind of
+ that's what the technology of sort of modern ML and AI is about enabling
+ So I think that's that's one. And what are the enables then is?
+ If you can address a larger market, you can invest more into the hardware. The hardware is also important, that is not only I, but you need to be able to invest in
+ in the hardware so well to make it good to make it.
+ Yes high quality but also low low cost that comes from scale Hardware to scale game.
+ so, and when you have scale, then you can generate
+ Sort of you get lots of side benefits. You think of like what happened and mobile phones? Right? The generated a huge amount of like an ecosystem.
+ That produces components, right? But then, you can use to create recently, price other, like,
+ The more Niche products. So the mobile phone, ecosystem drove, the ability to make drones. This is right then you can make it good cheap drones because of that.
+ Don't drop in the word, but but because of that ecosystem, basically. Almost like you have this Innovation and there's those secondary and tertiary. Yeah, so I think that's that's really the big thing that
+ It's a couple of things need to come together. First, you need the
+ have a technology that can handle this messiness, which enables you to build Hardware products that serve much bigger markets. Hmm.
+ That enables you to invest.
+ Heavily into those products, which gets you the ability to get that scale and that kind of gets you that like scale fly with Will going and particular for AI and so on, you actually need that fly wheel as well for data collection.
+ But so for a really good AI, you need lots of Hardware to collect data.
+ To improve the models. But then and I'll see you to deploy again and gonna get better data because they're not doing more advanced things, right? So you need that fly. Will go in and you also need to scale flywheel that. The delete is what leads to good Hardware, like effective Hardware products at the good price.
+ So to get that ball rolling, you also need hype.
+ Let's actually really important component that you need to build to believe in the future and invest deeply into it. And I think the chapter GPT like llm side of AI, has provided that
+ so,
+ so that's started that out. And I think generally a lot of interest and then there's been some like within the field of a borax. There's been some
+ Some big sort of breakthroughs, I guess.
+ in methods, like, scalable robotics learning methods, which really has been a dream for a while as my understanding at least, but
+ But not the reality. So with scale we're here just means scale on the same way that you tend to talk about the AI, right? We mean
+ you can throw like more data and more compute that and gets better.
+ Yeah, and like we take that for granted now that the lens, but that was has not been the case in robotics for forever, right? But couple years ago, these I was aware of the first line of papers that showed this property for this Arty. One, not two or TX kind of line of paper. I don't know if you know them. Yeah. Um, there may have been something else that really started everything off. But that's from my perspective, what I saw and that also kicked off, like, okay, we're seeing scalable methods here too now. So that
+ from my perspective, what like, the combination of like having seen that with alums and then seeing that now all so in robotics Methodist is what
+ Started to really, really get the ball rolling and now like the hype is very, very real in in this space and she's huge huge amount of last month and I think that is for particular, one Hardware is in this actually necessary.
+ So that Mega long-winded.
+ Answer, I think to that question, but, but I think that those are the reasons for why right now.
+ Can you break down the life cycle of how physical AI is trained? Like what models are we using? What are the ways that we're collecting data? Is it all through cameras, is it through other sensors,
+ and,
+ How the platforms? Look, what do you need to enable if you want to?
+ be putting these models out into the world because I think
+ It has.
+ a lot of extra complexities since you are deploying to the edge in a way, but I don't know how much of
+ Edge. Deployments can you then all so offload certain tasks to the cloud? Like what is that whole thing look like I feel like I am not clear and it's of course case dependent. Yeah. Maybe we can just take one specific case and talk through that. Sure. Um oh yeah, it's super case but they're so complex and you can I guess I'm not done any to those. Like if you can imagine some set up someone's doing that.
+ Um, but maybe super high level. I like to think of like the two major systems.
+ That didn't think about this, like, the online systems and offline systems, so, with online systems. I mean, just
+ The things that are running.
+ Us. Let's I'm going to say robot now but it could be some non robot thing. But the thing that's running like
+ when the robot is doing stuff in the world is running on the robot, it doesn't matter. Could be running like some of the maybe hit an API that runs a model and back. So that I include that like mentally think like what's running on the robot that's understanding the world planning, making decisions, like picking stuff up, like, acting or whatever.
+ So that's the online systems.
+ and and then you have your offline systems where you're like,
+ basically, you're using maybe running stuff from, you know, your laptop or workbench or or you know, on some
+ Some data center somewhere. And those that's gonna be about
+ Like observability like wait, what's happening right now? With my like Fleet over Bots, maybe it's gonna be worried, maybe prototype, new algorithms, and new ideas we run.
+ like analytics to understand performance or just begin to things like they're just trying to understand your data that you're collecting and where you
+ Curate and collect and curate and transform like data through data data pipelines. Into Data, is ready for training and then training and and deploy and so all those those things. So I put down in the bucket of offline systems and how many sorry
+ just in this fictional scenario, how many models
+ Typically would be running on device or online.
+ Yeah, so that's a hard question to answer but I think it can be
+ think about if you take a little bit, the historical perspective, so if we don't start thinking about so running on the wise, we're talking about the online systems, so classically everything that was running online was again no machine learning or maybe some
+ You know, maybe learn some classifier that's something or whatnot. But it's like mostly hand written stuff acting with 3D planning algorithms. And so it's all like C plus plus, algorithms, written by
+ You know, robotics engineer or something, optimizing the state of, you know, doing slam, where is the robot? All that kind of stuff.
+ And so that's like how things were done before and then, you know, deep learning happened and might start switching out. Small modules like oh we actually are computer vision, sort of works a little bit. So
+ Maybe we just detect objects but then let's just running at some frequency, run one, you know, object detector, right? And everything else is like 100. Then still just a little bit detector runs on whatever every fifth frame or every this, you know, camera frame, right? And we're detecting things, but then the rest of all the pipelines are kind of treating that just like
+ Nothing special about that. It's just something right algorithms to fuse that over time and reason about what to do and so on.
+ So that's maybe the next step that I put that into the
+ Let's see. When was Alex next to 2012, doesn't was it 14? I can't remember, but like that. Yeah, 12. So, maybe in the like 2018, like stars know, I just said it was a ton of confidence. I'm gonna factor that right now. I was like, no, no, it's well, it's definitely 12. Yeah, no. I feel the feels right to me but it's not range.
+ and and then so then you know, it started that works and he had some more models into there and and you start but it's still just like modular you have a model one model, we have many models, maybe they do like single things, like maybe you have another model that's like look at some other input signals or images and they output like
+ An estimate of the motion, something like that. So you just have like these small modules, it's more like it's a library but then you can
+ Think of it as like it's just a function that does stuff.
+ So that's, that's been sort of between a trend of just more and more of those things, right?
+ And that is a lot of problems because in fact you can't treat them as black boxes because there's a lot of uncertainty and like you know ml models don't
+ you know, they even like really high performing ones, the only work well and
+ They're short of on the rough. Like, operating on roughly the same, kind of data they were trained on. And yeah, the only way to like and that's hard, right? That's a hard problem, how do you know when you're outside of that data and so on? And then you get a lot of these stitch them together with like 100 and algorithms and it gets a mess and it's pretty hard to build complicated systems. I think.
+ This is how people try to build like self-driving cars.
+ With this this approach. Well, I didn't really work, right? So,
+ so they get the trend from there is to just be
+ in the idea of the learning is, you know, do things on end and that's been happening, more and more basically. So over time, you just take. Okay, now we have like four more duels like okay, can we swap them all out and have a beat like one or not? That does more things into end.
+ so that's I think generally the trend
+ so that can go quite extreme I think in like some of them like very intense Focus like humanoid project you could have like two neural Nets or maybe one they called one but it's really like to
+ Their, you might have one.
+ Lower level one, that's faster and smaller that focused on like Fast low level like whole body control. So it's really taking like IMU like signals and maybe pressure and some other like sensors like that. And just it has some Target of you know the post or where should be like how the body post should be and it's like basically doing that control that you might previously have done with with more classic like optimization based methods.
+ And then you have some larger neural net. That's like
+ Maybe no skills like that, a higher level, like go reach for this thing or so on and that thing can be slower. So that's something like, maybe even have a third level of takes, like, text input and plans, and stuff like that, that's if you like, very, very AI first. But yeah, they could swap out pieces a lot with with 100 and systems and, and so on, but
+ Yeah, it's I haven't haven't seen a lot of like single neural Nets. Things that does everything I think that marketed but I don't know if that happens in practice.
+ you bring up a great point, is that
+ In these systems, especially the online ones.
+ You are so constrained by different.
+ Things because you're out in the world and whether that's you have to be hyper focused on battery or you have to be focusing on speed. Nobody wants to have a robot that you tell to do something. And then 20 minutes later it comes back and is like, actually I can't do that. I went through and I landed out and yeah, no I researched the topic and I can't get to it. Alright. So
+ what are some other constraints or things that you need to be cognizant of when you're doing stuff in that Realm?
+ I think the most important,
+ Difference. That is like the most. Yeah, the most important this time.
+ And it's not it's not time is like oh this is annoying to wait for. So it's like the world continues to do things in the whole faster slow. You are like if you're a slow person,
+ It doesn't change the speed of the rest of the world, right? And that's the same with the robot of it. So doing something and it's like, oh let me grab this thing and then that thing is moved and it didn't matter if you collected it you know it was gonna it was gonna do it, right? That's not there anymore right there.
+ And so on. And that's very different from even your
+ chat GPT style interaction, right? You would love it to be fast because that feels better, but it still is like, single stream of, you know, take the inputs and then, you know, process them all, you know, give you some output, right? There's not really a concept of a world evolving around that. So time is just
+ So because yeah, that changes everything really. You need to be most much more sophisticated about how you think about that in everything. How you understand? You know what your software just did, right? You need to keep track of of how everything evolves over time. And you may be a multiple Notions of time like the
+ Compute time, the real world time that like the clock, whatever is happening in the real world. Then maybe have an algorithm that takes a certain amount of like
+ Debut time and you are like, how many certain amount of iterations? Maybe one of keep track of like oh what time was this sample? That and then, when am I making this decision? But decision is a little bit later in time that you made it because you have to compute stuff.
+ But it's relating to all the information. So it just dealing with time is the really, really big thing, but to get into
+ sounds really messy on the back end too. When you're trying to
+ Create systems and you need to look at all the different ways of time being interpreted.
+ Yeah.
+ It gets messy, you need to build. I mean, increases the complexity of
+ like the data tools that you need, right?
+ It's pretty different than like. All right, train one image classifier, you can stick, shockingly simple, right. A problem in comparison.
+ And this is a robotics models, over other things, they're operating on sequences of times even though that is more complex, but then they have some internal like notion of like steps or something. And then that in the real world is like
+ Oh, and sort of overlaid on the real time of the real system. They're operating with. So that is time is the really, really big thing I'd say, yeah. And then there's obviously, whatever restore constraints and battery and things like that are really difficult, but
+ A similar to other things like you have constraints and maybe there are more difficult than the, you know, on the edge. But it's so let's say my dear
+ Yeah, well yeah, talk to me about the data side of this because that feels like again it would be very hard to deal with all of the all of this different data that you're getting in different formats. Yeah and specifically all of the video data has got to be very heavy and then how you're training models with the video data, you might have some like time sensors or just time data and so more tabular style. Exactly. I think. So how this idea about the online and offline systems and so
+ On the robot right on the online systems. What you'll do is you're trying to record what happened? Yeah, and so, the real world we had this, like, things happen at different rates. Maybe you have, you know, image your video cycling, every like a 30 FPS, but maybe you have like motion sensors, they're going at like a 1,000 Hertz. So, very different rates. Sometimes these things are like, kind of District, like, a robot can be like a distributed system. So, you know, different clocks and stuff. All the states are changing up like different rates.
+ And you're also recording what happens. So you can't, you don't really know the exact shape of the data set beforehand, because you're recording what happened, right?
+ So this these things like the data that you recording there is super messy, it's like kind of like the logs, right? But slugs of multimodal data streams. So lots of different types. It could be like 3D information, this different stock, like this data softener than like deeply nested.
+ Structures and so on. And you have Maybe audio and video and
+ 3D sensors motion of different kinds and turn all like metrics. So really, really messy and like really complex and difficult to handle from a data perspective effectively because you have this problem of like combining really fast small signals
+ With large heavy like you know, big tensor, some images, some point clouds and stuff like that, that may be our slower and storing that together is actually pretty hard. So classic Revolt say you or in general you'll you'll have like on the system. You'll tend to have store data to this. Like very specialized file formats or very write optimized are interested. They're just good at like recording exactly what happened and to do minimal operations so just get them onto this really fast that's like the without like disrupting. Anything that's running on board.
+ And then so that's the step one. Then you want to get the data off the robot.
+ They upload it and that's a, you know, depending on the volumes maybe upload all the way. So you have some selective like only upload one.
+ something happened, or that kind of thing, but
+ Somehow, you got to get it to the more centralized place where you can, you can use it and that's where you're throwing it into like an S3 bucket or is it still? I would say like just to make it super simple, right? They're absolute most simple like thing would just be
+ Yeah, you periodically write this logs to file.
+ And then you have a little job that uploads them to S3 to the S3 bucket, and then you have them there.
+ So that's that would be started. One part one. Wait. So that's simple. What is advanced?
+ Well.
+ Advanced just of getting it off, it's like, okay, we're gonna be run like collecting so much data that
+ it doesn't even make sense to upload. Like if you think about a self-driving car,
+ You, they will collect the data when they dock back somewhere.
+ And then you'll just swap out the like this the SSD. So I put in some new ssds
+ And you may never upload it. Or if you do you need to send like trucks of us SSD to a WS right where you have your own local so it there you could you know make choices right? You
+ Only uploaded when it's needed. You have some kind of
+ like storage architecture where you keep everything like on a, you know, local data center that you have like, right that where the data is collected and you just have it there until
+ You upload the metadata and you go fetch it. When I see you can get really really complex at large scale.
+ But let's keep it simple. You just write these files and upload them. Let's just let's assume that's possible. And
+ so,
+ Even so you actually even before that you have another problem. So you want to build a look at the current state of the robot. So you want to like visualization this super, super important, just to like basically want to see what all the
+ If you want to be working on a robot, then you want to be able to live.
+ Visualized like all these streams of data, like you want to see a 3D if it's work? You know? If it has a 3D understanding of the world, you want to see that like 3D map and you want to see the robot, you know, walking around and in that map and see what it sees and see the internal state of the different algorithms and
+ What are all the camera feeds and you want to build to scroll back and forth on time right to so what like something goes wrong when a scroll back, wait what happened, right?
+ So, so that's that's something that you you need, when you build these kind of systems just live visualization. And then you want to look at those files that you recorded.
+ After the fact, right? And just analyze those and let's just like a per session kind of observability. So it's a super super core Prospect.
+ Okay, so the that's important.
+ and so in even before going to offline systems like this,
+ set of just like recording what happened to some write optimized file and then having some visualize visualizer to
+ Like either, look at the files or look at.
+ You know, live.
+ Like you cannot build this product without that, those things and even in classic robotics like, that's how you would, you need those things. And in classic robotics, there's a sort of Ross, like the Robot Operating System, be the most sort of commonly used setup that gives you this like,
+ There's a recording and some like visualization capabilities and there are like slightly more modern visualizers that are built for lot.
+ That's scenario.
+ But they're really like and so they're great. They work well for that. And that's like Orvis web this exvius foxglove, they're bunch of tools. And that thing, they're kind of, like, robotics log visualizers really important.
+ um, and that was like, designed for this world of like pre ml world where
+ Where the that was the main complexity of your product like what run, you know, on the robot, right?
+ so, but you need that, but then, you know, what happens when you think about what
+ What happens in the off, sort of what you now, want to train improve your models, right? So you've uploaded this data.
+ and the current state of the world at least, is
+ That you need to make that data usable by.
+ Sort of the kind of systems that you, you have.
+ To do I'm Ops right? I'm all you know, data Pipeline and so on so early before training you won't have it in our tfrecords or you know whatever it's just five files that are you know just optimized ready to train.
+ And those all those things tend to be like, very structured.
+ and do not know they're not like good at storing, this sort of messy, long style data,
+ On top of that. So. So and you want to also run analytics like
+ You know, run some statistical job compute metrics all that kind of stuff. So this is really all the offline data tooling that's out there if it's like databricks or data dog or
+ A whatever things they don't. These tools do not understand like this kind of physical AI robotics style data. They do not know the storage systems. Do not know how to read into these like log structured, like messy file formats.
+ They want everything to be like a table, you know, with columns and so on.
+ But that's, you know, they don't know how to handle like underlying like huge online data.
+ And they can't there's no built-in visualization which is my crucial for the bugging, right?
+ So so then you end up building like teams and the building. This very complex data pipelines to try and transform and clean the data and they like to sit curation
+ And because those like offline systems, don't understand like really this Source structure of the data this things get super complex sounds miserable. So that's super miserable. And then it's super complex and like really brittle
+ and then you don't have the ability because you don't have any built in which PlayStation so
+ you don't really have the ability to debug if you know, your last like right before training, you just suddenly like all the latest showing up upside down, like, where did that happen?
+ Like hey, you don't even build him his legislation. So maybe like I've talked to, like self-driving company to
+ who started using rerun and like found bugs, like, oh, we were training on something and, you know, the
+ Sum the orientation or something was flipped for two years during training was giving bad performance and like, because of them, they know one saw it, but he didn't have a good, it was too hard to like the bug, the data pipe, like the state, you know, of like after each step in the data pipeline, it was just too hard to do. So
+ So, that kind of stuff.
+ Yeah, that's okay. It's really complicated. So you just end up like this robotics companies, not a tough spot right there. End up with two stacks like
+ Classically. You have your, like
+ Online data systems stuff. There was billed for like classical robotics, but that's understand their kind of data.
+ And you have your offline systems that are built for like Lord scale learning and stuff like that. But they don't understand this clearly. They thought they just don't talk to each other and yeah, it's just it's a mess. That's the kind of Base date of the world. You created some visualizations, right? And you decided to or tools to help with the visualization. And so that the
+ physical AI can understand the world and you can see where and how they're understanding the world and you decided to open source it, can we talk a bit about
+ everything that you've been open sourcing until now and the
+ Inspiration behind that? Sure. They're just like to frame it. First, that look. So what we run as a company is doing
+ We're basically trying to.
+ To solve the problem. I just talked about. So like we want to build like a new unified kind of data stock that handles like both this like online and offline scenarios for physical AI so that you get like a consistent like easy to use experience with gonna build in for Association and like, much more efficient and easy to use like querying and things like that. Because
+ Best kind of the data stack understands both of these kinds of like types of data.
+ okay, so we started out
+ Two. Now what is three years ago? Roughly
+ On some of first two and a half years, I'd say on an open source project.
+ let's call you know, rerun like I like the company and that project is focused on like logging and this little icing multimodal data changes over time
+ So the broader applications and just like just but the broader than than robotics.
+ so we start out actually focused on more like computer vision outside of Robotics and I kind of expanded into
+ be much broader.
+ And so that that is a project that has you have like sdks in Python rust and C plus
+ That allows you to think of it. Like it's like your log text or something like a metric, something like that, but you can log.
+ Sort of.
+ anything, you know like tensor or 3D Point Cloud build up before like 3DC nothing's happening or you know, normal metrics and video and have everything connected like cameras moving around and you like hover an image and it will like highlight what that
+ Ray shoots out and 3D, so those kinds of things and allows to
+ Scroll back and forth in time, I just gotta say this is kind of some Star Wars shit right here. This is what you know, when they plug into the droids and stuff. This is what I had in their singing, on their little computer. I hope so. Yeah, I hope I hope so. I it's pretty cool. Like, if I can, you know, say so myself. It's pretty cool application.
+ Or framework.
+ So that's that. Yeah, we've been building that absorb project and it's pretty extreme thing. So we basically is like said okay. None of the old things work. We rebuilt sort of this whole stack like like this data logging and specialization stack from scratch in Rust where I took a lot of inspiration from like how modern gaming engines are. So the data model is built around like entity component system race, it's particularly more composable data model.
+ And so we had this goal that we wanted to unify. If we talked about this online and offline system going to the unified open source project to unified, the visualization side of that.
+ Should be able to use the same.
+ visualization framework for like your like dirty little python script where you kind of like where you might use like Maple or something you want to just, I have a little algorithm and I want to just
+ Pop in some data you know just throw it in and it should just show it and and they've been analyzed it to go back and forth in time and that kind of thing.
+ To like your Center lies, like, visualization dashboard. So I don't know if you've seen this like, maybe marketing video from waymo or something, where they show all the like light or some map, like things updating on a map and all that kind of stuff. So to, you know, use rerun to build those centralized things and all. So, actually, recently, well, last release allowed to build like they've done notation apps, so, like, you can have interactivity click on things, It'll like respond.
+ Back with like the data that you clicked on, so you can build like data annotators with it, and that's good for these anomalies that sometimes you'll hit or the edge cases.
+ You need to, I mean we work on. Yeah, you tend to annotate data like labeled data. There are many different that could be whatever, right? You always need to be doing that. Yeah, that's true. There's a lot of that right there could be. Oh, there's something weird happened but it could also be. Yeah, I'm just gonna, this is how we annotate data, you know.
+ and it's
+ Yeah. It's basically like wherever you want to look at your data, which you should want to do a lot.
+ You want to have a consistent view. We want that to be like you ideally like that they look the same like wherever it is.
+ If it's in production or a little script or
+ or people use it to visualize, maybe the
+ There are evaluation runs during training, like, like training pipelines. There's a lot of different things so we wanted it. We knew that it was
+ The goal was to unify all of that, be able to do it in the same framework and that require like extreme flexibility and performance and so on. So that that's been the goal there, that's a never-ending job but I think we've come quite far pretty good adoption and I think both like special Computing and Robotics and
+ like,
+ From, you know, two persons startups. And I think now
+ like,
+ Meta and apple and unitary and hugging face, and then forgetting companies. But like they used rerun in open source projects at least. Yeah.
+ They are.
+ So it's it's used, you know, from smallest to the largest and so that's that's been really cool to see. And I think it's about, we really focused on like extremely serious and flexibility when you want to do like yeah, whatever you as a search engine, you need to do
+ And the performance.
+ So that's that's been that, that project and
+ That's open source. It's always going to be open source. Yeah, and it's almost like you win with the visualization aspect of the open source side rerun and then when you thought about building an actual product, how did you think? All right, we're just going to complete the cycle and incorporate rerun into a greater platform.
+ We think that the kind of needed to reinvent the whole Data stock, right?
+ And so the open source project for us to do a couple things. So one of them is
+ To really develop like a really good data model because you need a data model that's like expressive.
+ But also fit for purpose enough. So that's easy enough to use, but also and composable flexible and extendable and all that stuff. And it's really difficult, I needed to have something like that, that can also be performant together with the right query engine.
+ so, so those
+ Those two parts are kind of we've been forced to build. So, query and basically to build a visualizer like this that fast and flexible and allows you to like scroll back in time and talked about this, like unsynchronized streams of that you need to have a build a small.
+ Query engine or like a small in memory database to make that that work. Well, so we had to develop that as well. So those, the core pieces,
+ that the query engines is really focus on time alignment and those kinds of like robotics I was gonna say that's probably like one of the biggest
+ Boons that you can give someone is just making sure that all these disparate sorts of data can line up. So yeah, some kind of event that I want to look into
+ Isaiah, what happened there with everything? How do I get a 360 view of what's going on there? As opposed to, okay, I see that something happened with this sensor did anything happen with the other sensor and now I got to go sift through the data and try and figure out where in time that is with that certain data source. Yeah. No. It's it's both hard and really important. And so that's that we kind of forced to work on these technical challenges for the open source.
+ and so, for commercial,
+ For product that we're working on right now. It's it's kind of think about us a database that has
+ To have this location build in. So it's it's a
+ Storage and indexing engine. It's a queer. That basically, so this this thing is
+ Built to for the constraints that we have here. So they have like Source data and like varied forums of the right optimized, like we're both dick style file formats that you need to. You need to have a plug-in system so you can support many different
+ She's able to handle these like.
+ Recording like unstructured style like data set so like say you know like 100,000 recordings of what happened on robot and you need to understand like normal popular data. So you need to understand both of them.
+ So like a storage and index engine that can make working without like fast and unified.
+ I guess a data model that this, this like,
+ Gives a way to consistently for interface with the state. So
+ You want to, you want to maintain? So you want to have like you want a bit of visualize any data that you have stored. So but you want to have a query and like an operate on top of it. So you need this consistent data model to do that. Then. Yeah, the next step of that is the
+ The query engine and there are what you really want is to be able to how this Korean sort of understand this data on the physical AI. I did the model so that can mean is is
+ Like one simple thing is, maybe have a data pipeline, you have your raw data and then you run some Transformations on it and produce some nice more structured, easy to work with table.
+ you'd like to not lose all the semantic information, like what does like
+ The first column mean.
+ This is a column of 3D Point clouds. Do you want to know that like a column of like, you know,
+ 3D positions that are part of a point Cloud to change your time like that, maybe one column another might be a video. Another might be, you know,
+ Some sensor reading or something you want to like keep track of what everything means. And if you do then you can
+ Sort of visualize sort of something and debugger like a table. That's like five steps into your data pipeline. So that's one of the things you want to have your query engine, like maintain that data model and the others you want to be able to do
+ sort of Robotics sort of oriented operations in the Korean zone. So imagine like, writing a SQL expression. And one of the parts of it is like, oh, like doing time alignment.
+ And you might want to do things like do 3D transforms in the SQL expression because you want to have all your data come out.
+ In a different in the reference frame of you know your robots, gripper something like that. So this I mean maybe abstract if you haven't worked with this kind of they thought about the ability to kind of push this. These kinds of operations into Korean can make
+ Make it just working with it. Like a really Lots lot easier.
+ And so that's one on the next part and then about data catalog that can understand this kind of data. So it's really it's like the full data stock so that that's kind of what our commercial product is that we're building towards.
+ you talked about these janky pipelines before, does this eliminate, the need to
+ Create pipelines. Or are you still seeing folks create pipelines? Just with a much more high quality data.
+ I think I think also first off, this is like still in development. We have a couple like, you know, paying design Partners working working with what we have now but it's still pretty early. So this is the first to preface it gamer. Yeah.
+ you know, it's not
+ I'm gonna like say that we have something that we don't yet. Yeah, but I think our goal is for you not to have to have like any steps in your pipeline. Wow.
+ That I think that in all cases that's another TV. Well, but but you should be able to just record and then build up a series of queries like train off a lot directly.
+ Like that. I want. I want that to be possible, right? That's not gonna be most efficient or the best way to do things because you'll want to, but that's just not
+ you want to save the intermediate result and you want to build inspect them and to quality control and like not redo all the computation, like during training that doesn't really make sense. Efficiency, why? So, kind of structure wise to do that but I
+ I want to, I want it to be possible. So that when you want to iterate really fast, you just have very, very few, sort of materialized, intermediate steps.
+ and then, as you know what you want to do, you cannot say okay these like,
+ Parts of the pipeline should be stored as you can flexibly choose that. So in reality, I think any company is gonna have multiple steps in their pipelines but hopefully there are a lot easier to manage a lot more efficient to run and build and and a lot less complex than they have to be now. So that's kind of the goal.
+ Is there anything you want to talk about that? We haven't hit on. Yeah. There are things that if you think about the rerun. So the thing that's the mostly widely deported is our open source project and there's there are
+ Massive, you know, Max 7 style, like companies that have switched over just that at this point, all the computer. And for instance, they do use this round to like they used to the bucket.
+ and that goes from the,
+ Little systems that the researchers do to have the dog their data, to kind of really like all the way through. So it's like very wide.
+ Permanent like that and it's like give us specific like example there. But that just reduces friction at every point, right? Yeah, and I'm kind of increases.
+ Productivity. Like, you know, how do you even like, put the value in like looking at their data? It's the third of the core.
+ Core thing that oils the wheels for for everything you do.
+ so that on a broader sense, it's that but I mean, maybe the specifically there are things like that, like,
+ very well funded, like self-driving companies, finding long, you know, multi-year bugs in their data pipelines that were leading to bad, like model performance,
+ But after adopting like using rerun to the bug, their data pipelines, that's that's another kind of example, of that nature matter. How are they using it with the Raven Glasses? So what's public from from Methodist? Aria glasses. That's the new one. They're coming out. No, this is like the research classes.
+ So, this is the pure like data captured devices that are open research.
+ and,
+ Yeah, they're basically our glasses with a lot of sensors on them.
+ So we are there we run. This is
+ the kind of official visualizer for the data sets to come from there. So like there's like the ego 4D data sets, for instance, they record. What's the date? And the whole, and things like that? It's also built into the Oreo, like Dove toolkit. That's the main visualizer there. That project gets used for special computer things and now, so, quite more commonly used in robotics too like, collect like noble textile,
+ Data. But you know, collected by a human and tried to like retarget that to robotics applications. So that's so there, it's just like that. You know what, actually I would love to ask you about, is you mentioned you mentioned before there's different schools of thought or ways that folks are trying to implement successful robotics or physical. AI one is as many sensors as possible. The other is the least amount of sensors as possible.
+ Are there other vectors that folks play on that you've seen?
+ Interesting or surprising for you.
+ Interesting or surprising. I don't I think the
+ The kind of major.
+ Lectures. I think about our differently like
+ How deterministic is something like how okay or you was like just saying oh you know we learned train the model and that performs seems to perform well versus like no, I need to have like mathematical guarantees about some behaviors.
+ That'll be one another one on this like modularity.
+ So the extreme being like, Oh, we have one neural net that does everything. We don't have any code. It's just a neural. It's just a neural net, I don't. But that's like extreme that you think about another being like, no, it's very important to have modules and test all the modules separately and
+ and for this, the extent that, which you go after
+ and value modularity, versus sort of performance is, I think another really, really big one. And then in general, like, some some teams don't even believe in training at all. They think, or like they shouldn't, you shouldn't use much machine, learning at all. That certainly a bunch of folks like that. They're like, ah, it's an unreliable doesn't work. You just
+ your perception should.
+ Maybe use it for like detection and things like that but like nothing.
+ Sort of.
+ I don't know more complex so you use slam to build you know, 3D maps of the world. And you write classic planners that decide how to move and they feel like all these technology are proven and you should use that. And for short notification, that's totally the right way to go but and some people are more purist about it. But
+ but that stuff is certainly still around and
+ Probably.
+ The right the proton a lot more like structured environments. You can make that work really well. Like you know a warehouse or something you know. Yeah exactly. Like if you know what environment you're playing in then there's probably a lot stronger case to
+ Make it.
+ The least.
+ Sarcastic, or what's the worst stochastic as possible? It's nice to know what's going on, right? And we can make things faster and cheaper and so on. So it's there's a lot of benefits of course.
+ It comes with a lot of like taking training, seriously comes with a lot of costs.
+ It's really intrigues increases the complexity of your offline systems and the more end and you go the more come like there's kind of this like you can have simplify your online systems but just going fully into end but then you get like really complex offline systems like instead so it. Yeah, there's it's engineering, right? This trade-offs. It's not, it's not magic. Those are fascinating tradeoffs. That's really cool thing about

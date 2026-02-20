@@ -1,273 +1,355 @@
 {
-  "generated_at": "2026-02-17T18:56:36.441706",
-  "episodes_analyzed": 17,
+  "generated_at": "2026-02-19T22:01:04.071493",
+  "episodes_analyzed": 60,
   "top_tech_themes": [
     [
       "ai",
-      7
-    ],
-    [
-      "machine learning",
-      5
+      19
     ],
     [
       "llms",
-      3
+      12
     ],
     [
       "ai agents",
-      3
-    ],
-    [
-      "api",
-      3
-    ],
-    [
-      "llm",
-      3
+      11
     ],
     [
       "large language models (llms)",
-      3
+      9
     ],
     [
-      "kubernetes",
-      2
-    ],
-    [
-      "llms (large language models)",
-      2
-    ],
-    [
-      "spark",
-      2
-    ],
-    [
-      "rag (retrieval augmented generation)",
-      2
-    ],
-    [
-      "github",
-      2
+      "llm",
+      9
     ],
     [
       "python",
-      2
+      9
     ],
     [
-      "sql",
-      2
+      "machine learning",
+      9
+    ],
+    [
+      "apis",
+      6
+    ],
+    [
+      "openai",
+      5
+    ],
+    [
+      "rag",
+      5
+    ],
+    [
+      "kubernetes",
+      5
     ],
     [
       "transformers",
-      2
+      5
     ],
     [
-      "gpt",
-      2
+      "gpu",
+      5
     ],
     [
-      "cursor",
-      2
-    ],
-    [
-      "claude",
-      2
+      "api",
+      5
     ],
     [
       "gemini",
-      2
+      4
     ],
     [
-      "github copilot",
-      2
+      "docker",
+      4
     ],
     [
-      "robotics",
-      2
+      "aws",
+      4
     ],
     [
-      "nvidia gpus",
-      1
+      "claude",
+      4
     ],
     [
-      "cpus",
-      1
+      "spark",
+      4
     ],
     [
-      "inference engines",
-      1
+      "neural networks",
+      4
     ],
     [
-      "cxl (compute express link)",
-      1
+      "sql",
+      4
+    ],
+    [
+      "slack",
+      4
+    ],
+    [
+      "generative ai",
+      3
+    ],
+    [
+      "cloud infrastructure",
+      3
+    ],
+    [
+      "postgres",
+      3
     ]
   ],
   "top_business_themes": [
     [
       "open source",
-      4
+      6
+    ],
+    [
+      "ai adoption",
+      6
+    ],
+    [
+      "scalability",
+      5
     ],
     [
       "e-commerce",
+      5
+    ],
+    [
+      "personalization",
+      4
+    ],
+    [
+      "enterprise ai",
+      3
+    ],
+    [
+      "security",
+      3
+    ],
+    [
+      "user experience",
       3
     ],
     [
       "fraud detection",
-      2
+      3
+    ],
+    [
+      "data-driven decision making",
+      3
     ],
     [
       "acquisition",
+      3
+    ],
+    [
+      "productivity",
+      3
+    ],
+    [
+      "competitive advantage",
+      3
+    ],
+    [
+      "integration",
       2
     ],
     [
-      "ai adoption",
+      "software as a service (saas)",
       2
     ],
     [
-      "ai infrastructure economics",
-      1
+      "customer support",
+      2
     ],
     [
-      "data center conversion",
-      1
+      "knowledge management",
+      2
     ],
     [
-      "hardware repurposing",
-      1
+      "sovereign ai",
+      2
     ],
     [
-      "resource optimization",
-      1
+      "cost optimization",
+      2
     ],
     [
-      "ai inference",
-      1
-    ],
-    [
-      "real-time data",
-      1
-    ],
-    [
-      "search personalization",
-      1
-    ],
-    [
-      "data engineering",
-      1
-    ],
-    [
-      "developer relations",
-      1
-    ],
-    [
-      "production deployment",
-      1
-    ],
-    [
-      "customer use cases",
-      1
-    ],
-    [
-      "agentic execution",
-      1
-    ],
-    [
-      "security",
-      1
-    ],
-    [
-      "orchestration",
-      1
-    ],
-    [
-      "workflow",
-      1
+      "context engineering",
+      2
     ]
   ],
   "top_topics": [
     [
-      "leveraging existing hardware for ai inference",
+      "context engineering",
+      2
+    ],
+    [
+      "ai-driven software development",
       1
     ],
     [
-      "the role of cxl in expanding memory for ai workloads",
+      "automating tasks across different applications",
       1
     ],
     [
-      "tooling and developer experience for non-gpu ai",
+      "the role of ai in data integration and etl processes",
       1
     ],
     [
-      "converting bitcoin mining data centers to ai data centers",
+      "designing ai-friendly apis and abstractions",
       1
     ],
     [
-      "the shift from training-focused to inference-focused ai",
+      "user adoption of ai in business workflows",
       1
     ],
     [
-      "feature platforms",
+      "fine-tuning vs. rag",
       1
     ],
     [
-      "challenges of building and deploying real-time features",
+      "ai agents and their components (intelligence, memory, actions)",
       1
     ],
     [
-      "evolution of cronon and its use cases",
+      "building trust in ai systems",
       1
     ],
     [
-      "relationship between search and ai/agentic applications",
+      "the role of small language models",
       1
     ],
     [
-      "open source and company building",
+      "interaction design for ai tools",
       1
     ],
     [
-      "evolution of chatbots",
+      "real-time feature generation",
       1
     ],
     [
-      "multi-turn evaluation",
+      "low-latency data processing",
       1
     ],
     [
-      "agent observability",
+      "evolution of real-time systems at lyft",
       1
     ],
     [
-      "tool calling in chatbots",
+      "offline vs. real-time feature generation",
       1
     ],
     [
-      "sandboxing ai agents",
+      "aggregation windows and data volume",
       1
     ],
     [
-      "security and isolation",
+      "evolution of cybersecurity defenses",
       1
     ],
     [
-      "agent tooling and capabilities",
+      "limitations of signature-based and anomaly detection systems",
       1
     ],
     [
-      "using machine learning at scale",
+      "the impact of ai on cybersecurity threats and defenses",
       1
     ],
     [
-      "balancing cost, speed, and accuracy of ai models",
-      1
-    ],
-    [
-      "leveraging classical machine learning vs. llms",
+      "risk assessment and security investment decisions",
       1
     ]
   ],
   "episodes": [
+    {
+      "file": "epep052-a-new-way-of-building-with-ai",
+      "summary": "The podcast discusses using AI agents to automate tasks across applications, focusing on data integration, ETL processes, and designing APIs that cater to AI preferences.",
+      "guest": {
+        "name": "Unknown",
+        "role": "Unknown",
+        "company": "Nutri (implied)"
+      },
+      "tech_tags": [
+        "AI Agents",
+        "Generative AI",
+        "Large Language Models (LLMs)",
+        "APIs",
+        "Google Docs API",
+        "Jupiter Kernels",
+        "CRM",
+        "QuickBooks"
+      ]
+    },
+    {
+      "file": "epep025-thousands-of-fine-tuned-models",
+      "summary": "The discussion explores the use of fine-tuned small language models and RAG in enterprise AI, focusing on building trustworthy AI agents and improving human-AI interaction.",
+      "guest": {
+        "name": "Unknown",
+        "role": "Works at a Company (enabling internal uses of AI)",
+        "company": "Unknown"
+      },
+      "tech_tags": [
+        "Gemini",
+        "OpenAI",
+        "LLM",
+        "RAG",
+        "GPT-4",
+        "Fine-tuning",
+        "Small Language Models",
+        "Agents",
+        "Memory Frameworks",
+        "Semantic Similarity"
+      ]
+    },
+    {
+      "file": "ep334-real-time-feature-generation-at-lyft-rakesh-kumar-334",
+      "summary": "Rakesh Kumar from Lyft discusses real-time machine learning feature generation, emphasizing low latency data processing and the evolution of their systems using Apache Beam and Flink.",
+      "guest": {
+        "name": "Rakesh Kumar",
+        "role": "Senior Staff Engineer",
+        "company": "Lyft"
+      },
+      "tech_tags": [
+        "Real-time Machine Learning",
+        "Apache Beam",
+        "Flink",
+        "Python",
+        "Kinesis",
+        "Streaming Engines",
+        "Machine Learning Models",
+        "Cron Jobs",
+        "Data Stores",
+        "Asynchronous Processing"
+      ]
+    },
+    {
+      "file": "ep344-the-evolution-of-ai-in-cyber-security-jeff-schwartzentruber-344",
+      "summary": "Jeff Schwartzentruber discusses the evolution of cybersecurity, the challenges with current methods, and the potential of AI while considering the organizational risk involved.",
+      "guest": {
+        "name": "Jeff Schwartzentruber",
+        "role": null,
+        "company": null
+      },
+      "tech_tags": [
+        "Signatures",
+        "File Hash",
+        "Malware",
+        "Antivirus",
+        "Firewalls",
+        "Anomaly Detection",
+        "ETL Pipeline",
+        "Splunk",
+        "IP Addresses",
+        "NLP"
+      ]
+    },
     {
       "file": "epep006-how-universal-resource-management-transforms-ai-infrastructure-economics",
       "summary": "Using existing CPUs and expanding memory with CXL can make AI inference more economical by repurposing hardware and avoiding reliance on expensive, scarce GPUs.",
@@ -290,6 +372,123 @@
       ]
     },
     {
+      "file": "ep336-distilling-200-hours-of-neurips-whats-next-for-ai-nikolaos-vasiloglou-336",
+      "summary": "Nikolaos Vasiloglou discusses distilling insights from NeurIPS using AI, open-source language models, and his process for summarizing vast amounts of research for industry leaders.",
+      "guest": {
+        "name": "Nikolaos Vasiloglou",
+        "role": "VP of Research ML",
+        "company": "Relational AI"
+      },
+      "tech_tags": [
+        "Deep Learning",
+        "XGBoost",
+        "Language Models",
+        "Notebook LM",
+        "PDF Summarization Tools",
+        "AI",
+        "Transformers",
+        "Open Source Language Models"
+      ]
+    },
+    {
+      "file": "ep331-the-rise-of-sovereign-ai-and-global-ai-innovation-in-a-world-of-us-protectionism",
+      "summary": "Frank Meehan discusses Sovereign AI's rise due to data localization needs and US protectionism, emphasizing the need for local AI infrastructure and strategic government partnerships.",
+      "guest": {
+        "name": "Frank Meehan",
+        "role": "Co-founder",
+        "company": "Frontier one"
+      },
+      "tech_tags": [
+        "AI",
+        "GPU",
+        "Cloud Infrastructure",
+        "Nvidia Blackwell",
+        "Nvidia H100",
+        "Nvidia H200",
+        "Kubernetes",
+        "Docker",
+        "AWS"
+      ]
+    },
+    {
+      "file": "ep342-building-claude-code-origin-story-product-iterations-whats-next-siddharth-bidasa",
+      "summary": "Siddharth Bidasaria discusses the creation of Claude Code, its internal adoption, the impact of file access, the to-do list feature, and significant improvements with model 3.7.",
+      "guest": {
+        "name": "Siddharth Bidasaria",
+        "role": "Unknown",
+        "company": "Anthropic"
+      },
+      "tech_tags": [
+        "Claude",
+        "Python",
+        "Spotify API",
+        "Terminal",
+        "Docker",
+        "Git",
+        "Models (3.5, 3.7)",
+        "MCB Servers"
+      ]
+    },
+    {
+      "file": "ep339-the-ducklake-lakehouse-format-hannes-m\u00fchleisen-339",
+      "summary": "Hannes M\u00fchleisen discusses Duck Lake, a new format designed to solve DuckDB's multi-user concurrency issues by leveraging object storage and a separate metadata server.",
+      "guest": {
+        "name": "Hannes M\u00fchleisen",
+        "role": null,
+        "company": "DuckDB Labs"
+      },
+      "tech_tags": [
+        "DuckDB",
+        "Duck Lake",
+        "Iceberg",
+        "Delta Lake",
+        "Postgres",
+        "SQLite",
+        "Object Storage",
+        "Docker"
+      ]
+    },
+    {
+      "file": "epep029-llms-at-scale-infrastructure-that-keeps-ai-safe-smart-affordable-marco-palladino",
+      "summary": "Marco Palladino discusses how Kong is adapting to the rise of AI and agentic workloads by providing tools to manage, secure, and scale API connectivity, especially with MCPs.",
+      "guest": {
+        "name": "Marco Palladino",
+        "role": "CTO",
+        "company": "Kong"
+      },
+      "tech_tags": [
+        "APIs",
+        "Microservices",
+        "Ingress Controller",
+        "AI",
+        "LLMs",
+        "RESTful APIs",
+        "MCP",
+        "Open API Spec",
+        "OAuth",
+        "AI Gateway"
+      ]
+    },
+    {
+      "file": "epep037-llm-search-uiux-challenges-context-engineering-and-the-8020-of-eval",
+      "summary": "The podcast discusses the importance of Context Engineering over prompt tweaking for building effective AI agents, emphasizing data integration and user history for personalized experiences in e-commerce and food delivery.",
+      "guest": {
+        "name": "Unknown",
+        "role": "Building AI Agents",
+        "company": "Unknown (works with OLX and a food delivery business)"
+      },
+      "tech_tags": [
+        "LLMs",
+        "Chatbots",
+        "Data Pipelines",
+        "Real-time Databases",
+        "System Prompts",
+        "User Interface",
+        "AI Agents",
+        "Data Engineering"
+      ]
+    },
+    {
       "file": "epep010-real-time-features-ai-search-agentic-similarities",
       "summary": "The podcast discusses the challenges and solutions for building real-time feature platforms, focusing on Cronon's journey from Airbnb open source to addressing fraud and search use cases.",
       "guest": {
@@ -308,6 +507,26 @@
         "LLMs",
         "Vector Indexing",
         "Online Serving"
+      ]
+    },
+    {
+      "file": "ep348-relational-foundation-models-unlocking-the-next-frontier-of-enterprise-ai-jure-l",
+      "summary": "Jure Leskovec discusses Relational Foundation Models, a new AI approach to learn directly from structured databases, skipping feature engineering and improving model accuracy for enterprise applications.",
+      "guest": {
+        "name": "Jure Leskovec",
+        "role": null,
+        "company": null
+      },
+      "tech_tags": [
+        "Machine Learning",
+        "Neural Networks",
+        "Large Language Models (LLMs)",
+        "Transformers",
+        "Graph Representation Learning",
+        "Graph Neural Networks",
+        "Relational Databases",
+        "Data Warehouses",
+        "GPUs"
       ]
     },
     {
@@ -373,6 +592,46 @@
       ]
     },
     {
+      "file": "epep023-gpu-uptime-with-vast-data-cto",
+      "summary": "Discussion on the challenges of GPU infrastructure management, the costs associated with downtime, and the need for scalable AI solutions and realistic expectations. ",
+      "guest": {
+        "name": "Unknown",
+        "role": "CTO",
+        "company": "VAST Data"
+      },
+      "tech_tags": [
+        "GPU",
+        "AI",
+        "Generative AI",
+        "Cloud provider",
+        "Parallel programming",
+        "Database",
+        "Storage",
+        "Machine Learning",
+        "Python"
+      ]
+    },
+    {
+      "file": "epep034-how-livekit-became-an-ai-company-by-accident",
+      "summary": "LiveKit became an accidental AI company by building open-source audio/video streaming, getting acquisition interest contingent on AI integration, and then partnering with OpenAI on voice mode.",
+      "guest": {
+        "name": "Not Specified (co-founder David is mentioned)",
+        "role": "Co-founder",
+        "company": "LiveKit"
+      },
+      "tech_tags": [
+        "LiveKit",
+        "WebRTC",
+        "HTTP",
+        "GPT-3",
+        "Puppeteer",
+        "OpenAI",
+        "Cloud Infrastructure",
+        "Headless Browsers",
+        "Audio/Video Streaming"
+      ]
+    },
+    {
       "file": "epep014-does-agenticrag-really-work",
       "summary": "The podcast explores the evolution of AI architectures, focusing on Agentic RAG as a solution to the limitations and hallucinations found in standard RAG systems.",
       "guest": {
@@ -392,6 +651,40 @@
         "Vector Stores",
         "RAG (Retrieval Augmented Generation)",
         "Agentic RAG"
+      ]
+    },
+    {
+      "file": "epep015-how-sierra-ai-does-context-engineering",
+      "summary": "Sierra AI uses simulations and AI agents, including LLMs, to test AI systems, focusing on context engineering, abuse detection, and secure access control with customer specific simulations.",
+      "guest": {
+        "name": "Not specified in transcript",
+        "role": "Not specified in transcript",
+        "company": "Sierra AI"
+      },
+      "tech_tags": [
+        "AI",
+        "LLM",
+        "API",
+        "Unit Testing",
+        "Simulations",
+        "CI/CD Pipeline",
+        "Deterministic Systems",
+        "Access Controls"
+      ]
+    },
+    {
+      "file": "ep332-from-the-legal-trenches-to-tech-nick-coleman-332",
+      "summary": "Nick Coleman discusses using AI and Large Language Models to streamline the complex Social Security Disability claims process, improving efficiency for attorneys and claimants.",
+      "guest": {
+        "name": "Nick Coleman",
+        "role": "Founder",
+        "company": "Not explicitly mentioned, implied to be a company leveraging AI for disability claims"
+      },
+      "tech_tags": [
+        "Large Language Models",
+        "AI",
+        "ICD-10 codes",
+        "Automation"
       ]
     },
     {
@@ -430,6 +723,27 @@
         "GPU",
         "WhatsApp",
         "LLM"
+      ]
+    },
+    {
+      "file": "epep049-ai-agent-development-tradeoffs-you-need-to-know",
+      "summary": "A tech lead discusses building AI sales agents (Alice and Julian) at 11x, highlighting challenges, tradeoffs, and the evolution from previous voice AI experience.",
+      "guest": {
+        "name": "Not specified explicitly, but Tech Lead and Engineering Manager",
+        "role": "Tech Lead and Engineering Manager",
+        "company": "11x"
+      },
+      "tech_tags": [
+        "Auto GPT",
+        "Baby AGI",
+        "LangGraph",
+        "Cloud",
+        "AWS",
+        "GPT 3.5",
+        "AI voice agent",
+        "Web scraping",
+        "Web search",
+        "Typescript"
       ]
     },
     {
@@ -475,6 +789,73 @@
       ]
     },
     {
+      "file": "ep338-trust-at-scale-security-and-governance-for-open-source-models-hudson-buzby-338",
+      "summary": "Hudson Buzby discusses the shift in AI development, the challenges of enterprise AI adoption, and the importance of security and governance for open-source models in production.",
+      "guest": {
+        "name": "Hudson Buzby",
+        "role": null,
+        "company": null
+      },
+      "tech_tags": [
+        "Generative AI",
+        "RAG",
+        "Vector Stores",
+        "PG Vector",
+        "OpenAI",
+        "Anthropic",
+        "Lambdas",
+        "Serverless Functions",
+        "DevOps",
+        "MLOps"
+      ]
+    },
+    {
+      "file": "ep343-the-semantic-layer-and-ai-agents-david-jayatillake-343",
+      "summary": "David Jayatillake discusses the importance of semantic layers, their implementation challenges, and the benefits of an open-source, abstracted approach for broader data accessibility.",
+      "guest": {
+        "name": "David Jayatillake",
+        "role": null,
+        "company": "Cube"
+      },
+      "tech_tags": [
+        "Semantic Layer",
+        "Looker",
+        "Power BI",
+        "SQL",
+        "YAML",
+        "Tableau",
+        "Excel",
+        "React",
+        "REST",
+        "GraphQL",
+        "DAX",
+        "MDX",
+        "ML Pipelines",
+        "AI Applications"
+      ]
+    },
+    {
+      "file": "epep022-the-future-of-ai-operations-insights-from-pwc-ai-managed-services",
+      "summary": "Ronnie from PwC discusses AI-driven managed services, focusing on MLOps/AIOps integration, agent deployment challenges, and the importance of data quality for successful AI adoption.",
+      "guest": {
+        "name": "Ronnie",
+        "role": "Partner",
+        "company": "PwC"
+      },
+      "tech_tags": [
+        "AI",
+        "MLOps",
+        "AIOps",
+        "Data Modernization",
+        "App Modernization",
+        "Low-code/No-code",
+        "Alerting Systems",
+        "CPU Utilization",
+        "Resource Utilization",
+        "Data Analytics"
+      ]
+    },
+    {
       "file": "epep000-rethinking-notebooks-powered-by-ai",
       "summary": "Marimo, an AI-powered notebook platform, was acquired by Weights & Biases, enhancing Moab with cloud compute and integrating LLMs, while maintaining its open-source focus.",
       "guest": {
@@ -496,6 +877,24 @@
       ]
     },
     {
+      "file": "epep021-reliable-voice-agents",
+      "summary": "Voice AI is transforming how businesses interact with customers and employees, offering a seamless and efficient experience in areas like customer support, healthcare, and logistics.",
+      "guest": {
+        "name": "Unknown",
+        "role": "Unknown",
+        "company": "Unknown"
+      },
+      "tech_tags": [
+        "Voice AI",
+        "IVR",
+        "Universal API",
+        "Software Integration",
+        "Mobile",
+        "Automation",
+        "Voice Agents"
+      ]
+    },
+    {
       "file": "epep004-cracking-the-black-box-real-time-neuron-monitoring-causality-traces",
       "summary": "Navigating AI regulations, particularly the EU AI Act, through harmonized standards for compliance and risk mitigation, emphasizing observability and interpretability of AI models.",
       "guest": {
@@ -513,6 +912,50 @@
         "Inference",
         "Monitoring systems",
         "Testing evals"
+      ]
+    },
+    {
+      "file": "epep059-everything-hard-about-building-ai-agents-today",
+      "summary": "Discussion of AI agent challenges in production, focusing on data processing, evaluation, and the difficulty of bridging the gap between user intent and effective prompt engineering.",
+      "guest": {
+        "name": "Justin",
+        "role": "Instructor",
+        "company": "Homa"
+      },
+      "tech_tags": [
+        "LLMs",
+        "Prompt Engineering",
+        "MapReduce",
+        "Spark",
+        "ETL",
+        "PagerDuty",
+        "Slack",
+        "Embedding",
+        "Observability Stack",
+        "Cloud Infrastructure"
+      ]
+    },
+    {
+      "file": "ep325-bridging-the-gap-between-ai-and-business-data-deepti-srivastava-325",
+      "summary": "Deepti Srivastava discusses bridging the gap between LLMs and business data, highlighting the need for real-time data access and integration into existing production systems for effective AI.",
+      "guest": {
+        "name": "Deepti Srivastava",
+        "role": "CEO & Founder",
+        "company": "Snow Leopard AI"
+      },
+      "tech_tags": [
+        "LLMs",
+        "SQL",
+        "NoSQL",
+        "APIs",
+        "Salesforce",
+        "Postgres",
+        "Snowflake",
+        "Databricks",
+        "mlflow",
+        "CubeFlow",
+        "ETL",
+        "RAG"
       ]
     },
     {
@@ -557,6 +1000,27 @@
       ]
     },
     {
+      "file": "epep020-context-engineering-context-rot-agentic-search-with-the-ceo-of-chroma-jeff-huber",
+      "summary": "Jeff Huber, CEO of Chroma, discusses context rot in LLMs, the evolution of search for AI, and the importance of modern retrieval infrastructure, arguing against vector databases being a panacea.",
+      "guest": {
+        "name": "Jeff Huber",
+        "role": "CEO",
+        "company": "Chroma"
+      },
+      "tech_tags": [
+        "Large Language Models (LLMs)",
+        "Vector Databases",
+        "Context Windows",
+        "Haystack Benchmark",
+        "Semantic Search",
+        "Hybrid Search",
+        "Distributed Systems",
+        "AI Agents",
+        "Information Retrieval",
+        "Chroma"
+      ]
+    },
+    {
       "file": "epep002-physical-ai-teaching-machines-to-understand-the-real-world",
       "summary": "Exploring Physical AI: A horizontal platform using foundation models to perceive, reason, and act on real-world sensor data for applications ranging from factories to autonomous vehicles.",
       "guest": {
@@ -575,6 +1039,27 @@
         "Lidar",
         "Cameras",
         "Time Series Sensors"
+      ]
+    },
+    {
+      "file": "ep324-the-creator-of-fastapis-next-chapter-sebasti\u00e1n-ram\u00edrez-324",
+      "summary": "Sebasti\u00e1n Ram\u00edrez discusses the origins of FastAPI, the crucial role of Pydantic, his background in AI/ML, and the importance of developer experience in API development.",
+      "guest": {
+        "name": "Sebasti\u00e1n Ram\u00edrez",
+        "role": "Creator of FastAPI, Founder of Fast API Labs",
+        "company": "Fast API Labs"
+      },
+      "tech_tags": [
+        "FastAPI",
+        "Pydantic",
+        "Python",
+        "marshmallow",
+        "GitHub Actions",
+        "Type Annotations",
+        "JSON",
+        "Data Classes",
+        "Deep Learning",
+        "Neural Networks"
       ]
     },
     {
@@ -614,6 +1099,225 @@
       ]
     },
     {
+      "file": "epep056-greg-kamradt-benchmarking-intelligence-arc-prize",
+      "summary": "Greg Kamradt discusses the Arc AGI benchmark, its design for evaluating AI, and OpenAI's model evaluation results culminating in a live stream collaboration.",
+      "guest": {
+        "name": "Greg Kamradt",
+        "role": "Runs",
+        "company": "Arc Prize"
+      },
+      "tech_tags": [
+        "AI",
+        "AGI",
+        "Benchmarks",
+        "API",
+        "Models",
+        "Inference Time Compute",
+        "OpenAI API",
+        "Custom Built Solutions"
+      ]
+    },
+    {
+      "file": "epep054-the-missing-data-stack-for-physical-ai",
+      "summary": "Nico West discusses Physical AI, defining it as AI that interacts with the real world, and its potential to transform the economy, unlike previous tech waves like IoT.",
+      "guest": {
+        "name": "Nico West",
+        "role": "CEO",
+        "company": "rerun"
+      },
+      "tech_tags": [
+        "AI",
+        "Robotics",
+        "ML",
+        "LLM",
+        "IoT",
+        "Generative Media",
+        "Sensors",
+        "Data Collection",
+        "Computer Vision"
+      ]
+    },
+    {
+      "file": "epep043-linkedin-recommender-system-predictive-ml-vs-llms",
+      "summary": "The episode explores how LinkedIn's recommender system is evolving from traditional ML to using LLMs, discussing benefits like automated feature engineering and challenges like inference latency.",
+      "guest": {
+        "name": "...",
+        "role": "Vibe Manager",
+        "company": "Vibes Community"
+      },
+      "tech_tags": [
+        "LinkedIn Recommender System",
+        "Machine Learning",
+        "Large Language Models (LLMs)",
+        "GPT Models",
+        "Feature Engineering",
+        "Inference",
+        "Knowledge Distillation",
+        "GPU"
+      ]
+    },
+    {
+      "file": "epep040-building-coding-agents-design-decisions-prompting-tricks-gui-anti-patterns",
+      "summary": "The podcast discusses the shift from AI-powered code completion to autonomous coding agents, emphasizing the importance of context and prompt engineering for effective agent utilization.",
+      "guest": {
+        "name": "Unknown",
+        "role": "Unknown",
+        "company": "Sourcegraph (implied based on 'Cody' mention)"
+      },
+      "tech_tags": [
+        "LLMs",
+        "Chat GPT",
+        "VS Code",
+        "RAG",
+        "Tool Use Models",
+        "Coding Agents",
+        "Playwright",
+        "CLI",
+        "GUI"
+      ]
+    },
+    {
+      "file": "epep055-ai-reliability-spark-observability-slas-and-starting-an-ai-infra-company",
+      "summary": "Discussing the evolution of data infrastructure due to AI, moving beyond traditional SaaS models to data-centric products, and the challenges in scaling data-driven solutions.",
+      "guest": {
+        "name": "Yoni",
+        "role": "Co-founder",
+        "company": "Not explicitly mentioned in the first 10000 chars"
+      },
+      "tech_tags": [
+        "Spark",
+        "Snowflake",
+        "AWS",
+        "EC2",
+        "DuckDB",
+        "Data Fusion",
+        "LLM",
+        "SAS",
+        "AI"
+      ]
+    },
+    {
+      "file": "epep053-inside-ubers-ai-revolution---everything-about-how-they-use-aiml",
+      "summary": "Inside Uber's AI revolution using the Michelangelo platform: focusing on enabling developers, scaling ML, and transitioning to generative AI with metrics around developer velocity.",
+      "guest": {
+        "name": "...",
+        "role": "...",
+        "company": "Uber"
+      },
+      "tech_tags": [
+        "Michelangelo",
+        "Python",
+        "Linear Models",
+        "Random Forests",
+        "XGBoost",
+        "Neural Networks",
+        "Recurrent Neural Networks",
+        "Uniflow",
+        "Kubernetes"
+      ]
+    },
+    {
+      "file": "epep045-the-hidden-bottlenecks-slowing-down-ai-agents",
+      "summary": "AI agent development is bottlenecked by eval set creation, not the tools themselves, making data feedback loops and strategic tool buying crucial for successful deployment.",
+      "guest": {
+        "name": "Paul",
+        "role": "VP of AI",
+        "company": "Process"
+      },
+      "tech_tags": [
+        "LLM",
+        "AI Agents",
+        "Eval sets",
+        "Pro LLM",
+        "Spellbook",
+        "Humanloop",
+        "Orc AI",
+        "Langchain",
+        "LlamaIndex",
+        "Zapier"
+      ]
+    },
+    {
+      "file": "epep032-are-evals-dead",
+      "summary": "Evaluating AI agent performance is crucial for reliable deployment. The discussed methods leverage offline evals, simulations, and careful prompt engineering, with insights from traditional machine learning practices.",
+      "guest": {
+        "name": "...",
+        "role": "Data Scientist (implied)",
+        "company": "..."
+      },
+      "tech_tags": [
+        "LLMs",
+        "APIs",
+        "CI/CD pipelines",
+        "A/B Testing",
+        "Prompt Engineering",
+        "Guardrails",
+        "Foundation Models"
+      ]
+    },
+    {
+      "file": "ep340-on-device-ai-agents-in-production-privacy-performance-and-scale-varun-khare-neer",
+      "summary": "This episode explores the challenges and opportunities of deploying AI agents on devices, focusing on privacy, performance, and developer experience.",
+      "guest": {
+        "name": "Varun Khare",
+        "role": "Not mentioned",
+        "company": "Not mentioned"
+      },
+      "tech_tags": [
+        "On-Device AI",
+        "Machine Learning",
+        "Transformers",
+        "TensorFlow",
+        "PyTorch",
+        "TensorFlow JS",
+        "Kotlin",
+        "Swift",
+        "Pass Transformers",
+        "NLP"
+      ]
+    },
+    {
+      "file": "ep335-knowledge-is-eventually-consistent-devin-stein-335",
+      "summary": "Devin Stein discusses dosu's AI agent that learns facts from code, conversations, and tickets to answer questions, focusing on context and the 'facts flywheel' for improved knowledge management.",
+      "guest": {
+        "name": "Devin Stein",
+        "role": "CEO and founder",
+        "company": "dosu"
+      },
+      "tech_tags": [
+        "LLMs",
+        "GitHub Issues",
+        "Slack",
+        "Jira",
+        "Confluent",
+        "Clickup",
+        "MLflow",
+        "Celery",
+        "Databricks"
+      ]
+    },
+    {
+      "file": "epep044-gpu-considerations-labeling-privacy-rapid-fine-tuning-and-the-role-of-private-ev",
+      "summary": "The discussion covers AI model training, private evaluations, fine-tuning for agentic use, and optimizing the inference stack for scalable, cost-effective AI deployment.",
+      "guest": {
+        "name": "Paul",
+        "role": "VP of AI",
+        "company": "Process"
+      },
+      "tech_tags": [
+        "GPUs",
+        "AI agents",
+        "Benchmarking tools",
+        "Voice models",
+        "Inference stack",
+        "Open source models",
+        "Stack Overflow API",
+        "Python",
+        "JavaScript",
+        "Go"
+      ]
+    },
+    {
       "file": "epep009-computers-that-think-and-take-actions-for-you",
       "summary": "The guest discusses building AI agents to control computers by understanding human intent and operating digital devices, emphasizing the importance of causality-based training.",
       "guest": {
@@ -632,6 +1336,166 @@
         "Open Voice",
         "Meta TTS",
         "Computer Use Models"
+      ]
+    },
+    {
+      "file": "epep047-enterprise-ai-adoption-challenges",
+      "summary": "Discussion on driving AI adoption within a large enterprise using the 'Token' platform, focusing on user engagement, productivity metrics, and cultural change towards AI fluency.",
+      "guest": {
+        "name": "Sean and Paul",
+        "role": "Product Lead (Sean) and VP of AI (Paul)",
+        "company": "Process/Roses (a large global group)"
+      },
+      "tech_tags": [
+        "Large Language Models (LLMs)",
+        "Slack",
+        "APIs",
+        "Generative Models",
+        "Claude",
+        "ChatGPT",
+        "Cursor",
+        "Gemini",
+        "Copilot",
+        "Token"
+      ]
+    },
+    {
+      "file": "ep337-the-era-of-ai-agents-in-marketing-joel-horwitz-337",
+      "summary": "Joel Horwitz discusses using AI agents and personalized content for effective marketing, highlighting the shift from quantity to quality interactions and augmenting sales development efforts.",
+      "guest": {
+        "name": "Joel Horwitz",
+        "role": "Founder",
+        "company": "neoteric 3D"
+      },
+      "tech_tags": [
+        "AI Agents",
+        "Chat GPT",
+        "Clay",
+        "Hadoop",
+        "LinkedIn",
+        "Big Data",
+        "Personalization",
+        "Data Mirror"
+      ]
+    },
+    {
+      "file": "epep030-best-ai-hackathon-project-ever-bite-size-episode",
+      "summary": "A team built an AI travel agent during a hackathon that automates group trip planning, booking flights/hotels, and even handles payments, generating revenue within days.",
+      "guest": {
+        "name": "At least 3 people mentioned (including Marissa, Ferg, Alex). Full names and specific roles not stated",
+        "role": "Developers/Hackers",
+        "company": "Yate Travel (formed during hackathon), Unicorn Mafia (developer group)"
+      },
+      "tech_tags": [
+        "AI Travel Agent",
+        "WhatsApp API",
+        "11 Labs voice API",
+        "SkyVerge (browser automation)",
+        "Stripe API",
+        "Browser Automation Tools",
+        "Multi-modal agents",
+        "Credit card processing",
+        "LLMs (inferred)"
+      ]
+    },
+    {
+      "file": "epep035-economics-of-building-data-centers-gpu-clouds-sovereign-ai",
+      "summary": "Building data centers for sovereign AI and GPU clouds requires strategic decisions about power sources, location, and catering to data residency requirements.",
+      "guest": {
+        "name": null,
+        "role": "Canadian cloud service provider",
+        "company": "Corrective Errors & President Seal (High Performance Computing)"
+      },
+      "tech_tags": [
+        "Data Centers",
+        "GPU Clouds",
+        "AI",
+        "HPC (High Performance Computing)",
+        "AWS",
+        "Azure",
+        "Google Cloud",
+        "Telecom infrastructure",
+        "Fiber",
+        "GPU"
+      ]
+    },
+    {
+      "file": "epep046-9-commandments-for-building-ai-agents",
+      "summary": "Paul and Dmitri discuss building AI agents, emphasizing design principles, continuous experimentation, and strategic decisions around building versus buying AI components in a rapidly evolving landscape.",
+      "guest": {
+        "name": "Paul",
+        "role": "VP of AI",
+        "company": "process"
+      },
+      "tech_tags": [
+        "AI Agents",
+        "LLMs",
+        "RAG",
+        "Embedding Stores",
+        "Chatbots",
+        "GitHub",
+        "Vector Databases",
+        "Authentication Solutions"
+      ]
+    },
+    {
+      "file": "epep041-a-candid-conversation-with-the-ceo-of-stack-overflow",
+      "summary": "Stack Overflow's CEO discusses the company's evolving role in the age of AI, focusing on data licensing, partnerships, and expansion beyond traditional Q&A.",
+      "guest": {
+        "name": "Not explicitly mentioned in the provided transcript",
+        "role": "CEO",
+        "company": "Stack Overflow"
+      },
+      "tech_tags": [
+        "Stack Overflow",
+        "AI",
+        "Large Language Models (LLMs)",
+        "Pro LLM",
+        "Python",
+        "Kubernetes",
+        "Chat GPT",
+        "OpenAI",
+        "Google Cloud",
+        "AI Chatbots"
+      ]
+    },
+    {
+      "file": "epep028-building-an-agentic-ai-memory-framework",
+      "summary": "Discussion on building an agentic AI memory framework, drawing inspiration from human memory and existing tools like AM, focusing on relationships and context.",
+      "guest": {
+        "name": "...",
+        "role": "...",
+        "company": "..."
+      },
+      "tech_tags": [
+        "GPT",
+        "Langchain",
+        "AM (Associative Memory)",
+        "LLM",
+        "Knowledge Graph",
+        "Semantic Search",
+        "Anki"
+      ]
+    },
+    {
+      "file": "ep349-overcoming-challenges-in-ai-agent-deployment-the-sweet-spot-for-governance-and-s",
+      "summary": "Spencer Reagan discusses using AI agents and LLMs to transform unstructured data into structured data, improving customer experience and business efficiency by normalizing data across disparate sources.",
+      "guest": {
+        "name": "Spencer Reagan",
+        "role": null,
+        "company": null
+      },
+      "tech_tags": [
+        "LLMs",
+        "Spreadsheets",
+        "Databases",
+        "Slack",
+        "Teams",
+        "Jira",
+        "CRMs",
+        "Data Normalization",
+        "Prompt Engineering",
+        "AI Agents"
       ]
     }
   ]

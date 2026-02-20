@@ -1,0 +1,36 @@
+{
+  "tech_tags": [
+    "LLMs",
+    "SQL",
+    "NoSQL",
+    "APIs",
+    "Salesforce",
+    "Postgres",
+    "Snowflake",
+    "Databricks",
+    "mlflow",
+    "CubeFlow",
+    "ETL",
+    "RAG"
+  ],
+  "business_tags": [
+    "Data Integration",
+    "GenAI Adoption",
+    "AI Strategy",
+    "Data-Driven Decision Making",
+    "Platform Shift"
+  ],
+  "key_topics": [
+    "Connecting LLMs to operational data",
+    "The limitations of current GenAI approaches (RAG, fine-tuning)",
+    "The importance of real-time, accurate data for AI decision-making",
+    "Building AI into the existing tech stack",
+    "Data retrieval platform"
+  ],
+  "guest": {
+    "name": "Deepti Srivastava",
+    "role": "CEO & Founder",
+    "company": "Snow Leopard AI"
+  },
+  "summary": "Deepti Srivastava discusses bridging the gap between LLMs and business data, highlighting the need for real-time data access and integration into existing production systems for effective AI."
+}

@@ -1,0 +1,32 @@
+{
+  "tech_tags": [
+    "AI Agents",
+    "Generative AI",
+    "Large Language Models (LLMs)",
+    "APIs",
+    "Google Docs API",
+    "Jupiter Kernels",
+    "CRM",
+    "QuickBooks"
+  ],
+  "business_tags": [
+    "Automation",
+    "Integration",
+    "Data Extraction",
+    "ETL (Extract, Transform, Load)",
+    "Software as a Service (SaaS)"
+  ],
+  "key_topics": [
+    "AI-driven software development",
+    "Automating tasks across different applications",
+    "The role of AI in data integration and ETL processes",
+    "Designing AI-friendly APIs and abstractions",
+    "User adoption of AI in business workflows"
+  ],
+  "guest": {
+    "name": "Unknown",
+    "role": "Unknown",
+    "company": "Nutri (implied)"
+  },
+  "summary": "The podcast discusses using AI agents to automate tasks across applications, focusing on data integration, ETL processes, and designing APIs that cater to AI preferences."
+}

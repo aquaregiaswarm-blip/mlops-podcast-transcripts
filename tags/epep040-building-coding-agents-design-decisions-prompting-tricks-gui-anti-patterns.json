@@ -1,0 +1,33 @@
+{
+  "tech_tags": [
+    "LLMs",
+    "Chat GPT",
+    "VS Code",
+    "RAG",
+    "Tool Use Models",
+    "Coding Agents",
+    "Playwright",
+    "CLI",
+    "GUI"
+  ],
+  "business_tags": [
+    "Developer Tools",
+    "AI-powered Automation",
+    "Productivity",
+    "Software Development",
+    "User Experience"
+  ],
+  "key_topics": [
+    "Evolution of AI coding assistants",
+    "Transition from code completion to coding agents",
+    "Importance of context and feedback loops",
+    "Shifting UX paradigms for coding",
+    "Prompt engineering strategies"
+  ],
+  "guest": {
+    "name": "Unknown",
+    "role": "Unknown",
+    "company": "Sourcegraph (implied based on 'Cody' mention)"
+  },
+  "summary": "The podcast discusses the shift from AI-powered code completion to autonomous coding agents, emphasizing the importance of context and prompt engineering for effective agent utilization."
+}

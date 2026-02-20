@@ -1,0 +1,33 @@
+{
+  "tech_tags": [
+    "LLM",
+    "AI Agents",
+    "Eval sets",
+    "Pro LLM",
+    "Spellbook",
+    "Humanloop",
+    "Orc AI",
+    "Langchain",
+    "LlamaIndex",
+    "Zapier"
+  ],
+  "business_tags": [
+    "Build vs. Buy",
+    "Product Feedback Loop",
+    "Investment in AI tools",
+    "Enterprise AI Adoption"
+  ],
+  "key_topics": [
+    "Bottlenecks in AI Agent development",
+    "Importance of Eval Data Sets",
+    "Adoption of external AI tools",
+    "Building vs Buying AI tools",
+    "Observability of AI agents"
+  ],
+  "guest": {
+    "name": "Paul",
+    "role": "VP of AI",
+    "company": "Process"
+  },
+  "summary": "AI agent development is bottlenecked by eval set creation, not the tools themselves, making data feedback loops and strategic tool buying crucial for successful deployment."
+}

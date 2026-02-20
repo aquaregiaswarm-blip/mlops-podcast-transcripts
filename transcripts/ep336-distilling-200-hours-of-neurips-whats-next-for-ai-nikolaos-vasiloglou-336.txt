@@ -1,0 +1,77 @@
+It's been only one area that for many years. People are trying to use deep learning to beat traditional like solo models and the heaven malas to do that and that's your typical XD, boost type of models, like tabular data, predicting on data, friends,
+ My name is.
+ Nicholas vasilov. People usually call me Nick, the Greek
+ and the VP of research ml at relational AI.
+ And I got an award for finishing my PSD without drinking, a single cup of coffee. But as I get older,
+ I need to get some coffee and I'm also a bath and Runner.
+ But I'm allergic to to Coffee, you know. So this is how I take my coffee. I take coffee pills.
+ I've they make my day, I wake up with the morning. I opened the bottle, I take a pill, drink some water and then everything looks great.
+ Take them in the morning. Not at night to wake me up.
+ Went to Europe, you distilled.
+ The plethora of information in talks and papers that came out at Europe's.
+ Into almost like a cheat sheet.
+ Can you explain what you did? And what made you what drives you to do? Such a thing
+ yeah, I don't think it's some exaggeration to say that I tried to become a human language model, which is a little bit of
+ no strains because language models came invented by humans. This is how we speak. And I think now we're trying to imitate sense.
+ So I I do have a passion for reset, so I work for the for the industry, since I finished my piece D, I've been very close to recess. I tried to publish, I have interns
+ But I think I remember what somebody told me many years ago, he said it was research in biology. He said well we should stop doing research and just read our papers of the last 10 years to see what we've done. And this particular thing that, you know, people always want to publish, they always want to talk.
+ But we produce a lot of materials specifically in recessed these days, it's you know, amazing but I don't think we ever take the time to read what we produced and I've noticed through the years that this always papers that they just don't get on the spotlight for some reason, whatever reason.
+ And then it takes us. 10, 15, 20 years is Oh, Yes. Actually somebody had, you know, mentioned that, but we never paid attention to it. So I think there's a gap in the scientific word in the industry World, which is okay.
+ We say what we say, we produce all these research.
+ Can we somehow try to invest that material and communicate it to be, you know, to the leaders to the decision makers. This is your makers can be, you know, research managers. They can be CEOs, they can be visits.
+ So that we actually know what we're doing.
+ So yeah, that's a password I've been doing for for many years. This was the most difficult here because, you know, we'll talk about a conference with close to eight and a half thousand publications of hours of video just like reading going through, you know, skimming through the material. This is like
+ 10 hours, just like yeah, going in Sinking one by one. I think, probably the last year that I'm able to do that for New Year's. I think next year, I will have to use the help of language models. Maybe we'll have to train the language model with with. So you use the help of AI this year? No, no, I didn't.
+ Actually, I did in the end. Let me tell you this was a little bit.
+ You know.
+ So they said it's hardening. So after I finished my presentation, I created, you know.
+ 600 slides, which I spoke it into 12 different lectures if you want. I recorded the videos. I had this idea, people are using notebook. LM to
+ To generate podcasts.
+ and to my surprise, you know, notebook, 11 did such a great job, explaining the material
+ I thought I thought I did a good job creating the presentation but just taking this the transcripts and giving them to to not. Look at them.
+ Was experiment with something else called PDF toward, you can talk about that if people are interested in that as well. You know, think he can communicate ideas better than me. Now I just gonna put a master's because AI is running so fast. I had the owner to meet the products of note to kill him as Google. So when we started notebook, 11 was a little bit hard to tame.
+ It was sometimes was going off-road, he was oversimplifying. So we had to kind of like learn how to tame it, but in the past six months he has improved a lot and I don't really think it needs that taming anymore.
+ Fascinating. So
+ What you did. If I understand this correctly is you took all of the recordings and all of the papers that were submitted to nerves this year, this last year, right? Sort of, I didn't go through here, going through Aid and a half thousand papers would require four years of work for me. Wow, I just went through the presentations. The workshops selectively, some papers, and I'll explain why I did that. So it's kind of interesting knowledge. It's already self-organized through the so we can talk about that hard works. But essentially, I tried to like, if you see my process, it really looks like the process of doing, then AI these days. So I think there was another benefit for my professional job about how do you basically use then AI in the Enterprise like if you think that I got you know, this huge material
+ And I tried to identify.
+ Places where this is well summarized or you know well ranked if you want and working at the place by myself.
+ And getting to this.
+ 600 slides. I think this is something that now you can start doing with language model where you have to prepare material. Yeah.
+ Why did you chose certain?
+ Papers over others.
+ So, here's the thing, let me explain you how it works. So, this three major conferences every year in Ai, and they happen with this order. And this is the order of importance. I see are which actually happened a few weeks ago in in May. Then in the summer we have icml which is bigger and then we have new ribs in this December which is much bigger and I think it's the most complete and probably the oldest
+ What happens is when you go to new ribs, there's a lot of Keynotes, you have the orals, the oral presentation know, not all these eight and a half thousand papers, it's about four and a half. I don't remember the numbers. I haven't presentation that you have them. The main track in another 4,000 in in workshops
+ Um, not all of them, make it to oral presentations.
+ Okay, so you first, you know, go through the Keynotes, you go through the orals and then you go through the workshops, you know, taking notes in the workshops and presentations that they look interesting. I think that's part of me, you know, I've been many years in the area. So I think I have some, I'm a good rank here. So I I basically use what Europe's viewers have done by elevating a paper to an oral to a keynote, the work support, organizes by selecting, which ones gonna be, you know, it's more important now, all these presentations, all these oral presentations, the usually site, and riff reference papers that they've already published. Let's say, within the last two years and sometimes when they go to the conference because things are running so fast also presenting about things that they've submitted for publication in the next year. So by attending one conference you can of like get an idea about what is happening in the past six months and was going to happen in the next six months.
+ At least in, as a publication.
+ And now then I started, you know, as you watch the presentation, you start digging through their references. If I don't know, this is a reference that maybe wasn't very well.
+
+A received or, you know, or you got published like a year ago and we needed a year for people to kind of like start talking about it.
+ And that's how it goes. You take snapshots you take I don't know about 2000 screenshots you know for papers here and there it's I have a way of organizing the material anyway.
+ And then you keep refining and then, you know, you keep cutting. You keep cutting, consolidating cutting and you bring it this year. Typically I can make it fit in an hour and a half. The previous year is this year to basically have 12 presentation close to I think six hours six and a half hours of
+ of me presenting.
+ Well, it's 200 slides. You said, no. No, it's 6:50. They're public. I have I actually have
+ Everything available. The initial screenshots was that things close to 2000 and and then after they still got to I think 600 slides.
+ And then you had the six hour presentation that you yourself are talking about your understanding of all of this and why it's important.
+ And that after that, the podcast would make it even, you know.
+ Invincible that the notebook LM podcast. What are some things that stood out to you? Yes, he was surprisingly, I don't know. But the I managed to break it into 12 topics. That's why I named this series. Like the 12 days of new ribs, it kind of coincided with Christmas but I didn't do it on purpose. It just happened to be 12 things.
+ But and the presentation was broken, you know, like there's like two slides. That is a nutshell that I have a slide with a, you know, 12 topics. And then there is, you know, three slices for every topic and then there's like a whole section for every topic, so you can go hierarchically as deep as you as you want.
+ um, I think the very first thing that kind of like stood out, is that
+ You know, we see that with every technology, it pops this Buzz. It's kind of like the hype cycle either makes it or doesn't make it so
+ Now, it's the year that we can say that language models are everywhere, but not for everyone yet. Okay. And
+ It's seems to me that remember your ribs King around the Deep sick kind of Boom, or yeah you know Buzz. Um but it is true that the open source language models are are winning the word a lot of
+ A, you know.
+ There were a lot of how can I say this?
+ papers about language models that are very
+ You know, they are very open. They give you everything. They give you all the checkpoints, you can reproduce them, you can pre-train them from those checkpoints. You can. If you want, you can take the data set. So they open source a lot of data sets that you can. You can modify if you want to, you can include them in your own in your own deployment, okay? So, um, and there was a presentation, I think if there was one presentation to to towards was from the inventor of
+ the lstms. So for the
+ for the audience that doesn't know what analysts am is it was the precursor of the Transformer that made the language model, what it is.
+ And he basically had a slide where it says the way that I translated is everybody loves to hate language models.
+ Okay. And
+ You know, at least like a bunch of complaints from people, you know, it's not gonna give us AGI, I can't do this. You can't do that. And when you hear people complaining about something, it means that they're using it a lot. Okay? And this complaints are actually constructed because these are the complaints that they're gonna lead us to the next to the next, you know, weekly.
+ I think.
+ you know, it's kind of fascinating that
+ this was the 10th year and inversely for the first sequence to sequence mortal. So the sequence, the sequence model is basically what a language model is.
+ And you know, he give it a sequence and generates another sequence you give it a prompt. It's
+ And that won the test of time award. Okay? So but the author was illya verse the famous, you know, open AI guy. Yeah. The whole drama left. And so he was there. He gave a very nice presentation about that. It was also the team here anniversary of another Monumental Bakery. Instrumental paper was the gas was the first time we synthetically generated images.
+ It's been, you know, it's been 10 years, you know, it's those years. I remember, when these papers came out, everybody was very critical because they said,

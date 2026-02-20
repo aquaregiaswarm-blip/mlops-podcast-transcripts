@@ -1,0 +1,34 @@
+{
+  "tech_tags": [
+    "FastAPI",
+    "Pydantic",
+    "Python",
+    "marshmallow",
+    "GitHub Actions",
+    "Type Annotations",
+    "JSON",
+    "Data Classes",
+    "Deep Learning",
+    "Neural Networks"
+  ],
+  "business_tags": [
+    "Developer Experience",
+    "API Development",
+    "Data Validation",
+    "Software Abstraction",
+    "Open Source"
+  ],
+  "key_topics": [
+    "Evolution of FastAPI",
+    "Importance of Pydantic for data validation",
+    "Sebasti\u00e1n's background in AI/ML",
+    "Building APIs",
+    "Developer experience"
+  ],
+  "guest": {
+    "name": "Sebasti\u00e1n Ram\u00edrez",
+    "role": "Creator of FastAPI, Founder of Fast API Labs",
+    "company": "Fast API Labs"
+  },
+  "summary": "Sebasti\u00e1n Ram\u00edrez discusses the origins of FastAPI, the crucial role of Pydantic, his background in AI/ML, and the importance of developer experience in API development."
+}

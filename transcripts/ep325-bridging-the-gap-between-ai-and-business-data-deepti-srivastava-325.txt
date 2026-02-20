@@ -1,0 +1,297 @@
+What if you could put a box?
+ Right in between all of your data systems on one side, all of the data like databases data, warehouses whatever Data Systems, and your llm systems on the other side and just have straight lines. Oh, you need data from Salesforce Google, get it for you. You need data from postgres, so we'll just go get it from you. You need data from Snowflake or databricks. We'll just go get it from you for you.
+ My name is deepti srivastav. I am the CEO founder of a snow leopard AI which is a intelligent data retrieval platform that we're building. And I take my coffee with
+ Milk and sugar. And
+ you can come at me just said to me the you back in the pandemic days went to some virtual online Meetup that we did and it was on mlflow and I think I know exactly the one that you are talking about because it ended up being one of the most watched
+ Episodes later, when we put it on YouTube and I really think it's because it hit a nerve and the episode was the difference between Cube flow and mlflow. Oh interesting. Yes, maybe
+ And it's super confusing, especially back in those days in 2020.
+ Folks didn't really understand either one or how when to use one and when to use the other and Byron came on and he explained it like look Cube flow is a sledgehammer and mlflow is like a little pickaxe so you they're both great tools, it just depends on what you're trying to get done and so I I thought that was that was awesome and it's really cool to hear that.
+ all the way back in those days you had seen the MLS Community when I wasn't sort of,
+ When I wasn't as excited or when I wasn't in it actually I was excited about the community but I wasn't even in it at the time and I was like, oh, this is interesting at some point I should look it up and lo and behold like what is it? Five years later, four and a half. Here we are. So that's very exciting.
+ Full circle. And so the, the thing that I think is is really cool. As you were saying, yeah, back in those days, even, we were talking about this problem that you've been hearing and talking with folks about a lot. Can you just break down what the problem is? And then we can get into different thesis around it.
+ Yeah. So
+ There are many ways to talk about the problem, but the Crux of it is.
+ in this new world of llms, like we expect,
+ AI to like be this trillion dollar, like new industry, new platform shift, by the way, I bought into it, like this is why I'm here with no leopard, right? Like, I bought into it.
+ Whatever 222 ish when the when you really broke. Yeah. When the hype happened, I was like, because I'm not into high but I'm just so backing up. I'm a distributed systems person. I've been an infrastructure. My entire life. We are
+ Because we care about production and 5997 availability and all that stuff and you can't really just be like, oh yeah, let's try the new thing and like, yeah. So so I come from that and that's I think that's important because as I said, I don't believe in hype, but when I saw it and played with it,
+ I was just like, no, this is truly a platform shift. I also did a minor in AI back in the day and so in undergrad and I was like,
+ This is hype. Yeah, so the issue is
+ I mean, this is truly a platform shift alums enable.
+ So many things that we didn't even think was possible, but and this is the Crux of what I believe the problem is, right? Like
+ Four llms to be the platform shift that they are for Gen AI, for AI applications to truly change. The way people live work, behave. You need to connect them to the crown jewels of any business or any sort of user situation, right? And that is operational data. And by operational data, I mean structured data. So, I mean, SQL. No SQL API based information, right?
+ Today, there is a huge chasm.
+ Still between operational data on the one side and llm and Alum based apps on the other side. And that's precisely what snow leopard. And I set out to do when we, when we, when I started,
+ so it's a I 100% agree with this idea of
+ For AI to live up to the hype? Yes, we're going to need to plug into all of this data and I I don't think that's necessarily the most spicy take. Everyone is saying that and they're almost saying it, like, incessantly on all of these different social networks, we got to have, you want to have your own data and you want to have your own models? That's kind of the theory that we see and
+ on the other hand, though, what I do think is fascinating here with what you're saying is
+ We need to be able to connect it to data that right now, we are not necessarily connecting it to unless it is we've seen those use cases where it's like, agents that are text to sequel agents or you have your data analyst and so you're using yellow limbs to query your database that kind of thing. But
+ I feel like what we are seeing more often than not.
+ Is.
+ A whole new building.
+ Of gen AI apps.
+ That are off to the side of your structure data so it's taking its connected. Yes. In AI in the LMS to your notion, or to your docks or trying to make gyro work with it. And it's not really thinking about connecting it to the databases or the apis that you're talking about. Yes, that's right. So,
+ You're right that everybody talks about your data, should be ingested, right? And like we should connect it, Etc.
+ But I think where exactly to your point where the focus has been has been like, chatting with your PDF, right? Yeah. And that's cool. It is something that was, you know, wasn't easily possible before this, but I think you you mentioned something very important which is that building apps to the side of your stack, of your critical path is never going to really, you know, generate those new use cases, use your value, business value, Etc. And so, you have to make it part of your critical path in order, for it really, to, to your point live up to the hype, right? So today, everything is around the fringes, right? One of the things that, you know, when I started talking to, so I validated the problem before I even started snow leopard it, I know sort of counterintuitive, but just, that's just how I am. But,
+ when I started talking to people, like VP of platform or like had AI, like all these companies Enterprise companies smbs, you know, people in my network, all of them were like you know,
+ We don't have a way good way of putting it in our sort of true stack, right? And there's a lot of talk to your point about how there's a new stack emerging like
+ the anytime there's a new stack like that's outside of what the existing stock is to be honest, right? And in my experience of 20 years of doing this,
+ Building data infrastructure and systems for Enterprises, right? Production grade Data Systems you have to like,
+ Everything exists, like the text stack exists in an ecosystem. It exists in a context. And if you want to drive value or create new value, whether it's for users or for business, right? You actually have to be part of that unique ecosystem. You have to fit into it. You can't just be like this cool new thing and adopt us here but like the rest of your whole world is here. Yeah.
+ I think that's really the key, right? Like and we can get into this but I do believe just one more thing here that
+ while people say that, you know, you should connect your, your llms and your agents in your assistance to this this data
+ I just fundamentally believe that the way that people are going about it isn't going to solve the problem.
+ It's funny because I instantly think of this visual of I live in Germany and I was driving down the street, the other day. And what do you know? There's a caravan of
+ Motorcycles with sidecars on them.
+ And it feels like what we're doing with Jenny, I is the sidecar to the motorcycle, which is the production system. Yeah. Yes. And
+ You know I let's let's get into the spicy takes. I have quite a few but here we go. Um,
+ but I think,
+ The way people do it today is, you know, rag, which is retrieval augmented generation which the concepts sounds good right. There is the other thing which you're saying which, you know, you train your own LMS and you do all this stuff, right?
+ Yeah, both those options actually don't get you to where you need to be.
+ alright, so
+ like spicy. Take number one.
+ Is that?
+ You know.
+ Doing ETL and putting all your data into a lake house ocean.
+ Like whatever. Yeah right.
+ Isn't actually solving the problem.
+ right, spicy take number two is and this is the more important spicy take which is that
+ You know, we're talking about intelligence will solve. This agents will become self-aware et cetera and like we'll go out and do stuff and that's cool. I'm not against that, right? But the problem is the most intelligent.
+ Machines today, human beings.
+ Don't make the right decision regardless of how smart they are regardless of how cool their reasoning is, right? Like how good they are at reasoning and like, all of that stuff. The intelligence today.
+ Doesn't know how to make good decisions with bad data. Bad data is equal to stale data all. So, by the way, yeah, like if I asked you, if you've been in a coma for six months and I ask you, right? Who's the president of the United States, who is the prime minister of another country?
+ Until I give you that information until you Google, it perplexity at open AI at whatever.
+ You don't know that answer you cannot make the decision, right? So if if intelligence today, best intelligence today can't make that
+ Right, can't make right decisions, without the right data at the right time. Those words are important, right? Data right, place, right time, right? Until you do that.
+ Like there is no way that artificial intelligence is going to be able to make the right decisions, right? Like we just have to reasoning will not solve it all is, is the point I'm trying to make. I know this is a
+ This is a counterculture take especially for this audience, but but I'm really honestly, trying to help. I'm honestly trying to make that intelligence more intelligent, right? Like more useful.
+ yeah, and I I don't necessarily think that
+ it is so counterintuitive to say that reasoning is not going to do it because the thing that we've seen time and time again is
+ The more context you provide to a model.
+ The higher likelihood that you're going to get.
+ To.
+ Either the task being done or the answer that you're looking for. And so again, if you're not able to provide it, the correct data in the form of the context,
+ Even if you are providing it a lot of data, but it's not the right stuff, then that's right. It's gonna be a shity yet, answer or outcome, right regard. We talk a lot about hallucination. And, yes, there are inherent reasons in the way, the other ones are built right? That can cause illusion. I agree with that, but honestly, a lot of the Hallucination is because you're not getting the right data. It's just trying to answer like human beings hallucinating. And if we get the wrong information at the wrong time, we will hallucinate. Right? And the other thing I will say here is you were saying right to give you like,
+ the more context you give it, there is an inflection point on which if you give it too much data,
+ It will also come to the wrong conclusion, right? Because it doesn't know what to focus on, which is very intuitive as human beings, right? Like, if you throw a bunch of data at me,
+ And I owe information at me, and I don't know where to focus. I mean, I may pick up the wrong thing, right? And start going down the wrong Rabbit Hole. So
+ Again, these are like very sort of to your point, they're not sexy things but they are very important in my opinion. Again as a boring infrastructure, person to enable all the cool stuff to be built, right? Like we're we're still nibbling at the edges and until we like really like bring the right data from the right place, at the right time to these systems, whether they're assistance agents, the next big thing right in reasoning. And AI, like, we're not gonna really we're only scratching the surface here. Yeah, it's true. We had donae on here, probably three months ago now and she was talking about how
+ Difficult. It was to get an agent to say no or to say that it did not have the right information that it needed or that it did not understand the tasks that you are asking for and it plays right into what you're talking about with hallucinating because you asked it to do something. And then if it doesn't fully understand or there's a fuzziness to the terms that you're using, then it comes back with one in interpretation that may or may not be what you are trying to get. And then you're like this, just hallucinated this shit out of the answer. And so you have to figure out a how to
+ The troubleshoot that and what they did is they said we are going to create a glossary of all of the terms that we're using and we need to make sure that there's no vagueness in any of these terms. The definitions of these words and these key terms that we are creating, they can't be fuzzy, it can't be vague at all which when a human reads it they think oh that's fine. And then when you go and you try and evaluate the output on it you see? Oh yeah. I guess it didn't really understand what I meant by create a good summary. If it's like, what is good. That's right objective. Right? Like
+ I think there's two things here that I believe are key, right? One is
+ Like imagine like just think about how much work they had to do and it's still wasn't producing the right answers, right? Because
+ They are inherently sort of. So here's the other reason that I think what we're doing,
+ Is interesting to me because like, llms are actually really good at this sort of fuzzy, interpretation of stuff, right? Like, they're actually really good at summarization like, you know, classification, those kinds of things that inherently require a little bit of like, extrapolation if you will and but they're not good at Point. Lookup Point Solutions specific. Yes, no answers in all cases right now. Yes, you can. You can tune them. You can do reinforcement learning, and they'll get closer and closer and closer to what you want to do, right? But
+ But not everybody has the time money expertise to do that, first of all and secondly they're actually really good if you just give them again, I'm gonna keep going back to this the right information for them to make the decision, right? And this is where I think.
+ I think honestly llm get a bad rap in some way because
+ because ultimately everybody's using rag, right to do it. And the way rag is done today is ETL a bunch of data into a vector store, right? And then use the vector store to build context and in that query time. But Vector stores themselves are fuzzy matching systems. They are not Point. Lookup systems, they are not precise answers systems, right?
+ They're meant to do what they're doing, which is beef fuzzy matching, right. Like, whether you spell Demetrius with
+ An with an S or a z. They're going to come up with the same. Like they may come up with both answers because they you know, to them they're like oh these are similar. You wanted similar research like here, these two have similar. Now you figure it out, right?
+ and so, like, we're taking
+ First of all, the all the information that truly can help. Make this happen is, you know, the crown jewels. As I keep saying are in your databases data, warehouses in your like Salesforce HubSpot, those kinds of api-based systems, right? Which if you extract them, you change their nature, you lose business contacts and you put in this Vector store.
+ Right. So now they've actually lost all the structure. The information that was very carefully designed to be in those systems. Like, you've completely lost it, right? It's in some blob, in some essential fuzzy matching system, right? And then you pick it up from there. So, not only is it still not only does it suffer from all the ETL and reverse ETL problems. It also suffers from, you took it out from a context in which it exists. You put it in a different context with a bunch of other data, right. And then you serve it to the yellow and you know, then then you're like, okay.
+ The definition of good aside. It won't just know whether to hot and how to answer the question, right? So I think
+ there is something to be said for fine-tuning around. Like give me a yes or no answer but you know the way the models are going you if you just tell them not to like like if you don't know, just tell me don't know. Like they will tell you that today like the models are getting
+ smarter in this regard, right? So then what you need to do is no matter again, no matter how smart they get like without them. Knowing what you're asking about, they can't give you cancer.
+ and,
+ I do like this almost, I look at it as compression loss, when you're taking it, you're ETL yelling, it and doing all this stuff. And I make me think about something that I've been pondering for a while which is you don't hear as much about rag these days because agents are all the rage. Yes. The next wave of five of high exactly. And and you just connect them to your mCP server and you're good. Let's talk all happy about the outcome then it changes the world in the way we work. But the thing that I
+ Um, constantly going back to when it comes to rag, or when it comes to how we are doing things. And we have been doing things with llms to try and create products that are valuable products with them. And, and new products inherently new products. It's not like we're grabbing an llm and sticking it into a fraud detection system that we have traditionally used ml for. Yep. And
+ with rag, I I always kind of laughed because I would think
+ Are we just?
+ Over engineering the shit out of this. We just straight up, we're going, and we're creating all of these different hacks. And so, in the beginning, it's not even. Then it goes to advance Rag. And then we're like, no, we gotta do graph rag, because at each stage, it feels to me, like, we get to the stage. We think this is going to help us create a better system and have more reliability, have more consistency in the output and then at some point you see the
+ Outcome and you recognize I mean, it's good. Yeah, it's good. But is it what we really need is it? Well, maybe let's try the new technique. Maybe there's a better technique out of their butt and or maybe we can engineer this a little bit more to try to get better results. And it's it's inherent
+ Because of the stage that the models were at. I do think that with the new reasoning models, potentially, we're going to see
+ these huge leaps due to that, but
+ that always, it always makes me laugh like oh
+ it feels like we're having to do a lot of
+ bending over backwards. Yeah, to make this actually work and I also would laugh because all of that work that we're doing all that bending over backwards to create some chatbot that can tell you about your company's. HR policy is not worth it and that is very clear.
+ I am so happy that you brought this up because
+ Happy. But just like it just resonates with me. That's that's sort of what I mean because
+ Yeah, I I have been in that world for so long. Forget AI, right? Like just this world of like
+ Oh, we need this date on now. So now we're gonna create this complex pipeline to go from point, A, to point B, but oh, we forgot about this n plus one Silo, right? And now we have to, like, create a whole new sort of pipeline, right? And like a whole new way to do ETL like and that takes months, first of all, if not write many months a few months for sure,
+ and then, oh, by the way, we changed the dashboard or the use case, or now in the AI world, the question,
+ A little bit.
+ Which requires a mobilization of entire teams to like rejig the whole thing like you're right. I'm so sad to see these like complicated.
+ Wires pipes going everywhere. Like if you look at a data architecture like a real data architecture diagram, not one put forward like to present and decision. Like it's like this, it's quickly lines. I know there's a podcast you can see me like just articulating like crazy, but
+ It's squiggly lines and know. Sometimes, you can't even tell why the line exists where it goes to what's going on, right? It's just so over-engineered. Which honestly, my heart goes out to the developers that are like, trying to maintain these systems and build them and like enhance them, right? Because you need an answer to a new report instantaneously. And the way these systems are crafted,
+ precisely for the, for many of the reasons that you called out, right? Like the models were not as good. The data systems were not as good. They're not as scalable, they're not as, like, sort of any to any connections. So,
+ Yeah. What if we just took an eraser? That's literally what I try to do when I was initially coming up with the architecture forever, just like erase, just erase. What if you could put a box,
+ Right in between all of your data systems on one side, all of the data like databases data, warehouses whatever Data Systems, and your llm systems on the other side and just have straight lines. Oh, you need data from Salesforce Google, get it for you. You need data from postgres or we'll just go get it from you. You need data from Snowflake or databricks. We'll just go get it from you for you, right? Like no need for this.
+ Craziness. Because
+ Like in my experience again having seen you know Google Oracle, you know, even at observable like just looking at how people are building applications on top of these Stacks, they spend developers like data analyst, business analyst, all of that, the whole data Engineers are spending upwards of 70 to 80% of their time. Just doing this part which means you're not spending as much time building those.
+ New value, creation applications, new business, creation new like, you know, user value opportunities, because you're spending all your time doing this. So what if you just didn't have to do that? And you could spend time, like, coming up with the new creative ways of doing stuff.
+ I was talking to a data engineering friend of mine a few weeks ago and he mentioned the predicament that he is in right now which is for the last three years. Their company made this big push to self-serve analytics and so
+ That was incredible. You know the whole digital transformation thing and he's data engineer. And so, he said, so now I've come into this company and we've got over 11,000 data assets that the engineering team has to keep and, or has to service. So he's saying, we're kind of rethinking. This whole self-serve thing and wondering, what can we blow up or what can we take the Eraser to and what actually is valuable or
+ It crosses a certain threshold of value and is still being used because a lot of these are built by someone that person leaves then there's no knowledge sharing on how those dashboards are actually created. It breaks one day and boom that person's out of there and you know, you don't really get it again and why would you if itself serves? So it's almost like, well, I didn't really even like that dashboard that much. So I'm gonna create a new one and I have a better way of doing it, right? Of course. And so,
+ You get into those scenarios. I I do Wonder though in this world that you're mapping out where you have the abstraction on top of all the data sources.
+ What would keep it from also being in that sprawl?
+ Because the developers are not building. That's brought, right? Like, I think there's a couple of things here. One is
+ We're not saying it's magic but we're saying instead of each developer and data engineer, team Etc, doing this over and over again. Like we just we do it in a generic way for them so that they're not having to engineer pipelines at all or maintain them or like build them at all. So the what we're saying actually so this is again I think a spicy take Maybe
+ I just think it's the like you have to imagine the world differently and then see if you can get there.
+ In a way, right? Because a lot of this sprawling situation comes from,
+ frankly, the data world I've been in and like,
+ you know, data grew faster than the systems that could support it. Right? So then there was all this like put it in a lake then put it in an ocean. Put it in a house, right? All those things happen and
+ To be honest with you, like ETL is helpful, especially in the sort of business analytics, like historical Trend analysis, those kinds of things. But now that people had a place to do that, right? Like round Peg, square hole, everything goes in there and everything needs to get out of there, right? Like, that's one way to go about it. Which causes this like,
+ Do we have this like and Silo? Have we put it and put it into this Lake House Ocean. Like if we have and then we have to go build it, right? And then to your point like there are these all these random dashboards. But what we're trying to say is,
+ specifically what I'm trying to to do here is
+ what if you didn't have to move the data?
+ What if you could just go get the data?
+ right from the source directly when you ask a question,
+ So there are no pipelines. It's not that we are building the pipelines. There are no pipelines. There is just
+ connection to the data source and you go fetch data from there when you need it. It's kind of like when I ask you a question and you go look up
+ Your favorite search engine and find the answer, you're not keeping all that data, downloading it like, sifting through it filter, it none of that is happening. You're just saying hey like you know what's my date of birth? Oh go to the database that you like you know some social security database or something, and go get it.
+ Yeah, so how do you deal with things such as okay? I need
+ A lot of data points on. I need to know how many customers did XYZ but in the source data,
+ There you need to apply a few different kinds of Transformations. Yeah, top of that to get that answer. I mean That's a classic like data, warehousing problem and so those data warehouse is already built. I am just saying you don't need to build new pipelines and new data sources and new like connections, right? So if you're doing something that is important to your business, which is where the original data warehousing concept comes from, right? We can go fetch it from that data warehouse. But what we can also do in this is what's done through complex software or complex pipelining today. We can also do things like, or we should be able to do things like,
+ hey, you know, for example if you ask me
+ I say this offering I just I don't care about Terminator happening, right? I care about where my order is. If I ordered something online for example, right and speaking of which I ordered some fucking coffee the other day, turns out, for some reason it was in Google my address for my old house in Spain. So now somebody in Spain has got some nice ass coffee.
+ Hilarious. If I like the 10th. Damn like, where is that coffee? I could really use it right now but anyway, sorry I that's a really good example like somewhere. Something should have updated your data. Yeah. Like I didn't happen, right? Because somebody wants somewhere if they'd ultimately but the point is like
+ We're saying, what if you had to for you to look up your order, like just ask, right? Your favorite assistant. Where is my coffee? It needs to do two things. You need to look up where your coffee order was made right here.
+ Whether it was an espresso or some other fancy stuff, right? And then, where was it shipped? Which means now you're looking at basically a Poster's database or some sort of CRM system, right? And then you also looking at your tracking system, like you PS or something like that, that means you're supposed to do a join.
+ Between two data sources that are outside. So so data bases data, warehouses data, Lakes are all great. Adjoining Within
+ And if you need to join two sources today, you have to dump the data in one place so that they can do a Crosstour joint. Yeah right but what I'm saying is you just need what you actually need to do. What a human would do is look up.
+ The, you know, your tracking number.
+ Basically, from your order management system and then look up the tracking history in the delivery system.
+ Yep. Snowboard can can do that. Like the aim with smaller. You can pull from both of those places and give you an answer.
+ Hmm. So you don't have to build any pipeline, you don't have to like create any new way of answering this question. If you're building an assistant or an agentic flow, you just asked snow leopard.
+ The question and Snow Leopard said, oh, I need to. So, it's doing intelligent routing. It's saying, oh, I need to go to these two different sources, right? And then is doing intelligent.
+ Querying query building, which is like oh, for UPS. I need to write this kind of query because the nappy and for you know, Salesforce I need to write a software and for postgres, I need to like a postgresql query, right? Which is different from a snowflake SQL query, which is different from a database query database query. Yeah. So it builds that in real time, then it went and just fetched directly from those sources. So that means the data is fresh, which means if you know, if the coffee was delivered and to Spain in the last half an hour, you should be able to get that information set of. It's still in transit. Then you go back and look at it next day because, you know,
+ Yeah, dated dumping is Dale, that's sort of what we're that's the world we are talking about. That's the world where imagining and that's sort of where
+ You know, I've talked to recently to a cql itself or as I talked to like, you know, head of Dei and Ai and Asia for PNG like the stuff you were talking about. They're dealing with that same stuff right? Like 8,000, silos of data.
+ Which dashboard is powering what? Right? Like let's just pair it down because we need to figure out how to maintain it, right? Like our data Engineers are drowning in that are data, sort of data, scientists are drowning and all of that. So yeah.
+ Yeah, and we didn't even touch on the data quality part, where it's like, oh, something changed upstream. And now the data is absolutely worthless because of the way that these dashboards have been built. One thing that I
+ Want to know about.
+ This vision of how things work it. Do dashboards still play a part in this world or is it just questions? And I have to know what kind of question in our masking.
+ before I can get the answer because I think sometimes when I look at a dashboard it
+ Provokes questions inside of me.
+ I think this is a very interesting philosophical question, and
+ I think there's different cams on this.
+ again, as an infrastructure person, I don't like, predicting the future but
+ You know, my work at observable which is a data visualization platform.
+ Like we are all visual people. So right like data points on a graph is much easier to rock than like a 1000 data points, like we just know that. So our dashboards going away, no I don't think so. I think data visualization will always exist because the easiest way for humans to rock information.
+ But what if you could augment that with asking, all the questions that came up, right? In your mind, when you looked at a dashboard, could be answered instantaneously because you could go get the data if the data exists, right? So, you didn't have to, I will give you an example when I was looking at churn for my product, at Google, right? I have to first because first of all, I didn't have
+ I didn't have the right dashboards. I had to build the dashboard. So I came up with sort of a solution for what kind of data we need Etc. Then I need to talk to my business analyst friend. Who was by the way stretched thin because he was actually, you know, looking after 10 different products. Yeah, I do Q into his thing into his warped flow. Like, hey, I have, I want to build this churn dashboard needs to pick data from here. Here here.
+ Right. Can you build me that?
+ Right.
+ now, once once you build it for me, like three weeks later, I looked at it and I'm like, oh, I actually need to know like
+ Turn by geography, so churn in Southeast Asia. Turn in the US turn in Canada markets. In fact, one level deeper turn-in, you know, industry as well, right? So each time that answer question came up. It was a few weeks to get that answer, either. He had to build that into the into the data warehouse, or he had to take the time to pull it out and give it to me. But what if I could just you know, once you have the dashboard but I forgot just chat with let's say was bigquery right that where all the day existed I could just chat with my bigquery and I would also be able to like join it to like you know all the Salesforce data that had
+ The latest customer information what if I could just do that and the system would take care of that for me, right? So we're talking about agentic flows here too by the way, right? Like agentic flows have the same problem and spicy taking number three is
+ Why I'm CP is amazing and has it's a great start open source, start to the to the connector problem.
+ It doesn't solve it right? It also had, I believe it has all the same problems that previous generations of solutions have had, which is that, it's not really tackling the hardest part of the problem and the hardest part of the problem always is
+ The intelligent routing.
+ And more importantly, business logic. Know I mentioned before we had done a on here and she had built a data analyst agent and the way that they did it to.
+ Keep the agent.
+ in line we could say, is that
+ They had different slack channels for different agents with access to certain databases. So you would have a marketing black channel that has access to the marketing databases and the marketing type of queries we're happening in there. And so that was almost the way that they were able to hardcode. Yes. Hey agent, you speak this dialect of sequel. You have access to this type of database right here. And here is your glossary as we mentioned before. So if any of these key terms come up, you know what they are and you know where to get them and grab that information and so they were able to do cool stuff and the
+ agent could then go and create sequel statements and pretty much do a lot of the
+ Menial work. We could say I I think I remember them saying it was like a barbell.
+ The majority of the questions that were asked, were those questions that are not super complex. Yeah, but they're not.
+ Something that someone who has no idea of data and is not a data, analyst would be asking, it's like those those kind of middle of the road questions. And anyway this all this whole story.
+ is because
+ I would love to know how are you making sure that the agents or your system?
+ Speaks the right language to the right database, just that is.
+ A wonderful question.
+ Inside everything you just described is sort of how people are trying to do it, right? The hard coding piece is so like,
+ that's just how it's done to me, you have to hard code and you have to separate out because otherwise
+ Mixing questions that go to my SQL. Dialect versus going to snowflake. I like even though they're all Sequel and they all follow and see sequel standards.
+ Will confuse the heck out of everything the system entire system, including Alum, right? This is actually why text to SQL, doesn't work either right apart from the fact that it hallucinates and all that stuff. It's just
+ which dialect and what is allowed in which dialect and, and this works better for open source databases because the llm type gone through that. But for closed doors databases, it's like
+ A nightmare. I know because we have been doing it right.
+ so, what we're doing is,
+ we're using known data infrastructure techniques to do things that
+ Are essentially systems problems. We are not trying to shove systems problems into the reasoning AI you know, predictive world. As I said earlier right, like alums are great at classification at summarization and and those types of tasks, right?
+ Deterministic systems are great at.
+ if you if you code them the right way, they are great at
+ You know, Point lookups and, and being able to do precise and deterministic work, when you are building a sequel query for the right dialect, you are doing precise and deterministic work.
+ So we are using essentially data.
+ Retrieval techniques, not in IR, but data, retrieval technique. So we are building
+ SQL, for example, if you're talking about SQL, right? Like we're building the SQL for the right dialect, right? Based on where that query needs to go to. And we're doing it in a deterministic way, which means we're using like data
+ or sort of query building techniques query building, techniques exist, like databases use Query Builders right data warehouses using use Query, Builders a bunch of data retrieval systems, build use Query Builders, we are doing it.
+ Using those techniques and like using existing sort of methodology to like, for example ormes are great and doing this, right? So we use sort of that existing methodology for building like a postgres, SQL query versus a snowflake query. We're doing this today. We have a design partner that has data in sort of.
+ One of the proprietary warehouses and we just build like queries for that right on the fly. Right. So where do you need to do sort of that intelligence in retrieval like, oh, you know, based on this question and based on my understanding of business logic
+ we know that the
+ query needs to go to postgres and also there's a separate query that needs to go to, let's say bigquery.
+ Interesting. We build both of those once we know that, right, then, the rest of it is deterministic, right? Like the rest of it is, oh, build, a postgresql query, build a bigquery SQL query. So, we do that. And that is just sort of like we're using. This is what I think is exciting. Is we're using data system and deterministic programming techniques.
+ For that piece and we're using.
+ You know, Ai and agentic work for the sort of intelligence in the routing and intelligence and what data? We need to fetch the understanding. So if I'm understanding this correctly, it is
+ AI gets to a certain point, it takes the query and then it says all right, cool.
+ To answer that I'm going to need to use these tools and then boom, when it fires it off to the tools then it steps back. It's not actually creating the sequel and I think that is a
+ Really.
+ Good way of doing it because you're taking a lot of the responsibility off of the llm. And that's anyone who's dealt with LMS know that the less responsibility, you give them the better.
+ Unless you do something, where it's very cilidin.
+ Calls to the LM to like double check the query and do this. So it gets back to that hacking us a little bit like all right cool. Yeah we do that and then when something gets returned, they're all so double checking it there to make sure hey judging by this question. Is this sequel query and the data retrieved doesn't make sense. And so you'll have like a critiquing agent that is is double checking all of that. But in your case, you're saying,
+ The LM is only used to.
+ Understand the query.
+ And then fire off the different tools that it needs, right? And that's sort of like, how you would describe it in the sort of, you know, these days, the NCP, agentic world, right? But we're taking renin just firing off a tool call. We're taking responsibility for how that tool is created and the accuracy of that tool as well, right? So when we ran our benchmarks, for example, internally,
+ we did it with an older sort of rag ish system, which is how most of these things work like,
+ We had a 99.98% accuracy. This is without us doing any fine tuning of our own intelligence.
+ And the system, we were comparing against had like, six percent accuracy for this type of sequel. Based lookup. Right? Because either, doesn't know how to build the right sequel or it's not getting the right data or its hallucinating. All of those things. Just don't
+ Like, even what you would do, but but that aside I think back to your use case to donate was was building, right?
+ What we are doing for sort of our design partner here is like that's slack channel can actually be used by sales and marketing people.
+ Right. What if you could have that? Because
+ It turns out there's a lot of overlap in the kinds of questions that sales and marketing people have around, you know, the the pipeline piece and all the way to the sale and post-sale piece right around customer data and around it. Like all that kind of stuff. So,
+ If both of them can ask questions then we didn't have to and you didn't have to hard-code anything, right? Then you actually
+ Open up this whole new world where they could probably even talk to each other and come up with better campaigns and better end-to-end workflows for for having making a sale happen, right? So I think what we're what I'm imagining is
+ In this world of ad hoc questioning.
+ And ad hoc information needs.
+ Why not make the information?
+ Like retrieval ad hoc, why not make the data retrieval ad hoc right?
+ So what we're doing is we're having like a natural, you know, there's in the data world, there's all this like single API to fetch everything, which is never worked because, right, you just talked about one of the many problems which is we'd sequel. Do you build at the end of this single API?
+ But what if the API is not natural language?
+ Which is what it's become, but then it translates to the precise.
+ Like other end, what you're calling tools, right? Like it translates to the precise dialect that those tools talk.
+ So, the tool is not doing any guessing.
+ Right, the API is not doing any guessing.
+ Right? You use the intelligence for what needs to be used for they understanding and the oh I think it needs to go here and do this.
+ And then you leave the rest of it to the parts that know how to do it.
+ Which again, these needs to better accuracy.
+ I didn't quite understand. How are you?
+ differentiating on that tool called part, and
+ Taking ownership for the outcome that, all right? We're going into whatever database, whether the air table or your CRM of choice, and we're ensuring that. It's going to gather that data properly. Or I think you you said something like we authenticated, or we authorize that it will be correct. Oh yeah, we're just taking responsibility for the accuracy. I think, right? So
+ So think so, it's no. Labor is a three-part.
+ Sort of workflow the first part to be more like let's dive into it, right? Like the first part is just what you said. Like you have a question, we do natural language understanding no rocket science here, right? Mostly AI here and then the next part is we are combining data.
+ Infrastructure logic your business logic to figure out which API call needs to be made. This is our proprietary sort of way of doing.
+ Or rather, this is the build intelligence. We're building, right? And then once we figure out, or it needs to go fetch user ID,
+ You know, in your case, for example, it needs to fetch your name, your address and the order number, right? From one place, right? Which is your, let's say CRM system and he needs to fit the order information and shipping information from the delivery system.
+ Right. Once we know those two things, this is what the intelligence is, telling us, then building the right query. Like we're not doing taxes equal, right? So there is no fuzziness there. We're literally saying,
+ build a sequel.
+ Statement, which is like, it's a known thing, like, build this equal statement.
+ Directly for this particular dialect and we go build it.
+ Right, so we're basically using the like regular programming, like systems programming to do that and then we go run it on that system. So so, you know, if you run a PG, SQL query on a PG SQL database, it will give you the information.
+ Right, that's known. Yeah. And then yes, we can run it through an evaluation system and all that stuff, right? Which is again, these are known things that people have done.
+ Right. But the there is no like, oh, did it get the right data, like did it, you know, we had this column, but does that column exists? Like, I don't know. Like, that's what you do when you do text to sequel or sort of these agentic flows, right? The tools have to you hand off a lot of responsibility to the tool and the tool developer has to take on the responsibility which and you don't know who the tool developer is, right? Like yeah, number one, number two, different tool developers. So mCP servers for posters can be built by anyone.
+ Right? And so because there's no like you have to build it this way and CP the protocol and mCP, the sort of Open Source in framework, doesn't tell you that you have to do it in this way. Which means different people can interpret that framework and build.
+ Different mCP, servers.
+ Right? So either you just like with any other open source software it either, you take somebody's MCPE server, then you like Harden, it you test it, you fix things in it the way you want them to be fixed, right? Or you just rely on them to do the right thing, which
+ Anybody's that been in the open source world like, right? It's just the last 20% is sort of where all the 80% of the work goes, right in hardening it. And the one additional thing here is that we are taking the sort of responsibility of understanding business Logic. The you tell us,
+ Right. Which
+ The NCP server is just a connector, right? Yeah. So it's just going to do if you give me
+ Like a single query, I'll go run it on on postgres, but like which SQL query to run? Is that the right SQL query to run? Like, does it understand whether the column order ID with a capital is different from column order number with a small, like it goes down to that level of confusion and complexity, right? This is what we're trying to do.
+ yeah, the downfall of the mCP servers are very much that and I appreciate you calling that out real fast because it is
+ very,
+ Easy to put up a mCP server. And that's like the blessing and a curse. Yes, 100%.
+ That's, that's probably why it is so incredibly popular right now because folks can stand up and mCP server in a few hours, that's right. But as you said, if you don't know,
+ And really know, intimately the ins and outs of your postgres database. You throw up a server with a lot of tools.
+ And those are your opinions on how the tools work.
+ You could get yourself into trouble or if I come and I grab your mCP server and I think all right cool it's a postgres MCB server. I'm gonna just
+ Throw this into my postgres. And then, yeah, there's there's a little bit of wire Crossing that can happen. Yeah. And I I agree with, like, I think it is a blessing on the course, right? Like I I'm not trying to poop on it. I'm just trying to point out because people attach themselves emotionally to the next big thing to the next type. And then they get super disappointed, right? And I and I want people to just understand and go wise wide open, right? Like it's actually great for snow leopard if there's empty service because if one gets popular, it actually helps us because we don't have to build a connector then so it accelerates
+ You know, user delivery for us honestly, right. But I just want people to like know that there are sort of
+ you know, there are blindsides to this that you want to be aware of you want to go in eyes wide open, like it's fun to play with, but in my experience building, like those High availability, High reliability, production systems requires a lot more than
+ You know, putting something together in a few hours, right? Like that's not the hard part.
+ The hard part is.
+ Again going from POC to production, right? Like this is still a problem, I think with
+ Yeah, systems from the, you know, engineering leaders ctOS that I talk to that.
+ You know, we built this cool thing.
+ We couldn't put it in production because reliability and accuracy. And
+ You know, all performance doesn't even a thing, right? Right now, it's just reliability and accuracy. Like, I needed to answer the question when I needed to answer the question in a reasonably Accurate Way.
+ Yeah, we're we're okay with waiting. 15 minutes to get this answer back as long as it's right answer. And so,
+ Well.
+ Anything else you want to touch on before we go?
+ I just think it's a really exciting world that we live in right now. I think the fact that there is mCP in the fact that there is all this discussion around tools and things like that means that people are finally
+ really starting to like understand the thing that I was saying like I went blue in the face if you look at my LinkedIn from last year going like but you need your your structured Data Systems like you need them. And so I'm personally really excited that people are starting to notice this.
+ and it's starting to pay attention this problem because that is what I believe will cause
+ The true wave of AI to like make people's lives better. Um but yeah, I'm really excited to talk to the people who are facing this problem.
+ I want to, you know, even deny, for example, it's been really exciting to hear from you about what, you know, they've been doing there because I just want to understand honestly how people are tackling this? Do they have this problem? How are they attacking it? Right. Can we help like it's a really exciting time to be in this space. And I keep saying the last thing I'll say here's, you know, I have been telling my my systems friends like, hey, come over on the AI side. It's okay. I know it's non-deterministic and I know you hate that. Oh, hell no, come on. It's it's fun out here and I really, I feel like some people are setting up to pay attention, which I'm
+ Which I'm excited about because I want the AI world in the systems world to come together because that's how we're gonna, we're gonna solve these problems.
+ Yeah, I'll have to introduce you to donate and for anybody that wants to check it out it's no leopard dot Ai and I I love what you're doing. I think it is super cool and I'm excited to see how it progresses and live in a world where you have infinite connectors to all of these different databases. So I can I actually have a use case right now that I'm thinking about where I was asking myself. So many different questions yesterday and I have to go and gather the data between
+ airtable and Salesforce and I am really bad at Salesforce and so it took me way longer than it should have. And and then you get into, oh, I don't know if I have access to that day and that's not going to be solved by Snow Leopard. I'm sure but I have to go and talk to somebody and say hey I need this for my report blah blah. So yeah data funded for a world where snow leopard can hopefully get rid of the majority of that pain. Yeah thank you. It was so fun to talk to you. Give me trust. Thank you so much for having me and and yeah this is this is the kind of thing that I think people should be like talking about the very exciting.

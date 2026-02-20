@@ -1,0 +1,251 @@
+Well, some of them are like precursor as well, so when we initially introduced the pipeline ride, we were able to cut down almost like 60% of the code base.
+ Wow.
+ So, I'm Rakesh and Senior staff engineer at left and I like latte.
+ We recently had your colleague Josh on here and he was talking a lot about the data.
+ Science side, the algorithms, the modeling side of things. Now you're coming from the engineering side and we get to talk to you about real time machine learning. Which
+ Is everyone's favorite topic. I think because it is so hard to get, right? And you all have been getting it right for a while. Maybe we can break down first. What do you do in real time? Machine learning use cases with Atlas, for
+ So real time music is a real-time machine learning features they cover most of the critical business use case is and that's a mouthful. So I have a big kid down. So what we do is we try to process
+ A real-time data that is coming from the user's devices, various services.
+ We get those data, we process data and we transform the data, we agreed the data, and then we pass it down to our machine learning model.
+ And these machine learning models are basically powering some of the use cases. One good example, which was covered earlier in the podcast. That was real-time forecasting. So,
+ For any region, any City, any venue, we want to forecast, you know, what, will be the demand, what will be the supply at any specific time. So that is one use case. The other use case is search prices. That means we want regularly monitor Marketplace for any City and if there is in kind of imbalance in demand and Supply, we want to accordingly adjust the prices.
+ For example, if they is less number of driver in that area, we want to increase the prices so that like we slightly, dampen the demand. Yeah. So that way like we are trying to adjust all these things. So these are two examples but there are a couple of other examples as well.
+ Yeah, and the hard part about this is the real time list to it, right? That
+ adds a bunch of extra complexity, if it's that online feature generation and then creating that model, that can be making these predictions in real time, right? So, just a couple of the full contact in features generation part. They are primary two, one is the offline. Generation of the other one is a real time donation, an offline generation, you have the data in all things, data store, you have time to, you know, process, the data generally the feature, you do not have that tight. Delete latency requirement, right? But in the real time what happens is that like you need to process millions of data points in real time, that means it could be second to subsequently agency, requirement,
+ Right? So as you are getting the data, you are processing all these things and you have to provide that data as soon as possible to all these real-time machine learning model so they can make all these predictions. The and it is very important for our lift to process all these data and real time
+ You do not want to serve steal data to model because then your model will be drifting apart from the actual actually, what is happening in in the world. Right, let's say you your model is like, or your pipeline is slowed by 30 minutes. It may not be accurately predicting. The current market condition, you will be giving prices, which are still, which is old and whatever you're trying to do. It may not reflect correctly. So it's really important for us to basically process. All these data really fast and just provide it to all these machine learning models. Yeah, you can potentially lose a lot of money, oh, business. And we had, we had seen that as well, like in terms of lead and seeing if we decreed or latency requirement or we take longer time, it affects the performance of the model. Oh yeah.
+ So it is very important. We try to minimize it and see as much as possible and it could go to a second or a subsequence as well.
+ well, I want to talk about some tricks that you've done to make sure that latency
+ Is as low as possible.
+ If I am understanding it correctly, when you say real time, you're one of the few people that mean real real real real time. It is not, it's like a five minute window real time it's more half a second type of real-time so I think that you had like an overly good question. What is real-time right different people have a different definition about the real time. Sometimes people say synchronous call is Real Time, some people say you know asynchronous processing but in real time that is real time.
+ So for this talk we are talking about the async processing like we are not talking about a senior user but for this specific thought we will be talking mainly about the async processing. So and they're also, there are a couple of what we call use cases. You mentioned about five minute window. One minute window, we do do that as well, it completely depends on the use case, right? For casting use case. We have like we agreed data for one minute window and five minute window as well. And then we providing to them in some cases. We also have a short term historical data and then we provided to them. So it completely depends on the use case. Most of our use cases are based on one minute aggregated data, that's how our models are designed. And that's how our that's our, that's how the pipeline.
+ Are supposed to provide the data to to the models. So it is not extreme side where like it is, you know, subsequent or so all like when you talked it's more about the asynchronous processing of the data.
+ Is it?
+ Like the complexity and the difficulty.
+ Increases exponentially if you're going from that five minute real-time to one minute real time, or is it something where you can create a system? And once it's in place,
+ you can get to a certain point, where
+ You've got that cushion and whether it's 10 minutes or it's one minute, you're good. But you start hitting the ceiling. If you're starting to talk about these sub-second latency like I'm trying to gauge how different it is to be at five minute, Real Time versus one minute Real Time versus
+ millisecond real time.
+ So if you go for like if you're trying to look at the subsection with the synchronous processing, it is not the case there.
+ it is like most of the cases, acing us call is really good ones request
+ But our processing is based on the aggregated data, that means we are getting all these data from different sources and we are trying to get them beasts on the Jewish. So do you hashes is a size of a city block or so?
+ So like and you can imagine like we are getting this data from different cities across different nations you know? And then we are trying to process that data and then we are processing the data and then we have to go to the city. Level blog and aggregate the data roof coming back to your question, like, where is the nice cushion?
+ I would say it depends, it depends on the use case and the data volume that we are trying to process it. I would say if it is smaller window, it's much easier to Agate because you are accumulating less data.
+ And you can, you know, emit the data faster. But if you have a longer window that means you are a community that data in memory for longer time.
+ And then you're eating that data. So, your processing and recall the memory utilization increasing significantly, and we had seen use cases where we try to do, 30 minutes aggregation. It was working, but it was not scalable. Yeah, and yeah, got expensive. Yeah.
+ So one minute or five minute, those are pretty good. A good use cases. No.
+ Can you walk me through a bit of?
+ The evolution.
+ Of how you've tackled this specific problem, the real-time problem while being at Lyft, because I feel like you've been through different iterations. I will divide this evaluation in two or three phases first, phase like when beware really phase beer, and then we've been not even Pro using, all these streaming engines to process. All these data. What we had at that time was Cron, job base processing. So it will get over the top of the minute. It will try to get all these data from the Kinesis processes to store it in a kind of temporary location. Most likely. That is. Then, the next Cron job will get up, it will
+ It will process that data and just put it and imagine every step is doing this processing, the top of the minute. So even though the very first process are very first, Cron job has finished its Stars within one or two seconds. The next one is not going to start immediately. It will take to the longer it was working but like as we are growing it was not a kind of a scalable solution are models were not also performing well because inherently this system has laid and see. So what we try to do is like okay since our model will not perform better, like if there is in a headlamp and see we want to reduce it. So we switch on like what a technology user, how we can react it like this solution.
+ And we offer research, we realized that we can use some streaming Pace solution which can process these data and there, you don't need to wait it wait for the next step to get triggered, that's specific time.
+ The in the string processing. As soon as the very first operator has process, the reader, I will send it to the next operator or next operator Downstream and it will process it. So it's more about like vendor data is available. It will process, it does not have to wait there. So initially in this you're talking about like Flink, right, right, so and we use Apache beam and Apache beam is using Flink underneath. We initially did a POC and initial results were great like it worked fine. We also choose Apache beam python as the game. Mainly because we are python show up. Most are services are in Python, people are comfortable and fighting and you know I'm also siren by python so we'll talk. Maybe we'll just use it the interesting.
+ Thing is that though Apache beam is in, like we are using a bunch of being a python SDK, but it is doing most of the processing in the Bachi Flink and Fringe is Champion base technology. Yeah, so it was a good, you know, hybrid solution and he used it for our real-time
+ A search pricing or primetime.
+ And it was it was good when we launched it for one or two reason regions or cities, but when we started scaling it out, then we realized that, okay? This is not going to scale because of the way we will processing it or data. It was not very performant, mainly, because we were doing most of the processing in one operator.
+ That was one issue that was easy to fix it. You divide the operator.
+ It is perfect, right? It was right. Then we hit the other problem.
+ Where you know what happened is that?
+ Even though we separated out the processes, it was processing it. Then we realized that some of no words are like, you know, 90% CPU relation. Some of them were not even doing anything. It was like, 10%.
+ And the problem is.
+ How we like most of our cities are, I would say.
+ The traffic is divided on the cities. That's how our models process all these things, right? Um and what we were doing is that we were trouting all the traffic from a specific City to one particular shard.
+ For one particular node. Yeah, and some of our top cities, of course, I need New York, San Francisco and all the things they have almost 80% of the traffic. So now imagine that 80% is going to one node and rest of the other are going to other nodes.
+ That was a very classic you know hard shot issue and really okay and that's interesting.
+ But distribution here is not adding up. Yeah.
+ So then we realize what we are not using it perfectly. What we need to do is we need to divide that further processing you, what you do is and of City, you divide, in terms of jio hashes, do you have again this city blog? So, what we do is, as soon as we get the data, we say, okay, what is it? You hatch for this particular event? And then we shall be based on that one. So from, you know, from, you know, 300 plus series. Then further translated into almost millions of you hashes.
+ So and these you hashes are almost uniformly distributed across different nodes. So in a way, like we, we are not running in into any kind of hot Chinese issue that the Lord is you informally distributed across different notes.
+ And once most of the data processing is done, most of the heavy computation is done then. And this, how you computation is like, you know, filtering, those data, aggregating it. And anyway, we want it all these aggregated data based on the Geo, hash then, and once that is process, you have a number. And then that you have, so it comes down to a very small data set that you can, again restart it to region. And that's how we like one region. Can get all the relevant, you hashes. So effectively. It's small data and that does not run into any kind of hard sharding issue.
+ Those bottlenecks aren't there. Now, I
+ feel like I've talked to somebody at lived before it wasn't on the podcast specifically, but
+ They were in the community and they were mentioning how.
+ Having to create different configs.
+ For each of the setups that they had and ended up driving them nuts and I think they ended up going and creating a company around it. But as you're talking about this and you're saying, hey, we've got all of these different models. They're pulling in, or we've got all these different nodes, they're pulling in the Geo hashes and then you also have the different clouds that you're on and you have the different Region's
+ That you're playing with their, is that something that you looked at and that was affecting. You also, when it comes to having to
+ Figure out the config on.
+ This model or this node or this geohash, I'm not sure how you how you broke it down.
+ Is with this region and it's got the these things that we need to be aware of. Because are you running? Just thousands of models across the
+ world or hundreds of thousands. I don't know what what that looks like and how that works. So most of the real-time processing in that case,
+ Be used model for region and so that is like one simply simplistic, simple view of the world but that could be also further divided into sub-regions like and there's a couple of use cases there. So and like if you let's say San Francisco, it's a big city. Like and sometimes if you're trying to process the data and trying to give it to one model, it may not be at perform accurately. Write different parameters. So what you want to do is like you want to divide that region to sub regions. So that way you independently process, all these regions they are trade-offs there but at least on like if you're breaking down to a smaller region it's much easier to manage them. So that's how like we used to do so early. We were processing or region a level. Now, in some of the use cases, we have broken down into sub region.
+ Level and that's how we process it. But on the pipeline side,
+ Via still doing on your hashes. We are processing, you hashes and
+ It. It does not matter like how you consume it we can always transform that data. Either to sub-region level or region level, of course like the customers, they Define how they want to consume the data and it's quite easy to just transform the data and then provided and in a way it's much better for us that we further divide that region into smaller chunks.
+ So that way, we do not run into a hard shot issues as well.
+ I like how you mentioned there that our customers. I'm assuming that
+ Like Josh who I spoke with a few weeks ago. That's the data scientists they get to Define how they want that data, how often they want that date, all of that type of thing. And I think the
+ Fancy word for that. These days is a data contract. They all have put into place a data contract, you have the producer of the data and then the consumer of the data, and you're able to stay accountable. So that if you're changing anything with that data, Josh is in the loop. Or if Josh needs anything changed, then you're in the loop and I wonder how you got to that point.
+ So how we got it to that point?
+ So what we generally do, there are two strategies that we use in one case, it is like
+ Off the shelf, you can use that pipeline generate feature by by yourself and most of the cases. They are very simple aggregation but in case where you have very specialized need
+ and some complicated business logic. In that case, we hold their hand and say that you provide me, the contract, I will build the future for you and the like, they generally, what happens? They they create the data from the offline, data stores, they come up with the query, they generate all these features in offline mode, test their model. If everything is looking good, they say, okay, I'm the performance is really looking good. I want to productionize it, I want to make it real time. That's when we come into play and then we convert that query into a pipeline implementation. So like we transformed that query into Pipeline and our contract is generally that whatever features that you are able to compute using offering data.
+ Be will be able to match that data with almost 99.9%, okay? And when we build this pipeline, we compare the real-time feature with the offline one, and make sure that it is closed and, and this is also required because we have a tight SLA in terms of, you know, latency as well as the quality. And we do not want to degrade on the quality. So we have another framework or in-house framework which basically comparing the real-time feature.
+ And offline, one offline in the sense that it is a source of Truth or ground root. We are comparing these two feature, we are basically sampling. The real-time feature
+ And then the offline and trying to compare like how different they are.
+ If they are, that's cool. Yeah, if it is there different than we, there's alert defined for that one and it will trigger. And then we we say why they're different. We are but but most of our features or I would say all of the features that we generate on our real-time key feature platform. We have that kind of observability in place so it's really the operationalizing of the feature pipelines. Yes, that's right.
+ And so as a data scientist, they almost have it.
+ They've got it. Good, they can just develop these feature pipelines offline and then throw you the
+ Shitstorm of making them real-time.
+ Yeah, it is. It is interesting. Yeah. Like and then there.
+ There are different consideration when we are transforming that offline, query into a real-time query.
+ At the high level that is our same, but when you implemented, you have to also consider like how these finds are processing. These data, how I can apply the heart, charting issues. And like, there's lot goes into while designing that Pipeline and some of In-House Engineers. They are expert in this and then as soon as they get it that way, they know like these are the parameter which are not looking good, we have to do a further processing. We have to further divided into based on the number of and you hashes and make it a process in such a way that it will not run into it and no hardship issue.
+ Yeah.
+ Now, the obvious next question is.
+ Do you all have? Are you using some type of a feature store? We do use a feature store and most of the traditional features told me not work for us. Mainly because they are Point feature Point feature, that means you have a key, let's say a user and then you have a value. So, let's say, when this user was onboarded, so you just provided date, right? Or whether what is the city where this user are requested a ride? Something. This once it's very straightforward, right?
+ So that is one use case but the other use case, where most of our models or work that is aggregated, right? Be tried to figure out whether there is imbalance in the market and we do not look at the individual session. We look at the holistic view of that City or region. So we want to see how many
+ drivers are there. How many requests are coming from that city, right?
+ And in this case, like, we consider that City or Geo hashes, right? And we want to not get just the one point value. It's like the whole aggregated value and it is hierarchical. That means a city will have multiple Geo hashes and, within the multiples, you hashes as well. Like we have g84, gh5 g86, so and all of them are higher kick up. So regular feature store will not work. So what we did is like we create
+ Jewish spatial based feature store. That if you provide region, then I can provide you all the juices coming under that region and their aggregated value. And you can choose the level at which you want it. Like whether you want it Regional level, whether you want the gh5 level, GH4 level, you just provide and then we can, we can just provide the data to you.
+ And and it is interesting, and it works. And
+ And it was able to scale. Well, as well as I was saying earlier, some of our model, they work at Region levels, some of them, you know, at Subway region level some of them they work at, you know, you have level a G4 level and the source from data is the same
+ But they can, they can consume it differently, they can ask for a region level. We can still provide the regional it is the same data, it's just that the accessing mechanisms like the different, but it has the same API and that has helped us a lot. Like, you know, we can generate one feature and then this one feature can be shared by multiple models as well.
+ How are you?
+ Making these different layers of the geospatial data. What is that? Even
+ Look like under the hood to be able to serve up that type of offering on the API. Yes. So it's based on the heartache. That means you have a region, then you have GH4, gh5 gx6. So region might have a couple of GH Force. GH4, may have a couple of gh5s and all and it's hierarchical. It's basically a kind of tree
+ And when you're selecting anything, let's say you're selecting a region, you know, all the nodes under that tree or leaves under on that. And then it's up to the, the Builder, or the data scientists to decide, how granular they want to get in this specific use case or for this specific model. Yeah, that's right. And like how we store the data, the generally store in two different ways. One is the region level like we store the entire thing and then the rest of them we have divided into its six level and then we have defined the mapping between G6 and gh5. So whenever someone sends a request, we get the data from the store, I could get them for them and just pass it to them. So it's it's basically when you look at the GH or Joe hash,
+ The prefix are I would say postfix are always matching the latter part of the. Do you have? This is always matching. So if I give you a g at six and if I tell you to come, give me the GH4. You're basically getting the let's substring of that one. So you're basically just getting the four character from the gs6 and that's how you're able to do it. So it's it is very straightforward calculation. Now the other thing was around the offline and online
+ Piece, which I think.
+ It would be good to go into.
+ How it?
+ Looks offline when folks are doing offline Jobs versus online. And I, I think the online part is quite clear to me right now.
+ but,
+ I want to know what do you do for offline and also is offline just for that ground truth.
+ Is it for different use cases? That your Servicing?
+ What is that?
+ So offline. So most of our real time data on Day, end up in offline store for bees reasons, one of the primary reason is that, you know, like you want to see historical data?
+ And then data scientist or Emily Engineers are working. They want to see how the data looks like. They transform into the one to transform it and make it as feature and test out with that model.
+ And this is what one example, the other example is, like, when we want to validate the real time teacher, whether they are accurate or not, right? That is another one as well. Sometimes we can also do back testing. That means if models misbehaved in production, you want to go and replay and say like why they misbehave you want to work for the so they are a couple of use cases there.
+
+Um, offline and online, I think offline world. You get delayed data as well. You have like you know, you can
+ Have all the data and you have all the time to process it. But in real world or real-time processing, it's difficult. If the data is delayed, we cannot wait forever for you to complete like, and you do not have that much of time. What happens there, like you either just move past, like, you ignore that one and move past and you process it. So, that's how it happens. And earlier I was telling you that, you know, we have 99.9% time or percent matching data. But why it's still, there is a gap. Why we are not able to match 100%. That is the reasons in, in real time data, Maybe missing it will be delayed. Imagining person going through a tunnel. Somehow, they do or have a network. Yeah. And then the device is not able to send the data and once they come to area where they have a nice signal, nice connectivity, the data is sink to the server and that's all get we get a kind of delay data. Yeah. So
+ one thing that I would love to get into though is
+ The.
+ The actual.
+ decisions that are being made in these meetings, when you have to say,
+ Okay, we want to go and support XYZ, whatever XYZ may be, maybe it is a new technology, maybe it is a new
+ type of architecture or a new experiment where you're going to change the system.
+ How are you all thinking through the trade-offs?
+ as your thinking through these bigger decisions, because I can only imagine that you're having your Retros, your recognizing that you're supporting,
+ Quite a large scale and you want to continue with be moving forward. You don't want to get stuck in time but because you have to make certain decisions and create opinions
+ There are things that you're going to.
+ Land on.
+ That potentially can be a couple year relationship or a decade long relationship with a certain technology or a certain system.
+ Right? So there are so many considerations are going into this, definitely
+ One of the primary one is that whether this technology is a good fit for this problem domain or not. It may be good fit right now, but down the line, it may not be good with
+ Things could change traffic pattern, could change, you know, there's a new technology which can solve this problem easily, where we have, where we required to put in less effort as I was telling you about when we introduced streaming processing stream processing at the left or earlier, it was based on the Cron job. So crunchy may have solved a problem when we were at small scale and it was okay, but as we started growing scaling system, then we realized this is not able to scale and we need to look for other technology. So, streaming was one good use case where you don't need to write that much. Of course, you need to write less code and it's still able to process the data in real time. So that is one the other and, which is other problem, which is on to this one is like how much effort that we need to put in to build this technology or use this technology. And that is most important one.
+ As.
+ We try to move fast. It is very important that the operational cost or development costs is low on our side, so that way we can ship things faster.
+ The other part is the cost as well.
+ over time, we have you know move from one solution to other
+ Mainly because initially when we launch Services, it worked fine, but Causeway as it was fine, but as we are scaling up, we realize that certain places. We are like, you know, spending more we could cut down those things then we realize they're okay, maybe there is other alternative or maybe there's other way up like doing things and when we look and do it and we realize yes there. So cost is the one as well. We try to look for what we call a technology, which could be cheaper for us. So that is the one
+ The open source versus so open source as well. If anything is open source, well, or updated by the community or build supported by the community, that is another consideration.
+ One more is the ecosystem.
+ How well, that technology or framework and integrate well with our ecosystem.
+ If it is really hard to integrate it, then it may not be a kind of a good sell for us. Example could be the stream processing. We could have chosen Flink, you know that directly. Yeah but we did not use it mainly because if these move from python to Java, it would have been a kind of very huge investment for us and and at that time like we were scaling and we were also trying new technology. You do not want to take too many problems and try to solve them like you probably solve one
+ And that's why we said like okay, we can choose a technology which could be a good fit and Pike. And most of people were family with a pythons of each shows Apache beam.
+ Because a batch of beam supports python sake as well. So yeah, these are some of the considerations that we put in before. Finalizing any technology or framework?
+ Can you imagine trying to sell a data scientist on using Java?
+ No, they will not like it. There will not work at all. Yeah, python is well supported and I think our customers are data science and ml engineer. We do not want to introduce any kind of solution, right? Which will create unnecessary friction. We want to create tools, which will make their like easier, right? So, and yeah, if it does not fit well in our ecosystem, even the tool is great.
+ It may not work well. So and if there is any kind of bridge there is a solution, which can bridge the gap. That would be great. So we can probably consider both then whatever the solution which can press the Gap and the final solution,
+ Then it makes sense too. That you look at
+ That bridge as.
+ How much developer time how difficult is this going to be to integrate into our system?
+ How often are you?
+ Trying to look at what's on the market to see if you can cut costs.
+ Is this like a quarterly thing? Is it a weekly thing? Is it a monthly or yearly thing? I would say it depends on Case, by case. I don't think we look at everything but we do have monitoring in place. If let's say if there's significant increase in cost, we know that how why it has increased and then probably, if it has cross certain thresholds, then we will look into it like why they? And if there is anything we can do to bring the own cost like
+ Without changing the technology or framework, we would do it. Like if, if there is a kind of a roadblock, which is preventing us and not or which does not allow us to reduce the cost then we have to think about organ, maybe we should look for the other technology but it completely depends on the scenario is like how much you're spending? What is the budget and what is our capacity to move to a new technology?
+ Yeah, we had bro hit on here, probably.
+ three, four weeks ago, and he talked about how a huge
+ Boone has been Forks that he works with recognizing.
+ If they don't actually need the freshness of data that they think they need. So just being able to check point right data from going, from one second to 10 second checkpoints. He was like you can save a lot of money with that. Oh yeah.
+ so, these on another process that we have is onboarding,
+ So whenever someone's comes and say, you know, we want to build it real-time feature like and they're not question is like do you really need your time feature or do you need the offline feature?
+ And we ask all those questions based on their use cases, try to determine if they really need it, if they do not needed, then we point them to the offline data store hours. You can build their you can, because if you're moving towards real-time it was more effort, more money to have that solution. If you do not need it, then you are unnecessarily spending that much of time and effort to have it. And that's why we say, like, we vet all these requests, and if they are genuinely
+ Or didn't even need it or if that you know if it is it is must to have it then only way do it. Otherwise
+ We provide other Solutions, other offline Solutions.
+ But why do you think that people are convinced? They need some type of real-time feature?
+ Why they are convinced that they needed. So yeah, why did why do they come to you thinking that they need real time sometime? You know, they do not know that how much effort is required. How much money we spend on, you know, generating all these field dying feature, you abstract all that away. So they think, oh, just throw another real time feature in the so the field it's cheap and and that's why they think they're okay. We can just have it. Anyway, it is available. So I won't be just use it right? But as we own the platform we generate all these. We know how much effort and effort time as well as money that we need to, you know, spend on this
+ and we are really conscious like when we meet the decision,
+ and so the data scientists get to experience experiment with the offline stuff and say I'm a data scientist and I discovered that there's this feature that is when someone logs on to live they search their
+ Ride. But they don't actually get the ride and they log off of it. We predict that x amount of
+ X percent of times, they're going to come back and order that ride. So
+ I want that feature in my model, something I know I'm oversimplifying the shit out of it, but just go with me here on this. I want that feature on my model, I see that offline. It actually gives my model some help
+ Then.
+ I go to you and I say hey I need this feature in my model you come and you're trying to convince me that I don't actually need it. It's in the model. You say are you sure about that? Can we maybe do something else? Is there potential for us to just do this?
+ Like that and eventually we settle on. Yes, I need it. Then I go to saying, well, what type of detail I want, or I guess that would have already been solved back in the beginning when I say, what Geo hash do I need? Yeah.
+ So like if I'm convinced that okay, I'm this is a real time, use case and we are going to work on this one. Then we will come. And this is very super cool. It's just lazy use case where we need more support, but it then I genius will transform that query into a pipeline and since these Engineers, know how to build a pipeline which
+ Which is scalable, they will transform the whole processing. So at the high level you will get the same data. It's just that the processing could be slightly different.
+ And I think one of the optimization techniques that we use and I have written a Blog about it as well, we try to drop unnecessary data early on in the pipeline.
+ And we trying to, let's say like, you are getting tons of data. They may not be relevant to you, right? So as soon as we find this information, we drop it. Then like we do not let the data pass to the entire Pipeline and we have done that experiment like like early dropping versus late dropping. And we had seen at least 20% increase in efficiency and even the latency improved and that's when we made the decision. Not like we will try to figure out all these data early on and if they're not 11 drop it and then process it. And the next time is also, sometimes the if you look at the offline ways, they do Mega joins each other, you know, tons of Joyce and all those things.
+ the real-time process does not work in that way, you can do it, but it will very costly and unscalable
+ What we do is even joins we try to divide into a different dimensions. So, the high level idea is that you divide the data into smaller groups and you perform the operation.
+ Smaller data is very manageable than the bigger data. Yeah. So it's more like a Divine and Conquer Your Divine bigger data set into smaller process them and then process it for their
+ so that way you can manage it, otherwise it's really hard.
+ If you had to guess, how many pipelines are you?
+ Up keeping right now. Are we talking thousands? Tens of thousands or hundreds?
+ So definitely not tense of 1000. We are really conscious about it. How we are building the pipeline? They are two ways we can do it. One is like where people can build the pipeline by themselves. The one is super feature. So super specialized like I would say
+ Already closed 3040 pipelines. And these by not necessarily generating only 40 feature like one pipeline itself can generate tens and 15. So feature, and when I say feature, it is basically for one region and birthday will be processing almost millions of data per minute or so. Wow. Yeah. So that's how they're I do not have the full account of, like, how many pipelines that we currently run, but it definitely somewhere in 100s. Something that you mentioned here is that there's self-serve in a way.
+ How does that work? Are the data scientists going and they're trying to stand up MVP and then you come in a few days later or however many weeks later and you make it Bulletproof.
+ Yeah. So I think self-services those are very simple use cases like where you know a processing only for smaller scale like maybe your processing individual user, you're not doing a heavy processing, all the data and those impressions are really really straightforward, you know like you're getting a user data and you're
+ Extracting out. What is their right? Requested time and then the storing somewhere those could be the simple one and since they are really easy, you don't need a huge understanding of how streaming processing works. So they can just do it by themselves without much help. And anyway, we have simplified the sdks and the whole infrastructure so they can bring up the holding for like the pipeline by themselves.
+ So that is one, the other one is where it is, super specialized where it requires very heavy lifting or heavy processing. That's when some of the species they come in and help help the data science person or ml engineer.
+ know, I know that people talked a bunch about
+ like the data getting skewed in offline, online type of scenarios.
+ What are you doing?
+ To mitigate that. How do you go about that? Is that in something that you had already talked about?
+ I think I did talk about that one as well and data is qns are hard Shard. These are like internally things.
+ and whenever I go and offline online, I think
+ Online. World is more affected by that one. Yeah. And we are like early on when we were
+ thinking that that will not affect us and we build the Pipelines.
+ And it was not super performant like there were some of the notes which we are getting way more data and they had to do way more processing.
+ And the latency was huge.
+ one bad thing about stream processing is that if any one node is slow,
+ it was a slow down the entire processing as well. It creates a barrier like if one node has not processed it and the whole thing does not move forward, it waits for that note to process then the other node will also move forward.
+ So, so that is that was a problem and I think the data is units issue have to look at the data like how the data is distributed.
+ And if you have a good understanding about that one, then you have to come back to the pipeline design and to get their, how you can further redistribute the data to avoid the data rescue. As in our case region causes a huge data skewness, it's like 80 80% by 20% rule, that means
+ 20% of the Cities, they are generating, almost 80% of data and support those big cities. We have to really conscious about it and in our case we just use the geohash to further redistribute the data. So from like, you know, 300 plus cities
+ to almost millions of jio's. So that way you are able to redistribute the data and like you can avoid the data rescue as well.
+ I didn't realize that.
+ That was the same thing. You were calling a Hotshot. Yeah. Which I like that word. Know that you're saying it. So data is like
+ Lasers concentration of data on one particular node or something. And the problem what happens is that like, if there is a huge concentration on one node, then that node is called heart, heart node heart Shard because that is the one, which is processing, most of it, but they are deleted.
+ yeah, because I
+ Guess I was confusing it for the training serving, skew that you get with the the data sometimes and how you can mitigate that. But it makes a lot of sense. This hot Shard and the data students
+ It's seeing the saturation on certain nodes because there's so much more traffic on these different.
+ Hot cities, right? But then if you break it down to smaller bits,
+ And you have these packages where you're just looking at blocks, a square block, radius. Then it's, it's a different problem that you're dealing with exactly. And you, you just redistributing the whole day, done to all different loads. Yeah, that's a nice trick. I like that. What other tricks do you got for me? What else have you learned over the years? Yeah, so I I only mentioned that we divided into a few different phases. So, very first phase POC we scale. We try to scale, we ran into someone the roadblocks, a hard chart. Going one of them, we addressed that, and then we started creating multiple pipelines. Then we realized that, you know,
+ It is kind of easy for to build a pipeline, but as you're increasing the number of pipelines, right? You also increase in the cost and we closely look into all the pipes and we realized most of the Pipelines.
+ Are doing almost very similar processing at the beginning of the piping, or there are a couple of operators which are doing something similar with our. Like, it can be abstracted out and
+ And centralized into one place. So that way you do that process with only once and that can allow you to save the cost
+ So, what we did is we defined two stage pipeline, one stage is for pre-processing all these data. So, all these data filtering, and building a kind of State for the user so earlier,
+ Each pipeline was generating one feature and, and if you have to generate another feature, you have to build another one. What we said like we sent like we said, like we just combine all of them into one.
+ so now we have one pipeline, which
+ cross says that are and it drops unnecessary data. It also builds a kind of state of the user.
+ Like, whether that user has booked a ride, whether he got right on with a dropped off. So we have maintained the state of the user. Similarly, for both, like, passenger and driver. And based on that, we know the current state of the world and we
+ you have all these metadata stored and
+ immediate every minute or so. So the downstream processing that is basically aggregating, all these data, they can get all the relevant information and then they can aggregate it.
+ And so, the aggregation logic is different for different features so you can have a different Pipelines.
+ Doesn't make sense or so? What I was saying is like what are the common processing we extracted out and we sent lies it. Yeah, but we separated out other pipe pipelines where their processing logic was different and that's how we were able to cut costs and place the processing. The other thing that we did is like writing code was kind of used to take longer time. What we did is like we came up with the yaml base pipeline generation, where you do not need to write code, you write a kind of animal configuration file.
+ And it does the processing for you.
+ So that cut down the development time as well.
+ Tell me more about that.
+ So what we did is like we realized that, you know, if we have to
+ Build a new feature. Most of the time we are doing very similar processing.
+ So, let's say you want to figure out whether this is a driver or passenger.
+ That is one function, right left. So what we did is like, we find all these common functionality, we provide that SDK, and then you. Yeah, okay.
+ I get it, you would put it into the yam or something that people could just use. They can exactly it's already defined and then. Oh, wow. Okay, so we said like, okay, um, you know, I do not want our data scientists to understand the whole thing, like, how to write a pipeline, I'll say that. Okay, I'll Define a very simple way of defining a pipeline, so I will
+ Create all these, you know, general purpose functionality for you.
+ And then you can just declare this in a yaml file how you want to process. So you do not need to understand how to define the windowing, how we doing work, and all, they just need to tell, like, I need this one minute long window or two minutes long or whatever. And then just Define that in the ammo
+ And our system will read that the amplifier. Look at like how you are defined all pipeline and will build the pipeline for you.
+ Yeah, that cut down our development time.
+ No, you did mention that certain pipelines have.
+ Five different features being created with them, you're getting like two for the price of one on certain pipelines, right? Is it that
+ They have certain steps that they're doing together like there's these certain functions.
+ And so you can bundle them up.
+ But eventually they diverge yes, that's right. Like you so the common functionalities, they are kind of origin. And said it lays the species and still brushed out and that's all we able to save it. Oh yeah. Like all these pipeline was kind of independent. But you know, we must combine the saint Lisa's.
+ Dude, this has been awesome. Is there anything else that you want to hit on that? We didn't talk about?
+ I think we have gotten most of it.
+ But yeah, I would like if you have any other questions, let me know.
+ I'm just so glad you didn't say, oh, we found a way to cut down on our coding time. I thought, for sure you were gonna say, we now use cursor and AI code generation, and I was putting, I was like, please don't say that. It's some of them are like precursor as well. So, when we initially introduced the pipeline, right? We were able to cut down almost like 60% of the code base.
+ Wow. Because of the streaming, like streaming parade, all these, you know processing, what we call operators.
+ Or what do you call a functionality, where you do not need to write those code? Like, let's say, if you want to join anything, you can just write one operator. It does that work for you, like it hides. All the what you call implementation details from you. Yeah. So if it's pretty simple, then what we do is like, we further went ahead and say hello, okay? Even, I do not want to Define all these operator, like, what is the easiest way to do it? And we came up with a declarative yaml based pipeline. So where you just need to write one line or like, for one operator, you just need to declare one line. Configuration. That's all that's so far. That pipeline is not more than or like that definition is not more than 20 lines of code. Rest of the other comp rest of the other like processing that is like hidden by our platform. It is completely abstracted out so they do not need to worry about it. So now you can think about where we had thousands and thousands of lines of code for processing, one feature. Then we cut it.
+ Down to almost 340. Lines of yaml Base configuration.
+ That's why you get paid big bucks. I'll tell you what. That is. A genius implementation. I was

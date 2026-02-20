@@ -1,0 +1,33 @@
+{
+  "tech_tags": [
+    "LLMs",
+    "GitHub Issues",
+    "Slack",
+    "Jira",
+    "Confluent",
+    "Clickup",
+    "MLflow",
+    "Celery",
+    "Databricks"
+  ],
+  "business_tags": [
+    "Knowledge Management",
+    "Open Source Maintenance",
+    "Customer Support Automation",
+    "AI Agent Development",
+    "Productivity"
+  ],
+  "key_topics": [
+    "AI Agents for Knowledge Discovery",
+    "Facts Flywheel and Learning Loop",
+    "Contextual Understanding in AI",
+    "Knowledge Base Construction",
+    "Synonym handling in LLMs"
+  ],
+  "guest": {
+    "name": "Devin Stein",
+    "role": "CEO and founder",
+    "company": "dosu"
+  },
+  "summary": "Devin Stein discusses dosu's AI agent that learns facts from code, conversations, and tickets to answer questions, focusing on context and the 'facts flywheel' for improved knowledge management."
+}

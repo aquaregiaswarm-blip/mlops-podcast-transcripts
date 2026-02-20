@@ -1,0 +1,33 @@
+{
+  "tech_tags": [
+    "LLMs",
+    "Prompt Engineering",
+    "MapReduce",
+    "Spark",
+    "ETL",
+    "PagerDuty",
+    "Slack",
+    "Embedding",
+    "Observability Stack",
+    "Cloud Infrastructure"
+  ],
+  "business_tags": [
+    "AI Agents",
+    "Production Monitoring",
+    "Root Cause Analysis",
+    "Data Processing Pipelines",
+    "AI Evaluation"
+  ],
+  "key_topics": [
+    "Challenges of deploying AI agents to production",
+    "Evaluating and improving AI agent performance",
+    "Bridging the gap between user intent and AI execution",
+    "Data processing with LLMs and MapReduce"
+  ],
+  "guest": {
+    "name": "Justin",
+    "role": "Instructor",
+    "company": "Homa"
+  },
+  "summary": "Discussion of AI agent challenges in production, focusing on data processing, evaluation, and the difficulty of bridging the gap between user intent and effective prompt engineering."
+}

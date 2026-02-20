@@ -1,0 +1,34 @@
+{
+  "tech_tags": [
+    "Large Language Models (LLMs)",
+    "Slack",
+    "APIs",
+    "Generative Models",
+    "Claude",
+    "ChatGPT",
+    "Cursor",
+    "Gemini",
+    "Copilot",
+    "Token"
+  ],
+  "business_tags": [
+    "AI Adoption",
+    "Productivity Improvement",
+    "User Engagement",
+    "Internal Tooling",
+    "Metrics Tracking"
+  ],
+  "key_topics": [
+    "Measuring AI adoption and productivity",
+    "Encouraging AI usage within an enterprise",
+    "Token as an AI productivity tool",
+    "Defining and tracking 'power users'",
+    "Integrating AI into workflows"
+  ],
+  "guest": {
+    "name": "Sean and Paul",
+    "role": "Product Lead (Sean) and VP of AI (Paul)",
+    "company": "Process/Roses (a large global group)"
+  },
+  "summary": "Discussion on driving AI adoption within a large enterprise using the 'Token' platform, focusing on user engagement, productivity metrics, and cultural change towards AI fluency."
+}

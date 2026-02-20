@@ -1,0 +1,34 @@
+{
+  "tech_tags": [
+    "Real-time Machine Learning",
+    "Apache Beam",
+    "Flink",
+    "Python",
+    "Kinesis",
+    "Streaming Engines",
+    "Machine Learning Models",
+    "Cron Jobs",
+    "Data Stores",
+    "Asynchronous Processing"
+  ],
+  "business_tags": [
+    "Real-time Forecasting",
+    "Surge Pricing",
+    "Demand & Supply Optimization",
+    "Latency Reduction",
+    "Scalability"
+  ],
+  "key_topics": [
+    "Real-time Feature Generation",
+    "Low-Latency Data Processing",
+    "Evolution of Real-time Systems at Lyft",
+    "Offline vs. Real-time Feature Generation",
+    "Aggregation Windows and Data Volume"
+  ],
+  "guest": {
+    "name": "Rakesh Kumar",
+    "role": "Senior Staff Engineer",
+    "company": "Lyft"
+  },
+  "summary": "Rakesh Kumar from Lyft discusses real-time machine learning feature generation, emphasizing low latency data processing and the evolution of their systems using Apache Beam and Flink."
+}

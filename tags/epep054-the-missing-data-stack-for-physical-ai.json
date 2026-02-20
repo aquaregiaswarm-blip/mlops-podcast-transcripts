@@ -1,0 +1,33 @@
+{
+  "tech_tags": [
+    "AI",
+    "Robotics",
+    "ML",
+    "LLM",
+    "IoT",
+    "Generative Media",
+    "Sensors",
+    "Data Collection",
+    "Computer Vision"
+  ],
+  "business_tags": [
+    "Physical AI",
+    "Market Scalability",
+    "Hardware Investment",
+    "Data Flywheel",
+    "Economic Transformation"
+  ],
+  "key_topics": [
+    "Defining Physical AI",
+    "The potential economic impact of Physical AI",
+    "The role of AI in overcoming limitations of traditional robotics/IoT",
+    "Importance of data collection and hardware scale",
+    "The impact of recent AI breakthroughs (like ChatGPT)"
+  ],
+  "guest": {
+    "name": "Nico West",
+    "role": "CEO",
+    "company": "rerun"
+  },
+  "summary": "Nico West discusses Physical AI, defining it as AI that interacts with the real world, and its potential to transform the economy, unlike previous tech waves like IoT."
+}

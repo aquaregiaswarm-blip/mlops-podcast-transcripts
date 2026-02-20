@@ -1,0 +1,30 @@
+{
+  "tech_tags": [
+    "LinkedIn Recommender System",
+    "Machine Learning",
+    "Large Language Models (LLMs)",
+    "GPT Models",
+    "Feature Engineering",
+    "Inference",
+    "Knowledge Distillation",
+    "GPU"
+  ],
+  "business_tags": [
+    "Content Recommendation",
+    "User Engagement",
+    "Personalization",
+    "Value Creation"
+  ],
+  "key_topics": [
+    "LLMs vs traditional ML in recommendation systems",
+    "Feature Engineering Abstraction",
+    "Latency challenges of LLMs",
+    "Evaluation of LLM-based systems"
+  ],
+  "guest": {
+    "name": "...",
+    "role": "Vibe Manager",
+    "company": "Vibes Community"
+  },
+  "summary": "The episode explores how LinkedIn's recommender system is evolving from traditional ML to using LLMs, discussing benefits like automated feature engineering and challenges like inference latency."
+}

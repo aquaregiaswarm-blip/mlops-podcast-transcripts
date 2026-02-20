@@ -1,0 +1,33 @@
+{
+  "tech_tags": [
+    "Michelangelo",
+    "Python",
+    "Linear Models",
+    "Random Forests",
+    "XGBoost",
+    "Neural Networks",
+    "Recurrent Neural Networks",
+    "Uniflow",
+    "Kubernetes"
+  ],
+  "business_tags": [
+    "Machine Learning Platforms",
+    "Developer Velocity",
+    "Time to Production",
+    "AI Adoption",
+    "Centralized Platform"
+  ],
+  "key_topics": [
+    "Uber's AI Platform (Michelangelo)",
+    "Transition from Predictive to Generative AI",
+    "Measuring Machine Learning Success",
+    "Empowering Machine Learning Developers",
+    "Scaling Machine Learning Applications"
+  ],
+  "guest": {
+    "name": "...",
+    "role": "...",
+    "company": "Uber"
+  },
+  "summary": "Inside Uber's AI revolution using the Michelangelo platform: focusing on enabling developers, scaling ML, and transitioning to generative AI with metrics around developer velocity."
+}

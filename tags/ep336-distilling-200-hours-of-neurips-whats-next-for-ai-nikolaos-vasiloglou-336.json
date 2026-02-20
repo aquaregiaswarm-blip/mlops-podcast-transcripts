@@ -1,0 +1,31 @@
+{
+  "tech_tags": [
+    "Deep Learning",
+    "XGBoost",
+    "Language Models",
+    "Notebook LM",
+    "PDF Summarization Tools",
+    "AI",
+    "Transformers",
+    "Open Source Language Models"
+  ],
+  "business_tags": [
+    "Research and Development",
+    "Knowledge Management",
+    "AI Adoption in Enterprise",
+    "Investment in AI"
+  ],
+  "key_topics": [
+    "Distilling AI research from NeurIPS",
+    "The role of language models in summarizing and understanding research",
+    "The importance of open-source language models",
+    "Identifying key trends in AI research",
+    "AI hype cycles and adoption"
+  ],
+  "guest": {
+    "name": "Nikolaos Vasiloglou",
+    "role": "VP of Research ML",
+    "company": "Relational AI"
+  },
+  "summary": "Nikolaos Vasiloglou discusses distilling insights from NeurIPS using AI, open-source language models, and his process for summarizing vast amounts of research for industry leaders."
+}

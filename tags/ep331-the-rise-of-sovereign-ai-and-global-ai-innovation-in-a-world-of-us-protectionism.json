@@ -1,0 +1,33 @@
+{
+  "tech_tags": [
+    "AI",
+    "GPU",
+    "Cloud Infrastructure",
+    "Nvidia Blackwell",
+    "Nvidia H100",
+    "Nvidia H200",
+    "Kubernetes",
+    "Docker",
+    "AWS"
+  ],
+  "business_tags": [
+    "Sovereign AI",
+    "Data Localization",
+    "AI Investment",
+    "AI Market Trends",
+    "Hyperscalers"
+  ],
+  "key_topics": [
+    "Sovereign AI Definition and Importance",
+    "Global AI Landscape (US vs. Rest of World)",
+    "Data Center Infrastructure for AI",
+    "Governmental Role in AI Development",
+    "Financing Sovereign AI Projects"
+  ],
+  "guest": {
+    "name": "Frank Meehan",
+    "role": "Co-founder",
+    "company": "Frontier one"
+  },
+  "summary": "Frank Meehan discusses Sovereign AI's rise due to data localization needs and US protectionism, emphasizing the need for local AI infrastructure and strategic government partnerships."
+}
