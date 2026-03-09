@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MLOps Podcast Thematic Analysis Explorer</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #1a1a2e;
+            color: #eee;
+            overflow-x: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            text-align: center;
+        }
+        .header h1 { font-size: 2em; margin-bottom: 10px; }
+        .controls {
+            background: #16213e;
+            padding: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            border-bottom: 1px solid #0f3460;
+        }
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        .control-group label {
+            font-size: 0.85em;
+            color: #a0a0a0;
+            text-transform: uppercase;
+        }
+        select, button {
+            padding: 8px 15px;
+            border-radius: 5px;
+            border: 1px solid #0f3460;
+            background: #0f3460;
+            color: #fff;
+            cursor: pointer;
+        }
+        button:hover, select:hover { background: #e94560; border-color: #e94560; }
+        .viz-container {
+            display: grid;
+            grid-template-columns: 1fr 300px;
+            gap: 20px;
+            padding: 20px;
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+        .main-viz {
+            background: #16213e;
+            border-radius: 10px;
+            padding: 20px;
+            min-height: 600px;
+        }
+        .side-panel {
+            background: #16213e;
+            border-radius: 10px;
+            padding: 20px;
+            max-height: 800px;
+            overflow-y: auto;
+        }
+        .viz-title {
+            font-size: 1.3em;
+            margin-bottom: 15px;
+            color: #e94560;
+            border-bottom: 2px solid #e94560;
+            padding-bottom: 10px;
+        }
+        #viz-canvas {
+            width: 100%;
+            height: 550px;
+            background: #0f172a;
+            border-radius: 8px;
+        }
+        .legend {
+            margin-top: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 0.85em;
+        }
+        .legend-color {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+        .info-panel h3 {
+            color: #e94560;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+        .info-section {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #0f3460;
+        }
+        .info-label {
+            font-size: 0.8em;
+            color: #a0a0a0;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+        .tag {
+            display: inline-block;
+            padding: 3px 8px;
+            background: #0f3460;
+            border-radius: 3px;
+            font-size: 0.8em;
+            margin: 2px;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin-top: 15px;
+        }
+        .stat-box {
+            background: #0f3460;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #e94560;
+        }
+        .tooltip {
+            position: absolute;
+            background: rgba(0,0,0,0.9);
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 0.85em;
+            pointer-events: none;
+            max-width: 300px;
+            z-index: 1000;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🎧 MLOps Podcast Thematic Analysis Explorer</h1>
+        <p>Interactive visualization of 60 podcast episodes across 10 themes</p>
+    </div>
+    
+    <div class="controls">
+        <div class="control-group">
+            <label>Visualization Type</label>
+            <select id="viz-type">
+                <option value="network">Network Graph</option>
+                <option value="chord">Chord Diagram</option>
+                <option value="sunburst">Sunburst Hierarchy</option>
+                <option value="matrix">Similarity Matrix</option>
+            </select>
+        </div>
+        <div class="control-group">
+            <label>Theme Filter</label>
+            <select id="theme-filter">
+                <option value="all">All Themes</option>
+                <option value="0">AI Product Development</option>
+                <option value="1">Data Center/Hardware</option>
+                <option value="2">Semantic Search/RAG</option>
+                <option value="3">Voice AI</option>
+                <option value="4">Code Tools</option>
+                <option value="5">Physical AI</option>
+                <option value="6">Knowledge Management</option>
+                <option value="7">Memory/Context</option>
+                <option value="8">Security</option>
+                <option value="9">RecSys/ML</option>
+            </select>
+        </div>
+        <div class="control-group">
+            <label>Minimum Confidence</label>
+            <select id="confidence-filter">
+                <option value="0">Any</option>
+                <option value="0.3">30%</option>
+                <option value="0.5" selected>50%</option>
+                <option value="0.7">70%</option>
+            </select>
+        </div>
+        <div class="control-group">
+            <label>Actions</label>
+            <button onclick="resetZoom()">Reset View</button>
+        </div>
+    </div>
+    
+    <div class="viz-container">
+        <div class="main-viz">
+            <div class="viz-title" id="viz-title">Network Graph: Episodes and Themes</div>
+            <div id="viz-canvas"></div>
+            <div class="legend" id="legend"></div>
+        </div>
+        
+        <div class="side-panel info-panel">
+            <h3>📊 Selection Details</h3>
+            <div id="selection-info">
+                <div class="info-section">
+                    <div class="info-label">Status</div>
+                    <div class="info-value">Click on any node to see details</div>
+                </div>
+            </div>
+            
+            <h3>📈 Corpus Statistics</h3>
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <div class="stat-number">60</div>
+                    <div class="stat-label">Episodes</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">10</div>
+                    <div class="stat-label">Themes</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">515K</div>
+                    <div class="stat-label">Words</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">55%</div>
+                    <div class="stat-label">Multi-topic</div>
+                </div>
+            </div>
+            
+            <h3 style="margin-top: 20px;">🎨 Theme Colors</h3>
+            <div id="theme-legend"></div>
+        </div>
+    </div>
+    
+    <div class="tooltip" id="tooltip"></div>
+
+    <script>
+        // Theme configuration
+        const themes = [
+            { name: "AI Product Development", color: "#FF6B6B", count: 11 },
+            { name: "Data Center/Hardware", color: "#4ECDC4", count: 5 },
+            { name: "Semantic Search/RAG", color: "#45B7D1", count: 7 },
+            { name: "Voice AI", color: "#96CEB4", count: 4 },
+            { name: "Code Tools", color: "#FFEAA7", count: 8 },
+            { name: "Physical AI", color: "#DDA0DD", count: 2 },
+            { name: "Knowledge Management", color: "#98D8C8", count: 4 },
+            { name: "Memory/Context", color: "#F7DC6F", count: 6 },
+            { name: "Security", color: "#BB8FCE", count: 5 },
+            { name: "RecSys/ML", color: "#85C1E9", count: 8 }
+        ];
+        
+        // Sample data generator
+        const episodes = Array.from({length: 60}, (_, i) => ({
+            id: `ep${i}`,
+            title: `Episode ${i + 1}`,
+            primaryTheme: Math.floor(Math.random() * 10),
+            confidence: 0.3 + Math.random() * 0.5,
+            secondaryThemes: Math.random() > 0.5 ? [Math.floor(Math.random() * 10)] : [],
+            keywords: ["AI", "ML", "agent", "model", "data"].slice(0, 2 + Math.floor(Math.random() * 3))
+        }));
+        
+        let currentViz = 'network';
+        let svg, width, height;
+        
+        function init() {
+            setupThemeLegend();
+            setupEventListeners();
+            renderVisualization();
+        }
+        
+        function setupThemeLegend() {
+            const legend = d3.select("#theme-legend");
+            themes.forEach((theme, i) => {
+                legend.append("div")
+                    .attr("class", "legend-item")
+                    .html(`<div class="legend-color" style="background: ${theme.color}"></div><span>${theme.name} (${theme.count})</span>`);
+            });
+        }
+        
+        function setupEventListeners() {
+            d3.select("#viz-type").on("change", function() {
+                currentViz = this.value;
+                updateVizTitle();
+                renderVisualization();
+            });
+            d3.select("#theme-filter").on("change", renderVisualization);
+            d3.select("#confidence-filter").on("change", renderVisualization);
+        }
+        
+        function updateVizTitle() {
+            const titles = {
+                'network': 'Network Graph: Episodes and Themes',
+                'chord': 'Chord Diagram: Theme Co-occurrence',
+                'sunburst': 'Sunburst: Hierarchical View',
+                'matrix': 'Similarity Matrix: Episode Relationships'
+            };
+            d3.select("#viz-title").text(titles[currentViz]);
+        }
+        
+        function renderVisualization() {
+            const container = d3.select("#viz-canvas");
+            container.html("");
+            width = container.node().getBoundingClientRect().width;
+            height = 550;
+            
+            svg = container.append("svg").attr("width", width).attr("height", height);
+            
+            const themeFilter = d3.select("#theme-filter").property("value");
+            const confFilter = parseFloat(d3.select("#confidence-filter").property("value"));
+            
+            switch(currentViz) {
+                case 'network': renderNetwork(themeFilter, confFilter); break;
+                case 'chord': renderChord(themeFilter, confFilter); break;
+                case 'sunburst': renderSunburst(themeFilter, confFilter); break;
+                case 'matrix': renderMatrix(themeFilter, confFilter); break;
+            }
+        }
+        
+        // Network Graph
+        function renderNetwork(themeFilter, confFilter) {
+            const filteredEpisodes = episodes.filter(e => {
+                if (e.confidence < confFilter) return false;
+                if (themeFilter !== 'all' && e.primaryTheme !== parseInt(themeFilter)) return false;
+                return true;
+            });
+            
+            const nodes = [
+                ...themes.map((t, i) => ({ id: `theme-${i}`, name: t.name, type: 'theme', color: t.color })),
+                ...filteredEpisodes.map(e => ({
+                    id: e.id, name: e.title, type: 'episode',
+                    color: themes[e.primaryTheme].color,
+                    theme: e.primaryTheme, confidence: e.confidence
+                }))
+            ];
+            
+            const links = [];
+            filteredEpisodes.forEach(e => {
+                links.push({ source: e.id, target: `theme-${e.primaryTheme}`, value: e.confidence, type: 'primary' });
+                e.secondaryThemes.forEach(st => {
+                    links.push({ source: e.id, target: `theme-${st}`, value: 0.3, type: 'secondary' });
+                });
+            });
+            
+            const simulation = d3.forceSimulation(nodes)
+                .force("link", d3.forceLink(links).id(d => d.id).distance(100))
+                .force("charge", d3.forceManyBody().strength(-300))
+                .force("center", d3.forceCenter(width / 2, height / 2))
+                .force("collision", d3.forceCollide().radius(30));
+            
+            const link = svg.append("g").selectAll("line").data(links).enter().append("line")
+                .attr("stroke", d => d.type === 'primary' ? "#fff" : "#666")
+                .attr("stroke-width", d => d.value * 3)
+                .attr("stroke-opacity", 0.6);
+            
+            const node = svg.append("g").selectAll("g").data(nodes).enter().append("g")
+                .call(d3.drag().on("start", dragstarted).on("drag", dragged).on("end", dragended));
+            
+            node.append("circle")
+                .attr("r", d => d.type === 'theme' ? 25 : 8)
+                .attr("fill", d => d.color)
+                .attr("stroke", "#fff").attr("stroke-width", 2)
+                .on("click", (event, d) => showDetails(d));
+            
+            node.append("text")
+                .attr("dx", d => d.type === 'theme' ? 0 : 12)
+                .attr("dy", d => d.type === 'theme' ? 35 : 4)
+                .attr("text-anchor", d => d.type === 'theme' ? "middle" : "start")
+                .text(d => d.type === 'theme' ? d.name.split('/')[0] : '')
+                .attr("fill", "#fff").attr("font-size", d => d.type === 'theme' ? "11px" : "0px");
+            
+            simulation.on("tick", () => {
+                link.attr("x1", d => d.source.x).attr("y1", d => d.source.y)
+                    .attr("x2", d => d.target.x).attr("y2", d => d.target.y);
+                node.attr("transform", d => `translate(${d.x},${d.y})`);
+            });
+            
+            function dragstarted(event, d) { if (!event.active) simulation.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; }
+            function dragged(event, d) { d.fx = event.x; d.fy = event.y; }
+            function dragended(event, d) { if (!event.active) simulation.alphaTarget(0); d.fx = null; d.fy = null; }
+        }
+        
+        // Chord Diagram
+        function renderChord(themeFilter, confFilter) {
+            const matrix = Array(10).fill(null).map(() => Array(10).fill(0));
+            episodes.forEach(e => {
+                if (e.confidence >= confFilter) {
+                    matrix[e.primaryTheme][e.primaryTheme] += 1;
+                    e.secondaryThemes.forEach(st => {
+                        matrix[e.primaryTheme][st] += 1;
+                        matrix[st][e.primaryTheme] += 1;
+                    });
+                }
+            });
+            
+            const outerRadius = Math.min(width, height) * 0.5 - 60;
+            const innerRadius = outerRadius - 20;
+            const chord = d3.chord().padAngle(0.05).sortSubgroups(d3.descending);
+            const arc = d3.arc().innerRadius(innerRadius).outerRadius(outerRadius);
+            const ribbon = d3.ribbon().radius(innerRadius);
+            const chords = chord(matrix);
+            
+            const g = svg.append("g").attr("transform", `translate(${width/2},${height/2})`);
+            
+            const group = g.append("g").selectAll("g").data(chords.groups).enter().append("g");
+            group.append("path").attr("fill", (d, i) => themes[i].color).attr("stroke", "#fff").attr("d", arc);
+            
+            g.append("g").selectAll("path").data(chords).enter().append("path")
+                .attr("d", ribbon).attr("fill", d => themes[d.target.index].color).attr("opacity", 0.67);
+            
+            group.append("text").each(d => { d.angle = (d.startAngle + d.endAngle) / 2; })
+                .attr("dy", ".35em")
+                .attr("transform", d => `rotate(${(d.angle * 180 / Math.PI - 90)})translate(${outerRadius + 10})${d.angle > Math.PI ? "rotate(180)" : ""}`)
+                .attr("text-anchor", d => d.angle > Math.PI ? "end" : "start")
+                .text(d => themes[d.index].name.split('/')[0]).attr("fill", "#fff").attr("font-size", "10px");
+        }
+        
+        // Sunburst
+        function renderSunburst(themeFilter, confFilter) {
+            const filteredEpisodes = episodes.filter(e => 
+                e.confidence >= confFilter && (themeFilter === 'all' || e.primaryTheme === parseInt(themeFilter))
+            );
+            
+            const hierarchy = {
+                name: "Corpus",
+                children: themes.map((t, i) => ({
+                    name: t.name, color: t.color,
+                    children: filteredEpisodes.filter(e => e.primaryTheme === i).map(e => ({
+                        name: e.title, value: 1, color: t.color, episode: e
+                    }))
+                })).filter(t => t.children.length > 0)
+            };
+            
+            const radius = Math.min(width, height) / 2 - 20;
+            const partition = d3.partition().size([2 * Math.PI, radius]);
+            const root = d3.hierarchy(hierarchy).sum(d => d.value || 0).sort((a, b) => b.value - a.value);
+            partition(root);
+            
+            const arc = d3.arc().startAngle(d => d.x0).endAngle(d => d.x1).innerRadius(d => d.y0).outerRadius(d => d.y1);
+            const g = svg.append("g").attr("transform", `translate(${width/2},${height/2})`);
+            
+            g.selectAll("path").data(root.descendants().filter(d => d.depth)).enter().append("path")
+                .attr("d", arc).attr("fill", d => d.data.color || d.parent.data.color)
+                .attr("stroke", "#1a1a2e").attr("stroke-width", 1)
+                .on("click", (event, d) => { if (d.data.episode) showDetails({ type: 'episode', ...d.data.episode }); });
+            
+            g.append("text").attr("text-anchor", "middle").attr("dy", "0.35em")
+                .text(`${filteredEpisodes.length} Episodes`).attr("fill", "#fff").attr("font-size", "14px");
+        }
+        
+        // Similarity Matrix
+        function renderMatrix(themeFilter, confFilter) {
+            const filteredEpisodes = episodes.filter(e => 
+                e.confidence >= confFilter && (themeFilter === 'all' || e.primaryTheme === parseInt(themeFilter))
+            ).slice(0, 20);
+            
+            const n = filteredEpisodes.length;
+            const cellSize = Math.min((width - 100) / n, (height - 100) / n, 25);
+            const matrixWidth = cellSize * n;
+            const matrixHeight = cellSize * n;
+            
+            const similarity = [];
+            for (let i = 0; i < n; i++) {
+                similarity[i] = [];
+                for (let j = 0; j < n; j++) {
+                    const ei = filteredEpisodes[i], ej = filteredEpisodes[j];
+                    let score = ei.primaryTheme === ej.primaryTheme ? 1 : 0;
+                    score += ei.secondaryThemes.filter(st => st === ej.primaryTheme || ej.secondaryThemes.includes(st)).length * 0.5;
+                    similarity[i][j] = Math.min(score, 1);
+                }
+            }
+            
+            const g = svg.append("g").attr("transform", `translate(${(width - matrixWidth)/2}, ${(height - matrixHeight)/2})`);
+            const colorScale = d3.scaleSequential(d3.interpolateBlues).domain([0, 1]);
+            
+            for (let i = 0; i < n; i++) {
+                for (let j = 0; j < n; j++) {
+                    g.append("rect").attr("x", j * cellSize).attr("y", i * cellSize)
+                        .attr("width", cellSize - 1).attr("height", cellSize - 1)
+                        .attr("fill", colorScale(similarity[i][j]));
+                }
+            }
+        }
+        
+        function showDetails(data) {
+            const panel = d3.select("#selection-info");
+            if (data.type === 'episode') {
+                panel.html(`<div class="info-section"><div class="info-label">Type</div><div class="info-value">📻 Episode</div></div>
+                    <div class="info-section"><div class="info-label">Title</div><div class="info-value">${data.title}</div></div>
+                    <div class="info-section"><div class="info-label">Primary Theme</div><div class="info-value"><span class="tag" style="background: ${themes[data.theme || data.primaryTheme].color}">${themes[data.theme || data.primaryTheme].name}</span></div></div>
+                    <div class="info-section"><div class="info-label">Confidence</div><div class="info-value">${((data.confidence || 0.5) * 100).toFixed(1)}%</div></div>`);
+            } else {
+                panel.html(`<div class="info-section"><div class="info-label">Type</div><div class="info-value">🎨 Theme</div></div>
+                    <div class="info-section"><div class="info-label">Name</div><div class="info-value" style="color: ${data.color || themes[data.index || 0].color}">${data.name}</div></div>`);
+            }
+        }
+        
+        function resetZoom() { renderVisualization(); }
+        
+        init();
+    </script>
+</body>
+</html>
