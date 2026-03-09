@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MLOps Podcast - Collapsible Force-Directed Tree</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #eee;
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .header h1 {
+            font-size: 1.5em;
+            font-weight: 300;
+        }
+        
+        .header h1 span {
+            font-weight: 600;
+        }
+        
+        .controls {
+            display: flex;
+            gap: 10px;
+        }
+        
+        button {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 5px;
+            background: rgba(255,255,255,0.2);
+            color: #fff;
+            cursor: pointer;
+            font-size: 0.9em;
+            transition: all 0.3s;
+        }
+        
+        button:hover {
+            background: rgba(255,255,255,0.3);
+        }
+        
+        button.active {
+            background: #e94560;
+        }
+        
+        .container {
+            display: flex;
+            height: calc(100vh - 60px);
+        }
+        
+        #viz-container {
+            flex: 1;
+            position: relative;
+        }
+        
+        svg {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .side-panel {
+            width: 350px;
+            background: rgba(22, 33, 62, 0.95);
+            border-left: 1px solid #0f3460;
+            padding: 20px;
+            overflow-y: auto;
+        }
+        
+        .panel-section {
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #0f3460;
+        }
+        
+        .panel-section:last-child {
+            border-bottom: none;
+        }
+        
+        .panel-title {
+            font-size: 0.85em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #e94560;
+            margin-bottom: 15px;
+        }
+        
+        .node-info {
+            background: rgba(15, 52, 96, 0.5);
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        
+        .node-type {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 3px;
+            font-size: 0.75em;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        
+        .node-type.corpus { background: #e94560; }
+        .node-type.theme { background: #4ECDC4; }
+        .node-type.episode { background: #FFEAA7; color: #333; }
+        .node-type.guest { background: #96CEB4; color: #333; }
+        .node-type.company { background: #DDA0DD; color: #333; }
+        .node-type.tech { background: #45B7D1; }
+        
+        .node-name {
+            font-size: 1.2em;
+            font-weight: 600;
+            margin-bottom: 8px;
+            line-height: 1.3;
+        }
+        
+        .node-meta {
+            font-size: 0.9em;
+            color: #a0a0a0;
+            line-height: 1.5;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+        
+        .stat-item {
+            background: rgba(15, 52, 96, 0.5);
+            padding: 12px;
+            border-radius: 6px;
+            text-align: center;
+        }
+        
+        .stat-value {
+            font-size: 1.5em;
+            font-weight: 700;
+            color: #e94560;
+        }
+        
+        .stat-label {
+            font-size: 0.75em;
+            color: #a0a0a0;
+            margin-top: 4px;
+        }
+        
+        .legend {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.8em;
+            padding: 4px 8px;
+            background: rgba(15, 52, 96, 0.5);
+            border-radius: 4px;
+        }
+        
+        .legend-color {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+        }
+        
+        .tooltip {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.9);
+            color: #fff;
+            padding: 10px 15px;
+            border-radius: 6px;
+            font-size: 0.85em;
+            pointer-events: none;
+            max-width: 300px;
+            z-index: 1000;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+        
+        .instructions {
+            background: rgba(233, 69, 96, 0.1);
+            border-left: 3px solid #e94560;
+            padding: 12px;
+            font-size: 0.85em;
+            line-height: 1.5;
+        }
+        
+        .instructions strong {
+            color: #e94560;
+        }
+        
+        .link-legend {
+            display: flex;
+            gap: 15px;
+            margin-top: 10px;
+        }
+        
+        .link-type {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 0.8em;
+        }
+        
+        .link-line {
+            width: 20px;
+            height: 2px;
+        }
+        
+        .link-line.primary { background: #fff; }
+        .link-line.secondary { background: #666; }
+        .link-line.guest { background: #96CEB4; }
+        .link-line.tech { background: #45B7D1; }
+        
+        .empty-state {
+            text-align: center;
+            padding: 40px 20px;
+            color: #a0a0a0;
+        }
+        
+        .empty-state-icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🌳 <span>Collapsible Force-Directed Tree</span> - MLOps Podcast Explorer</h1>
+        <div class="controls">
+            <button onclick="expandAll()">Expand All</button>
+            <button onclick="collapseAll()">Collapse All</button>
+            <button onclick="resetZoom()">Reset View</button>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div id="viz-container"></div>
+        
+        <div class="side-panel">
+            <div class="panel-section">
+                <div class="panel-title">📖 Instructions</div>
+                <div class="instructions">
+                    <strong>Click</strong> nodes to expand/collapse<br>
+                    <strong>Drag</strong> nodes to rearrange<br>
+                    <strong>Scroll</strong> to zoom in/out<br>
+                    <strong>Hover</strong> for quick info
+                </div>
+            </div>
+            
+            <div class="panel-section">
+                <div class="panel-title">📊 Corpus Overview</div>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-value">60</div>
+                        <div class="stat-label">Episodes</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">10</div>
+                        <div class="stat-label">Themes</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">~50</div>
+                        <div class="stat-label">Guests</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">100+</div>
+                        <div class="stat-label">Technologies</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel-section">
+                <div class="panel-title">🎯 Selected Node</div>
+                <div id="node-details">
+                    <div class="empty-state">
+                        <div class="empty-state-icon">👆</div>
+                        <div>Click on any node to see details</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel-section">
+                <div class="panel-title">🎨 Node Types</div>
+                <div class="legend">
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #e94560;"></div>
+                        <span>Corpus</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #4ECDC4;"></div>
+                        <span>Theme</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #FFEAA7;"></div>
+                        <span>Episode</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #96CEB4;"></div>
+                        <span>Guest</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #DDA0DD;"></div>
+                        <span>Company</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #45B7D1;"></div>
+                        <span>Technology</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel-section">
+                <div class="panel-title">🔗 Link Types</div>
+                <div class="link-legend">
+                    <div class="link-type">
+                        <div class="link-line primary"></div>
+                        <span>Primary Theme</span>
+                    </div>
+                    <div class="link-type">
+                        <div class="link-line secondary"></div>
+                        <span>Secondary</span>
+                    </div>
+                    <div class="link-type">
+                        <div class="link-line guest"></div>
+                        <span>Guest</span>
+                    </div>
+                    <div class="link-type">
+                        <div class="link-line tech"></div>
+                        <span>Technology</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="tooltip" id="tooltip"></div>
+
+    <script>
+        // Theme configuration
+        const themes = [
+            { name: "AI Product Development", color: "#FF6B6B", count: 11 },
+            { name: "Data Center/Hardware", color: "#4ECDC4", count: 5 },
+            { name: "Semantic Search/RAG", color: "#45B7D1", count: 7 },
+            { name: "Voice AI", color: "#96CEB4", count: 4 },
+            { name: "Code Tools", color: "#FFEAA7", count: 8 },
+            { name: "Physical AI", color: "#DDA0DD", count: 2 },
+            { name: "Knowledge Management", color: "#98D8C8", count: 4 },
+            { name: "Memory/Context", color: "#F7DC6F", count: 6 },
+            { name: "Security", color: "#BB8FCE", count: 5 },
+            { name: "RecSys/ML", color: "#85C1E9", count: 8 }
+        ];
+        
+        // Sample guests and companies
+        const sampleGuests = [
+            { name: "Sebastián Ramírez", company: "FastAPI Labs", role: "Creator" },
+            { name: "Joel Horwitz", company: "Sierra AI", role: "VP Product" },
+            { name: "Hudson Buzby", company: "Hugging Face", role: "Security Lead" },
+            { name: "Greg Kamradt", company: "ARC Prize", role: "Researcher" },
+            { name: "Deepti Srivastava", company: "Google", role: "PM" }
+        ];
+        
+        const sampleTechs = ["FastAPI", "Pydantic", "Kubernetes", "Docker", "OpenAI", "LangChain", "Vector DB"];
+        
+        // Generate hierarchical data
+        function generateTreeData() {
+            const root = {
+                name: "MLOps Podcast Corpus",
+                type: "corpus",
+                color: "#e94560",
+                children: []
+            };
+            
+            // Add themes
+            themes.forEach((theme, themeIdx) => {
+                const themeNode = {
+                    name: theme.name,
+                    type: "theme",
+                    color: theme.color,
+                    count: theme.count,
+                    children: []
+                };
+                
+                // Add episodes for this theme
+                for (let i = 0; i < theme.count; i++) {
+                    const epNum = themeIdx * 6 + i + 324;
+                    const episode = {
+                        name: `Episode ${epNum}`,
+                        type: "episode",
+                        color: theme.color,
+                        confidence: 0.3 + Math.random() * 0.5,
+                        children: []
+                    };
+                    
+                    // Add guest (50% chance)
+                    if (Math.random() > 0.5) {
+                        const guest = sampleGuests[Math.floor(Math.random() * sampleGuests.length)];
+                        episode.children.push({
+                            name: guest.name,
+                            type: "guest",
+                            color: "#96CEB4",
+                            meta: `${guest.role} @ ${guest.company}`,
+                            children: [{
+                                name: guest.company,
+                                type: "company",
+                                color: "#DDA0DD"
+                            }]
+                        });
+                    }
+                    
+                    // Add technologies (1-3)
+                    const numTechs = 1 + Math.floor(Math.random() * 3);
+                    const techNode = {
+                        name: "Technologies",
+                        type: "tech-group",
+                        color: "#45B7D1",
+                        children: []
+                    };
+                    
+                    for (let t = 0; t < numTechs; t++) {
+                        const tech = sampleTechs[Math.floor(Math.random() * sampleTechs.length)];
+                        techNode.children.push({
+                            name: tech,
+                            type: "tech",
+                            color: "#45B7D1"
+                        });
+                    }
+                    episode.children.push(techNode);
+                    
+                    themeNode.children.push(episode);
+                }
+                
+                root.children.push(themeNode);
+            });
+            
+            return root;
+        }
+        
+        const treeData = generateTreeData();
+        
+        // Setup
+        let svg, g, simulation, link, node;
+        let width, height;
+        let root;
+        
+        function init() {
+            const container = document.getElementById('viz-container');
+            width = container.clientWidth;
+            height = container.clientHeight;
+            
+            svg = d3.select('#viz-container').append('svg')
+                .attr('width', width)
+                .attr('height', height);
+            
+            // Add zoom behavior
+            const zoom = d3.zoom()
+                .scaleExtent([0.1, 4])
+                .on('zoom', (event) => {
+                    g.attr('transform', event.transform);
+                });
+            
+            svg.call(zoom);
+            
+            g = svg.append('g')
+                .attr('transform', `translate(${width/2},${height/2})`);
+            
+            // Process data
+            root = d3.hierarchy(treeData);
+            root.x0 = 0;
+            root.y0 = 0;
+            
+            // Collapse all except first level
+            root.children.forEach(collapse);
+            
+            update(root);
+        }
+        
+        function collapse(d) {
+            if (d.children) {
+                d._children = d.children;
+                d._children.forEach(collapse);
+                d.children = null;
+            }
+        }
+        
+        function expand(d) {
+            if (d._children) {
+                d.children = d._children;
+                d.children.forEach(expand);
+                d._children = null;
+            }
+        }
+        
+        function update(source) {
+            const nodes = root.descendants();
+            const links = root.links();
+            
+            // Force simulation
+            simulation = d3.forceSimulation(nodes)
+                .force('link', d3.forceLink(links).id(d => d.id).distance(d => {
+                    if (d.source.depth === 0) return 150;
+                    if (d.source.depth === 1) return 100;
+                    return 60;
+                }))
+                .force('charge', d3.forceManyBody().strength(d => {
+                    if (d.depth === 0) return -1000;
+                    if (d.depth === 1) return -500;
+                    return -200;
+                }))
+                .force('center', d3.forceCenter(0, 0))
+                .force('collision', d3.forceCollide().radius(d => getNodeRadius(d) + 10));
+            
+            // Links
+            link = g.selectAll('.link')
+                .data(links, d => d.target.id);
+            
+            const linkEnter = link.enter().append('line')
+                .attr('class', 'link')
+                .attr('stroke', d => getLinkColor(d))
+                .attr('stroke-width', d => getLinkWidth(d))
+                .attr('stroke-opacity', 0.6);
+            
+            link = linkEnter.merge(link);
+            
+            // Nodes
+            node = g.selectAll('.node')
+                .data(nodes, d => d.id || (d.id = Math.random()));
+            
+            const nodeEnter = node.enter().append('g')
+                .attr('class', 'node')
+                .attr('cursor', 'pointer')
+                .on('click', (event, d) => {
+                    event.stopPropagation();
+                    if (d.children || d._children) {
+                        if (d.children) {
+                            d._children = d.children;
+                            d.children = null;
+                        } else {
+                            d.children = d._children;
+                            d._children = null;
+                        }
+                        update(d);
+                        showNodeDetails(d);
+                    } else {
+                        showNodeDetails(d);
+                    }
+                })
+                .on('mouseover', (event, d) => {
+                    showTooltip(event, d);
+                })
+                .on('mouseout', hideTooltip)
+                .call(d3.drag()
+                    .on('start', dragstarted)
+                    .on('drag', dragged)
+                    .on('end', dragended));
+            
+            // Node circles
+            nodeEnter.append('circle')
+                .attr('r', d => getNodeRadius(d))
+                .attr('fill', d => d.data.color)
+                .attr('stroke', '#fff')
+                .attr('stroke-width', 2);
+            
+            // Expand/collapse indicator
+            nodeEnter.append('text')
+                .attr('class', 'indicator')
+                .attr('dy', 4)
+                .attr('text-anchor', 'middle')
+                .style('font-size', '12px')
+                .style('pointer-events', 'none')
+                .text(d => d._children ? '+' : d.children ? '−' : '');
+            
+            // Node labels
+            nodeEnter.append('text')
+                .attr('dy', d => getNodeRadius(d) + 15)
+                .attr('text-anchor', 'middle')
+                .style('font-size', d => d.depth === 0 ? '14px' : d.depth === 1 ? '11px' : '9px')
+                .style('font-weight', d => d.depth <= 1 ? '600' : '400')
+                .style('fill', '#fff')
+                .style('pointer-events', 'none')
+                .text(d => truncateText(d.data.name, d.depth === 0 ? 30 : d.depth === 1 ? 20 : 15));
+            
+            node = nodeEnter.merge(node);
+            
+            // Update indicators
+            node.select('.indicator')
+                .text(d => d._children ? '+' : d.children ? '−' : '');
+            
+            // Simulation tick
+            simulation.on('tick', () => {
+                link
+                    .attr('x1', d => d.source.x)
+                    .attr('y1', d => d.source.y)
+                    .attr('x2', d => d.target.x)
+                    .attr('y2', d => d.target.y);
+                
+                node.attr('transform', d => `translate(${d.x},${d.y})`);
+            });
+        }
+        
+        function getNodeRadius(d) {
+            if (d.depth === 0) return 30;
+            if (d.depth === 1) return 20;
+            if (d.depth === 2) return 12;
+            return 8;
+        }
+        
+        function getLinkColor(d) {
+            if (d.target.data.type === 'guest') return '#96CEB4';
+            if (d.target.data.type === 'tech' || d.target.data.type === 'tech-group') return '#45B7D1';
+            if (d.target.data.type === 'company') return '#DDA0DD';
+            if (d.target.depth === 2) return '#fff';
+            return '#666';
+        }
+        
+        function getLinkWidth(d) {
+            if (d.target.depth <= 2) return 2;
+            return 1;
+        }
+        
+        function truncateText(text, maxLength) {
+            if (text.length <= maxLength) return text;
+            return text.substring(0, maxLength - 3) + '...';
+        }
+        
+        function dragstarted(event, d) {
+            if (!event.active) simulation.alphaTarget(0.3).restart();
+            d.fx = d.x;
+            d.fy = d.y;
+        }
+        
+        function dragged(event, d) {
+            d.fx = event.x;
+            d.fy = event.y;
+        }
+        
+        function dragended(event, d) {
+            if (!event.active) simulation.alphaTarget(0);
+            d.fx = null;
+            d.fy = null;
+        }
+        
+        function showTooltip(event, d) {
+            const tooltip = document.getElementById('tooltip');
+            let content = `<strong>${d.data.name}</strong><br/>`;
+            content += `Type: ${d.data.type}<br/>`;
+            if (d.data.count) content += `Episodes: ${d.data.count}<br/>`;
+            if (d.data.confidence) content += `Confidence: ${(d.data.confidence * 100).toFixed(1)}%<br/>`;
+            if (d.data.meta) content += `${d.data.meta}<br/>`;
+            if (d.children || d._children) content += `<em>Click to ${d.children ? 'collapse' : 'expand'}</em>`;
+            
+            tooltip.innerHTML = content;
+            tooltip.style.display = 'block';
+            tooltip.style.left = (event.pageX + 10) + 'px';
+            tooltip.style.top = (event.pageY - 10) + 'px';
+        }
+        
+        function hideTooltip() {
+            document.getElementById('tooltip').style.display = 'none';
+        }
+        
+        function showNodeDetails(d) {
+            const panel = document.getElementById('node-details');
+            
+            let html = `
+                <div class="node-info">
+                    <div class="node-type ${d.data.type}">${d.data.type}</div>
+                    <div class="node-name">${d.data.name}</div>
+            `;
+            
+            if (d.data.count) {
+                html += `<div class="node-meta">Contains ${d.data.count} episodes</div>`;
+            }
+            
+            if (d.data.confidence) {
+                html += `<div class="node-meta">Theme confidence: ${(d.data.confidence * 100).toFixed(1)}%</div>`;
+            }
+            
+            if (d.data.meta) {
+                html += `<div class="node-meta">${d.data.meta}</div>`;
+            }
+            
+            if (d.children) {
+                html += `<div class="node-meta">${d.children.length} children (expanded)</div>`;
+            } else if (d._children) {
+                html += `<div class="node-meta">${d._children.length} children (collapsed)</div>`;
+            }
+            
+            html += '</div>';
+            
+            // Add children list if expanded
+            if (d.children && d.children.length > 0) {
+                html += '<div style="margin-top: 10px;"><strong>Children:</strong></div>';
+                html += '<div style="font-size: 0.85em; margin-top: 5px;">';
+                d.children.slice(0, 5).forEach(child => {
+                    html += `<div style="padding: 3px 0;">• ${child.data.name}</div>`;
+                });
+                if (d.children.length > 5) {
+                    html += `<div style="padding: 3px 0; color: #a0a0a0;">... and ${d.children.length - 5} more</div>`;
+                }
+                html += '</div>';
+            }
+            
+            panel.innerHTML = html;
+        }
+        
+        function expandAll() {
+            function expand(d) {
+                if (d._children) {
+                    d.children = d._children;
+                    d._children = null;
+                }
+                if (d.children) {
+                    d.children.forEach(expand);
+                }
+            }
+            expand(root);
+            update(root);
+        }
+        
+        function collapseAll() {
+            function collapse(d) {
+                if (d.children) {
+                    d._children = d.children;
+                    d._children.forEach(collapse);
+                    d.children = null;
+                }
+            }
+            root.children.forEach(collapse);
+            update(root);
+        }
+        
+        function resetZoom() {
+            svg.transition().duration(750).call(
+                d3.zoom().transform,
+                d3.zoomIdentity.translate(width/2, height/2).scale(1)
+            );
+            g.attr('transform', `translate(${width/2},${height/2})`);
+        }
+        
+        // Initialize
+        init();
+    </script>
+</body>
+</html>
