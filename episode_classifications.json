@@ -1,0 +1,1775 @@
+[
+  {
+    "episode_id": "epep032-are-evals-dead",
+    "filename": "epep032-are-evals-dead.txt",
+    "title": "epep032 are evals dead",
+    "word_count": 4039,
+    "primary_topic": {
+      "index": 0,
+      "label": "AI Product Development & Evaluation",
+      "probability": 0.28275325105024
+    },
+    "secondary_topics": [],
+    "topic_distribution": [
+      0.28275325105024,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.01170651508959622,
+      0.0,
+      0.02495516465688536,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "episode_id": "epep055-ai-reliability-spark-observability-slas-and-starting-an-ai-infra-company",
+    "filename": "epep055-ai-reliability-spark-observability-slas-and-starting-an-ai-infra-company.txt",
+    "title": "epep055 ai reliability spark observability slas and starting an ai infra company",
+    "word_count": 17259,
+    "primary_topic": {
+      "index": 0,
+      "label": "AI Product Development & Evaluation",
+      "probability": 0.28098431839949617
+    },
+    "secondary_topics": [
+      {
+        "index": 2,
+        "label": "Semantic Search & RAG",
+        "probability": 0.11633816308023665
+      },
+      {
+        "index": 1,
+        "label": "Data Center & Hardware Infrastructure",
+        "probability": 0.0847166131062823
+      }
+    ],
+    "topic_distribution": [
+      0.28098431839949617,
+      0.0847166131062823,
+      0.11633816308023665,
+      0.0,
+      0.0,
+      0.012521165963516993,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "episode_id": "epep059-everything-hard-about-building-ai-agents-today",
+    "filename": "epep059-everything-hard-about-building-ai-agents-today.txt",
+    "title": "epep059 everything hard about building ai agents today",
+    "word_count": 8830,
+    "primary_topic": {
+      "index": 0,
+      "label": "AI Product Development & Evaluation",
+      "probability": 0.27066215471760535
+    },
+    "secondary_topics": [
+      {
+        "index": 4,
+        "label": "Code Tools & Developer Experience",
+        "probability": 0.055782564159968205
+      }
+    ],
+    "topic_distribution": [
+      0.27066215471760535,
+      0.0,
+      0.010246583742270991,
+      0.0,
+      0.055782564159968205,
+      0.03724502791096542,
+      0.0,
+      0.030194860953314147,
+      0.0,
+      0.00010845895228870478
+    ]
+  },
+  {
+    "episode_id": "epep022-the-future-of-ai-operations-insights-from-pwc-ai-managed-services",
+    "filename": "epep022-the-future-of-ai-operations-insights-from-pwc-ai-managed-services.txt",
+    "title": "epep022 the future of ai operations insights from pwc ai managed services",
+    "word_count": 6953,
+    "primary_topic": {
+      "index": 0,
+      "label": "AI Product Development & Evaluation",
+      "probability": 0.2701775696894519
+    },
+    "secondary_topics": [
+      {
+        "index": 8,
+        "label": "Security & Risk Management",
+        "probability": 0.07282759934484859
+      }
+    ],
+    "topic_distribution": [
+      0.2701775696894519,
+      0.04845881057276928,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.07282759934484859,
+      0.0
+    ]
+  },
+  {
+    "episode_id": "epep008-leadership-on-ai",
+    "filename": "epep008-leadership-on-ai.txt",
+    "title": "epep008 leadership on ai",
+    "word_count": 8272,
+    "primary_topic": {
+      "index": 0,
+      "label": "AI Product Development & Evaluation",
+      "probability": 0.26689223757917924
+    },
+    "secondary_topics": [
+      {
+        "index": 8,
+        "label": "Security & Risk Management",
+        "probability": 0.07987574443602974
+      }
+    ],
+    "topic_distribution": [
+      0.26689223757917924,
+      0.0243491935752394,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.014639575685314024,
+      0.0,
+      0.07987574443602974,
+      0.0
+    ]
+  },
+  {
+    "episode_id": "epep007-conversation-with-the-mlflow-maintainers",
+    "filename": "epep007-conversation-with-the-mlflow-maintainers.txt",
+    "title": "epep007 conversation with the mlflow maintainers",
+    "word_count": 10262,
+    "primary_topic": {
+      "index": 0,
+      "label": "AI Product Development & Evaluation",
+      "probability": 0.24363727536360205
+    },
+    "secondary_topics": [
+      {
+        "index": 7,
+        "label": "Memory & Context Management",
+        "probability": 0.12085969765340628
+      },
+      {
+        "index": 6,
+        "label": "Knowledge Management & Q&A",
+        "probability": 0.05511465776579276
+      }
+    ],
+    "topic_distribution": [
+      0.24363727536360205,
+      0.0,
+      0.004753737882567161,
+      0.0,
+      0.0,
+      0.0,
+      0.05511465776579276,
+      0.12085969765340628,
+      0.020783708112609843,
+      0.0
+    ]
+  },
+  {
+    "episode_id": "epep047-enterprise-ai-adoption-challenges",
+    "filename": "epep047-enterprise-ai-adoption-challenges.txt",
+    "title": "epep047 enterprise ai adoption challenges",
+    "word_count": 12547,
+    "primary_topic": {
+      "index": 0,
+      "label": "AI Product Development & Evaluation",
+      "probability": 0.2293882997844291
+    },
+    "secondary_topics": [
+      {
+        "index": 6,
+        "label": "Knowledge Management & Q&A",
+        "probability": 0.11312788929554664
+      },
+      {
+        "index": 9,
+        "label": "Recommendation Systems & ML",
+        "probability": 0.09820606169714909
+      }
+    ],
+    "topic_distribution": [
+      0.2293882997844291,
+      0.0,
+      0.0,
+      0.0,
+      0.034491682429161265,
+      0.0040060625224238935,
+      0.11312788929554664,
+      0.02776110994775085,
+      0.0,
+      0.09820606169714909
+    ]
+  },
+  {
+    "episode_id": "ep349-overcoming-challenges-in-ai-agent-deployment-the-sweet-spot-for-governance-and-s",
+    "filename": "ep349-overcoming-challenges-in-ai-agent-deployment-the-sweet-spot-for-governance-and-s.txt",
+    "title": "overcoming challenges in ai agent deployment the sweet spot for governance and s",
+    "word_count": 9589,
+    "primary_topic": {
+      "index": 0,
+      "label": "AI Product Development & Evaluation",
+      "probability": 0.20596253556590322
+    },
+    "secondary_topics": [
+      {
+        "index": 3,
+        "label": "Voice AI & Conversational Interfaces",
+        "probability": 0.0917306146077023
+      },
+      {
+        "index": 6,
+        "label": "Knowledge Management & Q&A",
+        "probability": 0.048897906474950834
+      }
+    ],
+    "topic_distribution": [
+      0.20596253556590322,
+      0.024846726524879327,
+      0.03168566375381153,
+      0.0917306146077023,
+      0.035797205878799684,
+      0.0,
+      0.048897906474950834,
+      0.0247100504703776,
+      0.03270860808633272,
+      0.021924163596119102
+    ]
+  },
+  {
+    "episode_id": "epep049-ai-agent-development-tradeoffs-you-need-to-know",
+    "filename": "epep049-ai-agent-development-tradeoffs-you-need-to-know.txt",
+    "title": "epep049 ai agent development tradeoffs you need to know",
+    "word_count": 10200,
+    "primary_topic": {
+      "index": 0,
+      "label": "AI Product Development & Evaluation",
+      "probability": 0.20323944341858116
+    },
+    "secondary_topics": [
+      {
+        "index": 3,
+        "label": "Voice AI & Conversational Interfaces",
+        "probability": 0.13013453503424607
+      },
+      {
+        "index": 4,
+        "label": "Code Tools & Developer Experience",
+        "probability": 0.06835500429945868
+      }
+    ],
+    "topic_distribution": [
+      0.20323944341858116,
+      0.012980786444339346,
+      0.0,
+      0.13013453503424607,
+      0.06835500429945868,
+      0.0,
+      0.0,
+      0.0,
+      0.005828254938002897,
+      0.00036183114493151206
+    ]
+  },
+  {
+    "episode_id": "epep029-llms-at-scale-infrastructure-that-keeps-ai-safe-smart-affordable-marco-palladino",
+    "filename": "epep029-llms-at-scale-infrastructure-that-keeps-ai-safe-smart-affordable-marco-palladino.txt",
+    "title": "epep029 llms at scale infrastructure that keeps ai safe smart affordable marco palladino",
+    "word_count": 9096,
+    "primary_topic": {
+      "index": 0,
+      "label": "AI Product Development & Evaluation",
+      "probability": 0.16796299964644723
+    },
+    "secondary_topics": [
+      {
+        "index": 8,
+        "label": "Security & Risk Management",
+        "probability": 0.1569683361624093
+      },
+      {
+        "index": 3,
+        "label": "Voice AI & Conversational Interfaces",
+        "probability": 0.07729240229055019
+      },
+      {
+        "index": 1,
+        "label": "Data Center & Hardware Infrastructure",
+        "probability": 0.047428400533988224
+      }
+    ],
+    "topic_distribution": [
+      0.16796299964644723,
+      0.047428400533988224,
+      0.039208621326887405,
+      0.07729240229055019,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1569683361624093,
+      0.0
+    ]
+  },
+  {
+    "episode_id": "ep337-the-era-of-ai-agents-in-marketing-joel-horwitz-337",
+    "filename": "ep337-the-era-of-ai-agents-in-marketing-joel-horwitz-337.txt",
+    "title": "the era of ai agents in marketing joel horwitz 337",
+    "word_count": 8387,
+    "primary_topic": {
+      "index": 0,
+      "label": "AI Product Development & Evaluation",
+      "probability": 0.16545879972384267
+    },
+    "secondary_topics": [
+      {
+        "index": 3,
+        "label": "Voice AI & Conversational Interfaces",
+        "probability": 0.09648147381795527
+      },
+      {
+        "index": 9,
+        "label": "Recommendation Systems & ML",
+        "probability": 0.08639023401544078
+      },
+      {
+        "index": 7,
+        "label": "Memory & Context Management",
+        "probability": 0.05641252521999833
+      }
+    ],
+    "topic_distribution": [
+      0.16545879972384267,
+      0.0,
+      0.004118543556970635,
+      0.09648147381795527,
+      0.0,
+      0.0,
+      0.0012926147574832232,
+      0.05641252521999833,
+      0.0,
+      0.08639023401544078
+    ]
+  },
+  {
+    "episode_id": "epep035-economics-of-building-data-centers-gpu-clouds-sovereign-ai",
+    "filename": "epep035-economics-of-building-data-centers-gpu-clouds-sovereign-ai.txt",
+    "title": "epep035 economics of building data centers gpu clouds sovereign ai",
+    "word_count": 8547,
+    "primary_topic": {
+      "index": 1,
+      "label": "Data Center & Hardware Infrastructure",
+      "probability": 0.6267918603359328
+    },
+    "secondary_topics": [],
+    "topic_distribution": [
+      0.0,
+      0.6267918603359328,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "episode_id": "epep003-speed-and-scale-how-todays-ai-datacenters-are-operating-through-hypergrowth",
+    "filename": "epep003-speed-and-scale-how-todays-ai-datacenters-are-operating-through-hypergrowth.txt",
+    "title": "epep003 speed and scale how todays ai datacenters are operating through hypergrowth",
+    "word_count": 10412,
+    "primary_topic": {
+      "index": 1,
+      "label": "Data Center & Hardware Infrastructure",
+      "probability": 0.5029027126395922
+    },
+    "secondary_topics": [],
+    "topic_distribution": [
+      0.0025206968161029823,
+      0.5029027126395922,
+      0.0037517922238774807,
+      0.0,
+      0.0,
+      0.08025585571743675,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "episode_id": "ep331-the-rise-of-sovereign-ai-and-global-ai-innovation-in-a-world-of-us-protectionism",
+    "filename": "ep331-the-rise-of-sovereign-ai-and-global-ai-innovation-in-a-world-of-us-protectionism.txt",
+    "title": "the rise of sovereign ai and global ai innovation in a world of us protectionism",
+    "word_count": 9040,
+    "primary_topic": {
+      "index": 1,
+      "label": "Data Center & Hardware Infrastructure",
+      "probability": 0.4638321271706374
+    },
+    "secondary_topics": [],
+    "topic_distribution": [
+      0.0,
+      0.4638321271706374,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.002756110691300236,
+      0.0
+    ]
+  },
+  {
+    "episode_id": "epep006-how-universal-resource-management-transforms-ai-infrastructure-economics",
+    "filename": "epep006-how-universal-resource-management-transforms-ai-infrastructure-economics.txt",
+    "title": "epep006 how universal resource management transforms ai infrastructure economics",
+    "word_count": 6878,
+    "primary_topic": {
+      "index": 1,
+      "label": "Data Center & Hardware Infrastructure",
+      "probability": 0.4350515868328237
+    },
+    "secondary_topics": [],
+    "topic_distribution": [
+      0.0,
+      0.4350515868328237,
+      0.0,
+      0.0,
+      0.02089916951945451,
+      0.0,
+      0.017622214004336587,
+      0.028494532687927333,
+      0.0,
+      0.03447997323334126
+    ]
+  },
+  {
+    "episode_id": "epep023-gpu-uptime-with-vast-data-cto",
+    "filename": "epep023-gpu-uptime-with-vast-data-cto.txt",
+    "title": "epep023 gpu uptime with vast data cto",
+    "word_count": 17859,
+    "primary_topic": {
+      "index": 1,
+      "label": "Data Center & Hardware Infrastructure",
+      "probability": 0.3809837895585166
+    },
+    "secondary_topics": [
+      {
+        "index": 8,
+        "label": "Security & Risk Management",
+        "probability": 0.09089656809202995
+      },
+      {
+        "index": 0,
+        "label": "AI Product Development & Evaluation",
+        "probability": 0.08591563429732804
+      }
+    ],
+    "topic_distribution": [
+      0.08591563429732804,
+      0.3809837895585166,
+      0.049824970322257335,
+      0.031900563494858016,
+      0.037082420994698516,
+      0.007602117296438644,
+      0.039588929195734555,
+      0.0,
+      0.09089656809202995,
+      0.03787815133667814
+    ]
+  },
+  {
+    "episode_id": "epep013-context-engineering-20-agents-structured-data-and-the-redis-context-engine",
+    "filename": "epep013-context-engineering-20-agents-structured-data-and-the-redis-context-engine.txt",
+    "title": "epep013 context engineering 20 agents structured data and the redis context engine",
+    "word_count": 8175,
+    "primary_topic": {
+      "index": 2,
+      "label": "Semantic Search & RAG",
+      "probability": 0.5302946191471851
+    },
+    "secondary_topics": [],
+    "topic_distribution": [
+      0.0,
+      0.0,
+      0.5302946191471851,
+      0.0,
+      0.06104064507343455,
+      0.0,
+      0.0,
+      0.07320522899380506,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "episode_id": "ep325-bridging-the-gap-between-ai-and-business-data-deepti-srivastava-325",
+    "filename": "ep325-bridging-the-gap-between-ai-and-business-data-deepti-srivastava-325.txt",
+    "title": "bridging the gap between ai and business data deepti srivastava 325",
+    "word_count": 9574,
+    "primary_topic": {
+      "index": 2,
+      "label": "Semantic Search & RAG",
+      "probability": 0.45551102621323103
+    },
+    "secondary_topics": [
+      {
+        "index": 6,
+        "label": "Knowledge Management & Q&A",
+        "probability": 0.10543321833850493
+      }
+    ],
+    "topic_distribution": [
+      0.03428848588451628,
+      0.007334859757316234,
+      0.45551102621323103,
+      0.0,
+      0.0,
+      0.0,
+      0.10543321833850493,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "episode_id": "epep010-real-time-features-ai-search-agentic-similarities",
+    "filename": "epep010-real-time-features-ai-search-agentic-similarities.txt",
+    "title": "epep010 real time features ai search agentic similarities",
+    "word_count": 5718,
+    "primary_topic": {
+      "index": 2,
+      "label": "Semantic Search & RAG",
+      "probability": 0.4466949153676031
+    },
+    "secondary_topics": [],
+    "topic_distribution": [
+      0.0,
+      0.011001431005977063,
+      0.4466949153676031,
+      0.026309152941768124,
+      0.0,
+      0.011752598769947118,
+      0.010633146415243589,
+      0.0,
+      0.016487187326847032,
+      0.01902515007655686
+    ]
+  },
+  {
+    "episode_id": "ep343-the-semantic-layer-and-ai-agents-david-jayatillake-343",
+    "filename": "ep343-the-semantic-layer-and-ai-agents-david-jayatillake-343.txt",
+    "title": "the semantic layer and ai agents david jayatillake 343",
+    "word_count": 7943,
+    "primary_topic": {
+      "index": 2,
+      "label": "Semantic Search & RAG",
+      "probability": 0.416344390878013
+    },
+    "secondary_topics": [],
+    "topic_distribution": [
+      0.0,
+      0.0,
+      0.416344390878013,
+      0.0,
+      0.0,
+      0.0,
+      0.0024577493989813098,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "episode_id": "epep014-does-agenticrag-really-work",
+    "filename": "epep014-does-agenticrag-really-work.txt",
+    "title": "epep014 does agenticrag really work",
+    "word_count": 9812,
+    "primary_topic": {
+      "index": 2,
+      "label": "Semantic Search & RAG",
+      "probability": 0.37851618247440766
+    },
+    "secondary_topics": [
+      {
+        "index": 9,
+        "label": "Recommendation Systems & ML",
+        "probability": 0.14762827366072576
+      },
+      {
+        "index": 7,
+        "label": "Memory & Context Management",
+        "probability": 0.11657192367797656
+      }
+    ],
+    "topic_distribution": [
+      0.0,
+      0.0,
+      0.37851618247440766,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.11657192367797656,
+      0.03000070644230681,
+      0.14762827366072576
+    ]
+  },
+  {
+    "episode_id": "ep334-real-time-feature-generation-at-lyft-rakesh-kumar-334",
+    "filename": "ep334-real-time-feature-generation-at-lyft-rakesh-kumar-334.txt",
+    "title": "real time feature generation at lyft rakesh kumar 334",
+    "word_count": 8908,
+    "primary_topic": {
+      "index": 2,
+      "label": "Semantic Search & RAG",
+      "probability": 0.29784642998258504
+    },
+    "secondary_topics": [
+      {
+        "index": 5,
+        "label": "Physical AI & Robotics",
+        "probability": 0.09304047316371322
+      },
+      {
+        "index": 3,
+        "label": "Voice AI & Conversational Interfaces",
+        "probability": 0.06439182690881828
+      }
+    ],
+    "topic_distribution": [
+      0.016020769027057364,
+      0.008042911305818011,
+      0.29784642998258504,
+      0.06439182690881828,
+      0.0,
+      0.09304047316371322,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "episode_id": "ep339-the-ducklake-lakehouse-format-hannes-m\u00fchleisen-339",
+    "filename": "ep339-the-ducklake-lakehouse-format-hannes-m\u00fchleisen-339.txt",
+    "title": "the ducklake lakehouse format hannes m\u00fchleisen 339",
+    "word_count": 9920,
+    "primary_topic": {
+      "index": 2,
+      "label": "Semantic Search & RAG",
+      "probability": 0.23570531553110538
+    },
+    "secondary_topics": [
+      {
+        "index": 4,
+        "label": "Code Tools & Developer Experience",
+        "probability": 0.09845387582677223
+      }
+    ],
+    "topic_distribution": [
+      0.0,
+      0.03557021360195751,
+      0.23570531553110538,
+      0.03712555112053818,
+      0.09845387582677223,
+      0.0,
+      0.0,
+      0.0,
+      0.0022141067362410334,
+      0.0
+    ]
+  },
+  {
+    "episode_id": "epep021-reliable-voice-agents",
+    "filename": "epep021-reliable-voice-agents.txt",
+    "title": "epep021 reliable voice agents",
+    "word_count": 6480,
+    "primary_topic": {
+      "index": 3,
+      "label": "Voice AI & Conversational Interfaces",
+      "probability": 0.6795174900031301
+    },
+    "secondary_topics": [],
+    "topic_distribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.6795174900031301,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "episode_id": "epep034-how-livekit-became-an-ai-company-by-accident",
+    "filename": "epep034-how-livekit-became-an-ai-company-by-accident.txt",
+    "title": "epep034 how livekit became an ai company by accident",
+    "word_count": 5679,
+    "primary_topic": {
+      "index": 3,
+      "label": "Voice AI & Conversational Interfaces",
+      "probability": 0.6032799838800008
+    },
+    "secondary_topics": [],
+    "topic_distribution": [
+      0.0,
+      0.004083434087301202,
+      0.0038608004075818083,
+      0.6032799838800008,
+      0.0,
+      0.04200021697134237,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "episode_id": "epep017-hardening-agents-for-e-commerce-scale-from-rl-alignment-to-reliability-panel-2",
+    "filename": "epep017-hardening-agents-for-e-commerce-scale-from-rl-alignment-to-reliability-panel-2.txt",
+    "title": "epep017 hardening agents for e commerce scale from rl alignment to reliability panel 2",
+    "word_count": 4517,
+    "primary_topic": {
+      "index": 3,
+      "label": "Voice AI & Conversational Interfaces",
+      "probability": 0.47882016615374395
+    },
+    "secondary_topics": [
+      {
+        "index": 9,
+        "label": "Recommendation Systems & ML",
+        "probability": 0.10442070795470308
+      }
+    ],
+    "topic_distribution": [
+      0.018965970937615814,
+      0.016598304849817547,
+      0.0,
+      0.47882016615374395,
+      0.0,
+      0.0,
+      0.03724107594986206,
+      0.015259076515405583,
+      0.0,
+      0.10442070795470308
+    ]
+  },
+  {
+    "episode_id": "epep015-how-sierra-ai-does-context-engineering",
+    "filename": "epep015-how-sierra-ai-does-context-engineering.txt",
+    "title": "epep015 how sierra ai does context engineering",
+    "word_count": 11518,
+    "primary_topic": {
+      "index": 3,
+      "label": "Voice AI & Conversational Interfaces",
+      "probability": 0.36947488476640805
+    },
+    "secondary_topics": [
+      {
+        "index": 0,
+        "label": "AI Product Development & Evaluation",
+        "probability": 0.15660532492600926
+      }
+    ],
+    "topic_distribution": [
+      0.15660532492600926,
+      0.011181875089354495,
+      0.0,
+      0.36947488476640805,
+      0.025269979763458104,
+      0.0,
+      0.02786027829489903,
+      0.0,
+      0.012372742087695766,
+      0.0
+    ]
+  },
+  {
+    "episode_id": "ep342-building-claude-code-origin-story-product-iterations-whats-next-siddharth-bidasa",
+    "filename": "ep342-building-claude-code-origin-story-product-iterations-whats-next-siddharth-bidasa.txt",
+    "title": "building claude code origin story product iterations whats next siddharth bidasa",
+    "word_count": 8778,
+    "primary_topic": {
+      "index": 4,
+      "label": "Code Tools & Developer Experience",
+      "probability": 0.5277223390313921
+    },
+    "secondary_topics": [],
+    "topic_distribution": [
+      0.0,
+      0.005933776427877321,
+      0.0,
+      0.0,
+      0.5277223390313921,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "episode_id": "epep018-building-cursor-a-fireside-chat-with-vp-solutions-ricky-doar",
+    "filename": "epep018-building-cursor-a-fireside-chat-with-vp-solutions-ricky-doar.txt",
+    "title": "epep018 building cursor a fireside chat with vp solutions ricky doar",
+    "word_count": 4952,
+    "primary_topic": {
+      "index": 4,
+      "label": "Code Tools & Developer Experience",
+      "probability": 0.4859245495323526
+    },
+    "secondary_topics": [],
+    "topic_distribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.4859245495323526,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "episode_id": "epep012-the-future-of-ai-agents-is-sandboxed",
+    "filename": "epep012-the-future-of-ai-agents-is-sandboxed.txt",
+    "title": "epep012 the future of ai agents is sandboxed",
+    "word_count": 9774,
+    "primary_topic": {
+      "index": 4,
+      "label": "Code Tools & Developer Experience",
+      "probability": 0.477115414056355
+    },
+    "secondary_topics": [],
+    "topic_distribution": [
+      0.0,
+      0.0,
+      0.007054137527000683,
+      0.0,
+      0.477115414056355,
+      0.007866252119668614,
+      0.0,
+      0.0,
+      0.008451609984082835,
+      0.0
+    ]
+  },
+  {
+    "episode_id": "epep040-building-coding-agents-design-decisions-prompting-tricks-gui-anti-patterns",
+    "filename": "epep040-building-coding-agents-design-decisions-prompting-tricks-gui-anti-patterns.txt",
+    "title": "epep040 building coding agents design decisions prompting tricks gui anti patterns",
+    "word_count": 8285,
+    "primary_topic": {
+      "index": 4,
+      "label": "Code Tools & Developer Experience",
+      "probability": 0.35901577258244455
+    },
+    "secondary_topics": [
+      {
+        "index": 0,
+        "label": "AI Product Development & Evaluation",
+        "probability": 0.07232057701903111
+      }
+    ],
+    "topic_distribution": [
+      0.07232057701903111,
+      0.0,
+      0.0,
+      0.020302159901619557,
+      0.35901577258244455,
+      0.0,
+      0.005175918577281688,
+      0.050562022504012594,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "episode_id": "epep052-a-new-way-of-building-with-ai",
+    "filename": "epep052-a-new-way-of-building-with-ai.txt",
+    "title": "epep052 a new way of building with ai",
+    "word_count": 12116,
+    "primary_topic": {
+      "index": 4,
+      "label": "Code Tools & Developer Experience",
+      "probability": 0.29518090268752073
+    },
+    "secondary_topics": [
+      {
+        "index": 0,
+        "label": "AI Product Development & Evaluation",
+        "probability": 0.07807194745844978
+      },
+      {
+        "index": 3,
+        "label": "Voice AI & Conversational Interfaces",
+        "probability": 0.07008431647541337
+      }
+    ],
+    "topic_distribution": [
+      0.07807194745844978,
+      0.009075957572673888,
+      0.0030536776291915746,
+      0.07008431647541337,
+      0.29518090268752073,
+      0.056650850636123566,
+      0.05103823483627682,
+      0.021223651425407653,
+      0.0,
+      0.05551719404809382
+    ]
+  },
+  {
+    "episode_id": "epep000-rethinking-notebooks-powered-by-ai",
+    "filename": "epep000-rethinking-notebooks-powered-by-ai.txt",
+    "title": "epep000 rethinking notebooks powered by ai",
+    "word_count": 5379,
+    "primary_topic": {
+      "index": 4,
+      "label": "Code Tools & Developer Experience",
+      "probability": 0.2559768038895621
+    },
+    "secondary_topics": [
+      {
+        "index": 9,
+        "label": "Recommendation Systems & ML",
+        "probability": 0.132021865912121
+      }
+    ],
+    "topic_distribution": [
+      0.0,
+      0.03096300538931558,
+      0.0,
+      0.0,
+      0.2559768038895621,
+      0.0017158131381799441,
+      0.00912305632471103,
+      0.004204658184060211,
+      0.0,
+      0.132021865912121
+    ]
+  },
+  {
+    "episode_id": "epep045-the-hidden-bottlenecks-slowing-down-ai-agents",
+    "filename": "epep045-the-hidden-bottlenecks-slowing-down-ai-agents.txt",
+    "title": "epep045 the hidden bottlenecks slowing down ai agents",
+    "word_count": 8234,
+    "primary_topic": {
+      "index": 4,
+      "label": "Code Tools & Developer Experience",
+      "probability": 0.1943892949487025
+    },
+    "secondary_topics": [
+      {
+        "index": 0,
+        "label": "AI Product Development & Evaluation",
+        "probability": 0.19205831495837994
+      }
+    ],
+    "topic_distribution": [
+      0.19205831495837994,
+      0.0,
+      0.0,
+      0.0,
+      0.1943892949487025,
+      0.0,
+      0.035708424162715226,
+      0.003081113094263847,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "episode_id": "ep324-the-creator-of-fastapis-next-chapter-sebasti\u00e1n-ram\u00edrez-324",
+    "filename": "ep324-the-creator-of-fastapis-next-chapter-sebasti\u00e1n-ram\u00edrez-324.txt",
+    "title": "the creator of fastapis next chapter sebasti\u00e1n ram\u00edrez 324",
+    "word_count": 12424,
+    "primary_topic": {
+      "index": 4,
+      "label": "Code Tools & Developer Experience",
+      "probability": 0.15430551183656668
+    },
+    "secondary_topics": [
+      {
+        "index": 6,
+        "label": "Knowledge Management & Q&A",
+        "probability": 0.11443722199278683
+      },
+      {
+        "index": 2,
+        "label": "Semantic Search & RAG",
+        "probability": 0.0721029552657569
+      },
+      {
+        "index": 3,
+        "label": "Voice AI & Conversational Interfaces",
+        "probability": 0.041250889695658724
+      }
+    ],
+    "topic_distribution": [
+      0.013535181301600007,
+      0.0025729302311672873,
+      0.0721029552657569,
+      0.041250889695658724,
+      0.15430551183656668,
+      0.0062841462408710375,
+      0.11443722199278683,
+      0.0,
+      0.0,
+      0.005933364073400448
+    ]
+  },
+  {
+    "episode_id": "epep002-physical-ai-teaching-machines-to-understand-the-real-world",
+    "filename": "epep002-physical-ai-teaching-machines-to-understand-the-real-world.txt",
+    "title": "epep002 physical ai teaching machines to understand the real world",
+    "word_count": 9904,
+    "primary_topic": {
+      "index": 5,
+      "label": "Physical AI & Robotics",
+      "probability": 0.6506314219373958
+    },
+    "secondary_topics": [],
+    "topic_distribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.6506314219373958,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "episode_id": "epep054-the-missing-data-stack-for-physical-ai",
+    "filename": "epep054-the-missing-data-stack-for-physical-ai.txt",
+    "title": "epep054 the missing data stack for physical ai",
+    "word_count": 9076,
+    "primary_topic": {
+      "index": 5,
+      "label": "Physical AI & Robotics",
+      "probability": 0.6291535759250299
+    },
+    "secondary_topics": [],
+    "topic_distribution": [
+      0.0,
+      0.018768847535952423,
+      0.055181964321716036,
+      0.0,
+      7.725179315457843e-05,
+      0.6291535759250299,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "episode_id": "epep041-a-candid-conversation-with-the-ceo-of-stack-overflow",
+    "filename": "epep041-a-candid-conversation-with-the-ceo-of-stack-overflow.txt",
+    "title": "epep041 a candid conversation with the ceo of stack overflow",
+    "word_count": 6415,
+    "primary_topic": {
+      "index": 6,
+      "label": "Knowledge Management & Q&A",
+      "probability": 0.8534966811070704
+    },
+    "secondary_topics": [],
+    "topic_distribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.8534966811070704,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "episode_id": "epep044-gpu-considerations-labeling-privacy-rapid-fine-tuning-and-the-role-of-private-ev",
+    "filename": "epep044-gpu-considerations-labeling-privacy-rapid-fine-tuning-and-the-role-of-private-ev.txt",
+    "title": "epep044 gpu considerations labeling privacy rapid fine tuning and the role of private ev",
+    "word_count": 9729,
+    "primary_topic": {
+      "index": 6,
+      "label": "Knowledge Management & Q&A",
+      "probability": 0.6943125006407604
+    },
+    "secondary_topics": [],
+    "topic_distribution": [
+      0.011885822113728767,
+      0.09301174959966438,
+      0.0,
+      0.02865047853621361,
+      0.0,
+      0.0018147619444766985,
+      0.6943125006407604,
+      0.0,
+      0.0038120167441456545,
+      0.04971926370722181
+    ]
+  },
+  {
+    "episode_id": "ep335-knowledge-is-eventually-consistent-devin-stein-335",
+    "filename": "ep335-knowledge-is-eventually-consistent-devin-stein-335.txt",
+    "title": "knowledge is eventually consistent devin stein 335",
+    "word_count": 9220,
+    "primary_topic": {
+      "index": 6,
+      "label": "Knowledge Management & Q&A",
+      "probability": 0.3924075550297532
+    },
+    "secondary_topics": [
+      {
+        "index": 0,
+        "label": "AI Product Development & Evaluation",
+        "probability": 0.10661870030193092
+      },
+      {
+        "index": 4,
+        "label": "Code Tools & Developer Experience",
+        "probability": 0.08546640785516825
+      }
+    ],
+    "topic_distribution": [
+      0.10661870030193092,
+      0.0,
+      0.015481917605571953,
+      0.0,
+      0.08546640785516825,
+      0.0,
+      0.3924075550297532,
+      0.028068215315586984,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "episode_id": "epep056-greg-kamradt-benchmarking-intelligence-arc-prize",
+    "filename": "epep056-greg-kamradt-benchmarking-intelligence-arc-prize.txt",
+    "title": "epep056 greg kamradt benchmarking intelligence arc prize",
+    "word_count": 10547,
+    "primary_topic": {
+      "index": 6,
+      "label": "Knowledge Management & Q&A",
+      "probability": 0.2428809272452717
+    },
+    "secondary_topics": [
+      {
+        "index": 4,
+        "label": "Code Tools & Developer Experience",
+        "probability": 0.10076906791262304
+      },
+      {
+        "index": 1,
+        "label": "Data Center & Hardware Infrastructure",
+        "probability": 0.09039946159271123
+      },
+      {
+        "index": 7,
+        "label": "Memory & Context Management",
+        "probability": 0.05988676549492656
+      }
+    ],
+    "topic_distribution": [
+      0.0,
+      0.09039946159271123,
+      0.009498402673977334,
+      0.056206648261134876,
+      0.10076906791262304,
+      0.02535665508447969,
+      0.2428809272452717,
+      0.05988676549492656,
+      0.0,
+      0.012043276656796447
+    ]
+  },
+  {
+    "episode_id": "epep028-building-an-agentic-ai-memory-framework",
+    "filename": "epep028-building-an-agentic-ai-memory-framework.txt",
+    "title": "epep028 building an agentic ai memory framework",
+    "word_count": 8184,
+    "primary_topic": {
+      "index": 7,
+      "label": "Memory & Context Management",
+      "probability": 0.6051204924020087
+    },
+    "secondary_topics": [],
+    "topic_distribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.6051204924020087,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "episode_id": "epep037-llm-search-uiux-challenges-context-engineering-and-the-8020-of-eval",
+    "filename": "epep037-llm-search-uiux-challenges-context-engineering-and-the-8020-of-eval.txt",
+    "title": "epep037 llm search uiux challenges context engineering and the 8020 of eval",
+    "word_count": 10101,
+    "primary_topic": {
+      "index": 7,
+      "label": "Memory & Context Management",
+      "probability": 0.5611258804774345
+    },
+    "secondary_topics": [],
+    "topic_distribution": [
+      0.09735836419816185,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5611258804774345,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "episode_id": "epep020-context-engineering-context-rot-agentic-search-with-the-ceo-of-chroma-jeff-huber",
+    "filename": "epep020-context-engineering-context-rot-agentic-search-with-the-ceo-of-chroma-jeff-huber.txt",
+    "title": "epep020 context engineering context rot agentic search with the ceo of chroma jeff huber",
+    "word_count": 8512,
+    "primary_topic": {
+      "index": 7,
+      "label": "Memory & Context Management",
+      "probability": 0.5333507725768206
+    },
+    "secondary_topics": [],
+    "topic_distribution": [
+      0.0,
+      0.026808781189352097,
+      0.04293923110486681,
+      0.0,
+      0.0649539235669731,
+      0.013338745558487639,
+      0.013970728938357126,
+      0.5333507725768206,
+      0.0031002879999518737,
+      0.0
+    ]
+  },
+  {
+    "episode_id": "epep046-9-commandments-for-building-ai-agents",
+    "filename": "epep046-9-commandments-for-building-ai-agents.txt",
+    "title": "epep046 9 commandments for building ai agents",
+    "word_count": 12780,
+    "primary_topic": {
+      "index": 7,
+      "label": "Memory & Context Management",
+      "probability": 0.38751197438327833
+    },
+    "secondary_topics": [
+      {
+        "index": 6,
+        "label": "Knowledge Management & Q&A",
+        "probability": 0.11255756209619311
+      },
+      {
+        "index": 4,
+        "label": "Code Tools & Developer Experience",
+        "probability": 0.08341180157456488
+      }
+    ],
+    "topic_distribution": [
+      0.05051681557436105,
+      0.0020405904259645042,
+      0.0,
+      0.03610557491247513,
+      0.08341180157456488,
+      0.0,
+      0.11255756209619311,
+      0.38751197438327833,
+      0.0,
+      0.020134671262339882
+    ]
+  },
+  {
+    "episode_id": "ep340-on-device-ai-agents-in-production-privacy-performance-and-scale-varun-khare-neer",
+    "filename": "ep340-on-device-ai-agents-in-production-privacy-performance-and-scale-varun-khare-neer.txt",
+    "title": "on device ai agents in production privacy performance and scale varun khare neer",
+    "word_count": 6896,
+    "primary_topic": {
+      "index": 7,
+      "label": "Memory & Context Management",
+      "probability": 0.2966718827994585
+    },
+    "secondary_topics": [
+      {
+        "index": 5,
+        "label": "Physical AI & Robotics",
+        "probability": 0.09925752558717968
+      },
+      {
+        "index": 1,
+        "label": "Data Center & Hardware Infrastructure",
+        "probability": 0.06233558396575581
+      }
+    ],
+    "topic_distribution": [
+      0.00010894048940453483,
+      0.06233558396575581,
+      0.0,
+      0.017667158483614845,
+      0.0,
+      0.09925752558717968,
+      0.023044345470010053,
+      0.2966718827994585,
+      0.0,
+      0.04378384161900504
+    ]
+  },
+  {
+    "episode_id": "epep011-tool-definitions-are-the-new-prompt-engineering",
+    "filename": "epep011-tool-definitions-are-the-new-prompt-engineering.txt",
+    "title": "epep011 tool definitions are the new prompt engineering",
+    "word_count": 9241,
+    "primary_topic": {
+      "index": 7,
+      "label": "Memory & Context Management",
+      "probability": 0.17975541285049268
+    },
+    "secondary_topics": [
+      {
+        "index": 0,
+        "label": "AI Product Development & Evaluation",
+        "probability": 0.16898908212688624
+      },
+      {
+        "index": 9,
+        "label": "Recommendation Systems & ML",
+        "probability": 0.11842152077455839
+      },
+      {
+        "index": 3,
+        "label": "Voice AI & Conversational Interfaces",
+        "probability": 0.07945577840894075
+      }
+    ],
+    "topic_distribution": [
+      0.16898908212688624,
+      0.0,
+      0.0014328179195348997,
+      0.07945577840894075,
+      0.022399885341181865,
+      0.0,
+      0.0,
+      0.17975541285049268,
+      0.017424809014584933,
+      0.11842152077455839
+    ]
+  },
+  {
+    "episode_id": "ep344-the-evolution-of-ai-in-cyber-security-jeff-schwartzentruber-344",
+    "filename": "ep344-the-evolution-of-ai-in-cyber-security-jeff-schwartzentruber-344.txt",
+    "title": "the evolution of ai in cyber security jeff schwartzentruber 344",
+    "word_count": 6394,
+    "primary_topic": {
+      "index": 8,
+      "label": "Security & Risk Management",
+      "probability": 0.7529865636578796
+    },
+    "secondary_topics": [],
+    "topic_distribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.7529865636578796,
+      0.0
+    ]
+  },
+  {
+    "episode_id": "ep338-trust-at-scale-security-and-governance-for-open-source-models-hudson-buzby-338",
+    "filename": "ep338-trust-at-scale-security-and-governance-for-open-source-models-hudson-buzby-338.txt",
+    "title": "trust at scale security and governance for open source models hudson buzby 338",
+    "word_count": 9428,
+    "primary_topic": {
+      "index": 8,
+      "label": "Security & Risk Management",
+      "probability": 0.43877020080778356
+    },
+    "secondary_topics": [],
+    "topic_distribution": [
+      0.060002889422966915,
+      0.04805727515880461,
+      0.03633169727117913,
+      0.003292003154316412,
+      0.028433718906043987,
+      0.0022699732229666332,
+      0.058824306100616876,
+      0.0,
+      0.43877020080778356,
+      0.038848048510013736
+    ]
+  },
+  {
+    "episode_id": "epep001-software-engineering-in-the-age-of-coding-agents-testing-evals-and-shipping-safe",
+    "filename": "epep001-software-engineering-in-the-age-of-coding-agents-testing-evals-and-shipping-safe.txt",
+    "title": "epep001 software engineering in the age of coding agents testing evals and shipping safe",
+    "word_count": 9355,
+    "primary_topic": {
+      "index": 8,
+      "label": "Security & Risk Management",
+      "probability": 0.3905566360580893
+    },
+    "secondary_topics": [
+      {
+        "index": 4,
+        "label": "Code Tools & Developer Experience",
+        "probability": 0.1392941777547838
+      },
+      {
+        "index": 0,
+        "label": "AI Product Development & Evaluation",
+        "probability": 0.09192793447176963
+      }
+    ],
+    "topic_distribution": [
+      0.09192793447176963,
+      0.0,
+      0.017754133647419953,
+      0.0,
+      0.1392941777547838,
+      0.0,
+      0.0,
+      0.05128824105079749,
+      0.3905566360580893,
+      0.00362591183874594
+    ]
+  },
+  {
+    "episode_id": "ep332-from-the-legal-trenches-to-tech-nick-coleman-332",
+    "filename": "ep332-from-the-legal-trenches-to-tech-nick-coleman-332.txt",
+    "title": "from the legal trenches to tech nick coleman 332",
+    "word_count": 5445,
+    "primary_topic": {
+      "index": 8,
+      "label": "Security & Risk Management",
+      "probability": 0.3901026063392817
+    },
+    "secondary_topics": [],
+    "topic_distribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.02409293074067604,
+      0.0,
+      0.006279348025063755,
+      0.0009624483190397028,
+      0.001077304908126424,
+      0.3901026063392817,
+      0.03324859010236289
+    ]
+  },
+  {
+    "episode_id": "epep004-cracking-the-black-box-real-time-neuron-monitoring-causality-traces",
+    "filename": "epep004-cracking-the-black-box-real-time-neuron-monitoring-causality-traces.txt",
+    "title": "epep004 cracking the black box real time neuron monitoring causality traces",
+    "word_count": 8102,
+    "primary_topic": {
+      "index": 8,
+      "label": "Security & Risk Management",
+      "probability": 0.3639917952327644
+    },
+    "secondary_topics": [],
+    "topic_distribution": [
+      0.05396738437411351,
+      0.026469683659709746,
+      0.0,
+      0.012116995614891782,
+      0.008547130609749692,
+      0.0333254226511677,
+      0.0087635566503923,
+      0.0,
+      0.3639917952327644,
+      0.046743780028921336
+    ]
+  },
+  {
+    "episode_id": "ep348-relational-foundation-models-unlocking-the-next-frontier-of-enterprise-ai-jure-l",
+    "filename": "ep348-relational-foundation-models-unlocking-the-next-frontier-of-enterprise-ai-jure-l.txt",
+    "title": "relational foundation models unlocking the next frontier of enterprise ai jure l",
+    "word_count": 7967,
+    "primary_topic": {
+      "index": 9,
+      "label": "Recommendation Systems & ML",
+      "probability": 0.5354156682017107
+    },
+    "secondary_topics": [],
+    "topic_distribution": [
+      0.0,
+      0.0,
+      0.09873205581706576,
+      0.0,
+      0.0,
+      0.036086360651351006,
+      0.0,
+      0.0,
+      0.0,
+      0.5354156682017107
+    ]
+  },
+  {
+    "episode_id": "epep043-linkedin-recommender-system-predictive-ml-vs-llms",
+    "filename": "epep043-linkedin-recommender-system-predictive-ml-vs-llms.txt",
+    "title": "epep043 linkedin recommender system predictive ml vs llms",
+    "word_count": 9146,
+    "primary_topic": {
+      "index": 9,
+      "label": "Recommendation Systems & ML",
+      "probability": 0.5334666279170052
+    },
+    "secondary_topics": [],
+    "topic_distribution": [
+      0.0,
+      0.0,
+      0.014515232821297994,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5334666279170052
+    ]
+  },
+  {
+    "episode_id": "ep336-distilling-200-hours-of-neurips-whats-next-for-ai-nikolaos-vasiloglou-336",
+    "filename": "ep336-distilling-200-hours-of-neurips-whats-next-for-ai-nikolaos-vasiloglou-336.txt",
+    "title": "distilling 200 hours of neurips whats next for ai nikolaos vasiloglou 336",
+    "word_count": 2214,
+    "primary_topic": {
+      "index": 9,
+      "label": "Recommendation Systems & ML",
+      "probability": 0.4312109557810643
+    },
+    "secondary_topics": [],
+    "topic_distribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.4312109557810643
+    ]
+  },
+  {
+    "episode_id": "epep053-inside-ubers-ai-revolution---everything-about-how-they-use-aiml",
+    "filename": "epep053-inside-ubers-ai-revolution---everything-about-how-they-use-aiml.txt",
+    "title": "epep053 inside ubers ai revolution   everything about how they use aiml",
+    "word_count": 7242,
+    "primary_topic": {
+      "index": 9,
+      "label": "Recommendation Systems & ML",
+      "probability": 0.37858782263970986
+    },
+    "secondary_topics": [
+      {
+        "index": 0,
+        "label": "AI Product Development & Evaluation",
+        "probability": 0.0878063513242897
+      }
+    ],
+    "topic_distribution": [
+      0.0878063513242897,
+      0.010313478402212277,
+      0.0,
+      0.0,
+      0.0,
+      0.040983071767170476,
+      0.0,
+      0.016993098293757877,
+      0.05324713097433672,
+      0.37858782263970986
+    ]
+  },
+  {
+    "episode_id": "epep005-a-playground-for-aiml-engineers",
+    "filename": "epep005-a-playground-for-aiml-engineers.txt",
+    "title": "epep005 a playground for aiml engineers",
+    "word_count": 8244,
+    "primary_topic": {
+      "index": 9,
+      "label": "Recommendation Systems & ML",
+      "probability": 0.3514780055388153
+    },
+    "secondary_topics": [
+      {
+        "index": 0,
+        "label": "AI Product Development & Evaluation",
+        "probability": 0.09577493447305438
+      }
+    ],
+    "topic_distribution": [
+      0.09577493447305438,
+      0.018512861971745485,
+      0.029923731679136895,
+      0.011682238491242598,
+      0.0,
+      0.0,
+      0.056637862310201084,
+      0.050953038644644684,
+      0.0,
+      0.3514780055388153
+    ]
+  },
+  {
+    "episode_id": "epep025-thousands-of-fine-tuned-models",
+    "filename": "epep025-thousands-of-fine-tuned-models.txt",
+    "title": "epep025 thousands of fine tuned models",
+    "word_count": 6707,
+    "primary_topic": {
+      "index": 9,
+      "label": "Recommendation Systems & ML",
+      "probability": 0.34586547986565214
+    },
+    "secondary_topics": [
+      {
+        "index": 4,
+        "label": "Code Tools & Developer Experience",
+        "probability": 0.07941572310647205
+      },
+      {
+        "index": 7,
+        "label": "Memory & Context Management",
+        "probability": 0.07232193462126656
+      }
+    ],
+    "topic_distribution": [
+      0.003908597005590077,
+      0.0,
+      0.0,
+      0.045044148272472086,
+      0.07941572310647205,
+      0.012133510094983015,
+      0.016233178266887294,
+      0.07232193462126656,
+      0.04389052582017927,
+      0.34586547986565214
+    ]
+  },
+  {
+    "episode_id": "epep009-computers-that-think-and-take-actions-for-you",
+    "filename": "epep009-computers-that-think-and-take-actions-for-you.txt",
+    "title": "epep009 computers that think and take actions for you",
+    "word_count": 5620,
+    "primary_topic": {
+      "index": 9,
+      "label": "Recommendation Systems & ML",
+      "probability": 0.1864131378655392
+    },
+    "secondary_topics": [
+      {
+        "index": 3,
+        "label": "Voice AI & Conversational Interfaces",
+        "probability": 0.17344211098067278
+      },
+      {
+        "index": 4,
+        "label": "Code Tools & Developer Experience",
+        "probability": 0.12836726276148616
+      },
+      {
+        "index": 5,
+        "label": "Physical AI & Robotics",
+        "probability": 0.09562236240446327
+      }
+    ],
+    "topic_distribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.17344211098067278,
+      0.12836726276148616,
+      0.09562236240446327,
+      0.059498943826397414,
+      0.0,
+      0.0,
+      0.1864131378655392
+    ]
+  },
+  {
+    "episode_id": "epep030-best-ai-hackathon-project-ever-bite-size-episode",
+    "filename": "epep030-best-ai-hackathon-project-ever-bite-size-episode.txt",
+    "title": "epep030 best ai hackathon project ever bite size episode",
+    "word_count": 1695,
+    "primary_topic": {
+      "index": 9,
+      "label": "Recommendation Systems & ML",
+      "probability": 0.1603059574187252
+    },
+    "secondary_topics": [
+      {
+        "index": 3,
+        "label": "Voice AI & Conversational Interfaces",
+        "probability": 0.09121082058039516
+      },
+      {
+        "index": 7,
+        "label": "Memory & Context Management",
+        "probability": 0.08844270821315181
+      }
+    ],
+    "topic_distribution": [
+      0.02360829085509755,
+      0.0,
+      0.0,
+      0.09121082058039516,
+      0.0,
+      0.0,
+      0.0,
+      0.08844270821315181,
+      0.0,
+      0.1603059574187252
+    ]
+  }
+]

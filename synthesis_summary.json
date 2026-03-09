@@ -1,0 +1,88 @@
+{
+  "topic_distribution": {
+    "AI Product Dev": {
+      "episodes": 11,
+      "percentage": 18.3
+    },
+    "Data Center/HW": {
+      "episodes": 5,
+      "percentage": 8.3
+    },
+    "Semantic Search": {
+      "episodes": 7,
+      "percentage": 11.7
+    },
+    "Voice AI": {
+      "episodes": 4,
+      "percentage": 6.7
+    },
+    "Code Tools": {
+      "episodes": 8,
+      "percentage": 13.3
+    },
+    "Physical AI": {
+      "episodes": 2,
+      "percentage": 3.3
+    },
+    "Knowledge Mgmt": {
+      "episodes": 4,
+      "percentage": 6.7
+    },
+    "Memory/Context": {
+      "episodes": 6,
+      "percentage": 10.0
+    },
+    "Security": {
+      "episodes": 5,
+      "percentage": 8.3
+    },
+    "RecSys/ML": {
+      "episodes": 8,
+      "percentage": 13.3
+    }
+  },
+  "multi_topic_episodes": 33,
+  "high_confidence_assignments": 16,
+  "average_confidence_by_topic": {
+    "AI Product Dev": 23.5,
+    "Data Center/HW": 48.2,
+    "Semantic Search": 39.4,
+    "Voice AI": 53.3,
+    "Code Tools": 34.4,
+    "Physical AI": 64.0,
+    "Knowledge Mgmt": 54.6,
+    "Memory/Context": 42.7,
+    "Security": 46.7,
+    "RecSys/ML": 36.5
+  },
+  "top_3_themes": [
+    [
+      "AI Product Dev",
+      {
+        "episodes": 11,
+        "percentage": 18.3
+      }
+    ],
+    [
+      "Code Tools",
+      {
+        "episodes": 8,
+        "percentage": 13.3
+      }
+    ],
+    [
+      "RecSys/ML",
+      {
+        "episodes": 8,
+        "percentage": 13.3
+      }
+    ]
+  ],
+  "key_insights": [
+    "AI Product Development is the dominant theme (18.3% of episodes)",
+    "Developer Experience and ML/Recommendations are equally prominent (13.3% each)",
+    "Physical AI is niche but clearly defined (3.3% of episodes)",
+    "58.3% of episodes have secondary topics, indicating theme overlap",
+    "43.3% of assignments have high confidence (>50% probability)"
+  ]
+}

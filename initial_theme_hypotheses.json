@@ -1,0 +1,496 @@
+{
+  "themes_from_titles": {
+    "ai_models": [
+      {
+        "episode": "ep325-bridging-the-gap-between-ai-and-business-data-deepti-srivastava-325.txt",
+        "title": "bridging the gap between ai and business data deepti srivastava 325"
+      },
+      {
+        "episode": "ep331-the-rise-of-sovereign-ai-and-global-ai-innovation-in-a-world-of-us-protectionism.txt",
+        "title": "the rise of sovereign ai and global ai innovation in a world of us protectionism"
+      },
+      {
+        "episode": "ep336-distilling-200-hours-of-neurips-whats-next-for-ai-nikolaos-vasiloglou-336.txt",
+        "title": "distilling 200 hours of neurips whats next for ai nikolaos vasiloglou 336"
+      },
+      {
+        "episode": "ep337-the-era-of-ai-agents-in-marketing-joel-horwitz-337.txt",
+        "title": "the era of ai agents in marketing joel horwitz 337"
+      },
+      {
+        "episode": "ep338-trust-at-scale-security-and-governance-for-open-source-models-hudson-buzby-338.txt",
+        "title": "trust at scale security and governance for open source models hudson buzby 338"
+      },
+      {
+        "episode": "ep340-on-device-ai-agents-in-production-privacy-performance-and-scale-varun-khare-neer.txt",
+        "title": "on device ai agents in production privacy performance and scale varun khare neer"
+      },
+      {
+        "episode": "ep342-building-claude-code-origin-story-product-iterations-whats-next-siddharth-bidasa.txt",
+        "title": "building claude code origin story product iterations whats next siddharth bidasa"
+      },
+      {
+        "episode": "ep343-the-semantic-layer-and-ai-agents-david-jayatillake-343.txt",
+        "title": "the semantic layer and ai agents david jayatillake 343"
+      },
+      {
+        "episode": "ep344-the-evolution-of-ai-in-cyber-security-jeff-schwartzentruber-344.txt",
+        "title": "the evolution of ai in cyber security jeff schwartzentruber 344"
+      },
+      {
+        "episode": "ep348-relational-foundation-models-unlocking-the-next-frontier-of-enterprise-ai-jure-l.txt",
+        "title": "relational foundation models unlocking the next frontier of enterprise ai jure l"
+      },
+      {
+        "episode": "ep349-overcoming-challenges-in-ai-agent-deployment-the-sweet-spot-for-governance-and-s.txt",
+        "title": "overcoming challenges in ai agent deployment the sweet spot for governance and s"
+      },
+      {
+        "episode": "epep000-rethinking-notebooks-powered-by-ai.txt",
+        "title": "epep000 rethinking notebooks powered by ai"
+      },
+      {
+        "episode": "epep002-physical-ai-teaching-machines-to-understand-the-real-world.txt",
+        "title": "epep002 physical ai teaching machines to understand the real world"
+      },
+      {
+        "episode": "epep003-speed-and-scale-how-todays-ai-datacenters-are-operating-through-hypergrowth.txt",
+        "title": "epep003 speed and scale how todays ai datacenters are operating through hypergro"
+      },
+      {
+        "episode": "epep005-a-playground-for-aiml-engineers.txt",
+        "title": "epep005 a playground for aiml engineers"
+      },
+      {
+        "episode": "epep006-how-universal-resource-management-transforms-ai-infrastructure-economics.txt",
+        "title": "epep006 how universal resource management transforms ai infrastructure economics"
+      },
+      {
+        "episode": "epep007-conversation-with-the-mlflow-maintainers.txt",
+        "title": "epep007 conversation with the mlflow maintainers"
+      },
+      {
+        "episode": "epep008-leadership-on-ai.txt",
+        "title": "epep008 leadership on ai"
+      },
+      {
+        "episode": "epep010-real-time-features-ai-search-agentic-similarities.txt",
+        "title": "epep010 real time features ai search agentic similarities"
+      },
+      {
+        "episode": "epep012-the-future-of-ai-agents-is-sandboxed.txt",
+        "title": "epep012 the future of ai agents is sandboxed"
+      },
+      {
+        "episode": "epep015-how-sierra-ai-does-context-engineering.txt",
+        "title": "epep015 how sierra ai does context engineering"
+      },
+      {
+        "episode": "epep022-the-future-of-ai-operations-insights-from-pwc-ai-managed-services.txt",
+        "title": "epep022 the future of ai operations insights from pwc ai managed services"
+      },
+      {
+        "episode": "epep025-thousands-of-fine-tuned-models.txt",
+        "title": "epep025 thousands of fine tuned models"
+      },
+      {
+        "episode": "epep028-building-an-agentic-ai-memory-framework.txt",
+        "title": "epep028 building an agentic ai memory framework"
+      },
+      {
+        "episode": "epep029-llms-at-scale-infrastructure-that-keeps-ai-safe-smart-affordable-marco-palladino.txt",
+        "title": "epep029 llms at scale infrastructure that keeps ai safe smart affordable marco p"
+      },
+      {
+        "episode": "epep030-best-ai-hackathon-project-ever-bite-size-episode.txt",
+        "title": "epep030 best ai hackathon project ever bite size episode"
+      },
+      {
+        "episode": "epep034-how-livekit-became-an-ai-company-by-accident.txt",
+        "title": "epep034 how livekit became an ai company by accident"
+      },
+      {
+        "episode": "epep035-economics-of-building-data-centers-gpu-clouds-sovereign-ai.txt",
+        "title": "epep035 economics of building data centers gpu clouds sovereign ai"
+      },
+      {
+        "episode": "epep037-llm-search-uiux-challenges-context-engineering-and-the-8020-of-eval.txt",
+        "title": "epep037 llm search uiux challenges context engineering and the 8020 of eval"
+      },
+      {
+        "episode": "epep043-linkedin-recommender-system-predictive-ml-vs-llms.txt",
+        "title": "epep043 linkedin recommender system predictive ml vs llms"
+      },
+      {
+        "episode": "epep045-the-hidden-bottlenecks-slowing-down-ai-agents.txt",
+        "title": "epep045 the hidden bottlenecks slowing down ai agents"
+      },
+      {
+        "episode": "epep046-9-commandments-for-building-ai-agents.txt",
+        "title": "epep046 9 commandments for building ai agents"
+      },
+      {
+        "episode": "epep047-enterprise-ai-adoption-challenges.txt",
+        "title": "epep047 enterprise ai adoption challenges"
+      },
+      {
+        "episode": "epep049-ai-agent-development-tradeoffs-you-need-to-know.txt",
+        "title": "epep049 ai agent development tradeoffs you need to know"
+      },
+      {
+        "episode": "epep052-a-new-way-of-building-with-ai.txt",
+        "title": "epep052 a new way of building with ai"
+      },
+      {
+        "episode": "epep053-inside-ubers-ai-revolution---everything-about-how-they-use-aiml.txt",
+        "title": "epep053 inside ubers ai revolution   everything about how they use aiml"
+      },
+      {
+        "episode": "epep054-the-missing-data-stack-for-physical-ai.txt",
+        "title": "epep054 the missing data stack for physical ai"
+      },
+      {
+        "episode": "epep055-ai-reliability-spark-observability-slas-and-starting-an-ai-infra-company.txt",
+        "title": "epep055 ai reliability spark observability slas and starting an ai infra company"
+      },
+      {
+        "episode": "epep059-everything-hard-about-building-ai-agents-today.txt",
+        "title": "epep059 everything hard about building ai agents today"
+      }
+    ],
+    "data": [
+      {
+        "episode": "ep325-bridging-the-gap-between-ai-and-business-data-deepti-srivastava-325.txt",
+        "title": "bridging the gap between ai and business data deepti srivastava 325"
+      },
+      {
+        "episode": "ep334-real-time-feature-generation-at-lyft-rakesh-kumar-334.txt",
+        "title": "real time feature generation at lyft rakesh kumar 334"
+      },
+      {
+        "episode": "ep339-the-ducklake-lakehouse-format-hannes-m\u00fchleisen-339.txt",
+        "title": "the ducklake lakehouse format hannes m\u00fchleisen 339"
+      },
+      {
+        "episode": "ep343-the-semantic-layer-and-ai-agents-david-jayatillake-343.txt",
+        "title": "the semantic layer and ai agents david jayatillake 343"
+      },
+      {
+        "episode": "epep003-speed-and-scale-how-todays-ai-datacenters-are-operating-through-hypergrowth.txt",
+        "title": "epep003 speed and scale how todays ai datacenters are operating through hypergro"
+      },
+      {
+        "episode": "epep010-real-time-features-ai-search-agentic-similarities.txt",
+        "title": "epep010 real time features ai search agentic similarities"
+      },
+      {
+        "episode": "epep013-context-engineering-20-agents-structured-data-and-the-redis-context-engine.txt",
+        "title": "epep013 context engineering 20 agents structured data and the redis context engi"
+      },
+      {
+        "episode": "epep023-gpu-uptime-with-vast-data-cto.txt",
+        "title": "epep023 gpu uptime with vast data cto"
+      },
+      {
+        "episode": "epep035-economics-of-building-data-centers-gpu-clouds-sovereign-ai.txt",
+        "title": "epep035 economics of building data centers gpu clouds sovereign ai"
+      },
+      {
+        "episode": "epep054-the-missing-data-stack-for-physical-ai.txt",
+        "title": "epep054 the missing data stack for physical ai"
+      }
+    ],
+    "business": [
+      {
+        "episode": "ep325-bridging-the-gap-between-ai-and-business-data-deepti-srivastava-325.txt",
+        "title": "bridging the gap between ai and business data deepti srivastava 325"
+      },
+      {
+        "episode": "ep340-on-device-ai-agents-in-production-privacy-performance-and-scale-varun-khare-neer.txt",
+        "title": "on device ai agents in production privacy performance and scale varun khare neer"
+      },
+      {
+        "episode": "ep342-building-claude-code-origin-story-product-iterations-whats-next-siddharth-bidasa.txt",
+        "title": "building claude code origin story product iterations whats next siddharth bidasa"
+      },
+      {
+        "episode": "ep348-relational-foundation-models-unlocking-the-next-frontier-of-enterprise-ai-jure-l.txt",
+        "title": "relational foundation models unlocking the next frontier of enterprise ai jure l"
+      },
+      {
+        "episode": "epep034-how-livekit-became-an-ai-company-by-accident.txt",
+        "title": "epep034 how livekit became an ai company by accident"
+      },
+      {
+        "episode": "epep047-enterprise-ai-adoption-challenges.txt",
+        "title": "epep047 enterprise ai adoption challenges"
+      },
+      {
+        "episode": "epep055-ai-reliability-spark-observability-slas-and-starting-an-ai-infra-company.txt",
+        "title": "epep055 ai reliability spark observability slas and starting an ai infra company"
+      }
+    ],
+    "observability": [
+      {
+        "episode": "ep336-distilling-200-hours-of-neurips-whats-next-for-ai-nikolaos-vasiloglou-336.txt",
+        "title": "distilling 200 hours of neurips whats next for ai nikolaos vasiloglou 336"
+      },
+      {
+        "episode": "epep004-cracking-the-black-box-real-time-neuron-monitoring-causality-traces.txt",
+        "title": "epep004 cracking the black box real time neuron monitoring causality traces"
+      },
+      {
+        "episode": "epep055-ai-reliability-spark-observability-slas-and-starting-an-ai-infra-company.txt",
+        "title": "epep055 ai reliability spark observability slas and starting an ai infra company"
+      }
+    ],
+    "research": [
+      {
+        "episode": "ep336-distilling-200-hours-of-neurips-whats-next-for-ai-nikolaos-vasiloglou-336.txt",
+        "title": "distilling 200 hours of neurips whats next for ai nikolaos vasiloglou 336"
+      },
+      {
+        "episode": "epep056-greg-kamradt-benchmarking-intelligence-arc-prize.txt",
+        "title": "epep056 greg kamradt benchmarking intelligence arc prize"
+      }
+    ],
+    "agents": [
+      {
+        "episode": "ep337-the-era-of-ai-agents-in-marketing-joel-horwitz-337.txt",
+        "title": "the era of ai agents in marketing joel horwitz 337"
+      },
+      {
+        "episode": "ep340-on-device-ai-agents-in-production-privacy-performance-and-scale-varun-khare-neer.txt",
+        "title": "on device ai agents in production privacy performance and scale varun khare neer"
+      },
+      {
+        "episode": "ep343-the-semantic-layer-and-ai-agents-david-jayatillake-343.txt",
+        "title": "the semantic layer and ai agents david jayatillake 343"
+      },
+      {
+        "episode": "ep349-overcoming-challenges-in-ai-agent-deployment-the-sweet-spot-for-governance-and-s.txt",
+        "title": "overcoming challenges in ai agent deployment the sweet spot for governance and s"
+      },
+      {
+        "episode": "epep001-software-engineering-in-the-age-of-coding-agents-testing-evals-and-shipping-safe.txt",
+        "title": "epep001 software engineering in the age of coding agents testing evals and shipp"
+      },
+      {
+        "episode": "epep010-real-time-features-ai-search-agentic-similarities.txt",
+        "title": "epep010 real time features ai search agentic similarities"
+      },
+      {
+        "episode": "epep012-the-future-of-ai-agents-is-sandboxed.txt",
+        "title": "epep012 the future of ai agents is sandboxed"
+      },
+      {
+        "episode": "epep013-context-engineering-20-agents-structured-data-and-the-redis-context-engine.txt",
+        "title": "epep013 context engineering 20 agents structured data and the redis context engi"
+      },
+      {
+        "episode": "epep014-does-agenticrag-really-work.txt",
+        "title": "epep014 does agenticrag really work"
+      },
+      {
+        "episode": "epep017-hardening-agents-for-e-commerce-scale-from-rl-alignment-to-reliability-panel-2.txt",
+        "title": "epep017 hardening agents for e commerce scale from rl alignment to reliability p"
+      },
+      {
+        "episode": "epep020-context-engineering-context-rot-agentic-search-with-the-ceo-of-chroma-jeff-huber.txt",
+        "title": "epep020 context engineering context rot agentic search with the ceo of chroma je"
+      },
+      {
+        "episode": "epep021-reliable-voice-agents.txt",
+        "title": "epep021 reliable voice agents"
+      },
+      {
+        "episode": "epep028-building-an-agentic-ai-memory-framework.txt",
+        "title": "epep028 building an agentic ai memory framework"
+      },
+      {
+        "episode": "epep040-building-coding-agents-design-decisions-prompting-tricks-gui-anti-patterns.txt",
+        "title": "epep040 building coding agents design decisions prompting tricks gui anti patter"
+      },
+      {
+        "episode": "epep045-the-hidden-bottlenecks-slowing-down-ai-agents.txt",
+        "title": "epep045 the hidden bottlenecks slowing down ai agents"
+      },
+      {
+        "episode": "epep046-9-commandments-for-building-ai-agents.txt",
+        "title": "epep046 9 commandments for building ai agents"
+      },
+      {
+        "episode": "epep049-ai-agent-development-tradeoffs-you-need-to-know.txt",
+        "title": "epep049 ai agent development tradeoffs you need to know"
+      },
+      {
+        "episode": "epep059-everything-hard-about-building-ai-agents-today.txt",
+        "title": "epep059 everything hard about building ai agents today"
+      }
+    ],
+    "security": [
+      {
+        "episode": "ep338-trust-at-scale-security-and-governance-for-open-source-models-hudson-buzby-338.txt",
+        "title": "trust at scale security and governance for open source models hudson buzby 338"
+      },
+      {
+        "episode": "ep340-on-device-ai-agents-in-production-privacy-performance-and-scale-varun-khare-neer.txt",
+        "title": "on device ai agents in production privacy performance and scale varun khare neer"
+      },
+      {
+        "episode": "ep344-the-evolution-of-ai-in-cyber-security-jeff-schwartzentruber-344.txt",
+        "title": "the evolution of ai in cyber security jeff schwartzentruber 344"
+      },
+      {
+        "episode": "ep349-overcoming-challenges-in-ai-agent-deployment-the-sweet-spot-for-governance-and-s.txt",
+        "title": "overcoming challenges in ai agent deployment the sweet spot for governance and s"
+      },
+      {
+        "episode": "epep044-gpu-considerations-labeling-privacy-rapid-fine-tuning-and-the-role-of-private-ev.txt",
+        "title": "epep044 gpu considerations labeling privacy rapid fine tuning and the role of pr"
+      }
+    ],
+    "infrastructure": [
+      {
+        "episode": "ep349-overcoming-challenges-in-ai-agent-deployment-the-sweet-spot-for-governance-and-s.txt",
+        "title": "overcoming challenges in ai agent deployment the sweet spot for governance and s"
+      },
+      {
+        "episode": "epep006-how-universal-resource-management-transforms-ai-infrastructure-economics.txt",
+        "title": "epep006 how universal resource management transforms ai infrastructure economics"
+      },
+      {
+        "episode": "epep029-llms-at-scale-infrastructure-that-keeps-ai-safe-smart-affordable-marco-palladino.txt",
+        "title": "epep029 llms at scale infrastructure that keeps ai safe smart affordable marco p"
+      },
+      {
+        "episode": "epep035-economics-of-building-data-centers-gpu-clouds-sovereign-ai.txt",
+        "title": "epep035 economics of building data centers gpu clouds sovereign ai"
+      }
+    ],
+    "mlops_tools": [
+      {
+        "episode": "epep007-conversation-with-the-mlflow-maintainers.txt",
+        "title": "epep007 conversation with the mlflow maintainers"
+      }
+    ],
+    "platform": [
+      {
+        "episode": "epep011-tool-definitions-are-the-new-prompt-engineering.txt",
+        "title": "epep011 tool definitions are the new prompt engineering"
+      },
+      {
+        "episode": "epep028-building-an-agentic-ai-memory-framework.txt",
+        "title": "epep028 building an agentic ai memory framework"
+      }
+    ]
+  },
+  "domain_category_scores": {
+    "AI/ML Core": 2977,
+    "LLMs & GenAI": 0,
+    "Agents": 1803,
+    "Infrastructure": 0,
+    "Data": 490,
+    "Engineering": 1790,
+    "Platforms": 973,
+    "Observability": 0,
+    "Business": 2352
+  },
+  "initial_theme_hypotheses": {
+    "ai_ml_fundamentals": {
+      "description": "Core AI/ML concepts, model training, prediction",
+      "evidence": [
+        "model",
+        "train",
+        "predict",
+        "learn",
+        "datum"
+      ],
+      "strength": "high"
+    },
+    "llms_generative_ai": {
+      "description": "Large Language Models, GPT, Claude, prompt engineering",
+      "evidence": [
+        "agent",
+        "llm",
+        "generate",
+        "prompt",
+        "token"
+      ],
+      "strength": "high"
+    },
+    "mlops_infrastructure": {
+      "description": "Deployment, scaling, Kubernetes, Docker, cloud platforms",
+      "evidence": [
+        "deploy",
+        "kubernetes",
+        "docker",
+        "cloud",
+        "infrastructure"
+      ],
+      "strength": "medium"
+    },
+    "data_engineering": {
+      "description": "Data pipelines, feature stores, ETL, streaming",
+      "evidence": [
+        "data",
+        "feature",
+        "pipeline",
+        "stream",
+        "etl"
+      ],
+      "strength": "medium"
+    },
+    "developer_experience": {
+      "description": "APIs, tools, frameworks, coding practices",
+      "evidence": [
+        "api",
+        "tool",
+        "build",
+        "code",
+        "framework"
+      ],
+      "strength": "high"
+    },
+    "business_product": {
+      "description": "Product management, startups, enterprise adoption",
+      "evidence": [
+        "business",
+        "product",
+        "company",
+        "team",
+        "user"
+      ],
+      "strength": "medium"
+    },
+    "observability_reliability": {
+      "description": "Monitoring, logging, metrics, system reliability",
+      "evidence": [
+        "monitor",
+        "log",
+        "metric",
+        "system",
+        "reliable"
+      ],
+      "strength": "low"
+    },
+    "research_evaluation": {
+      "description": "Research papers, benchmarks, evaluation metrics",
+      "evidence": [
+        "research",
+        "benchmark",
+        "evaluate",
+        "paper",
+        "test"
+      ],
+      "strength": "medium"
+    }
+  },
+  "analysis_notes": [
+    "Strong presence of AI/ML and LLM terminology",
+    "Developer experience and tooling is prominent",
+    "Infrastructure and data engineering present but secondary",
+    "Business/product topics appear regularly",
+    "Observability themes may be underrepresented in top terms"
+  ]
+}

@@ -1,0 +1,4635 @@
+{
+  "filename": "ep336-distilling-200-hours-of-neurips-whats-next-for-ai-nikolaos-vasiloglou-336.txt",
+  "tokens": [
+    {
+      "text": "area",
+      "lemma": "area",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "years",
+      "lemma": "year",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "People",
+      "lemma": "people",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "trying",
+      "lemma": "try",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "use",
+      "lemma": "use",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "deep",
+      "lemma": "deep",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "learning",
+      "lemma": "learning",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "beat",
+      "lemma": "beat",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "traditional",
+      "lemma": "traditional",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "solo",
+      "lemma": "solo",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "models",
+      "lemma": "model",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "heaven",
+      "lemma": "heaven",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "malas",
+      "lemma": "malas",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "typical",
+      "lemma": "typical",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "XD",
+      "lemma": "xd",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "boost",
+      "lemma": "boost",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "type",
+      "lemma": "type",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "models",
+      "lemma": "model",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "tabular",
+      "lemma": "tabular",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "data",
+      "lemma": "datum",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "predicting",
+      "lemma": "predict",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "data",
+      "lemma": "datum",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "friends",
+      "lemma": "friend",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "Nicholas",
+      "lemma": "nicholas",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "vasilov",
+      "lemma": "vasilov",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "People",
+      "lemma": "people",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "Nick",
+      "lemma": "nick",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "Greek",
+      "lemma": "greek",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "VP",
+      "lemma": "vp",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "research",
+      "lemma": "research",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "ml",
+      "lemma": "ml",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "relational",
+      "lemma": "relational",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "AI",
+      "lemma": "ai",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "got",
+      "lemma": "get",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "award",
+      "lemma": "award",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "finishing",
+      "lemma": "finish",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "PSD",
+      "lemma": "psd",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "drinking",
+      "lemma": "drinking",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "single",
+      "lemma": "single",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "cup",
+      "lemma": "cup",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "coffee",
+      "lemma": "coffee",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "older",
+      "lemma": "old",
+      "pos": "ADJ",
+      "tag": "JJR"
+    },
+    {
+      "text": "need",
+      "lemma": "need",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "coffee",
+      "lemma": "coffee",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "bath",
+      "lemma": "bath",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Runner",
+      "lemma": "runner",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "allergic",
+      "lemma": "allergic",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "Coffee",
+      "lemma": "coffee",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "coffee",
+      "lemma": "coffee",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "coffee",
+      "lemma": "coffee",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "pills",
+      "lemma": "pill",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "day",
+      "lemma": "day",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "wake",
+      "lemma": "wake",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "morning",
+      "lemma": "morning",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "opened",
+      "lemma": "open",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "bottle",
+      "lemma": "bottle",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "pill",
+      "lemma": "pill",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "drink",
+      "lemma": "drink",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "water",
+      "lemma": "water",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "looks",
+      "lemma": "look",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "great",
+      "lemma": "great",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "morning",
+      "lemma": "morning",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "night",
+      "lemma": "night",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "wake",
+      "lemma": "wake",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "Went",
+      "lemma": "go",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "Europe",
+      "lemma": "europe",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "distilled",
+      "lemma": "distil",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "plethora",
+      "lemma": "plethora",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "information",
+      "lemma": "information",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "talks",
+      "lemma": "talk",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "papers",
+      "lemma": "paper",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "came",
+      "lemma": "come",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "Europe",
+      "lemma": "europe",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "cheat",
+      "lemma": "cheat",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "sheet",
+      "lemma": "sheet",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "explain",
+      "lemma": "explain",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "drives",
+      "lemma": "drive",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "exaggeration",
+      "lemma": "exaggeration",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "tried",
+      "lemma": "try",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "human",
+      "lemma": "human",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "language",
+      "lemma": "language",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "model",
+      "lemma": "model",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "little",
+      "lemma": "little",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "bit",
+      "lemma": "bit",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "strains",
+      "lemma": "strain",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "language",
+      "lemma": "language",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "models",
+      "lemma": "model",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "invented",
+      "lemma": "invent",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "humans",
+      "lemma": "human",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "speak",
+      "lemma": "speak",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "trying",
+      "lemma": "try",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "imitate",
+      "lemma": "imitate",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "sense",
+      "lemma": "sense",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "passion",
+      "lemma": "passion",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "reset",
+      "lemma": "reset",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "work",
+      "lemma": "work",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "industry",
+      "lemma": "industry",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "finished",
+      "lemma": "finish",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "piece",
+      "lemma": "piece",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "close",
+      "lemma": "close",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "recess",
+      "lemma": "recess",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "tried",
+      "lemma": "try",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "publish",
+      "lemma": "publish",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "interns",
+      "lemma": "intern",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "remember",
+      "lemma": "remember",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "told",
+      "lemma": "tell",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "years",
+      "lemma": "year",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "said",
+      "lemma": "say",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "research",
+      "lemma": "research",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "biology",
+      "lemma": "biology",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "said",
+      "lemma": "say",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "stop",
+      "lemma": "stop",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "research",
+      "lemma": "research",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "read",
+      "lemma": "read",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "papers",
+      "lemma": "paper",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "years",
+      "lemma": "year",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "particular",
+      "lemma": "particular",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "people",
+      "lemma": "people",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "publish",
+      "lemma": "publish",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "talk",
+      "lemma": "talk",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "produce",
+      "lemma": "produce",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "lot",
+      "lemma": "lot",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "materials",
+      "lemma": "material",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "recessed",
+      "lemma": "recessed",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "days",
+      "lemma": "day",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "amazing",
+      "lemma": "amazing",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "time",
+      "lemma": "time",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "read",
+      "lemma": "read",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "produced",
+      "lemma": "produce",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "noticed",
+      "lemma": "notice",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "years",
+      "lemma": "year",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "papers",
+      "lemma": "paper",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "spotlight",
+      "lemma": "spotlight",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "reason",
+      "lemma": "reason",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "reason",
+      "lemma": "reason",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "takes",
+      "lemma": "take",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "years",
+      "lemma": "year",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "mentioned",
+      "lemma": "mention",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "paid",
+      "lemma": "pay",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "attention",
+      "lemma": "attention",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "gap",
+      "lemma": "gap",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "scientific",
+      "lemma": "scientific",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "word",
+      "lemma": "word",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "industry",
+      "lemma": "industry",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "World",
+      "lemma": "world",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "produce",
+      "lemma": "produce",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "research",
+      "lemma": "research",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "try",
+      "lemma": "try",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "invest",
+      "lemma": "invest",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "material",
+      "lemma": "material",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "communicate",
+      "lemma": "communicate",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "leaders",
+      "lemma": "leader",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "decision",
+      "lemma": "decision",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "makers",
+      "lemma": "maker",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "makers",
+      "lemma": "maker",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "research",
+      "lemma": "research",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "managers",
+      "lemma": "manager",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "CEOs",
+      "lemma": "ceo",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "visits",
+      "lemma": "visit",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "know",
+      "lemma": "know",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "password",
+      "lemma": "password",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "years",
+      "lemma": "year",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "difficult",
+      "lemma": "difficult",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "talk",
+      "lemma": "talk",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "conference",
+      "lemma": "conference",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "half",
+      "lemma": "half",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "publications",
+      "lemma": "publication",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "hours",
+      "lemma": "hour",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "video",
+      "lemma": "video",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "reading",
+      "lemma": "reading",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "going",
+      "lemma": "go",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "skimming",
+      "lemma": "skim",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "material",
+      "lemma": "material",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "hours",
+      "lemma": "hour",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "going",
+      "lemma": "go",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "Sinking",
+      "lemma": "sink",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "year",
+      "lemma": "year",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "able",
+      "lemma": "able",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "New",
+      "lemma": "new",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "Year",
+      "lemma": "year",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "year",
+      "lemma": "year",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "use",
+      "lemma": "use",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "help",
+      "lemma": "help",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "language",
+      "lemma": "language",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "models",
+      "lemma": "model",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "train",
+      "lemma": "train",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "language",
+      "lemma": "language",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "model",
+      "lemma": "model",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "use",
+      "lemma": "use",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "help",
+      "lemma": "help",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "AI",
+      "lemma": "ai",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "year",
+      "lemma": "year",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "end",
+      "lemma": "end",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Let",
+      "lemma": "let",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "tell",
+      "lemma": "tell",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "little",
+      "lemma": "little",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "bit",
+      "lemma": "bit",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "said",
+      "lemma": "say",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "hardening",
+      "lemma": "harden",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "finished",
+      "lemma": "finish",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "presentation",
+      "lemma": "presentation",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "created",
+      "lemma": "create",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "slides",
+      "lemma": "slide",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "spoke",
+      "lemma": "speak",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "different",
+      "lemma": "different",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "lectures",
+      "lemma": "lecture",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "recorded",
+      "lemma": "record",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "videos",
+      "lemma": "video",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "idea",
+      "lemma": "idea",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "people",
+      "lemma": "people",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "notebook",
+      "lemma": "notebook",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "LM",
+      "lemma": "lm",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "generate",
+      "lemma": "generate",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "podcasts",
+      "lemma": "podcast",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "surprise",
+      "lemma": "surprise",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "notebook",
+      "lemma": "notebook",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "great",
+      "lemma": "great",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "job",
+      "lemma": "job",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "explaining",
+      "lemma": "explain",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "material",
+      "lemma": "material",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "thought",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "thought",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "good",
+      "lemma": "good",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "job",
+      "lemma": "job",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "creating",
+      "lemma": "create",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "presentation",
+      "lemma": "presentation",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "taking",
+      "lemma": "take",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "transcripts",
+      "lemma": "transcript",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "giving",
+      "lemma": "give",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "Look",
+      "lemma": "look",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "experiment",
+      "lemma": "experiment",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "called",
+      "lemma": "call",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "PDF",
+      "lemma": "pdf",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "talk",
+      "lemma": "talk",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "people",
+      "lemma": "people",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "interested",
+      "lemma": "interested",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "communicate",
+      "lemma": "communicate",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "ideas",
+      "lemma": "idea",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "gon",
+      "lemma": "go",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "master",
+      "lemma": "master",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "AI",
+      "lemma": "ai",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "running",
+      "lemma": "run",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "owner",
+      "lemma": "owner",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "meet",
+      "lemma": "meet",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "products",
+      "lemma": "product",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "note",
+      "lemma": "note",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "kill",
+      "lemma": "kill",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "Google",
+      "lemma": "google",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "started",
+      "lemma": "start",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "notebook",
+      "lemma": "notebook",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "little",
+      "lemma": "little",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "bit",
+      "lemma": "bit",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "hard",
+      "lemma": "hard",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "tame",
+      "lemma": "tame",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "going",
+      "lemma": "go",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "road",
+      "lemma": "road",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "oversimplifying",
+      "lemma": "oversimplify",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "learn",
+      "lemma": "learn",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "tame",
+      "lemma": "tame",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "past",
+      "lemma": "past",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "months",
+      "lemma": "month",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "improved",
+      "lemma": "improve",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "lot",
+      "lemma": "lot",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "needs",
+      "lemma": "need",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "taming",
+      "lemma": "taming",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Fascinating",
+      "lemma": "fascinating",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "understand",
+      "lemma": "understand",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "took",
+      "lemma": "take",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "recordings",
+      "lemma": "recording",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "papers",
+      "lemma": "paper",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "submitted",
+      "lemma": "submit",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "nerves",
+      "lemma": "nerve",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "year",
+      "lemma": "year",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "year",
+      "lemma": "year",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "going",
+      "lemma": "go",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "Aid",
+      "lemma": "aid",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "half",
+      "lemma": "half",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "papers",
+      "lemma": "paper",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "require",
+      "lemma": "require",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "years",
+      "lemma": "year",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "work",
+      "lemma": "work",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "went",
+      "lemma": "go",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "presentations",
+      "lemma": "presentation",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "workshops",
+      "lemma": "workshop",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "papers",
+      "lemma": "paper",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "explain",
+      "lemma": "explain",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "interesting",
+      "lemma": "interesting",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "knowledge",
+      "lemma": "knowledge",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "self",
+      "lemma": "self",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "organized",
+      "lemma": "organize",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "talk",
+      "lemma": "talk",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "hard",
+      "lemma": "hard",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "works",
+      "lemma": "work",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "tried",
+      "lemma": "try",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "process",
+      "lemma": "process",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "looks",
+      "lemma": "look",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "process",
+      "lemma": "process",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "AI",
+      "lemma": "ai",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "days",
+      "lemma": "day",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "benefit",
+      "lemma": "benefit",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "professional",
+      "lemma": "professional",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "job",
+      "lemma": "job",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "use",
+      "lemma": "use",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "AI",
+      "lemma": "ai",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "Enterprise",
+      "lemma": "enterprise",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "got",
+      "lemma": "get",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "huge",
+      "lemma": "huge",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "material",
+      "lemma": "material",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "tried",
+      "lemma": "try",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "identify",
+      "lemma": "identify",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "Places",
+      "lemma": "place",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "summarized",
+      "lemma": "summarize",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "ranked",
+      "lemma": "rank",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "working",
+      "lemma": "work",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "place",
+      "lemma": "place",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "getting",
+      "lemma": "get",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "slides",
+      "lemma": "slide",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "start",
+      "lemma": "start",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "language",
+      "lemma": "language",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "model",
+      "lemma": "model",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "prepare",
+      "lemma": "prepare",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "material",
+      "lemma": "material",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "chose",
+      "lemma": "chose",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "certain",
+      "lemma": "certain",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "Papers",
+      "lemma": "paper",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "let",
+      "lemma": "let",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "explain",
+      "lemma": "explain",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "works",
+      "lemma": "work",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "major",
+      "lemma": "major",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "conferences",
+      "lemma": "conference",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "year",
+      "lemma": "year",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Ai",
+      "lemma": "ai",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "happen",
+      "lemma": "happen",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "order",
+      "lemma": "order",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "order",
+      "lemma": "order",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "importance",
+      "lemma": "importance",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "happened",
+      "lemma": "happen",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "weeks",
+      "lemma": "week",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "summer",
+      "lemma": "summer",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "icml",
+      "lemma": "icml",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "bigger",
+      "lemma": "big",
+      "pos": "ADJ",
+      "tag": "JJR"
+    },
+    {
+      "text": "new",
+      "lemma": "new",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "ribs",
+      "lemma": "rib",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "December",
+      "lemma": "december",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "bigger",
+      "lemma": "big",
+      "pos": "ADJ",
+      "tag": "JJR"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "complete",
+      "lemma": "complete",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "oldest",
+      "lemma": "old",
+      "pos": "ADJ",
+      "tag": "JJS"
+    },
+    {
+      "text": "happens",
+      "lemma": "happen",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "new",
+      "lemma": "new",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "ribs",
+      "lemma": "rib",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "lot",
+      "lemma": "lot",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Keynotes",
+      "lemma": "keynotes",
+      "pos": "PROPN",
+      "tag": "NNPS"
+    },
+    {
+      "text": "orals",
+      "lemma": "oral",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "oral",
+      "lemma": "oral",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "presentation",
+      "lemma": "presentation",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "know",
+      "lemma": "know",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "half",
+      "lemma": "half",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "papers",
+      "lemma": "paper",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "half",
+      "lemma": "half",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "remember",
+      "lemma": "remember",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "numbers",
+      "lemma": "number",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "presentation",
+      "lemma": "presentation",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "main",
+      "lemma": "main",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "track",
+      "lemma": "track",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "workshops",
+      "lemma": "workshop",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "oral",
+      "lemma": "oral",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "presentations",
+      "lemma": "presentation",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "Keynotes",
+      "lemma": "keynotes",
+      "pos": "PROPN",
+      "tag": "NNPS"
+    },
+    {
+      "text": "orals",
+      "lemma": "oral",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "workshops",
+      "lemma": "workshop",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "taking",
+      "lemma": "take",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "notes",
+      "lemma": "note",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "workshops",
+      "lemma": "workshop",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "presentations",
+      "lemma": "presentation",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "look",
+      "lemma": "look",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "interesting",
+      "lemma": "interesting",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "years",
+      "lemma": "year",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "area",
+      "lemma": "area",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "good",
+      "lemma": "good",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "rank",
+      "lemma": "rank",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "use",
+      "lemma": "use",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "Europe",
+      "lemma": "europe",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "viewers",
+      "lemma": "viewer",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "elevating",
+      "lemma": "elevate",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "paper",
+      "lemma": "paper",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "oral",
+      "lemma": "oral",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "keynote",
+      "lemma": "keynote",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "work",
+      "lemma": "work",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "support",
+      "lemma": "support",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "organizes",
+      "lemma": "organize",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "selecting",
+      "lemma": "select",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "ones",
+      "lemma": "one",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "gon",
+      "lemma": "go",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "important",
+      "lemma": "important",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "presentations",
+      "lemma": "presentation",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "oral",
+      "lemma": "oral",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "presentations",
+      "lemma": "presentation",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "site",
+      "lemma": "site",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "riff",
+      "lemma": "riff",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "reference",
+      "lemma": "reference",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "papers",
+      "lemma": "paper",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "published",
+      "lemma": "publish",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "Let",
+      "lemma": "let",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "years",
+      "lemma": "year",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "conference",
+      "lemma": "conference",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "running",
+      "lemma": "run",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "presenting",
+      "lemma": "present",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "submitted",
+      "lemma": "submit",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "publication",
+      "lemma": "publication",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "year",
+      "lemma": "year",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "attending",
+      "lemma": "attend",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "conference",
+      "lemma": "conference",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "idea",
+      "lemma": "idea",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "happening",
+      "lemma": "happen",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "past",
+      "lemma": "past",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "months",
+      "lemma": "month",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "going",
+      "lemma": "go",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "happen",
+      "lemma": "happen",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "months",
+      "lemma": "month",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "publication",
+      "lemma": "publication",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "started",
+      "lemma": "start",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "watch",
+      "lemma": "watch",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "presentation",
+      "lemma": "presentation",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "start",
+      "lemma": "start",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "digging",
+      "lemma": "dig",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "references",
+      "lemma": "reference",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "know",
+      "lemma": "know",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "reference",
+      "lemma": "reference",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "received",
+      "lemma": "received",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "published",
+      "lemma": "publish",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "year",
+      "lemma": "year",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "needed",
+      "lemma": "need",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "year",
+      "lemma": "year",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "people",
+      "lemma": "people",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "start",
+      "lemma": "start",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "talking",
+      "lemma": "talk",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "goes",
+      "lemma": "go",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "snapshots",
+      "lemma": "snapshot",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "know",
+      "lemma": "know",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "screenshots",
+      "lemma": "screenshot",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "papers",
+      "lemma": "paper",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "way",
+      "lemma": "way",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "organizing",
+      "lemma": "organize",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "material",
+      "lemma": "material",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "refining",
+      "lemma": "refine",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "cutting",
+      "lemma": "cut",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "cutting",
+      "lemma": "cut",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "consolidating",
+      "lemma": "consolidate",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "cutting",
+      "lemma": "cutting",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "bring",
+      "lemma": "bring",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "year",
+      "lemma": "year",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "fit",
+      "lemma": "fit",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "hour",
+      "lemma": "hour",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "half",
+      "lemma": "half",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "previous",
+      "lemma": "previous",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "year",
+      "lemma": "year",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "year",
+      "lemma": "year",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "presentation",
+      "lemma": "presentation",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "close",
+      "lemma": "close",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "hours",
+      "lemma": "hour",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "half",
+      "lemma": "half",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "hours",
+      "lemma": "hour",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "presenting",
+      "lemma": "present",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "slides",
+      "lemma": "slide",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "said",
+      "lemma": "say",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "public",
+      "lemma": "public",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "available",
+      "lemma": "available",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "initial",
+      "lemma": "initial",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "screenshots",
+      "lemma": "screenshot",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "got",
+      "lemma": "get",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "slides",
+      "lemma": "slide",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "hour",
+      "lemma": "hour",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "presentation",
+      "lemma": "presentation",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "talking",
+      "lemma": "talk",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "understanding",
+      "lemma": "understanding",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "important",
+      "lemma": "important",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "podcast",
+      "lemma": "podcast",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Invincible",
+      "lemma": "invincible",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "notebook",
+      "lemma": "notebook",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "LM",
+      "lemma": "lm",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "podcast",
+      "lemma": "podcast",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "stood",
+      "lemma": "stand",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "know",
+      "lemma": "know",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "managed",
+      "lemma": "manage",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "break",
+      "lemma": "break",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "topics",
+      "lemma": "topic",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "named",
+      "lemma": "name",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "series",
+      "lemma": "series",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "days",
+      "lemma": "day",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "new",
+      "lemma": "new",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "ribs",
+      "lemma": "rib",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "coincided",
+      "lemma": "coincide",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "Christmas",
+      "lemma": "christmas",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "purpose",
+      "lemma": "purpose",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "happened",
+      "lemma": "happen",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "presentation",
+      "lemma": "presentation",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "broken",
+      "lemma": "break",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "slides",
+      "lemma": "slide",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "nutshell",
+      "lemma": "nutshell",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "slide",
+      "lemma": "slide",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "topics",
+      "lemma": "topic",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "slices",
+      "lemma": "slice",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "topic",
+      "lemma": "topic",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "section",
+      "lemma": "section",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "topic",
+      "lemma": "topic",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "deep",
+      "lemma": "deep",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "stood",
+      "lemma": "stand",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "technology",
+      "lemma": "technology",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "pops",
+      "lemma": "pop",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "Buzz",
+      "lemma": "buzz",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "hype",
+      "lemma": "hype",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "cycle",
+      "lemma": "cycle",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "makes",
+      "lemma": "make",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "year",
+      "lemma": "year",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "language",
+      "lemma": "language",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "models",
+      "lemma": "model",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "remember",
+      "lemma": "remember",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "ribs",
+      "lemma": "rib",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "King",
+      "lemma": "king",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "Deep",
+      "lemma": "deep",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "sick",
+      "lemma": "sick",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Boom",
+      "lemma": "boom",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Buzz",
+      "lemma": "buzz",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "true",
+      "lemma": "true",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "open",
+      "lemma": "open",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "source",
+      "lemma": "source",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "language",
+      "lemma": "language",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "models",
+      "lemma": "model",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "winning",
+      "lemma": "win",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "word",
+      "lemma": "word",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "lot",
+      "lemma": "lot",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "lot",
+      "lemma": "lot",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "papers",
+      "lemma": "paper",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "language",
+      "lemma": "language",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "models",
+      "lemma": "model",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "open",
+      "lemma": "open",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "checkpoints",
+      "lemma": "checkpoint",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "reproduce",
+      "lemma": "reproduce",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "pre",
+      "lemma": "pre",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "train",
+      "lemma": "train",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "checkpoints",
+      "lemma": "checkpoint",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "data",
+      "lemma": "datum",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "set",
+      "lemma": "set",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "open",
+      "lemma": "open",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "source",
+      "lemma": "source",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "lot",
+      "lemma": "lot",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "data",
+      "lemma": "datum",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "sets",
+      "lemma": "set",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "modify",
+      "lemma": "modify",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "include",
+      "lemma": "include",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "deployment",
+      "lemma": "deployment",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "presentation",
+      "lemma": "presentation",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "presentation",
+      "lemma": "presentation",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "inventor",
+      "lemma": "inventor",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "lstms",
+      "lemma": "lstms",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "audience",
+      "lemma": "audience",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "know",
+      "lemma": "know",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "analysts",
+      "lemma": "analyst",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "precursor",
+      "lemma": "precursor",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Transformer",
+      "lemma": "transformer",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "language",
+      "lemma": "language",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "model",
+      "lemma": "model",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "slide",
+      "lemma": "slide",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "says",
+      "lemma": "say",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "way",
+      "lemma": "way",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "translated",
+      "lemma": "translate",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "loves",
+      "lemma": "love",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "hate",
+      "lemma": "hate",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "language",
+      "lemma": "language",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "models",
+      "lemma": "model",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "bunch",
+      "lemma": "bunch",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "complaints",
+      "lemma": "complaint",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "people",
+      "lemma": "people",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "gon",
+      "lemma": "go",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "AGI",
+      "lemma": "agi",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "hear",
+      "lemma": "hear",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "people",
+      "lemma": "people",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "complaining",
+      "lemma": "complain",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "means",
+      "lemma": "mean",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "lot",
+      "lemma": "lot",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "complaints",
+      "lemma": "complaint",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "constructed",
+      "lemma": "construct",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "complaints",
+      "lemma": "complaint",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "gon",
+      "lemma": "go",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "lead",
+      "lemma": "lead",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "weekly",
+      "lemma": "weekly",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "fascinating",
+      "lemma": "fascinating",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "10th",
+      "lemma": "10th",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "year",
+      "lemma": "year",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "sequence",
+      "lemma": "sequence",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "sequence",
+      "lemma": "sequence",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "mortal",
+      "lemma": "mortal",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "sequence",
+      "lemma": "sequence",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "sequence",
+      "lemma": "sequence",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "model",
+      "lemma": "model",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "language",
+      "lemma": "language",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "model",
+      "lemma": "model",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "sequence",
+      "lemma": "sequence",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "generates",
+      "lemma": "generate",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "sequence",
+      "lemma": "sequence",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "prompt",
+      "lemma": "prompt",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "won",
+      "lemma": "win",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "test",
+      "lemma": "test",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "time",
+      "lemma": "time",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "award",
+      "lemma": "award",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "author",
+      "lemma": "author",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "illya",
+      "lemma": "illya",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "verse",
+      "lemma": "verse",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "famous",
+      "lemma": "famous",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "open",
+      "lemma": "open",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "AI",
+      "lemma": "ai",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "guy",
+      "lemma": "guy",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "drama",
+      "lemma": "drama",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "left",
+      "lemma": "leave",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "gave",
+      "lemma": "give",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "nice",
+      "lemma": "nice",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "presentation",
+      "lemma": "presentation",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "team",
+      "lemma": "team",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "anniversary",
+      "lemma": "anniversary",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Monumental",
+      "lemma": "monumental",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "Bakery",
+      "lemma": "bakery",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "Instrumental",
+      "lemma": "instrumental",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "paper",
+      "lemma": "paper",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "gas",
+      "lemma": "gas",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "time",
+      "lemma": "time",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "generated",
+      "lemma": "generate",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "images",
+      "lemma": "image",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "years",
+      "lemma": "year",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "years",
+      "lemma": "year",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "remember",
+      "lemma": "remember",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "papers",
+      "lemma": "paper",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "came",
+      "lemma": "come",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "critical",
+      "lemma": "critical",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "said",
+      "lemma": "say",
+      "pos": "VERB",
+      "tag": "VBD"
+    }
+  ],
+  "lemmas": [
+    "area",
+    "year",
+    "people",
+    "try",
+    "use",
+    "deep",
+    "learning",
+    "beat",
+    "traditional",
+    "solo",
+    "model",
+    "heaven",
+    "malas",
+    "typical",
+    "xd",
+    "boost",
+    "type",
+    "model",
+    "tabular",
+    "datum",
+    "predict",
+    "datum",
+    "friend",
+    "nicholas",
+    "vasilov",
+    "people",
+    "nick",
+    "greek",
+    "vp",
+    "research",
+    "ml",
+    "relational",
+    "ai",
+    "get",
+    "award",
+    "finish",
+    "psd",
+    "drinking",
+    "single",
+    "cup",
+    "coffee",
+    "old",
+    "need",
+    "coffee",
+    "bath",
+    "runner",
+    "allergic",
+    "coffee",
+    "coffee",
+    "coffee",
+    "pill",
+    "day",
+    "wake",
+    "morning",
+    "open",
+    "bottle",
+    "pill",
+    "drink",
+    "water",
+    "look",
+    "great",
+    "morning",
+    "night",
+    "wake",
+    "go",
+    "europe",
+    "distil",
+    "plethora",
+    "information",
+    "talk",
+    "paper",
+    "come",
+    "europe",
+    "cheat",
+    "sheet",
+    "explain",
+    "drive",
+    "think",
+    "exaggeration",
+    "try",
+    "human",
+    "language",
+    "model",
+    "little",
+    "bit",
+    "strain",
+    "language",
+    "model",
+    "invent",
+    "human",
+    "speak",
+    "think",
+    "try",
+    "imitate",
+    "sense",
+    "passion",
+    "reset",
+    "work",
+    "industry",
+    "finish",
+    "piece",
+    "close",
+    "recess",
+    "try",
+    "publish",
+    "intern",
+    "think",
+    "remember",
+    "tell",
+    "year",
+    "say",
+    "research",
+    "biology",
+    "say",
+    "stop",
+    "research",
+    "read",
+    "paper",
+    "year",
+    "particular",
+    "people",
+    "want",
+    "publish",
+    "want",
+    "talk",
+    "produce",
+    "lot",
+    "material",
+    "recessed",
+    "day",
+    "amazing",
+    "think",
+    "time",
+    "read",
+    "produce",
+    "notice",
+    "year",
+    "paper",
+    "spotlight",
+    "reason",
+    "reason",
+    "take",
+    "year",
+    "mention",
+    "pay",
+    "attention",
+    "think",
+    "gap",
+    "scientific",
+    "word",
+    "industry",
+    "world",
+    "produce",
+    "research",
+    "try",
+    "invest",
+    "material",
+    "communicate",
+    "leader",
+    "decision",
+    "maker",
+    "maker",
+    "research",
+    "manager",
+    "ceo",
+    "visit",
+    "know",
+    "password",
+    "year",
+    "difficult",
+    "talk",
+    "conference",
+    "half",
+    "publication",
+    "hour",
+    "video",
+    "reading",
+    "go",
+    "skim",
+    "material",
+    "hour",
+    "go",
+    "sink",
+    "think",
+    "year",
+    "able",
+    "new",
+    "year",
+    "think",
+    "year",
+    "use",
+    "help",
+    "language",
+    "model",
+    "train",
+    "language",
+    "model",
+    "use",
+    "help",
+    "ai",
+    "year",
+    "end",
+    "let",
+    "tell",
+    "little",
+    "bit",
+    "say",
+    "harden",
+    "finish",
+    "presentation",
+    "create",
+    "slide",
+    "speak",
+    "different",
+    "lecture",
+    "want",
+    "record",
+    "video",
+    "idea",
+    "people",
+    "notebook",
+    "lm",
+    "generate",
+    "podcast",
+    "surprise",
+    "notebook",
+    "great",
+    "job",
+    "explain",
+    "material",
+    "think",
+    "think",
+    "good",
+    "job",
+    "create",
+    "presentation",
+    "take",
+    "transcript",
+    "give",
+    "look",
+    "experiment",
+    "call",
+    "pdf",
+    "talk",
+    "people",
+    "interested",
+    "think",
+    "communicate",
+    "idea",
+    "go",
+    "master",
+    "ai",
+    "run",
+    "owner",
+    "meet",
+    "product",
+    "note",
+    "kill",
+    "google",
+    "start",
+    "notebook",
+    "little",
+    "bit",
+    "hard",
+    "tame",
+    "go",
+    "road",
+    "oversimplify",
+    "learn",
+    "tame",
+    "past",
+    "month",
+    "improve",
+    "lot",
+    "think",
+    "need",
+    "taming",
+    "fascinating",
+    "understand",
+    "take",
+    "recording",
+    "paper",
+    "submit",
+    "nerve",
+    "year",
+    "year",
+    "go",
+    "aid",
+    "half",
+    "paper",
+    "require",
+    "year",
+    "work",
+    "go",
+    "presentation",
+    "workshop",
+    "paper",
+    "explain",
+    "interesting",
+    "knowledge",
+    "self",
+    "organize",
+    "talk",
+    "hard",
+    "work",
+    "try",
+    "process",
+    "look",
+    "process",
+    "ai",
+    "day",
+    "think",
+    "benefit",
+    "professional",
+    "job",
+    "use",
+    "ai",
+    "enterprise",
+    "think",
+    "get",
+    "huge",
+    "material",
+    "try",
+    "identify",
+    "place",
+    "summarize",
+    "rank",
+    "want",
+    "work",
+    "place",
+    "get",
+    "slide",
+    "think",
+    "start",
+    "language",
+    "model",
+    "prepare",
+    "material",
+    "chose",
+    "certain",
+    "paper",
+    "let",
+    "explain",
+    "work",
+    "major",
+    "conference",
+    "year",
+    "ai",
+    "happen",
+    "order",
+    "order",
+    "importance",
+    "happen",
+    "week",
+    "summer",
+    "icml",
+    "big",
+    "new",
+    "rib",
+    "december",
+    "big",
+    "think",
+    "complete",
+    "old",
+    "happen",
+    "new",
+    "rib",
+    "lot",
+    "keynotes",
+    "oral",
+    "oral",
+    "presentation",
+    "know",
+    "half",
+    "paper",
+    "half",
+    "remember",
+    "number",
+    "presentation",
+    "main",
+    "track",
+    "workshop",
+    "oral",
+    "presentation",
+    "keynotes",
+    "oral",
+    "workshop",
+    "take",
+    "note",
+    "workshop",
+    "presentation",
+    "look",
+    "interesting",
+    "think",
+    "year",
+    "area",
+    "think",
+    "good",
+    "rank",
+    "use",
+    "europe",
+    "viewer",
+    "elevate",
+    "paper",
+    "oral",
+    "keynote",
+    "work",
+    "support",
+    "organize",
+    "select",
+    "one",
+    "go",
+    "important",
+    "presentation",
+    "oral",
+    "presentation",
+    "site",
+    "riff",
+    "reference",
+    "paper",
+    "publish",
+    "let",
+    "year",
+    "conference",
+    "run",
+    "present",
+    "submit",
+    "publication",
+    "year",
+    "attend",
+    "conference",
+    "idea",
+    "happen",
+    "past",
+    "month",
+    "go",
+    "happen",
+    "month",
+    "publication",
+    "start",
+    "watch",
+    "presentation",
+    "start",
+    "dig",
+    "reference",
+    "know",
+    "reference",
+    "received",
+    "publish",
+    "year",
+    "need",
+    "year",
+    "people",
+    "start",
+    "talk",
+    "go",
+    "snapshot",
+    "know",
+    "screenshot",
+    "paper",
+    "way",
+    "organize",
+    "material",
+    "refine",
+    "cut",
+    "cut",
+    "consolidate",
+    "cutting",
+    "bring",
+    "year",
+    "fit",
+    "hour",
+    "half",
+    "previous",
+    "year",
+    "year",
+    "presentation",
+    "close",
+    "think",
+    "hour",
+    "half",
+    "hour",
+    "present",
+    "slide",
+    "say",
+    "public",
+    "available",
+    "initial",
+    "screenshot",
+    "get",
+    "think",
+    "slide",
+    "hour",
+    "presentation",
+    "talk",
+    "understanding",
+    "important",
+    "podcast",
+    "invincible",
+    "notebook",
+    "lm",
+    "podcast",
+    "stand",
+    "know",
+    "manage",
+    "break",
+    "topic",
+    "name",
+    "series",
+    "day",
+    "new",
+    "rib",
+    "coincide",
+    "christmas",
+    "purpose",
+    "happen",
+    "presentation",
+    "break",
+    "slide",
+    "nutshell",
+    "slide",
+    "topic",
+    "slice",
+    "topic",
+    "section",
+    "topic",
+    "deep",
+    "want",
+    "think",
+    "stand",
+    "technology",
+    "pop",
+    "buzz",
+    "hype",
+    "cycle",
+    "make",
+    "year",
+    "language",
+    "model",
+    "remember",
+    "rib",
+    "king",
+    "deep",
+    "sick",
+    "boom",
+    "buzz",
+    "true",
+    "open",
+    "source",
+    "language",
+    "model",
+    "win",
+    "word",
+    "lot",
+    "lot",
+    "paper",
+    "language",
+    "model",
+    "open",
+    "checkpoint",
+    "reproduce",
+    "pre",
+    "train",
+    "checkpoint",
+    "want",
+    "datum",
+    "set",
+    "open",
+    "source",
+    "lot",
+    "datum",
+    "set",
+    "modify",
+    "want",
+    "include",
+    "deployment",
+    "presentation",
+    "think",
+    "presentation",
+    "inventor",
+    "lstms",
+    "audience",
+    "know",
+    "analyst",
+    "precursor",
+    "transformer",
+    "language",
+    "model",
+    "slide",
+    "say",
+    "way",
+    "translate",
+    "love",
+    "hate",
+    "language",
+    "model",
+    "bunch",
+    "complaint",
+    "people",
+    "go",
+    "agi",
+    "hear",
+    "people",
+    "complain",
+    "mean",
+    "lot",
+    "complaint",
+    "construct",
+    "complaint",
+    "go",
+    "lead",
+    "weekly",
+    "think",
+    "fascinating",
+    "10th",
+    "year",
+    "sequence",
+    "sequence",
+    "mortal",
+    "sequence",
+    "sequence",
+    "model",
+    "language",
+    "model",
+    "sequence",
+    "generate",
+    "sequence",
+    "prompt",
+    "win",
+    "test",
+    "time",
+    "award",
+    "author",
+    "illya",
+    "verse",
+    "famous",
+    "open",
+    "ai",
+    "guy",
+    "drama",
+    "leave",
+    "give",
+    "nice",
+    "presentation",
+    "team",
+    "anniversary",
+    "monumental",
+    "bakery",
+    "instrumental",
+    "paper",
+    "gas",
+    "time",
+    "generate",
+    "image",
+    "year",
+    "year",
+    "remember",
+    "paper",
+    "come",
+    "critical",
+    "say"
+  ],
+  "token_count": 661
+}

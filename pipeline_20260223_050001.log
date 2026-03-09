@@ -1,0 +1,257 @@
+Starting pipeline at Mon Feb 23 05:00:01 AM EST 2026
+🎙️  MLOps Podcast Pipeline
+   Episodes to process: 60
+   GCS Bucket: gs://mlops-podcast-audio
+   Output: transcripts/, tags/, analysis/
+
+  Using existing bucket: gs://mlops-podcast-audio
+
+[1/60] Rethinking Notebooks Powered by AI...
+  ✓ Transcript exists (27971 bytes)
+  ✓ Tags exist
+
+[2/60] Software Engineering in the Age of Coding Agents: Testing, E...
+  ✓ Transcript exists (50340 bytes)
+  ✓ Tags exist
+
+[3/60] Physical AI: Teaching Machines to Understand the Real World...
+  ✓ Transcript exists (53511 bytes)
+  ✓ Tags exist
+
+[4/60] Speed and Scale: How Today's AI Datacenters Are Operating Th...
+  ✓ Transcript exists (57442 bytes)
+  ✓ Tags exist
+
+[5/60] Cracking the Black Box: Real-Time Neuron Monitoring & Causal...
+  ✓ Transcript exists (43860 bytes)
+  ✓ Tags exist
+
+[6/60] A Playground for AI/ML Engineers...
+  ✓ Transcript exists (44373 bytes)
+  ✓ Tags exist
+
+[7/60] How Universal Resource Management Transforms AI Infrastructu...
+  ✓ Transcript exists (36793 bytes)
+  ✓ Tags exist
+
+[8/60] Conversation with the MLflow Maintainers...
+  ✓ Transcript exists (56484 bytes)
+  ✓ Tags exist
+
+[9/60] Leadership on AI...
+  ✓ Transcript exists (44283 bytes)
+  ✓ Tags exist
+
+[10/60] Computers that Think and Take Actions for You...
+  ✓ Transcript exists (31134 bytes)
+  ✓ Tags exist
+
+[11/60] Real time features, AI search, Agentic similarities...
+  ✓ Transcript exists (30592 bytes)
+  ✓ Tags exist
+
+[12/60] Tool definitions are the new Prompt Engineering...
+  ✓ Transcript exists (50191 bytes)
+  ✓ Tags exist
+
+[13/60] The Future of AI Agents is Sandboxed...
+  ✓ Transcript exists (52453 bytes)
+  ✓ Tags exist
+
+[14/60] Context engineering 2.0, Agents + Structured Data, and the R...
+  ✓ Transcript exists (43605 bytes)
+  ✓ Tags exist
+
+[15/60] Does AgenticRAG Really Work?...
+  ✓ Transcript exists (53403 bytes)
+  ✓ Tags exist
+
+[16/60] How Sierra AI Does Context Engineering...
+  ✓ Transcript exists (62224 bytes)
+  ✓ Tags exist
+
+[17/60] Overcoming Challenges in AI Agent Deployment: The Sweet Spot...
+  ✓ Transcript exists (52122 bytes)
+  ✓ Tags exist
+
+[18/60] Hardening Agents for E-commerce Scale: From RL Alignment to ...
+  ✓ Transcript exists (25036 bytes)
+  ✓ Tags exist
+
+[19/60] Building Cursor: A Fireside Chat with VP Solutions Ricky Doa...
+  ✓ Transcript exists (26189 bytes)
+  ✓ Tags exist
+
+[20/60] Relational Foundation Models: Unlocking the Next Frontier of...
+  ✓ Transcript exists (43667 bytes)
+  ✓ Tags exist
+
+[21/60] Context Engineering, Context Rot, & Agentic Search with the ...
+  ✓ Transcript exists (45876 bytes)
+  ✓ Tags exist
+
+[22/60] Reliable Voice Agents...
+  ✓ Transcript exists (35250 bytes)
+  ✓ Tags exist
+
+[23/60] The Future of AI Operations: Insights from PwC AI Managed Se...
+  ✓ Transcript exists (37292 bytes)
+  ✓ Tags exist
+
+[24/60] GPU Uptime with VAST Data CTO...
+  ✓ Transcript exists (94625 bytes)
+  ✓ Tags exist
+
+[25/60] The Evolution of AI in Cyber Security // Jeff Schwartzentrub...
+  ✓ Transcript exists (34918 bytes)
+  ✓ Tags exist
+
+[26/60] Thousands of Fine-Tuned Models...
+  ✓ Transcript exists (35739 bytes)
+  ✓ Tags exist
+
+[27/60] The Semantic Layer and AI Agents // David Jayatillake // #34...
+  ✓ Transcript exists (42685 bytes)
+  ✓ Tags exist
+
+[28/60] Building Claude Code: Origin, Story, Product Iterations, & W...
+  ✓ Transcript exists (45721 bytes)
+  ✓ Tags exist
+
+[29/60] Building an Agentic AI Memory Framework...
+  ✓ Transcript exists (43789 bytes)
+  ✓ Tags exist
+
+[30/60] LLMs at Scale: Infrastructure That Keeps AI Safe, Smart & Af...
+  ✓ Transcript exists (49329 bytes)
+  ✓ Tags exist
+
+[31/60] Best AI Hackathon Project Ever? [Bite Size Episode]...
+  ✓ Transcript exists (8871 bytes)
+  ✓ Tags exist
+
+[32/60] On-Device AI Agents in Production: Privacy, Performance, and...
+  ✓ Transcript exists (37527 bytes)
+  ✓ Tags exist
+
+[33/60] Are Evals Dead?...
+  ✓ Transcript exists (21840 bytes)
+  ✓ Tags exist
+
+[34/60] The DuckLake Lakehouse Format // Hannes Mühleisen // #339...
+  ✓ Transcript exists (52367 bytes)
+  ✓ Tags exist
+
+[35/60] How LiveKit Became An AI Company By Accident...
+  ✓ Transcript exists (30493 bytes)
+  ✓ Tags exist
+
+[36/60] Economics of Building Data Centers, GPU Clouds, Sovereign AI...
+  ✓ Transcript exists (46302 bytes)
+  ✓ Tags exist
+
+[37/60] Trust at Scale: Security and Governance for Open Source Mode...
+  ✓ Transcript exists (51958 bytes)
+  ✓ Tags exist
+
+[38/60] LLM Search, UI/UX challenges, Context Engineering and the 80...
+  ✓ Transcript exists (53960 bytes)
+  ✓ Tags exist
+
+[39/60] The Era of AI Agents in Marketing // Joel Horwitz // #337...
+  ✓ Transcript exists (44458 bytes)
+  ✓ Tags exist
+
+[40/60] Distilling 200+ Hours of NeurIPS: What’s Next for AI // Niko...
+  ✓ Transcript exists (11806 bytes)
+  ✓ Tags exist
+
+[41/60] Building Coding Agents: Design Decisions, Prompting Tricks, ...
+  ✓ Transcript exists (44150 bytes)
+  ✓ Tags exist
+
+[42/60] A Candid Conversation with the CEO of Stack Overflow...
+  ✓ Transcript exists (34850 bytes)
+  ✓ Tags exist
+
+[43/60] Knowledge is Eventually Consistent // Devin Stein // #335...
+  ✓ Transcript exists (49594 bytes)
+  ✓ Tags exist
+
+[44/60] LinkedIn Recommender System Predictive ML vs LLMs...
+  ✓ Transcript exists (47677 bytes)
+  ✓ Tags exist
+
+[45/60] GPU Considerations, Labeling Privacy, Rapid Fine Tuning, and...
+  ✓ Transcript exists (51876 bytes)
+  ✓ Tags exist
+
+[46/60] The Hidden Bottlenecks Slowing Down AI Agents...
+  ✓ Transcript exists (43107 bytes)
+  ✓ Tags exist
+
+[47/60] 9 Commandments for Building AI Agents...
+  ✓ Transcript exists (68461 bytes)
+  ✓ Tags exist
+
+[48/60] Enterprise AI Adoption Challenges...
+  ✓ Transcript exists (66068 bytes)
+  ✓ Tags exist
+
+[49/60] Real-time Feature Generation at Lyft // Rakesh Kumar // #334...
+  ✓ Transcript exists (47272 bytes)
+  ✓ Tags exist
+
+[50/60] AI Agent Development Tradeoffs You NEED to Know...
+  ✓ Transcript exists (55353 bytes)
+  ✓ Tags exist
+
+[51/60] From the Legal Trenches to Tech // Nick Coleman // #332...
+  ✓ Transcript exists (30304 bytes)
+  ✓ Tags exist
+
+[52/60] The Rise of Sovereign AI and Global AI Innovation in a World...
+  ✓ Transcript exists (48020 bytes)
+  ✓ Tags exist
+
+[53/60] A New Way of Building with AI...
+  ✓ Transcript exists (63716 bytes)
+  ✓ Tags exist
+
+[54/60] Inside Uber’s AI Revolution - Everything about how they use ...
+  ✓ Transcript exists (40003 bytes)
+  ✓ Tags exist
+
+[55/60] The Missing Data Stack for Physical AI...
+  ✓ Transcript exists (49273 bytes)
+  ✓ Tags exist
+
+[56/60] AI Reliability, Spark, Observability, SLAs and Starting an A...
+  ✓ Transcript exists (92980 bytes)
+  ✓ Tags exist
+
+[57/60] Greg Kamradt: Benchmarking Intelligence | ARC Prize...
+  ✓ Transcript exists (55013 bytes)
+  ✓ Tags exist
+
+[58/60] Bridging the Gap Between AI and Business Data // Deepti Sriv...
+  ✓ Transcript exists (51162 bytes)
+  ✓ Tags exist
+
+[59/60] The Creator of FastAPI’s Next Chapter // Sebastián Ramírez /...
+  ✓ Transcript exists (64184 bytes)
+  ✓ Tags exist
+
+[60/60] Everything Hard About Building AI Agents Today...
+  ✓ Transcript exists (47499 bytes)
+  ✓ Tags exist
+
+📊 Building analysis index...
+  ✓ Analyzed 60 episodes
+  Top tech themes: ['ai', 'llms', 'ai agents', 'large language models (llms)', 'llm']
+  Top business themes: ['open source', 'ai adoption', 'scalability', 'e-commerce', 'personalization']
+
+✅ Pipeline complete!
+   Transcripts: 60
+   Tagged: 60
+Pipeline completed successfully at Mon Feb 23 05:01:04 AM EST 2026

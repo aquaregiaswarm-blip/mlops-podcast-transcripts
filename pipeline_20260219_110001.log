@@ -1,0 +1,6 @@
+Starting pipeline at Thu Feb 19 11:00:01 AM EST 2026
+Traceback (most recent call last):
+  File "/home/jdgough/.openclaw/workspace/mlops-podcast-transcripts/pipeline.py", line 17, in <module>
+    from google.cloud import speech_v1p1beta1 as speech
+ModuleNotFoundError: No module named 'google.cloud'
+Pipeline completed successfully at Thu Feb 19 11:00:01 AM EST 2026

@@ -1,0 +1,125 @@
+Starting pipeline at Wed Feb 18 12:57:40 PM EST 2026
+🎙️  MLOps Podcast Pipeline
+   Episodes to process: 60
+   GCS Bucket: gs://mlops-podcast-audio
+   Output: transcripts/, tags/, analysis/
+
+  Using existing bucket: gs://mlops-podcast-audio
+
+[1/60] Rethinking Notebooks Powered by AI...
+  ✓ Transcript exists (27971 bytes)
+  ✓ Tags exist
+
+[2/60] Software Engineering in the Age of Coding Agents: Testing, E...
+  ✓ Transcript exists (50340 bytes)
+  ✓ Tags exist
+
+[3/60] Physical AI: Teaching Machines to Understand the Real World...
+  ✓ Transcript exists (53511 bytes)
+  ✓ Tags exist
+
+[4/60] Speed and Scale: How Today's AI Datacenters Are Operating Th...
+  ✓ Transcript exists (57442 bytes)
+  ✓ Tags exist
+
+[5/60] Cracking the Black Box: Real-Time Neuron Monitoring & Causal...
+  ✓ Transcript exists (43860 bytes)
+  ✓ Tags exist
+
+[6/60] A Playground for AI/ML Engineers...
+  ✓ Transcript exists (44373 bytes)
+  ✓ Tags exist
+
+[7/60] How Universal Resource Management Transforms AI Infrastructu...
+  ✓ Transcript exists (36793 bytes)
+  ✓ Tags exist
+
+[8/60] Conversation with the MLflow Maintainers...
+  ✓ Transcript exists (56484 bytes)
+  ✓ Tags exist
+
+[9/60] Leadership on AI...
+  ✓ Transcript exists (44283 bytes)
+  ✓ Tags exist
+
+[10/60] Computers that Think and Take Actions for You...
+  ✓ Transcript exists (31134 bytes)
+  ✓ Tags exist
+
+[11/60] Real time features, AI search, Agentic similarities...
+  ✓ Transcript exists (30592 bytes)
+  ✓ Tags exist
+
+[12/60] Tool definitions are the new Prompt Engineering...
+  ✓ Transcript exists (50191 bytes)
+  ✓ Tags exist
+
+[13/60] The Future of AI Agents is Sandboxed...
+  ✓ Transcript exists (52453 bytes)
+  ✓ Tags exist
+
+[14/60] Context engineering 2.0, Agents + Structured Data, and the R...
+  ✓ Transcript exists (43605 bytes)
+  ✓ Tags exist
+
+[15/60] Does AgenticRAG Really Work?...
+  ✓ Transcript exists (53403 bytes)
+  ✓ Tags exist
+
+[16/60] How Sierra AI Does Context Engineering...
+  ✓ Transcript exists (62224 bytes)
+  ✓ Tags exist
+
+[17/60] Overcoming Challenges in AI Agent Deployment: The Sweet Spot...
+  ✓ Transcript exists (52122 bytes)
+  ✓ Tags exist
+
+[18/60] Hardening Agents for E-commerce Scale: From RL Alignment to ...
+  ✓ Transcript exists (25036 bytes)
+  ✓ Tags exist
+
+[19/60] Building Cursor: A Fireside Chat with VP Solutions Ricky Doa...
+  ✓ Transcript exists (26189 bytes)
+  ✓ Tags exist
+
+[20/60] Relational Foundation Models: Unlocking the Next Frontier of...
+  ✓ Transcript exists (43667 bytes)
+  ✓ Tags exist
+
+[21/60] Context Engineering, Context Rot, & Agentic Search with the ...
+  ✓ Transcript exists (45876 bytes)
+  ✓ Tags exist
+
+[22/60] Reliable Voice Agents...
+  ✓ Transcript exists (35250 bytes)
+  ✓ Tags exist
+
+[23/60] The Future of AI Operations: Insights from PwC AI Managed Se...
+  ✓ Transcript exists (37292 bytes)
+  ✓ Tags exist
+
+[24/60] GPU Uptime with VAST Data CTO...
+  📝 Transcribing...
+    Already in GCS: gs://mlops-podcast-audio/audio/epep023-gpu-uptime-with-vast-data-cto.flac
+    Starting transcription (this takes a while)...
+    Transcribing... (0s elapsed)    Transcribing... (10s elapsed)    Transcribing... (20s elapsed)    Transcribing... (30s elapsed)    Transcribing... (40s elapsed)    Transcribing... (50s elapsed)    Transcribing... (60s elapsed)    Transcribing... (70s elapsed)    Transcribing... (81s elapsed)    Transcribing... (91s elapsed)    Transcribing... (101s elapsed)    Transcribing... (111s elapsed)    Transcribing... (121s elapsed)    Transcribing... (131s elapsed)    Transcribing... (141s elapsed)    Transcribing... (151s elapsed)    Transcribing... (162s elapsed)    Transcribing... (172s elapsed)    Transcribing... (182s elapsed)    Transcribing... (192s elapsed)    Transcribing... (202s elapsed)    Transcribing... (212s elapsed)    Transcribing... (222s elapsed)    Transcribing... (232s elapsed)    Transcribing... (242s elapsed)    Transcribing... (252s elapsed)    Transcribing... (263s elapsed)    Transcribing... (273s elapsed)    Transcribing... (283s elapsed)    Transcribing... (293s elapsed)    Transcribing... (303s elapsed)    Transcribing... (313s elapsed)    Transcribing... (323s elapsed)    Transcribing... (333s elapsed)    Transcribing... (344s elapsed)    Transcribing... (354s elapsed)    Transcribing... (364s elapsed)    Transcribing... (374s elapsed)    Transcribing... (384s elapsed)    Transcribing... (394s elapsed)    Transcribing... (404s elapsed)    Transcribing... (414s elapsed)    Transcribing... (424s elapsed)    Transcribing... (434s elapsed)    Transcribing... (444s elapsed)    Transcribing... (455s elapsed)    Transcribing... (465s elapsed)    Transcribing... (475s elapsed)    Transcribing... (485s elapsed)    Transcribing... (495s elapsed)    Transcribing... (505s elapsed)    Transcribing... (515s elapsed)    Transcribing... (526s elapsed)    Transcribing... (536s elapsed)    Transcribing... (546s elapsed)    Transcribing... (556s elapsed)    Transcribing... (566s elapsed)    Transcribing... (576s elapsed)    Transcribing... (586s elapsed)    Transcribing... (596s elapsed)    Transcribing... (606s elapsed)    Transcribing... (617s elapsed)    Transcribing... (627s elapsed)    Transcribing... (637s elapsed)    Transcribing... (647s elapsed)    Transcribing... (657s elapsed)    Transcribing... (667s elapsed)    Transcribing... (677s elapsed)    Transcribing... (687s elapsed)    Transcribing... (698s elapsed)    Transcribing... (708s elapsed)    Transcribing... (718s elapsed)    Transcribing... (728s elapsed)    Transcribing... (738s elapsed)    Transcribing... (748s elapsed)    Transcribing... (758s elapsed)    Transcribing... (768s elapsed)    Transcribing... (779s elapsed)    Transcribing... (789s elapsed)    Transcribing... (799s elapsed)    Transcribing... (809s elapsed)    Transcribing... (819s elapsed)    Transcribing... (829s elapsed)    Transcribing... (839s elapsed)    Transcribing... (849s elapsed)    Transcribing... (859s elapsed)    Transcribing... (869s elapsed)    Transcribing... (880s elapsed)    Transcribing... (890s elapsed)    Transcribing... (900s elapsed)    Transcribing... (910s elapsed)    Transcribing... (920s elapsed)    Transcribing... (930s elapsed)    Transcribing... (940s elapsed)    Transcribing... (950s elapsed)    Transcribing... (960s elapsed)    Transcribing... (970s elapsed)    Transcribing... (981s elapsed)    Transcribing... (991s elapsed)    Transcribing... (1001s elapsed)    Transcribing... (1011s elapsed)    Transcribing... (1021s elapsed)    Transcribing... (1031s elapsed)    Transcribing... (1041s elapsed)    Transcribing... (1051s elapsed)    Transcribing... (1062s elapsed)    Transcribing... (1072s elapsed)    Transcribing... (1082s elapsed)    Transcribing... (1092s elapsed)    Transcribing... (1102s elapsed)    Transcribing... (1112s elapsed)    Transcribing... (1122s elapsed)    Transcribing... (1132s elapsed)    Transcribing... (1142s elapsed)    Transcribing... (1152s elapsed)    Transcribing... (1162s elapsed)    Transcribing... (1173s elapsed)    Transcribing... (1183s elapsed)    Transcribing... (1193s elapsed)    Transcribing... (1203s elapsed)    Transcribing... (1213s elapsed)    Transcribing... (1223s elapsed)    Transcribing... (1233s elapsed)    Transcribing... (1243s elapsed)    Transcribing... (1253s elapsed)    Transcribing... (1264s elapsed)    Transcribing... (1274s elapsed)    Transcribing... (1284s elapsed)    Transcribing... (1294s elapsed)    Transcribing... (1304s elapsed)    Transcribing... (1314s elapsed)    Transcribing... (1324s elapsed)    Transcribing... (1334s elapsed)    Transcribing... (1345s elapsed)    Transcribing... (1355s elapsed)
+  ✓ Saved transcript (94625 chars)
+  🏷️  Extracting tags...
+/home/linuxbrew/.linuxbrew/lib/python3.14/site-packages/vertexai/generative_models/_generative_models.py:433: UserWarning: This feature is deprecated as of June 24, 2025 and will be removed on June 24, 2026. For details, see https://cloud.google.com/vertex-ai/generative-ai/docs/deprecations/genai-vertexai-sdk.
+  warning_logs.show_deprecation_warning()
+  ✓ Saved tags
+
+[25/60] The Evolution of AI in Cyber Security // Jeff Schwartzentrub...
+  ✓ Transcript exists (34918 bytes)
+  ✓ Tags exist
+
+[26/60] Thousands of Fine-Tuned Models...
+  ✓ Transcript exists (35739 bytes)
+  ✓ Tags exist
+
+[27/60] The Semantic Layer and AI Agents // David Jayatillake // #34...
+  📝 Transcribing...
+    Converting to FLAC (mono 16kHz)...
+    Uploading to GCS...
+    Starting transcription (this takes a while)...
+    Transcribing... (0s elapsed)    Transcribing... (10s elapsed)    Transcribing... (20s elapsed)    Transcribing... (30s elapsed)    Transcribing... (40s elapsed)    Transcribing... (50s elapsed)    Transcribing... (60s elapsed)    Transcribing... (71s elapsed)    Transcribing... (81s elapsed)    Transcribing... (91s elapsed)    Transcribing... (101s elapsed)    Transcribing... (111s elapsed)    Transcribing... (121s elapsed)    Transcribing... (131s elapsed)    Transcribing... (141s elapsed)    Transcribing... (151s elapsed)    Transcribing... (162s elapsed)    Transcribing... (172s elapsed)    Transcribing... (182s elapsed)    Transcribing... (192s elapsed)    Transcribing... (202s elapsed)    Transcribing... (212s elapsed)    Transcribing... (222s elapsed)    Transcribing... (232s elapsed)    Transcribing... (242s elapsed)    Transcribing... (252s elapsed)    Transcribing... (262s elapsed)    Transcribing... (273s elapsed)    Transcribing... (283s elapsed)    Transcribing... (293s elapsed)    Transcribing... (303s elapsed)    Transcribing... (313s elapsed)    Transcribing... (323s elapsed)    Transcribing... (333s elapsed)

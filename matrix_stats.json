@@ -1,0 +1,28 @@
+{
+  "num_documents": 60,
+  "vocabulary_size": 5000,
+  "tfidf_nonzero": 50791,
+  "tfidf_density": 16.9303,
+  "sample_features": [
+    "100s",
+    "10x",
+    "3d",
+    "ability",
+    "able build",
+    "able handle",
+    "able look",
+    "able predict",
+    "able provide",
+    "able run",
+    "able solve",
+    "able talk",
+    "able think",
+    "able understand",
+    "able use",
+    "able work",
+    "absolute",
+    "abstract",
+    "abstraction",
+    "academia"
+  ]
+}

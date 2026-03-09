@@ -1,0 +1,11432 @@
+{
+  "filename": "epep000-rethinking-notebooks-powered-by-ai.txt",
+  "tokens": [
+    {
+      "text": "add",
+      "lemma": "add",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "context",
+      "lemma": "context",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "describe",
+      "lemma": "describe",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "data",
+      "lemma": "data",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "frame",
+      "lemma": "frame",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "LM",
+      "lemma": "lm",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "supposed",
+      "lemma": "suppose",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "look",
+      "lemma": "look",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "code",
+      "lemma": "code",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "infer",
+      "lemma": "infer",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "column",
+      "lemma": "column",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "names",
+      "lemma": "name",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "types",
+      "lemma": "type",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "way",
+      "lemma": "way",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "thought",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "notebooks",
+      "lemma": "notebook",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "years",
+      "lemma": "year",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "meets",
+      "lemma": "meet",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "change",
+      "lemma": "change",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "use",
+      "lemma": "use",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "colab",
+      "lemma": "colab",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "fine",
+      "lemma": "fine",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "rethink",
+      "lemma": "rethink",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "shit",
+      "lemma": "shit",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "care",
+      "lemma": "care",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "lot",
+      "lemma": "lot",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "intellectual",
+      "lemma": "intellectual",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "Freedom",
+      "lemma": "freedom",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "python",
+      "lemma": "python",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "person",
+      "lemma": "person",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "widgets",
+      "lemma": "widget",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "fun",
+      "lemma": "fun",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "way",
+      "lemma": "way",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "learn",
+      "lemma": "learn",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "JavaScript",
+      "lemma": "javascript",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "point",
+      "lemma": "point",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "told",
+      "lemma": "tell",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "interesting",
+      "lemma": "interesting",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "guys",
+      "lemma": "guy",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "got",
+      "lemma": "get",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "quiet",
+      "lemma": "quiet",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "weeks",
+      "lemma": "week",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "True",
+      "lemma": "true",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "span",
+      "lemma": "span",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "seeing",
+      "lemma": "see",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "month",
+      "lemma": "month",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "changed",
+      "lemma": "change",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "thought",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "paid",
+      "lemma": "pay",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "data",
+      "lemma": "datum",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "week",
+      "lemma": "week",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "San",
+      "lemma": "san",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "Francisco",
+      "lemma": "francisco",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "ways",
+      "lemma": "way",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "Fun",
+      "lemma": "fun",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "takes",
+      "lemma": "take",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "video",
+      "lemma": "video",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "hill",
+      "lemma": "hill",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "week",
+      "lemma": "week",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "got",
+      "lemma": "get",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "word",
+      "lemma": "word",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "acquired",
+      "lemma": "acquire",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "CEO",
+      "lemma": "ceo",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "CTO",
+      "lemma": "cto",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "good",
+      "lemma": "good",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "keeping",
+      "lemma": "keep",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "quiet",
+      "lemma": "quiet",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "company",
+      "lemma": "company",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "fun",
+      "lemma": "fun",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "pleasant",
+      "lemma": "pleasant",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "surprise",
+      "lemma": "surprise",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "short",
+      "lemma": "short",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "story",
+      "lemma": "story",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "group",
+      "lemma": "group",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "roadmap",
+      "lemma": "roadmap",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "changed",
+      "lemma": "change",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "ways",
+      "lemma": "way",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "buy",
+      "lemma": "buy",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "look",
+      "lemma": "look",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "orc",
+      "lemma": "orc",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "chart",
+      "lemma": "chart",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "got",
+      "lemma": "get",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "Corey",
+      "lemma": "corey",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "company",
+      "lemma": "company",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "acquired",
+      "lemma": "acquire",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "weights",
+      "lemma": "weight",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "biases",
+      "lemma": "bias",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "weights",
+      "lemma": "weight",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "biases",
+      "lemma": "bias",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "Pearl",
+      "lemma": "pearl",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "guess",
+      "lemma": "guess",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "look",
+      "lemma": "look",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "org",
+      "lemma": "org",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "chart",
+      "lemma": "chart",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "team",
+      "lemma": "team",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "roadmap",
+      "lemma": "roadmap",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "bigger",
+      "lemma": "big",
+      "pos": "ADJ",
+      "tag": "JJR"
+    },
+    {
+      "text": "group",
+      "lemma": "group",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "longest",
+      "lemma": "long",
+      "pos": "ADJ",
+      "tag": "JJS"
+    },
+    {
+      "text": "short",
+      "lemma": "short",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "story",
+      "lemma": "story",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "makes",
+      "lemma": "make",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "ton",
+      "lemma": "ton",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "sense",
+      "lemma": "sense",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "weights",
+      "lemma": "weight",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "biases",
+      "lemma": "bias",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "breaking",
+      "lemma": "break",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "notebook",
+      "lemma": "notebook",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "knowing",
+      "lemma": "know",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "Helping",
+      "lemma": "help",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "data",
+      "lemma": "datum",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "scientists",
+      "lemma": "scientist",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "thinking",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "changed",
+      "lemma": "change",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "regard",
+      "lemma": "regard",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "build",
+      "lemma": "build",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "going",
+      "lemma": "go",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "day",
+      "lemma": "day",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "day",
+      "lemma": "day",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "basis",
+      "lemma": "basis",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "main",
+      "lemma": "main",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "changes",
+      "lemma": "change",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "larger",
+      "lemma": "large",
+      "pos": "ADJ",
+      "tag": "JJR"
+    },
+    {
+      "text": "slack",
+      "lemma": "slack",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "group",
+      "lemma": "group",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "learn",
+      "lemma": "learn",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "ignore",
+      "lemma": "ignore",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "channels",
+      "lemma": "channel",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "little",
+      "lemma": "little",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "bit",
+      "lemma": "bit",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "people",
+      "lemma": "people",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "channels",
+      "lemma": "channel",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "relevant",
+      "lemma": "relevant",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "couple",
+      "lemma": "couple",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "people",
+      "lemma": "people",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "working",
+      "lemma": "work",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "case",
+      "lemma": "case",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "lot",
+      "lemma": "lot",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "ways",
+      "lemma": "way",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "main",
+      "lemma": "main",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "little",
+      "lemma": "little",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "bit",
+      "lemma": "bit",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "funny",
+      "lemma": "funny",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "knew",
+      "lemma": "know",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "bunch",
+      "lemma": "bunch",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "people",
+      "lemma": "people",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "worked",
+      "lemma": "work",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "weights",
+      "lemma": "weight",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "biases",
+      "lemma": "bias",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "CEO",
+      "lemma": "ceo",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "CTO",
+      "lemma": "cto",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "talked",
+      "lemma": "talk",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "people",
+      "lemma": "people",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "rates",
+      "lemma": "rate",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "bias",
+      "lemma": "bias",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "umbrella",
+      "lemma": "umbrella",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "know",
+      "lemma": "know",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "people",
+      "lemma": "people",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "umbrella",
+      "lemma": "umbrella",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Twitter",
+      "lemma": "twitter",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "buddies",
+      "lemma": "buddy",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "Mike",
+      "lemma": "mike",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "gateway",
+      "lemma": "gateway",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "guy",
+      "lemma": "guy",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "remote",
+      "lemma": "remote",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "way",
+      "lemma": "way",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "ways",
+      "lemma": "way",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "buy",
+      "lemma": "buy",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "lot",
+      "lemma": "lot",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "natural",
+      "lemma": "natural",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "main",
+      "lemma": "main",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "new",
+      "lemma": "new",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "YouTube",
+      "lemma": "youtube",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "education",
+      "lemma": "education",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Integrations",
+      "lemma": "integrations",
+      "pos": "PROPN",
+      "tag": "NNPS"
+    },
+    {
+      "text": "open",
+      "lemma": "open",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "source",
+      "lemma": "source",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "packages",
+      "lemma": "package",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "funny",
+      "lemma": "funny",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "story",
+      "lemma": "story",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "collab",
+      "lemma": "collab",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Google",
+      "lemma": "google",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "number",
+      "lemma": "number",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "ticket",
+      "lemma": "ticket",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "collab",
+      "lemma": "collab",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "issue",
+      "lemma": "issue",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "list",
+      "lemma": "list",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "people",
+      "lemma": "people",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "wanted",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "marimo",
+      "lemma": "marimo",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "support",
+      "lemma": "support",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "know",
+      "lemma": "know",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "Google",
+      "lemma": "google",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "collab",
+      "lemma": "collab",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "build",
+      "lemma": "build",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "called",
+      "lemma": "call",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "Moab",
+      "lemma": "moab",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "intern",
+      "lemma": "intern",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "wrote",
+      "lemma": "write",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "issue",
+      "lemma": "issue",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "track",
+      "lemma": "track",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "built",
+      "lemma": "build",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "funny",
+      "lemma": "funny",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "little",
+      "lemma": "little",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "internal",
+      "lemma": "internal",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "joke",
+      "lemma": "joke",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "called",
+      "lemma": "call",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "Moab",
+      "lemma": "moab",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "hosted",
+      "lemma": "host",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "rainbow",
+      "lemma": "rainbow",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "cloud",
+      "lemma": "cloud",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "imagine",
+      "lemma": "imagine",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "core",
+      "lemma": "core",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "backing",
+      "lemma": "back",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "elaborate",
+      "lemma": "elaborate",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "Cloud",
+      "lemma": "cloud",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "compute",
+      "lemma": "compute",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Moab",
+      "lemma": "moab",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "start",
+      "lemma": "start",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "dreaming",
+      "lemma": "dream",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "little",
+      "lemma": "little",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "bit",
+      "lemma": "bit",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "follow",
+      "lemma": "follow",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "hosted",
+      "lemma": "host",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "Notebooks",
+      "lemma": "notebook",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "got",
+      "lemma": "get",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "credits",
+      "lemma": "credit",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "notebooks",
+      "lemma": "notebook",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "cpu",
+      "lemma": "cpu",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "based",
+      "lemma": "base",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "imagine",
+      "lemma": "imagine",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "bigger",
+      "lemma": "big",
+      "pos": "ADJ",
+      "tag": "JJR"
+    },
+    {
+      "text": "machines",
+      "lemma": "machine",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "GPU",
+      "lemma": "gpu",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "bunch",
+      "lemma": "bunch",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "pipeline",
+      "lemma": "pipeline",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "setup",
+      "lemma": "setup",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "guess",
+      "lemma": "guess",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "emphasize",
+      "lemma": "emphasize",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "neat",
+      "lemma": "neat",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "way",
+      "lemma": "way",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "molap",
+      "lemma": "molap",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "marimo",
+      "lemma": "marimo",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "imagine",
+      "lemma": "imagine",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "incentive",
+      "lemma": "incentive",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "structure",
+      "lemma": "structure",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "Moab",
+      "lemma": "moab",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "better",
+      "lemma": "well",
+      "pos": "ADJ",
+      "tag": "JJR"
+    },
+    {
+      "text": "investing",
+      "lemma": "invest",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "open",
+      "lemma": "open",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "source",
+      "lemma": "source",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "main",
+      "lemma": "main",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "minds",
+      "lemma": "mind",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "acquisition",
+      "lemma": "acquisition",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "lot",
+      "lemma": "lot",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "cool",
+      "lemma": "cool",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "find",
+      "lemma": "find",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "nice",
+      "lemma": "nice",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "way",
+      "lemma": "way",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "open",
+      "lemma": "open",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "source",
+      "lemma": "source",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "alive",
+      "lemma": "alive",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "change",
+      "lemma": "change",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "license",
+      "lemma": "license",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "existing",
+      "lemma": "exist",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "having",
+      "lemma": "have",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "Moab",
+      "lemma": "moab",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "work",
+      "lemma": "work",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "way",
+      "lemma": "way",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "investing",
+      "lemma": "invest",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "open",
+      "lemma": "open",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "source",
+      "lemma": "source",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "healthy",
+      "lemma": "healthy",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "incentive",
+      "lemma": "incentive",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "main",
+      "lemma": "main",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "emphasize",
+      "lemma": "emphasize",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "happen",
+      "lemma": "happen",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "find",
+      "lemma": "find",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "South",
+      "lemma": "south",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "Bay",
+      "lemma": "bay",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "March",
+      "lemma": "march",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "3rd",
+      "lemma": "3rd",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "gon",
+      "lemma": "go",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "taking",
+      "lemma": "take",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "Computer",
+      "lemma": "computer",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "History",
+      "lemma": "history",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "Museum",
+      "lemma": "museum",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "coding",
+      "lemma": "cod",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "agents",
+      "lemma": "agent",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "conference",
+      "lemma": "conference",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "organizing",
+      "lemma": "organize",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "conference",
+      "lemma": "conference",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "telling",
+      "lemma": "tell",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "times",
+      "lemma": "time",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "AI",
+      "lemma": "ai",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "quality",
+      "lemma": "quality",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "conference",
+      "lemma": "conference",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "conference",
+      "lemma": "conference",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "stress",
+      "lemma": "stress",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "caused",
+      "lemma": "cause",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "broken",
+      "lemma": "break",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "vows",
+      "lemma": "vow",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "pool",
+      "lemma": "pool",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "strong",
+      "lemma": "strong",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "notable",
+      "lemma": "notable",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "speakers",
+      "lemma": "speaker",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "announced",
+      "lemma": "announce",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "CID",
+      "lemma": "cid",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "friend",
+      "lemma": "friend",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Pod",
+      "lemma": "pod",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "co",
+      "lemma": "co",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "creator",
+      "lemma": "creator",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Claude",
+      "lemma": "claude",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "code",
+      "lemma": "code",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Harrison",
+      "lemma": "harrison",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "chase",
+      "lemma": "chase",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "founder",
+      "lemma": "founder",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Link",
+      "lemma": "link",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "chain",
+      "lemma": "chain",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "good",
+      "lemma": "good",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "old",
+      "lemma": "old",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "decks",
+      "lemma": "deck",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "founder",
+      "lemma": "founder",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "human",
+      "lemma": "human",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "layer",
+      "lemma": "layer",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "dude",
+      "lemma": "dude",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "popularized",
+      "lemma": "popularize",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "term",
+      "lemma": "term",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Context",
+      "lemma": "context",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "Engineering",
+      "lemma": "engineering",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "harness",
+      "lemma": "harness",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "engineering",
+      "lemma": "engineering",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "consider",
+      "lemma": "consider",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "close",
+      "lemma": "close",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "friend",
+      "lemma": "friend",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Michael",
+      "lemma": "michael",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "Eric",
+      "lemma": "eric",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "going",
+      "lemma": "go",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "workshop",
+      "lemma": "workshop",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Stanford",
+      "lemma": "stanford",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "lecturer",
+      "lemma": "lecturer",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "past",
+      "lemma": "past",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "co",
+      "lemma": "co",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "host",
+      "lemma": "host",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "podcast",
+      "lemma": "podcast",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "listening",
+      "lemma": "listen",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "got",
+      "lemma": "get",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "famous",
+      "lemma": "famous",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "Come",
+      "lemma": "come",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "join",
+      "lemma": "join",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "intimate",
+      "lemma": "intimate",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "Design",
+      "lemma": "design",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "people",
+      "lemma": "people",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "gon",
+      "lemma": "go",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "let",
+      "lemma": "let",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "room",
+      "lemma": "room",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "try",
+      "lemma": "try",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "signal",
+      "lemma": "signal",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "high",
+      "lemma": "high",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "Let",
+      "lemma": "let",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "talk",
+      "lemma": "talk",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "hyperbolic",
+      "lemma": "hyperbolic",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "GPU",
+      "lemma": "gpu",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "Cloud",
+      "lemma": "cloud",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "delivers",
+      "lemma": "deliver",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "Nvidia",
+      "lemma": "nvidia",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "h100s",
+      "lemma": "h100s",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "dollar",
+      "lemma": "dollar",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "cents",
+      "lemma": "cent",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "hour",
+      "lemma": "hour",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "h200",
+      "lemma": "h200",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "dollar",
+      "lemma": "dollar",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "cents",
+      "lemma": "cent",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "hour",
+      "lemma": "hour",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "sales",
+      "lemma": "sale",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "calls",
+      "lemma": "call",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "long",
+      "lemma": "long",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "term",
+      "lemma": "term",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "commitments",
+      "lemma": "commitment",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "hidden",
+      "lemma": "hidden",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "fees",
+      "lemma": "fee",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "spin",
+      "lemma": "spin",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "GPU",
+      "lemma": "gpu",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "scale",
+      "lemma": "scale",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "minutes",
+      "lemma": "minute",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "VMS",
+      "lemma": "vms",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "bare",
+      "lemma": "bare",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "metal",
+      "lemma": "metal",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "clusters",
+      "lemma": "cluster",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "high",
+      "lemma": "high",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "speed",
+      "lemma": "speed",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "networking",
+      "lemma": "networking",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "got",
+      "lemma": "get",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "attachable",
+      "lemma": "attachable",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "storage",
+      "lemma": "storage",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "pay",
+      "lemma": "pay",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "use",
+      "lemma": "use",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "save",
+      "lemma": "save",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "Legacy",
+      "lemma": "legacy",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "providers",
+      "lemma": "provider",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "way",
+      "lemma": "way",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "need",
+      "lemma": "need",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "steady",
+      "lemma": "steady",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "production",
+      "lemma": "production",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "grade",
+      "lemma": "grade",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "inference",
+      "lemma": "inference",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "choose",
+      "lemma": "choose",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "dedicated",
+      "lemma": "dedicated",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "model",
+      "lemma": "model",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "hosting",
+      "lemma": "host",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "single",
+      "lemma": "single",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "tenant",
+      "lemma": "tenant",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "gpus",
+      "lemma": "gpu",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "predictable",
+      "lemma": "predictable",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "Performance",
+      "lemma": "performance",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "running",
+      "lemma": "run",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "Hardware",
+      "lemma": "hardware",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Try",
+      "lemma": "try",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "app",
+      "lemma": "app",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Dot",
+      "lemma": "dot",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "hyperbolic",
+      "lemma": "hyperbolic",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "dot",
+      "lemma": "dot",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "AI",
+      "lemma": "ai",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "Let",
+      "lemma": "let",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "synergies",
+      "lemma": "synergy",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "weights",
+      "lemma": "weight",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "biases",
+      "lemma": "bias",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "product",
+      "lemma": "product",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "exploring",
+      "lemma": "explore",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "ways",
+      "lemma": "way",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "biases",
+      "lemma": "bias",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "friendly",
+      "lemma": "friendly",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "academic",
+      "lemma": "academic",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "Community",
+      "lemma": "community",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "guess",
+      "lemma": "guess",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "little",
+      "lemma": "little",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "bit",
+      "lemma": "bit",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Europe",
+      "lemma": "europe",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "impression",
+      "lemma": "impression",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "lot",
+      "lemma": "lot",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "companies",
+      "lemma": "company",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "California",
+      "lemma": "california",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "use",
+      "lemma": "use",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "weights",
+      "lemma": "weight",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "biases",
+      "lemma": "bias",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "normal",
+      "lemma": "normal",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "gon",
+      "lemma": "go",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "play",
+      "lemma": "play",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "Imagine",
+      "lemma": "imagine",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "Integrations",
+      "lemma": "integration",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "added",
+      "lemma": "add",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "wait",
+      "lemma": "wait",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "album",
+      "lemma": "album",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "inference",
+      "lemma": "inference",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "engine",
+      "lemma": "engine",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "day",
+      "lemma": "day",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "acquirer",
+      "lemma": "acquirer",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "equalization",
+      "lemma": "equalization",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "public",
+      "lemma": "public",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "add",
+      "lemma": "add",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "support",
+      "lemma": "support",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "inside",
+      "lemma": "inside",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Rima",
+      "lemma": "rima",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "notebooks",
+      "lemma": "notebook",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "elaborate",
+      "lemma": "elaborate",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "LM",
+      "lemma": "lm",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "support",
+      "lemma": "support",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "click",
+      "lemma": "click",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "training",
+      "lemma": "training",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "support",
+      "lemma": "support",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "weights",
+      "lemma": "weight",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "biases",
+      "lemma": "bias",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "service",
+      "lemma": "service",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "llama",
+      "lemma": "llama",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "couple",
+      "lemma": "couple",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "opens",
+      "lemma": "open",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "open",
+      "lemma": "open",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "source",
+      "lemma": "source",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "models",
+      "lemma": "model",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "easy",
+      "lemma": "easy",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "integration",
+      "lemma": "integration",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "add",
+      "lemma": "add",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "day",
+      "lemma": "day",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "talk",
+      "lemma": "talk",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "main",
+      "lemma": "main",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "specifics",
+      "lemma": "specific",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "people",
+      "lemma": "people",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "working",
+      "lemma": "work",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "imagine",
+      "lemma": "imagine",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "Integrations",
+      "lemma": "integration",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "happen",
+      "lemma": "happen",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "awesome",
+      "lemma": "awesome",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "treasure",
+      "lemma": "treasure",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "cool",
+      "lemma": "cool",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "guess",
+      "lemma": "guess",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "marimo",
+      "lemma": "marimo",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "unique",
+      "lemma": "unique",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "reactivity",
+      "lemma": "reactivity",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "came",
+      "lemma": "come",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "lambs",
+      "lemma": "lamb",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "people",
+      "lemma": "people",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "banging",
+      "lemma": "bang",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "door",
+      "lemma": "door",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "llm",
+      "lemma": "llm",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "interesting",
+      "lemma": "interesting",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "happening",
+      "lemma": "happen",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "longest",
+      "lemma": "long",
+      "pos": "ADJ",
+      "tag": "JJS"
+    },
+    {
+      "text": "time",
+      "lemma": "time",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Asian",
+      "lemma": "asian",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "support",
+      "lemma": "support",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "open",
+      "lemma": "open",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "little",
+      "lemma": "little",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "window",
+      "lemma": "window",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "API",
+      "lemma": "api",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "key",
+      "lemma": "key",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Claude",
+      "lemma": "claude",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "clots",
+      "lemma": "clot",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "data",
+      "lemma": "data",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "frame",
+      "lemma": "frame",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "write",
+      "lemma": "write",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "SQL",
+      "lemma": "sql",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "data",
+      "lemma": "datum",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "frame",
+      "lemma": "frame",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "add",
+      "lemma": "add",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "context",
+      "lemma": "context",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "describe",
+      "lemma": "describe",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "data",
+      "lemma": "data",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "frame",
+      "lemma": "frame",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "LM",
+      "lemma": "lm",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "supposed",
+      "lemma": "suppose",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "look",
+      "lemma": "look",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "code",
+      "lemma": "code",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "infer",
+      "lemma": "infer",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "names",
+      "lemma": "name",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "types",
+      "lemma": "type",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "bit",
+      "lemma": "bit",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "conundrum",
+      "lemma": "conundrum",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "able",
+      "lemma": "able",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "point",
+      "lemma": "point",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "variable",
+      "lemma": "variable",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "best",
+      "lemma": "good",
+      "pos": "ADJ",
+      "tag": "JJS"
+    },
+    {
+      "text": "add",
+      "lemma": "add",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "context",
+      "lemma": "context",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "add",
+      "lemma": "add",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "prompt",
+      "lemma": "prompt",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "point",
+      "lemma": "point",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "data",
+      "lemma": "data",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "frame",
+      "lemma": "frame",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "dataframe",
+      "lemma": "dataframe",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "columns",
+      "lemma": "column",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "rows",
+      "lemma": "row",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "types",
+      "lemma": "type",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "column",
+      "lemma": "column",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "nice",
+      "lemma": "nice",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "makes",
+      "lemma": "make",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "lot",
+      "lemma": "lot",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "simpler",
+      "lemma": "simple",
+      "pos": "ADJ",
+      "tag": "JJR"
+    },
+    {
+      "text": "llm",
+      "lemma": "llm",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "write",
+      "lemma": "write",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "SQL",
+      "lemma": "sql",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "data",
+      "lemma": "data",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "frame",
+      "lemma": "frame",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "code",
+      "lemma": "code",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "interesting",
+      "lemma": "interesting",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "Zed",
+      "lemma": "zed",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "editor",
+      "lemma": "editor",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "started",
+      "lemma": "start",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "ACP",
+      "lemma": "acp",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "agent",
+      "lemma": "agent",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "protocol",
+      "lemma": "protocol",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "editor",
+      "lemma": "editor",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "clawed",
+      "lemma": "claw",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "protocol",
+      "lemma": "protocol",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "added",
+      "lemma": "add",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "Cloud",
+      "lemma": "cloud",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "code",
+      "lemma": "code",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "codex",
+      "lemma": "codex",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Gemini",
+      "lemma": "gemini",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "add",
+      "lemma": "add",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "support",
+      "lemma": "support",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "experimental",
+      "lemma": "experimental",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "feature",
+      "lemma": "feature",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Marina",
+      "lemma": "marina",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "lets",
+      "lemma": "let",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "run",
+      "lemma": "run",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "clock",
+      "lemma": "clock",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "code",
+      "lemma": "code",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Marie",
+      "lemma": "marie",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "use",
+      "lemma": "use",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "native",
+      "lemma": "native",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "clock",
+      "lemma": "clock",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "code",
+      "lemma": "code",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "keys",
+      "lemma": "key",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "subscription",
+      "lemma": "subscription",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "remote",
+      "lemma": "remote",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "fight",
+      "lemma": "fight",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "ACP",
+      "lemma": "acp",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "protocol",
+      "lemma": "protocol",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "wait",
+      "lemma": "wait",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "ACP",
+      "lemma": "acp",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "mCP",
+      "lemma": "mcp",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "support",
+      "lemma": "support",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "MCPE",
+      "lemma": "mcpe",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "ACP",
+      "lemma": "acp",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "new",
+      "lemma": "new",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "Send",
+      "lemma": "send",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "new",
+      "lemma": "new",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "Great",
+      "lemma": "great",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "means",
+      "lemma": "mean",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "Cloud",
+      "lemma": "cloud",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "code",
+      "lemma": "code",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "generating",
+      "lemma": "generate",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "code",
+      "lemma": "code",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "notebook",
+      "lemma": "notebook",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "API",
+      "lemma": "api",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "key",
+      "lemma": "key",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "time",
+      "lemma": "time",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "request",
+      "lemma": "request",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "pay",
+      "lemma": "pay",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "use",
+      "lemma": "use",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "clots",
+      "lemma": "clot",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "subscription",
+      "lemma": "subscription",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "linter",
+      "lemma": "linter",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "specific",
+      "lemma": "specific",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "Claude",
+      "lemma": "claude",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "errors",
+      "lemma": "error",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "specific",
+      "lemma": "specific",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "marimo",
+      "lemma": "marimo",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "linter",
+      "lemma": "linter",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "trigger",
+      "lemma": "trigger",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "time",
+      "lemma": "time",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Claude",
+      "lemma": "claude",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "linting",
+      "lemma": "linte",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "remote",
+      "lemma": "remote",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "example",
+      "lemma": "example",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Define",
+      "lemma": "define",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "variables",
+      "lemma": "variable",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "cell",
+      "lemma": "cell",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "equals",
+      "lemma": "equal",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "cell",
+      "lemma": "cell",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "says",
+      "lemma": "say",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "equals",
+      "lemma": "equal",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "assumptions",
+      "lemma": "assumption",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "actual",
+      "lemma": "actual",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "value",
+      "lemma": "value",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "allow",
+      "lemma": "allow",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "errors",
+      "lemma": "error",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "send",
+      "lemma": "send",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "Claude",
+      "lemma": "claude",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "fix",
+      "lemma": "fix",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "lot",
+      "lemma": "lot",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "llm",
+      "lemma": "llm",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "Innovation",
+      "lemma": "innovation",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "happening",
+      "lemma": "happen",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "notebook",
+      "lemma": "notebook",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "main",
+      "lemma": "main",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "stress",
+      "lemma": "stress",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "tell",
+      "lemma": "tell",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "dream",
+      "lemma": "dream",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "able",
+      "lemma": "able",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "mention",
+      "lemma": "mention",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "love",
+      "lemma": "love",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "copy",
+      "lemma": "copy",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "clipboard",
+      "lemma": "clipboard",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "button",
+      "lemma": "button",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "button",
+      "lemma": "button",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "exist",
+      "lemma": "exist",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "generate",
+      "lemma": "generate",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "widget",
+      "lemma": "widget",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "generate",
+      "lemma": "generate",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "spot",
+      "lemma": "spot",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Dynamic",
+      "lemma": "dynamic",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "love",
+      "lemma": "love",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "Imagine",
+      "lemma": "imagine",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "need",
+      "lemma": "need",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "find",
+      "lemma": "find",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "time",
+      "lemma": "time",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "love",
+      "lemma": "love",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "love",
+      "lemma": "love",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "elements",
+      "lemma": "element",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "place",
+      "lemma": "place",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "boy",
+      "lemma": "boy",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "interesting",
+      "lemma": "interesting",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "article",
+      "lemma": "article",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Look",
+      "lemma": "look",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "cool",
+      "lemma": "cool",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "diagram",
+      "lemma": "diagram",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "llm",
+      "lemma": "llm",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "notebook",
+      "lemma": "notebook",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "reproduce",
+      "lemma": "reproduce",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "way",
+      "lemma": "way",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "sliders",
+      "lemma": "slider",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "play",
+      "lemma": "play",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "cool",
+      "lemma": "cool",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "learning",
+      "lemma": "learning",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "experience",
+      "lemma": "experience",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "latest",
+      "lemma": "late",
+      "pos": "ADJ",
+      "tag": "JJS"
+    },
+    {
+      "text": "paper",
+      "lemma": "paper",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "mechanism",
+      "lemma": "mechanism",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "looks",
+      "lemma": "look",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "Cool",
+      "lemma": "cool",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "better",
+      "lemma": "well",
+      "pos": "ADJ",
+      "tag": "JJR"
+    },
+    {
+      "text": "intuition",
+      "lemma": "intuition",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "sliders",
+      "lemma": "slider",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "interactive",
+      "lemma": "interactive",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "matrices",
+      "lemma": "matrix",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "plot",
+      "lemma": "plot",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "updates",
+      "lemma": "update",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "based",
+      "lemma": "base",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "paper",
+      "lemma": "paper",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "quickest",
+      "lemma": "quick",
+      "pos": "ADJ",
+      "tag": "JJS"
+    },
+    {
+      "text": "path",
+      "lemma": "path",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "data",
+      "lemma": "datum",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "data",
+      "lemma": "datum",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "paper",
+      "lemma": "paper",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "data",
+      "lemma": "datum",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "data",
+      "lemma": "datum",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "public",
+      "lemma": "public",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "data",
+      "lemma": "datum",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "set",
+      "lemma": "set",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "huge",
+      "lemma": "huge",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "petabytes",
+      "lemma": "petabyte",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "gon",
+      "lemma": "go",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "little",
+      "lemma": "little",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "bit",
+      "lemma": "bit",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "gon",
+      "lemma": "go",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "little",
+      "lemma": "little",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "bit",
+      "lemma": "bit",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "dealing",
+      "lemma": "deal",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "intuition",
+      "lemma": "intuition",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "generating",
+      "lemma": "generate",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "pytorch",
+      "lemma": "pytorch",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "code",
+      "lemma": "code",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "phenomenon",
+      "lemma": "phenomenon",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "visualize",
+      "lemma": "visualize",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "marimo",
+      "lemma": "marimo",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "notebooks",
+      "lemma": "notebook",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "good",
+      "lemma": "good",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "mention",
+      "lemma": "mention",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "days",
+      "lemma": "day",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "lot",
+      "lemma": "lot",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "work",
+      "lemma": "work",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "need",
+      "lemma": "need",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "python",
+      "lemma": "python",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "Blog",
+      "lemma": "blog",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "sliders",
+      "lemma": "slider",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "jazz",
+      "lemma": "jazz",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "generated",
+      "lemma": "generate",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "python",
+      "lemma": "python",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "downside",
+      "lemma": "downside",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "python",
+      "lemma": "python",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "Library",
+      "lemma": "library",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "supports",
+      "lemma": "support",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "fired",
+      "lemma": "fire",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "love",
+      "lemma": "love",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "people",
+      "lemma": "people",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "good",
+      "lemma": "good",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "cashing",
+      "lemma": "cashing",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "mechanism",
+      "lemma": "mechanism",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "write",
+      "lemma": "write",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "Noble",
+      "lemma": "noble",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "book",
+      "lemma": "book",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Merino",
+      "lemma": "merino",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "export",
+      "lemma": "export",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "HTML",
+      "lemma": "html",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "maintain",
+      "lemma": "maintain",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "Dynamic",
+      "lemma": "dynamic",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "fired",
+      "lemma": "fire",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "path",
+      "lemma": "path",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Going",
+      "lemma": "go",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "Dynamic",
+      "lemma": "dynamic",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "UI",
+      "lemma": "ui",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "generation",
+      "lemma": "generation",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "feel",
+      "lemma": "feel",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "scenes",
+      "lemma": "scene",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "happening",
+      "lemma": "happen",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "order",
+      "lemma": "order",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "reality",
+      "lemma": "reality",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "mind",
+      "lemma": "mind",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "biggest",
+      "lemma": "big",
+      "pos": "ADJ",
+      "tag": "JJS"
+    },
+    {
+      "text": "hurdle",
+      "lemma": "hurdle",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "python",
+      "lemma": "python",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "developers",
+      "lemma": "developer",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "little",
+      "lemma": "little",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "bit",
+      "lemma": "bit",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "arrogant",
+      "lemma": "arrogant",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "refused",
+      "lemma": "refuse",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "learn",
+      "lemma": "learn",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "JavaScript",
+      "lemma": "javascript",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "refuse",
+      "lemma": "refuse",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "learn",
+      "lemma": "learn",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "JavaScript",
+      "lemma": "javascript",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "going",
+      "lemma": "go",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "hard",
+      "lemma": "hard",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "debug",
+      "lemma": "debug",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "JavaScript",
+      "lemma": "javascript",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "heard",
+      "lemma": "hear",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "night",
+      "lemma": "night",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "talks",
+      "lemma": "talk",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "agents",
+      "lemma": "agent",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "production",
+      "lemma": "production",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "conference",
+      "lemma": "conference",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "saying",
+      "lemma": "say",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "hardest",
+      "lemma": "hard",
+      "pos": "ADJ",
+      "tag": "JJS"
+    },
+    {
+      "text": "code",
+      "lemma": "code",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "generate",
+      "lemma": "generate",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "cloud",
+      "lemma": "cloud",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "code",
+      "lemma": "code",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "cursor",
+      "lemma": "cursor",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "JavaScript",
+      "lemma": "javascript",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "python",
+      "lemma": "python",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "rust",
+      "lemma": "rust",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "people",
+      "lemma": "people",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "saying",
+      "lemma": "say",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "best",
+      "lemma": "good",
+      "pos": "ADJ",
+      "tag": "JJS"
+    },
+    {
+      "text": "python",
+      "lemma": "python",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "best",
+      "lemma": "good",
+      "pos": "ADJ",
+      "tag": "JJS"
+    },
+    {
+      "text": "going",
+      "lemma": "go",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "python",
+      "lemma": "python",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "worst",
+      "lemma": "bad",
+      "pos": "ADJ",
+      "tag": "JJS"
+    },
+    {
+      "text": "know",
+      "lemma": "know",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "guess",
+      "lemma": "guess",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "best",
+      "lemma": "good",
+      "pos": "ADJ",
+      "tag": "JJS"
+    },
+    {
+      "text": "JavaScript",
+      "lemma": "javascript",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "worst",
+      "lemma": "bad",
+      "pos": "ADJ",
+      "tag": "JJS"
+    },
+    {
+      "text": "rust",
+      "lemma": "rust",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "Know",
+      "lemma": "know",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "worst",
+      "lemma": "bad",
+      "pos": "ADJ",
+      "tag": "JJS"
+    },
+    {
+      "text": "Javascript",
+      "lemma": "javascript",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "JavaScript",
+      "lemma": "javascript",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "internet",
+      "lemma": "internet",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "lot",
+      "lemma": "lot",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "bad",
+      "lemma": "bad",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "Interesting",
+      "lemma": "interesting",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "makes",
+      "lemma": "make",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "harder",
+      "lemma": "hard",
+      "pos": "ADJ",
+      "tag": "JJR"
+    },
+    {
+      "text": "generate",
+      "lemma": "generate",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "quality",
+      "lemma": "quality",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "JavaScript",
+      "lemma": "javascript",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "JavaScript",
+      "lemma": "javascript",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "know",
+      "lemma": "know",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "expert",
+      "lemma": "expert",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "bias",
+      "lemma": "bias",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "spend",
+      "lemma": "spend",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "time",
+      "lemma": "time",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "getting",
+      "lemma": "get",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "prompts",
+      "lemma": "prompt",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "planting",
+      "lemma": "plant",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "python",
+      "lemma": "python",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "yo",
+      "lemma": "yo",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "use",
+      "lemma": "use",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "fix",
+      "lemma": "fix",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "problem",
+      "lemma": "problem",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "depends",
+      "lemma": "depend",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "building",
+      "lemma": "build",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "building",
+      "lemma": "build",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "web",
+      "lemma": "web",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "app",
+      "lemma": "app",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "different",
+      "lemma": "different",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "story",
+      "lemma": "story",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "getting",
+      "lemma": "get",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "developers",
+      "lemma": "developer",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "python",
+      "lemma": "python",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "developers",
+      "lemma": "developer",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "use",
+      "lemma": "use",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "JavaScript",
+      "lemma": "javascript",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "feel",
+      "lemma": "feel",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "useful",
+      "lemma": "useful",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "create",
+      "lemma": "create",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "UI",
+      "lemma": "ui",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "elements",
+      "lemma": "element",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "general",
+      "lemma": "general",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "weird",
+      "lemma": "weird",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "bit",
+      "lemma": "bit",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "feedback",
+      "lemma": "feedback",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "gotten",
+      "lemma": "get",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "Vincent",
+      "lemma": "vincent",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "Widgets",
+      "lemma": "widget",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "honest",
+      "lemma": "honest",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "answer",
+      "lemma": "answer",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "reason",
+      "lemma": "reason",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "making",
+      "lemma": "make",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "love",
+      "lemma": "love",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "work",
+      "lemma": "work",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "lot",
+      "lemma": "lot",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "notebooks",
+      "lemma": "notebook",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "widgets",
+      "lemma": "widget",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "experience",
+      "lemma": "experience",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "early",
+      "lemma": "early",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "career",
+      "lemma": "career",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "falling",
+      "lemma": "fall",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "love",
+      "lemma": "love",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "D3",
+      "lemma": "d3",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "care",
+      "lemma": "care",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "learn",
+      "lemma": "learn",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "JavaScript",
+      "lemma": "javascript",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "learn",
+      "lemma": "learn",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "Pi",
+      "lemma": "pi",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "learn",
+      "lemma": "learn",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "lot",
+      "lemma": "lot",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "people",
+      "lemma": "people",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "reluctant",
+      "lemma": "reluctant",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "learn",
+      "lemma": "learn",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "JavaScript",
+      "lemma": "javascript",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "notes",
+      "lemma": "note",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "impression",
+      "lemma": "impression",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "level",
+      "lemma": "level",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "able",
+      "lemma": "able",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "execute",
+      "lemma": "execute",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "end",
+      "lemma": "end",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "mystery",
+      "lemma": "mystery",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "teach",
+      "lemma": "teach",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "JavaScript",
+      "lemma": "javascript",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "day",
+      "lemma": "day",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "age",
+      "lemma": "age",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "web",
+      "lemma": "web",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "app",
+      "lemma": "app",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "generated",
+      "lemma": "generate",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "little",
+      "lemma": "little",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "goes",
+      "lemma": "go",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "long",
+      "lemma": "long",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "way",
+      "lemma": "way",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "agree",
+      "lemma": "agree",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "aspect",
+      "lemma": "aspect",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "people",
+      "lemma": "people",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "learn",
+      "lemma": "learn",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "program",
+      "lemma": "program",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "theme",
+      "lemma": "theme",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "hear",
+      "lemma": "hear",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "people",
+      "lemma": "people",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "talk",
+      "lemma": "talk",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "little",
+      "lemma": "little",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "crazy",
+      "lemma": "crazy",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "statement",
+      "lemma": "statement",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "mind",
+      "lemma": "mind",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "flashcards",
+      "lemma": "flashcard",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "train",
+      "lemma": "train",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "memory",
+      "lemma": "memory",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "makes",
+      "lemma": "make",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "easy",
+      "lemma": "easy",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "remember",
+      "lemma": "remember",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "helps",
+      "lemma": "help",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "iteration",
+      "lemma": "iteration",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "speed",
+      "lemma": "speed",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "makes",
+      "lemma": "make",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "little",
+      "lemma": "little",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "bit",
+      "lemma": "bit",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "intimidating",
+      "lemma": "intimidating",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "steps",
+      "lemma": "step",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "start",
+      "lemma": "start",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "new",
+      "lemma": "new",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "project",
+      "lemma": "project",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "notice",
+      "lemma": "notice",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "document",
+      "lemma": "document",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "browser",
+      "lemma": "browser",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "good",
+      "lemma": "good",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "methods",
+      "lemma": "method",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "little",
+      "lemma": "little",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "bit",
+      "lemma": "bit",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "intimidating",
+      "lemma": "intimidating",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "self",
+      "lemma": "self",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "helplessness",
+      "lemma": "helplessness",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "build",
+      "lemma": "build",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "llm",
+      "lemma": "llm",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "yesterday",
+      "lemma": "yesterday",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Cloud",
+      "lemma": "cloud",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "bit",
+      "lemma": "bit",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "hoping",
+      "lemma": "hop",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "people",
+      "lemma": "people",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "productive",
+      "lemma": "productive",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "day",
+      "lemma": "day",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "year",
+      "lemma": "year",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "National",
+      "lemma": "national",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "Intelligence",
+      "lemma": "intelligence",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "cloudflare",
+      "lemma": "cloudflare",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "resell",
+      "lemma": "resell",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "graph",
+      "lemma": "graph",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "start",
+      "lemma": "start",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "project",
+      "lemma": "project",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "gon",
+      "lemma": "go",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "easy",
+      "lemma": "easy",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "disillusionment",
+      "lemma": "disillusionment",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "got",
+      "lemma": "get",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "trough",
+      "lemma": "trough",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "pronounced",
+      "lemma": "pronounce",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "train",
+      "lemma": "train",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "good",
+      "lemma": "good",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "project",
+      "lemma": "project",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "setup",
+      "lemma": "setup",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "remember",
+      "lemma": "remember",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "playing",
+      "lemma": "play",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "let",
+      "lemma": "let",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "YOLO",
+      "lemma": "yolo",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "look",
+      "lemma": "look",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "code",
+      "lemma": "code",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "YOLO",
+      "lemma": "yolo",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "web",
+      "lemma": "web",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "app",
+      "lemma": "app",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "send",
+      "lemma": "send",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "emails",
+      "lemma": "email",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "postgres",
+      "lemma": "postgre",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "said",
+      "lemma": "say",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "noticed",
+      "lemma": "notice",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "running",
+      "lemma": "run",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "unit",
+      "lemma": "unit",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "tests",
+      "lemma": "test",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "instructed",
+      "lemma": "instruct",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "start",
+      "lemma": "start",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "database",
+      "lemma": "database",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "day",
+      "lemma": "day",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "produce",
+      "lemma": "produce",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "run",
+      "lemma": "run",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "unit",
+      "lemma": "unit",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "tests",
+      "lemma": "test",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "set",
+      "lemma": "set",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "project",
+      "lemma": "project",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "good",
+      "lemma": "good",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "template",
+      "lemma": "template",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "crap",
+      "lemma": "crap",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "happen",
+      "lemma": "happen",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "better",
+      "lemma": "well",
+      "pos": "ADJ",
+      "tag": "JJR"
+    },
+    {
+      "text": "spot",
+      "lemma": "spot",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "impression",
+      "lemma": "impression",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "polite",
+      "lemma": "polite",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "term",
+      "lemma": "term",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Teenage",
+      "lemma": "teenage",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "Tech",
+      "lemma": "tech",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "Bros.",
+      "lemma": "bros.",
+      "pos": "PROPN",
+      "tag": "NNPS"
+    },
+    {
+      "text": "coders",
+      "lemma": "coder",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "missed",
+      "lemma": "miss",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "bit",
+      "lemma": "bit",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "set",
+      "lemma": "set",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "proper",
+      "lemma": "proper",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "project",
+      "lemma": "project",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "flaw",
+      "lemma": "flaw",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "llm",
+      "lemma": "llm",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "bit",
+      "lemma": "bit",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Foundation",
+      "lemma": "foundation",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "interesting",
+      "lemma": "interesting",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "easier",
+      "lemma": "easy",
+      "pos": "ADJ",
+      "tag": "JJR"
+    },
+    {
+      "text": "end",
+      "lemma": "end",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Vibe",
+      "lemma": "vibe",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "coding",
+      "lemma": "cod",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "expectation",
+      "lemma": "expectation",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "raised",
+      "lemma": "raise",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "lot",
+      "lemma": "lot",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "streamlit",
+      "lemma": "streamlit",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "let",
+      "lemma": "let",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "react",
+      "lemma": "react",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "experimental",
+      "lemma": "experimental",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "favor",
+      "lemma": "favor",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "weighted",
+      "lemma": "weighted",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "python",
+      "lemma": "python",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "person",
+      "lemma": "person",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "widgets",
+      "lemma": "widget",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "fun",
+      "lemma": "fun",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "way",
+      "lemma": "way",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "learn",
+      "lemma": "learn",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "JavaScript",
+      "lemma": "javascript",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "point",
+      "lemma": "point",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "need",
+      "lemma": "need",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "node",
+      "lemma": "node",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "Pipeline",
+      "lemma": "pipeline",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "use",
+      "lemma": "use",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "python",
+      "lemma": "python",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "code",
+      "lemma": "code",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "love",
+      "lemma": "love",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "love",
+      "lemma": "love",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "use",
+      "lemma": "use",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "way",
+      "lemma": "way",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "flashcard",
+      "lemma": "flashcard",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "app",
+      "lemma": "app",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "making",
+      "lemma": "make",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "let",
+      "lemma": "let",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "htmx",
+      "lemma": "htmx",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "send",
+      "lemma": "send",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "wire",
+      "lemma": "wire",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Jeet",
+      "lemma": "jeet",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "Jason",
+      "lemma": "jason",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "HTML",
+      "lemma": "html",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "time",
+      "lemma": "time",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "new",
+      "lemma": "new",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "flashcard",
+      "lemma": "flashcard",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "send",
+      "lemma": "send",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "HTML",
+      "lemma": "html",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "new",
+      "lemma": "new",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "card",
+      "lemma": "card",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "makes",
+      "lemma": "make",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "request",
+      "lemma": "request",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "card",
+      "lemma": "card",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "works",
+      "lemma": "work",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "ideal",
+      "lemma": "ideal",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "user",
+      "lemma": "user",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "experience",
+      "lemma": "experience",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "ideal",
+      "lemma": "ideal",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "user",
+      "lemma": "user",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "experience",
+      "lemma": "experience",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "practice",
+      "lemma": "practice",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "cards",
+      "lemma": "card",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "Let",
+      "lemma": "let",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "send",
+      "lemma": "send",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "Json",
+      "lemma": "json",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "payload",
+      "lemma": "payload",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "request",
+      "lemma": "request",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "memory",
+      "lemma": "memory",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "cards",
+      "lemma": "card",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "end",
+      "lemma": "end",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "send",
+      "lemma": "send",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "request",
+      "lemma": "request",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "way",
+      "lemma": "way",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "subtle",
+      "lemma": "subtle",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "noticeable",
+      "lemma": "noticeable",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "time",
+      "lemma": "time",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "lag",
+      "lemma": "lag",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "single",
+      "lemma": "single",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "request",
+      "lemma": "request",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "fetches",
+      "lemma": "fetch",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "new",
+      "lemma": "new",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "card",
+      "lemma": "card",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "end",
+      "lemma": "end",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "care",
+      "lemma": "care",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "user",
+      "lemma": "user",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "experience",
+      "lemma": "experience",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "care",
+      "lemma": "care",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "JavaScript",
+      "lemma": "javascript",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "end",
+      "lemma": "end",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "fine",
+      "lemma": "fine",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "care",
+      "lemma": "care",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "product",
+      "lemma": "product",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "minded",
+      "lemma": "minded",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "bother",
+      "lemma": "bother",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "python",
+      "lemma": "python",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Community",
+      "lemma": "community",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "bit",
+      "lemma": "bit",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "arrogance",
+      "lemma": "arrogance",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "JavaScript",
+      "lemma": "javascript",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "find",
+      "lemma": "find",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "unfounded",
+      "lemma": "unfounded",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "talk",
+      "lemma": "talk",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "LMS",
+      "lemma": "lms",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "marimo",
+      "lemma": "marimo",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "feels",
+      "lemma": "feel",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "got",
+      "lemma": "get",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "ideas",
+      "lemma": "idea",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "depends",
+      "lemma": "depend",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "lot",
+      "lemma": "lot",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "standards",
+      "lemma": "standard",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "available",
+      "lemma": "available",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "big",
+      "lemma": "big",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "reason",
+      "lemma": "reason",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "able",
+      "lemma": "able",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "push",
+      "lemma": "push",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "LMS",
+      "lemma": "lms",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "way",
+      "lemma": "way",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "point",
+      "lemma": "point",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "MTP",
+      "lemma": "mtp",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "point",
+      "lemma": "point",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "ACP",
+      "lemma": "acp",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "lot",
+      "lemma": "lot",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "ways",
+      "lemma": "way",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "dependent",
+      "lemma": "dependent",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "dream",
+      "lemma": "dream",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "start",
+      "lemma": "start",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "planning",
+      "lemma": "plan",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "mind",
+      "lemma": "mind",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "experimenting",
+      "lemma": "experiment",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "people",
+      "lemma": "people",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "know",
+      "lemma": "know",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "use",
+      "lemma": "use",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "llm",
+      "lemma": "llm",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "inside",
+      "lemma": "inside",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "notebook",
+      "lemma": "notebook",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "bootstrap",
+      "lemma": "bootstrap",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "notebooks",
+      "lemma": "notebook",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "start",
+      "lemma": "start",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Merino",
+      "lemma": "merino",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "new",
+      "lemma": "new",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "command",
+      "lemma": "command",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "prompt",
+      "lemma": "prompt",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "able",
+      "lemma": "able",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "CSV",
+      "lemma": "csv",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "file",
+      "lemma": "file",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "notebook",
+      "lemma": "notebook",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "version",
+      "lemma": "version",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "analyzes",
+      "lemma": "analyze",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "bootstrap",
+      "lemma": "bootstrap",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "start",
+      "lemma": "start",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "benefit",
+      "lemma": "benefit",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "notebook",
+      "lemma": "notebook",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "look",
+      "lemma": "look",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "intermediate",
+      "lemma": "intermediate",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "results",
+      "lemma": "result",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "visual",
+      "lemma": "visual",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "add",
+      "lemma": "add",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "Charts",
+      "lemma": "charts",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "lot",
+      "lemma": "lot",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "easier",
+      "lemma": "easy",
+      "pos": "ADJ",
+      "tag": "JJR"
+    },
+    {
+      "text": "spot",
+      "lemma": "spot",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "mistake",
+      "lemma": "mistake",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "interesting",
+      "lemma": "interesting",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "plump",
+      "lemma": "plump",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "IDE",
+      "lemma": "ide",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "sure",
+      "lemma": "sure",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "ask",
+      "lemma": "ask",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "unit",
+      "lemma": "unit",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "tests",
+      "lemma": "test",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "hard",
+      "lemma": "hard",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "intermediate",
+      "lemma": "intermediate",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "results",
+      "lemma": "result",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "lot",
+      "lemma": "lot",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "easier",
+      "lemma": "easy",
+      "pos": "ADJ",
+      "tag": "JJR"
+    },
+    {
+      "text": "poke",
+      "lemma": "poke",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "notebook",
+      "lemma": "notebook",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "little",
+      "lemma": "little",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "bit",
+      "lemma": "bit",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "interested",
+      "lemma": "interested",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "sparked",
+      "lemma": "spark",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "mind",
+      "lemma": "mind",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "notebooks",
+      "lemma": "notebook",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "humans",
+      "lemma": "human",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "Agents",
+      "lemma": "agent",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "trying",
+      "lemma": "try",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "figure",
+      "lemma": "figure",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "world",
+      "lemma": "world",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "agent",
+      "lemma": "agent",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "fire",
+      "lemma": "fire",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "notebook",
+      "lemma": "notebook",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "try",
+      "lemma": "try",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "eyes",
+      "lemma": "eye",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "notebook",
+      "lemma": "notebook",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "makes",
+      "lemma": "make",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "sense",
+      "lemma": "sense",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "world",
+      "lemma": "world",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "interacting",
+      "lemma": "interact",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "agent",
+      "lemma": "agent",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "giving",
+      "lemma": "give",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "results",
+      "lemma": "result",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "notebook",
+      "lemma": "notebook",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "able",
+      "lemma": "able",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "change",
+      "lemma": "change",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "different",
+      "lemma": "different",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "contexts",
+      "lemma": "context",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "notebook",
+      "lemma": "notebook",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "mentioned",
+      "lemma": "mention",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "ATS",
+      "lemma": "ats",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "data",
+      "lemma": "data",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "frame",
+      "lemma": "frame",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "point",
+      "lemma": "point",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "variable",
+      "lemma": "variable",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "errors",
+      "lemma": "error",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "errors",
+      "lemma": "error",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "appear",
+      "lemma": "appear",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "book",
+      "lemma": "book",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "llm",
+      "lemma": "llm",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "cell",
+      "lemma": "cell",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "output",
+      "lemma": "output",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "cell",
+      "lemma": "cell",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "output",
+      "lemma": "output",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "weird",
+      "lemma": "weird",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "widget",
+      "lemma": "widget",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "good",
+      "lemma": "good",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "representation",
+      "lemma": "representation",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "model",
+      "lemma": "model",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "multimodal",
+      "lemma": "multimodal",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "screenshot",
+      "lemma": "screenshot",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "send",
+      "lemma": "send",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "LMS",
+      "lemma": "lms",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "notebook",
+      "lemma": "notebook",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "good",
+      "lemma": "good",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "interpreting",
+      "lemma": "interpret",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "charts",
+      "lemma": "chart",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "raw",
+      "lemma": "raw",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "data",
+      "lemma": "datum",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "going",
+      "lemma": "go",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "gigabyte",
+      "lemma": "gigabyte",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "data",
+      "lemma": "datum",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "going",
+      "lemma": "go",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "send",
+      "lemma": "send",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "context",
+      "lemma": "context",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "listen",
+      "lemma": "listen",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "rows",
+      "lemma": "row",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "schema",
+      "lemma": "schema",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "lot",
+      "lemma": "lot",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "simpler",
+      "lemma": "simple",
+      "pos": "ADJ",
+      "tag": "JJR"
+    },
+    {
+      "text": "element",
+      "lemma": "element",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "write",
+      "lemma": "write",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "query",
+      "lemma": "query",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "interaction",
+      "lemma": "interaction",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "scratching",
+      "lemma": "scratch",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "surface",
+      "lemma": "surface",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "starting",
+      "lemma": "start",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "hood",
+      "lemma": "hood",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "marimo",
+      "lemma": "marimo",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "notebook",
+      "lemma": "notebook",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "python",
+      "lemma": "python",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "file",
+      "lemma": "file",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "weird",
+      "lemma": "weird",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "Json",
+      "lemma": "json",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "structure",
+      "lemma": "structure",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "explosion",
+      "lemma": "explosion",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "gets",
+      "lemma": "get",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "python",
+      "lemma": "python",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "file",
+      "lemma": "file",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "experimenting",
+      "lemma": "experiment",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "build",
+      "lemma": "build",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "python",
+      "lemma": "python",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "package",
+      "lemma": "package",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "marimo",
+      "lemma": "marimo",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "python",
+      "lemma": "python",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "file",
+      "lemma": "file",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Jeremy",
+      "lemma": "jeremy",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "Howard",
+      "lemma": "howard",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "NP",
+      "lemma": "np",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "Dev",
+      "lemma": "dev",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "reason",
+      "lemma": "reason",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "email",
+      "lemma": "email",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "example",
+      "lemma": "example",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "write",
+      "lemma": "write",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "command",
+      "lemma": "command",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "line",
+      "lemma": "line",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "apps",
+      "lemma": "app",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "Marino",
+      "lemma": "marino",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "Hyper",
+      "lemma": "hyper",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "decorator",
+      "lemma": "decorator",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "normal",
+      "lemma": "normal",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "python",
+      "lemma": "python",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "function",
+      "lemma": "function",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Marie",
+      "lemma": "marie",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "supports",
+      "lemma": "support",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "cell",
+      "lemma": "cell",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "functions",
+      "lemma": "function",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "start",
+      "lemma": "start",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "test",
+      "lemma": "test",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "underscore",
+      "lemma": "underscore",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "detect",
+      "lemma": "detect",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "Pi",
+      "lemma": "pi",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "tests",
+      "lemma": "test",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "test",
+      "lemma": "test",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "notebook",
+      "lemma": "notebook",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "detect",
+      "lemma": "detect",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "notebook",
+      "lemma": "notebook",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "running",
+      "lemma": "run",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "browser",
+      "lemma": "browser",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "running",
+      "lemma": "run",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "terminal",
+      "lemma": "terminal",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Define",
+      "lemma": "define",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "functions",
+      "lemma": "function",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "Python",
+      "lemma": "python",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "run",
+      "lemma": "run",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "command",
+      "lemma": "command",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "line",
+      "lemma": "line",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "typer",
+      "lemma": "typer",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "reuse",
+      "lemma": "reuse",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "function",
+      "lemma": "function",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "pytest",
+      "lemma": "pyt",
+      "pos": "ADJ",
+      "tag": "JJS"
+    },
+    {
+      "text": "python",
+      "lemma": "python",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "file",
+      "lemma": "file",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "support",
+      "lemma": "support",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "add",
+      "lemma": "add",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "dependencies",
+      "lemma": "dependency",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "file",
+      "lemma": "file",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "care",
+      "lemma": "care",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "dependencies",
+      "lemma": "dependency",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "versions",
+      "lemma": "version",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "add",
+      "lemma": "add",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "llms",
+      "lemma": "llm",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "mix",
+      "lemma": "mix",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "comfortable",
+      "lemma": "comfortable",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "saying",
+      "lemma": "say",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "left",
+      "lemma": "leave",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "uncover",
+      "lemma": "uncover",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "main",
+      "lemma": "main",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "notebook",
+      "lemma": "notebook",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "good",
+      "lemma": "good",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "stare",
+      "lemma": "stare",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "fiddle",
+      "lemma": "fiddle",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "play",
+      "lemma": "play",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "good",
+      "lemma": "good",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "human",
+      "lemma": "human",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "mind",
+      "lemma": "mind",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "understand",
+      "lemma": "understand",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "happening",
+      "lemma": "happen",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "hood",
+      "lemma": "hood",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "exploration",
+      "lemma": "exploration",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "mean",
+      "lemma": "mean",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "data",
+      "lemma": "datum",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "means",
+      "lemma": "mean",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "command",
+      "lemma": "command",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "line",
+      "lemma": "line",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "apps",
+      "lemma": "app",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "flashcard",
+      "lemma": "flashcard",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "mentioned",
+      "lemma": "mention",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "need",
+      "lemma": "need",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "charts",
+      "lemma": "chart",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "bug",
+      "lemma": "bug",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "timing",
+      "lemma": "timing",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "flashcards",
+      "lemma": "flashcard",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "learning",
+      "lemma": "learn",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "aspects",
+      "lemma": "aspect",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "repetitive",
+      "lemma": "repetitive",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "aspect",
+      "lemma": "aspect",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "app",
+      "lemma": "app",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "need",
+      "lemma": "need",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "charts",
+      "lemma": "chart",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "bug",
+      "lemma": "bug",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Marie",
+      "lemma": "marie",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "gives",
+      "lemma": "give",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "development",
+      "lemma": "development",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "good",
+      "lemma": "good",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "charts",
+      "lemma": "chart",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "developing",
+      "lemma": "develop",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "python",
+      "lemma": "python",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "file",
+      "lemma": "file",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "export",
+      "lemma": "export",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "function",
+      "lemma": "function",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "notebook",
+      "lemma": "notebook",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "class",
+      "lemma": "class",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Gap",
+      "lemma": "gap",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "works",
+      "lemma": "work",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "LMS",
+      "lemma": "lms",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "common",
+      "lemma": "common",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "use",
+      "lemma": "use",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "case",
+      "lemma": "case",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "seen",
+      "lemma": "see",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "agents",
+      "lemma": "agent",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "debug",
+      "lemma": "debug",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "creating",
+      "lemma": "create",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "heat",
+      "lemma": "heat",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Maps",
+      "lemma": "maps",
+      "pos": "PROPN",
+      "tag": "NNPS"
+    },
+    {
+      "text": "figure",
+      "lemma": "figure",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "called",
+      "lemma": "call",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "tools",
+      "lemma": "tool",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "executed",
+      "lemma": "execute",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "tasks",
+      "lemma": "task",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "time",
+      "lemma": "time",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "start",
+      "lemma": "start",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "dreaming",
+      "lemma": "dream",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "guess",
+      "lemma": "guess",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "main",
+      "lemma": "main",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "way",
+      "lemma": "way",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "way",
+      "lemma": "way",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "thought",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "Books",
+      "lemma": "book",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "years",
+      "lemma": "year",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "meets",
+      "lemma": "meet",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "change",
+      "lemma": "change",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "python",
+      "lemma": "python",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "notebooks",
+      "lemma": "notebook",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "better",
+      "lemma": "well",
+      "pos": "ADJ",
+      "tag": "JJR"
+    },
+    {
+      "text": "collab",
+      "lemma": "collab",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "restricted",
+      "lemma": "restrict",
+      "pos": "VERB",
+      "tag": "VBN"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "use",
+      "lemma": "use",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "colab",
+      "lemma": "colab",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "fine",
+      "lemma": "fine",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "rethink",
+      "lemma": "rethink",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "shit",
+      "lemma": "shit",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "care",
+      "lemma": "care",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "lot",
+      "lemma": "lot",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "intellectual",
+      "lemma": "intellectual",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "Freedom",
+      "lemma": "freedom",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "number",
+      "lemma": "number",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "fear",
+      "lemma": "fear",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "people",
+      "lemma": "people",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "Think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "succeed",
+      "lemma": "succeed",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "field",
+      "lemma": "field",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "got",
+      "lemma": "got",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "watch",
+      "lemma": "watch",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "YouTube",
+      "lemma": "youtube",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "videos",
+      "lemma": "video",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "books",
+      "lemma": "book",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "people",
+      "lemma": "people",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "stopped",
+      "lemma": "stop",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "thinking",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "new",
+      "lemma": "new",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "ideas",
+      "lemma": "idea",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "marimo",
+      "lemma": "marimo",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "invite",
+      "lemma": "invite",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "play",
+      "lemma": "play",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "able",
+      "lemma": "able",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "explore",
+      "lemma": "explore",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "ideas",
+      "lemma": "idea",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "bit",
+      "lemma": "bit",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "intellectual",
+      "lemma": "intellectual",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "Freedom",
+      "lemma": "freedom",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "find",
+      "lemma": "find",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "need",
+      "lemma": "need",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "need",
+      "lemma": "need",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "people",
+      "lemma": "people",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "making",
+      "lemma": "make",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "interesting",
+      "lemma": "interesting",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "need",
+      "lemma": "need",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "produce",
+      "lemma": "produce",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "consume",
+      "lemma": "consume",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "content",
+      "lemma": "content",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "need",
+      "lemma": "need",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "need",
+      "lemma": "need",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "good",
+      "lemma": "good",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "ideas",
+      "lemma": "idea",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "ecosystem",
+      "lemma": "ecosystem",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "ball",
+      "lemma": "ball",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "mind",
+      "lemma": "mind",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "saw",
+      "lemma": "see",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "email",
+      "lemma": "email",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "reactive",
+      "lemma": "reactive",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "nature",
+      "lemma": "nature",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "corrected",
+      "lemma": "correct",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "times",
+      "lemma": "time",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "need",
+      "lemma": "need",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "notice",
+      "lemma": "notice",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "sure",
+      "lemma": "sure",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "python",
+      "lemma": "python",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "code",
+      "lemma": "code",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "amazing",
+      "lemma": "amazing",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "prototyping",
+      "lemma": "prototype",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "found",
+      "lemma": "find",
+      "pos": "VERB",
+      "tag": "VBD"
+    },
+    {
+      "text": "mistake",
+      "lemma": "mistake",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "slide",
+      "lemma": "slide",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "work",
+      "lemma": "work",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "way",
+      "lemma": "way",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "great",
+      "lemma": "great",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "aware",
+      "lemma": "aware",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "fact",
+      "lemma": "fact",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "guy",
+      "lemma": "guy",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "works",
+      "lemma": "work",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "Remo",
+      "lemma": "remo",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "making",
+      "lemma": "make",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "massive",
+      "lemma": "massive",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "pitch",
+      "lemma": "pitch",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "email",
+      "lemma": "email",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "point",
+      "lemma": "point",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "dear",
+      "lemma": "dear",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "listener",
+      "lemma": "listener",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "try",
+      "lemma": "try",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "sympathize",
+      "lemma": "sympathize",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "main",
+      "lemma": "main",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "emphasize",
+      "lemma": "emphasize",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "dreaming",
+      "lemma": "dream",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "aspect",
+      "lemma": "aspect",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "cool",
+      "lemma": "cool",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "bit",
+      "lemma": "bit",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "want",
+      "lemma": "want",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "double",
+      "lemma": "double",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "think",
+      "lemma": "think",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "perfect",
+      "lemma": "perfect",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "place",
+      "lemma": "place",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "end",
+      "lemma": "end",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "awesome",
+      "lemma": "awesome",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "Cool",
+      "lemma": "cool",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "having",
+      "lemma": "have",
+      "pos": "VERB",
+      "tag": "VBG"
+    },
+    {
+      "text": "fancy",
+      "lemma": "fancy",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "studio",
+      "lemma": "studio",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "looks",
+      "lemma": "look",
+      "pos": "VERB",
+      "tag": "VBZ"
+    },
+    {
+      "text": "Fancy",
+      "lemma": "fancy",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "trust",
+      "lemma": "trust",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "fancy",
+      "lemma": "fancy",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "Digital",
+      "lemma": "digital",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "cables",
+      "lemma": "cable",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "viewer",
+      "lemma": "viewer",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "problem",
+      "lemma": "problem",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "final",
+      "lemma": "final",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "pitch",
+      "lemma": "pitch",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "YouTube",
+      "lemma": "youtube",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "channel",
+      "lemma": "channel",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "videos",
+      "lemma": "video",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "explain",
+      "lemma": "explain",
+      "pos": "VERB",
+      "tag": "VBP"
+    },
+    {
+      "text": "Check",
+      "lemma": "check",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "Check",
+      "lemma": "check",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "Moab",
+      "lemma": "moab",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "bunch",
+      "lemma": "bunch",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "free",
+      "lemma": "free",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "compute",
+      "lemma": "compute",
+      "pos": "NOUN",
+      "tag": "NN"
+    },
+    {
+      "text": "Feel",
+      "lemma": "feel",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "free",
+      "lemma": "free",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "use",
+      "lemma": "use",
+      "pos": "VERB",
+      "tag": "VB"
+    },
+    {
+      "text": "cool",
+      "lemma": "cool",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "Discord",
+      "lemma": "discord",
+      "pos": "PROPN",
+      "tag": "NNP"
+    },
+    {
+      "text": "great",
+      "lemma": "great",
+      "pos": "ADJ",
+      "tag": "JJ"
+    },
+    {
+      "text": "memes",
+      "lemma": "meme",
+      "pos": "NOUN",
+      "tag": "NNS"
+    },
+    {
+      "text": "Channel",
+      "lemma": "channel",
+      "pos": "PROPN",
+      "tag": "NNP"
+    }
+  ],
+  "lemmas": [
+    "add",
+    "context",
+    "describe",
+    "data",
+    "frame",
+    "lm",
+    "suppose",
+    "look",
+    "code",
+    "infer",
+    "column",
+    "name",
+    "type",
+    "way",
+    "think",
+    "notebook",
+    "year",
+    "meet",
+    "change",
+    "want",
+    "use",
+    "colab",
+    "fine",
+    "rethink",
+    "shit",
+    "care",
+    "lot",
+    "intellectual",
+    "freedom",
+    "python",
+    "person",
+    "widget",
+    "fun",
+    "way",
+    "learn",
+    "javascript",
+    "point",
+    "tell",
+    "interesting",
+    "guy",
+    "get",
+    "quiet",
+    "week",
+    "true",
+    "span",
+    "see",
+    "month",
+    "change",
+    "think",
+    "pay",
+    "datum",
+    "week",
+    "san",
+    "francisco",
+    "way",
+    "fun",
+    "take",
+    "video",
+    "hill",
+    "week",
+    "get",
+    "word",
+    "acquire",
+    "ceo",
+    "cto",
+    "good",
+    "keep",
+    "quiet",
+    "company",
+    "fun",
+    "pleasant",
+    "surprise",
+    "short",
+    "story",
+    "group",
+    "roadmap",
+    "change",
+    "way",
+    "buy",
+    "look",
+    "orc",
+    "chart",
+    "get",
+    "corey",
+    "company",
+    "acquire",
+    "weight",
+    "bias",
+    "weight",
+    "bias",
+    "pearl",
+    "guess",
+    "look",
+    "org",
+    "chart",
+    "team",
+    "roadmap",
+    "big",
+    "group",
+    "long",
+    "short",
+    "story",
+    "make",
+    "ton",
+    "sense",
+    "weight",
+    "bias",
+    "want",
+    "break",
+    "notebook",
+    "know",
+    "think",
+    "help",
+    "datum",
+    "scientist",
+    "think",
+    "change",
+    "regard",
+    "want",
+    "build",
+    "go",
+    "day",
+    "day",
+    "basis",
+    "main",
+    "change",
+    "large",
+    "slack",
+    "group",
+    "learn",
+    "ignore",
+    "channel",
+    "little",
+    "bit",
+    "people",
+    "channel",
+    "relevant",
+    "couple",
+    "people",
+    "work",
+    "case",
+    "lot",
+    "way",
+    "main",
+    "little",
+    "bit",
+    "funny",
+    "know",
+    "bunch",
+    "people",
+    "work",
+    "weight",
+    "bias",
+    "ceo",
+    "cto",
+    "talk",
+    "people",
+    "rate",
+    "bias",
+    "umbrella",
+    "know",
+    "people",
+    "umbrella",
+    "twitter",
+    "buddy",
+    "mike",
+    "gateway",
+    "guy",
+    "remote",
+    "way",
+    "way",
+    "buy",
+    "lot",
+    "natural",
+    "main",
+    "new",
+    "youtube",
+    "education",
+    "integrations",
+    "open",
+    "source",
+    "package",
+    "funny",
+    "story",
+    "collab",
+    "google",
+    "number",
+    "ticket",
+    "collab",
+    "issue",
+    "list",
+    "people",
+    "want",
+    "marimo",
+    "support",
+    "know",
+    "google",
+    "collab",
+    "build",
+    "call",
+    "moab",
+    "intern",
+    "write",
+    "issue",
+    "track",
+    "build",
+    "funny",
+    "little",
+    "internal",
+    "joke",
+    "call",
+    "moab",
+    "host",
+    "rainbow",
+    "cloud",
+    "imagine",
+    "core",
+    "back",
+    "elaborate",
+    "cloud",
+    "compute",
+    "moab",
+    "start",
+    "dream",
+    "little",
+    "bit",
+    "follow",
+    "host",
+    "notebook",
+    "get",
+    "credit",
+    "notebook",
+    "cpu",
+    "base",
+    "imagine",
+    "big",
+    "machine",
+    "gpu",
+    "bunch",
+    "pipeline",
+    "setup",
+    "guess",
+    "want",
+    "emphasize",
+    "neat",
+    "way",
+    "molap",
+    "marimo",
+    "imagine",
+    "incentive",
+    "structure",
+    "want",
+    "want",
+    "moab",
+    "well",
+    "invest",
+    "open",
+    "source",
+    "main",
+    "mind",
+    "acquisition",
+    "lot",
+    "cool",
+    "find",
+    "nice",
+    "way",
+    "open",
+    "source",
+    "alive",
+    "want",
+    "change",
+    "license",
+    "want",
+    "exist",
+    "have",
+    "moab",
+    "work",
+    "way",
+    "invest",
+    "open",
+    "source",
+    "healthy",
+    "incentive",
+    "main",
+    "emphasize",
+    "happen",
+    "find",
+    "south",
+    "bay",
+    "march",
+    "3rd",
+    "go",
+    "take",
+    "computer",
+    "history",
+    "museum",
+    "cod",
+    "agent",
+    "conference",
+    "organize",
+    "conference",
+    "tell",
+    "time",
+    "ai",
+    "quality",
+    "conference",
+    "conference",
+    "stress",
+    "cause",
+    "break",
+    "vow",
+    "pool",
+    "strong",
+    "notable",
+    "speaker",
+    "announce",
+    "cid",
+    "friend",
+    "pod",
+    "co",
+    "creator",
+    "claude",
+    "code",
+    "harrison",
+    "chase",
+    "founder",
+    "link",
+    "chain",
+    "good",
+    "old",
+    "deck",
+    "founder",
+    "human",
+    "layer",
+    "dude",
+    "popularize",
+    "term",
+    "context",
+    "engineering",
+    "harness",
+    "engineering",
+    "consider",
+    "close",
+    "friend",
+    "michael",
+    "eric",
+    "go",
+    "workshop",
+    "stanford",
+    "lecturer",
+    "past",
+    "co",
+    "host",
+    "podcast",
+    "listen",
+    "get",
+    "famous",
+    "come",
+    "join",
+    "intimate",
+    "design",
+    "people",
+    "go",
+    "let",
+    "room",
+    "try",
+    "signal",
+    "high",
+    "possible",
+    "let",
+    "talk",
+    "hyperbolic",
+    "gpu",
+    "cloud",
+    "deliver",
+    "nvidia",
+    "h100s",
+    "dollar",
+    "cent",
+    "hour",
+    "h200",
+    "dollar",
+    "cent",
+    "hour",
+    "sale",
+    "call",
+    "long",
+    "term",
+    "commitment",
+    "hidden",
+    "fee",
+    "spin",
+    "gpu",
+    "scale",
+    "minute",
+    "vms",
+    "bare",
+    "metal",
+    "cluster",
+    "high",
+    "speed",
+    "networking",
+    "get",
+    "attachable",
+    "storage",
+    "pay",
+    "use",
+    "save",
+    "legacy",
+    "provider",
+    "way",
+    "need",
+    "steady",
+    "production",
+    "grade",
+    "inference",
+    "choose",
+    "dedicated",
+    "model",
+    "host",
+    "single",
+    "tenant",
+    "gpu",
+    "predictable",
+    "performance",
+    "run",
+    "hardware",
+    "try",
+    "app",
+    "dot",
+    "hyperbolic",
+    "dot",
+    "ai",
+    "let",
+    "synergy",
+    "weight",
+    "bias",
+    "product",
+    "explore",
+    "way",
+    "bias",
+    "friendly",
+    "academic",
+    "community",
+    "guess",
+    "little",
+    "bit",
+    "europe",
+    "impression",
+    "lot",
+    "company",
+    "california",
+    "use",
+    "weight",
+    "bias",
+    "normal",
+    "go",
+    "play",
+    "imagine",
+    "integration",
+    "add",
+    "wait",
+    "album",
+    "inference",
+    "engine",
+    "day",
+    "acquirer",
+    "equalization",
+    "public",
+    "add",
+    "support",
+    "inside",
+    "rima",
+    "notebook",
+    "elaborate",
+    "lm",
+    "support",
+    "click",
+    "training",
+    "support",
+    "weight",
+    "bias",
+    "service",
+    "llama",
+    "couple",
+    "open",
+    "think",
+    "open",
+    "source",
+    "model",
+    "easy",
+    "integration",
+    "add",
+    "day",
+    "talk",
+    "main",
+    "specific",
+    "people",
+    "work",
+    "imagine",
+    "integration",
+    "happen",
+    "awesome",
+    "treasure",
+    "cool",
+    "guess",
+    "marimo",
+    "unique",
+    "reactivity",
+    "come",
+    "lamb",
+    "people",
+    "bang",
+    "door",
+    "llm",
+    "interesting",
+    "happen",
+    "long",
+    "time",
+    "asian",
+    "support",
+    "open",
+    "little",
+    "window",
+    "api",
+    "key",
+    "claude",
+    "clot",
+    "data",
+    "frame",
+    "want",
+    "write",
+    "sql",
+    "datum",
+    "frame",
+    "add",
+    "context",
+    "describe",
+    "data",
+    "frame",
+    "lm",
+    "suppose",
+    "look",
+    "code",
+    "infer",
+    "name",
+    "type",
+    "bit",
+    "conundrum",
+    "able",
+    "point",
+    "variable",
+    "good",
+    "add",
+    "context",
+    "add",
+    "prompt",
+    "point",
+    "data",
+    "frame",
+    "dataframe",
+    "column",
+    "row",
+    "type",
+    "column",
+    "nice",
+    "make",
+    "lot",
+    "simple",
+    "llm",
+    "write",
+    "sql",
+    "data",
+    "frame",
+    "code",
+    "want",
+    "interesting",
+    "think",
+    "zed",
+    "editor",
+    "start",
+    "acp",
+    "agent",
+    "protocol",
+    "want",
+    "editor",
+    "claw",
+    "protocol",
+    "add",
+    "cloud",
+    "code",
+    "codex",
+    "gemini",
+    "think",
+    "add",
+    "support",
+    "experimental",
+    "feature",
+    "marina",
+    "let",
+    "run",
+    "clock",
+    "code",
+    "marie",
+    "use",
+    "native",
+    "clock",
+    "code",
+    "key",
+    "subscription",
+    "remote",
+    "fight",
+    "acp",
+    "protocol",
+    "wait",
+    "acp",
+    "mcp",
+    "support",
+    "mcpe",
+    "acp",
+    "new",
+    "send",
+    "new",
+    "great",
+    "mean",
+    "cloud",
+    "code",
+    "generate",
+    "code",
+    "notebook",
+    "api",
+    "key",
+    "time",
+    "request",
+    "pay",
+    "use",
+    "clot",
+    "subscription",
+    "linter",
+    "specific",
+    "claude",
+    "error",
+    "specific",
+    "marimo",
+    "linter",
+    "trigger",
+    "time",
+    "claude",
+    "linte",
+    "remote",
+    "example",
+    "define",
+    "variable",
+    "cell",
+    "equal",
+    "cell",
+    "say",
+    "equal",
+    "assumption",
+    "actual",
+    "value",
+    "allow",
+    "error",
+    "send",
+    "claude",
+    "fix",
+    "lot",
+    "llm",
+    "innovation",
+    "happen",
+    "notebook",
+    "main",
+    "stress",
+    "tell",
+    "dream",
+    "able",
+    "want",
+    "mention",
+    "love",
+    "want",
+    "copy",
+    "clipboard",
+    "button",
+    "button",
+    "exist",
+    "generate",
+    "widget",
+    "want",
+    "generate",
+    "spot",
+    "dynamic",
+    "think",
+    "love",
+    "imagine",
+    "need",
+    "find",
+    "time",
+    "love",
+    "love",
+    "element",
+    "place",
+    "boy",
+    "interesting",
+    "article",
+    "look",
+    "cool",
+    "diagram",
+    "llm",
+    "notebook",
+    "reproduce",
+    "way",
+    "slider",
+    "play",
+    "cool",
+    "learning",
+    "experience",
+    "late",
+    "paper",
+    "mechanism",
+    "look",
+    "cool",
+    "well",
+    "intuition",
+    "slider",
+    "interactive",
+    "matrix",
+    "plot",
+    "update",
+    "base",
+    "paper",
+    "quick",
+    "path",
+    "datum",
+    "datum",
+    "paper",
+    "datum",
+    "datum",
+    "public",
+    "datum",
+    "set",
+    "huge",
+    "petabyte",
+    "go",
+    "little",
+    "bit",
+    "go",
+    "little",
+    "bit",
+    "deal",
+    "intuition",
+    "want",
+    "generate",
+    "pytorch",
+    "code",
+    "phenomenon",
+    "visualize",
+    "marimo",
+    "notebook",
+    "good",
+    "mention",
+    "day",
+    "lot",
+    "work",
+    "need",
+    "python",
+    "want",
+    "blog",
+    "slider",
+    "jazz",
+    "generate",
+    "python",
+    "downside",
+    "python",
+    "library",
+    "support",
+    "fire",
+    "love",
+    "people",
+    "good",
+    "cashing",
+    "mechanism",
+    "write",
+    "noble",
+    "book",
+    "merino",
+    "export",
+    "html",
+    "maintain",
+    "dynamic",
+    "fire",
+    "path",
+    "go",
+    "dynamic",
+    "ui",
+    "generation",
+    "feel",
+    "scene",
+    "happen",
+    "order",
+    "reality",
+    "mind",
+    "big",
+    "hurdle",
+    "python",
+    "developer",
+    "little",
+    "bit",
+    "arrogant",
+    "refuse",
+    "learn",
+    "javascript",
+    "refuse",
+    "learn",
+    "javascript",
+    "go",
+    "hard",
+    "debug",
+    "javascript",
+    "hear",
+    "night",
+    "talk",
+    "agent",
+    "production",
+    "conference",
+    "say",
+    "think",
+    "hard",
+    "code",
+    "generate",
+    "cloud",
+    "code",
+    "cursor",
+    "javascript",
+    "python",
+    "rust",
+    "people",
+    "say",
+    "good",
+    "python",
+    "good",
+    "go",
+    "python",
+    "bad",
+    "know",
+    "think",
+    "guess",
+    "good",
+    "javascript",
+    "bad",
+    "rust",
+    "know",
+    "bad",
+    "javascript",
+    "javascript",
+    "internet",
+    "lot",
+    "bad",
+    "interesting",
+    "make",
+    "hard",
+    "generate",
+    "quality",
+    "javascript",
+    "javascript",
+    "know",
+    "expert",
+    "bias",
+    "spend",
+    "time",
+    "get",
+    "prompt",
+    "plant",
+    "python",
+    "yo",
+    "use",
+    "fix",
+    "problem",
+    "depend",
+    "build",
+    "build",
+    "web",
+    "app",
+    "different",
+    "story",
+    "get",
+    "developer",
+    "python",
+    "developer",
+    "use",
+    "javascript",
+    "feel",
+    "useful",
+    "create",
+    "ui",
+    "element",
+    "general",
+    "weird",
+    "bit",
+    "feedback",
+    "get",
+    "vincent",
+    "widget",
+    "honest",
+    "answer",
+    "reason",
+    "make",
+    "love",
+    "work",
+    "lot",
+    "notebook",
+    "want",
+    "widget",
+    "experience",
+    "think",
+    "early",
+    "career",
+    "fall",
+    "love",
+    "d3",
+    "care",
+    "learn",
+    "javascript",
+    "want",
+    "learn",
+    "pi",
+    "want",
+    "learn",
+    "think",
+    "lot",
+    "people",
+    "reluctant",
+    "learn",
+    "javascript",
+    "note",
+    "impression",
+    "level",
+    "able",
+    "execute",
+    "end",
+    "think",
+    "mystery",
+    "teach",
+    "javascript",
+    "day",
+    "age",
+    "web",
+    "app",
+    "generate",
+    "little",
+    "go",
+    "long",
+    "way",
+    "agree",
+    "aspect",
+    "people",
+    "learn",
+    "program",
+    "theme",
+    "hear",
+    "people",
+    "talk",
+    "little",
+    "crazy",
+    "statement",
+    "mind",
+    "flashcard",
+    "think",
+    "train",
+    "memory",
+    "make",
+    "easy",
+    "remember",
+    "help",
+    "iteration",
+    "speed",
+    "make",
+    "little",
+    "bit",
+    "intimidating",
+    "step",
+    "start",
+    "new",
+    "project",
+    "notice",
+    "expect",
+    "document",
+    "browser",
+    "good",
+    "method",
+    "think",
+    "little",
+    "bit",
+    "intimidating",
+    "self",
+    "helplessness",
+    "build",
+    "llm",
+    "yesterday",
+    "cloud",
+    "bit",
+    "hop",
+    "people",
+    "productive",
+    "day",
+    "year",
+    "national",
+    "intelligence",
+    "cloudflare",
+    "resell",
+    "graph",
+    "start",
+    "project",
+    "think",
+    "go",
+    "easy",
+    "disillusionment",
+    "get",
+    "trough",
+    "think",
+    "pronounce",
+    "train",
+    "good",
+    "project",
+    "setup",
+    "remember",
+    "play",
+    "let",
+    "yolo",
+    "look",
+    "code",
+    "yolo",
+    "web",
+    "app",
+    "send",
+    "email",
+    "postgre",
+    "say",
+    "notice",
+    "run",
+    "unit",
+    "test",
+    "instruct",
+    "start",
+    "database",
+    "day",
+    "produce",
+    "run",
+    "unit",
+    "test",
+    "set",
+    "project",
+    "good",
+    "template",
+    "crap",
+    "happen",
+    "think",
+    "well",
+    "spot",
+    "impression",
+    "polite",
+    "term",
+    "teenage",
+    "tech",
+    "bros.",
+    "coder",
+    "want",
+    "miss",
+    "bit",
+    "set",
+    "proper",
+    "project",
+    "flaw",
+    "llm",
+    "bit",
+    "foundation",
+    "think",
+    "interesting",
+    "easy",
+    "end",
+    "vibe",
+    "cod",
+    "expectation",
+    "raise",
+    "lot",
+    "streamlit",
+    "let",
+    "react",
+    "experimental",
+    "favor",
+    "weighted",
+    "python",
+    "person",
+    "widget",
+    "fun",
+    "way",
+    "learn",
+    "javascript",
+    "point",
+    "need",
+    "node",
+    "pipeline",
+    "use",
+    "python",
+    "code",
+    "love",
+    "love",
+    "use",
+    "way",
+    "think",
+    "flashcard",
+    "app",
+    "make",
+    "let",
+    "htmx",
+    "send",
+    "wire",
+    "jeet",
+    "jason",
+    "html",
+    "time",
+    "new",
+    "flashcard",
+    "send",
+    "html",
+    "new",
+    "card",
+    "make",
+    "request",
+    "card",
+    "work",
+    "ideal",
+    "user",
+    "experience",
+    "ideal",
+    "user",
+    "experience",
+    "want",
+    "practice",
+    "card",
+    "let",
+    "send",
+    "json",
+    "payload",
+    "request",
+    "memory",
+    "card",
+    "end",
+    "send",
+    "request",
+    "way",
+    "subtle",
+    "noticeable",
+    "time",
+    "lag",
+    "single",
+    "request",
+    "fetch",
+    "new",
+    "card",
+    "end",
+    "care",
+    "user",
+    "experience",
+    "care",
+    "javascript",
+    "end",
+    "fine",
+    "care",
+    "product",
+    "minded",
+    "bother",
+    "python",
+    "community",
+    "bit",
+    "arrogance",
+    "javascript",
+    "find",
+    "unfounded",
+    "talk",
+    "lms",
+    "marimo",
+    "feel",
+    "get",
+    "idea",
+    "depend",
+    "lot",
+    "standard",
+    "available",
+    "big",
+    "reason",
+    "able",
+    "push",
+    "lms",
+    "way",
+    "point",
+    "mtp",
+    "point",
+    "acp",
+    "lot",
+    "way",
+    "dependent",
+    "dream",
+    "start",
+    "plan",
+    "mind",
+    "experiment",
+    "people",
+    "know",
+    "use",
+    "llm",
+    "inside",
+    "notebook",
+    "bootstrap",
+    "notebook",
+    "start",
+    "merino",
+    "new",
+    "command",
+    "prompt",
+    "able",
+    "csv",
+    "file",
+    "notebook",
+    "version",
+    "analyze",
+    "bootstrap",
+    "start",
+    "benefit",
+    "notebook",
+    "look",
+    "intermediate",
+    "result",
+    "visual",
+    "add",
+    "charts",
+    "lot",
+    "easy",
+    "spot",
+    "mistake",
+    "think",
+    "interesting",
+    "plump",
+    "ide",
+    "sure",
+    "ask",
+    "unit",
+    "test",
+    "hard",
+    "intermediate",
+    "result",
+    "lot",
+    "easy",
+    "poke",
+    "notebook",
+    "little",
+    "bit",
+    "think",
+    "interested",
+    "spark",
+    "mind",
+    "notebook",
+    "human",
+    "agent",
+    "try",
+    "figure",
+    "world",
+    "agent",
+    "want",
+    "fire",
+    "notebook",
+    "try",
+    "eye",
+    "notebook",
+    "think",
+    "make",
+    "sense",
+    "world",
+    "interact",
+    "agent",
+    "give",
+    "result",
+    "want",
+    "notebook",
+    "want",
+    "able",
+    "change",
+    "different",
+    "context",
+    "notebook",
+    "mention",
+    "ats",
+    "data",
+    "frame",
+    "point",
+    "variable",
+    "error",
+    "error",
+    "appear",
+    "book",
+    "llm",
+    "cell",
+    "output",
+    "cell",
+    "output",
+    "weird",
+    "widget",
+    "good",
+    "representation",
+    "model",
+    "multimodal",
+    "screenshot",
+    "send",
+    "lms",
+    "notebook",
+    "good",
+    "interpret",
+    "chart",
+    "raw",
+    "datum",
+    "go",
+    "gigabyte",
+    "datum",
+    "go",
+    "send",
+    "context",
+    "listen",
+    "row",
+    "schema",
+    "lot",
+    "simple",
+    "element",
+    "write",
+    "query",
+    "interaction",
+    "scratch",
+    "surface",
+    "start",
+    "hood",
+    "marimo",
+    "notebook",
+    "python",
+    "file",
+    "weird",
+    "json",
+    "structure",
+    "explosion",
+    "get",
+    "python",
+    "file",
+    "experiment",
+    "build",
+    "python",
+    "package",
+    "marimo",
+    "python",
+    "file",
+    "jeremy",
+    "howard",
+    "np",
+    "dev",
+    "reason",
+    "email",
+    "example",
+    "write",
+    "command",
+    "line",
+    "app",
+    "marino",
+    "hyper",
+    "decorator",
+    "normal",
+    "python",
+    "function",
+    "marie",
+    "support",
+    "cell",
+    "function",
+    "start",
+    "test",
+    "underscore",
+    "detect",
+    "pi",
+    "test",
+    "test",
+    "notebook",
+    "detect",
+    "notebook",
+    "run",
+    "browser",
+    "run",
+    "terminal",
+    "define",
+    "function",
+    "python",
+    "run",
+    "command",
+    "line",
+    "typer",
+    "reuse",
+    "function",
+    "pyt",
+    "python",
+    "file",
+    "support",
+    "add",
+    "dependency",
+    "file",
+    "care",
+    "dependency",
+    "version",
+    "add",
+    "llm",
+    "mix",
+    "comfortable",
+    "say",
+    "leave",
+    "uncover",
+    "main",
+    "notebook",
+    "good",
+    "stare",
+    "fiddle",
+    "play",
+    "good",
+    "human",
+    "mind",
+    "understand",
+    "happen",
+    "hood",
+    "exploration",
+    "mean",
+    "datum",
+    "mean",
+    "command",
+    "line",
+    "app",
+    "flashcard",
+    "mention",
+    "need",
+    "chart",
+    "bug",
+    "timing",
+    "flashcard",
+    "learn",
+    "aspect",
+    "repetitive",
+    "aspect",
+    "app",
+    "need",
+    "chart",
+    "bug",
+    "marie",
+    "give",
+    "development",
+    "good",
+    "chart",
+    "develop",
+    "python",
+    "file",
+    "export",
+    "function",
+    "want",
+    "notebook",
+    "class",
+    "gap",
+    "work",
+    "lms",
+    "common",
+    "use",
+    "case",
+    "see",
+    "agent",
+    "debug",
+    "create",
+    "heat",
+    "maps",
+    "figure",
+    "call",
+    "tool",
+    "execute",
+    "task",
+    "time",
+    "start",
+    "dream",
+    "guess",
+    "main",
+    "want",
+    "way",
+    "think",
+    "way",
+    "think",
+    "book",
+    "year",
+    "meet",
+    "change",
+    "python",
+    "notebook",
+    "well",
+    "collab",
+    "restrict",
+    "want",
+    "use",
+    "colab",
+    "fine",
+    "rethink",
+    "shit",
+    "care",
+    "lot",
+    "intellectual",
+    "freedom",
+    "number",
+    "fear",
+    "people",
+    "think",
+    "want",
+    "succeed",
+    "field",
+    "got",
+    "watch",
+    "youtube",
+    "video",
+    "book",
+    "people",
+    "stop",
+    "think",
+    "new",
+    "idea",
+    "marimo",
+    "invite",
+    "play",
+    "able",
+    "explore",
+    "idea",
+    "bit",
+    "intellectual",
+    "freedom",
+    "find",
+    "need",
+    "need",
+    "people",
+    "make",
+    "interesting",
+    "need",
+    "produce",
+    "consume",
+    "content",
+    "need",
+    "need",
+    "good",
+    "idea",
+    "ecosystem",
+    "ball",
+    "mind",
+    "see",
+    "email",
+    "reactive",
+    "nature",
+    "correct",
+    "time",
+    "need",
+    "notice",
+    "sure",
+    "python",
+    "code",
+    "amazing",
+    "prototype",
+    "find",
+    "mistake",
+    "slide",
+    "work",
+    "way",
+    "great",
+    "aware",
+    "fact",
+    "guy",
+    "work",
+    "remo",
+    "make",
+    "massive",
+    "pitch",
+    "email",
+    "point",
+    "dear",
+    "listener",
+    "try",
+    "sympathize",
+    "main",
+    "want",
+    "emphasize",
+    "dream",
+    "aspect",
+    "cool",
+    "bit",
+    "want",
+    "double",
+    "think",
+    "perfect",
+    "place",
+    "end",
+    "awesome",
+    "cool",
+    "have",
+    "fancy",
+    "studio",
+    "look",
+    "fancy",
+    "trust",
+    "fancy",
+    "digital",
+    "cable",
+    "viewer",
+    "problem",
+    "final",
+    "pitch",
+    "youtube",
+    "channel",
+    "video",
+    "explain",
+    "check",
+    "check",
+    "moab",
+    "bunch",
+    "free",
+    "compute",
+    "feel",
+    "free",
+    "use",
+    "cool",
+    "discord",
+    "great",
+    "meme",
+    "channel"
+  ],
+  "token_count": 1632
+}

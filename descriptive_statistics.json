@@ -1,0 +1,13 @@
+{
+  "total_episodes": 60,
+  "total_words_original": 514520,
+  "total_words_cleaned": 514520,
+  "avg_words_per_episode": 8575.333333333334,
+  "median_words": 8662.5,
+  "std_words": 2804.603754939764,
+  "min_words": 1695,
+  "max_words": 17859,
+  "vocabulary_size": 8612,
+  "total_tokens": 156255,
+  "avg_tokens_per_episode": 2604.25
+}
