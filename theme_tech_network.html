@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MLOps Podcast - Theme-Technology Network</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+            color: #eee;
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(90deg, #11998e 0%, #38ef7d 100%);
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header h1 { font-size: 1.4em; font-weight: 300; }
+        .header h1 span { font-weight: 600; }
+        .controls { display: flex; gap: 10px; align-items: center; }
+        .control-group { display: flex; flex-direction: column; gap: 3px; }
+        .control-group label { font-size: 0.7em; text-transform: uppercase; opacity: 0.9; }
+        select, button, input[type="range"] {
+            padding: 6px 12px; border: none; border-radius: 4px;
+            background: rgba(0,0,0,0.3); color: #fff; cursor: pointer; font-size: 0.85em;
+        }
+        button:hover { background: rgba(0,0,0,0.5); }
+        button.active { background: #e94560; }
+        .container { display: flex; height: calc(100vh - 60px); }
+        #viz-container { flex: 1; position: relative; }
+        svg { width: 100%; height: 100%; }
+        .side-panel {
+            width: 380px; background: rgba(15, 12, 41, 0.95);
+            border-left: 1px solid rgba(255,255,255,0.1); padding: 20px; overflow-y: auto;
+        }
+        .panel-section { margin-bottom: 25px; padding-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.1); }
+        .panel-title { font-size: 0.8em; text-transform: uppercase; letter-spacing: 1.5px; color: #38ef7d; margin-bottom: 15px; font-weight: 600; }
+        .network-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+        .stat-box { background: rgba(255,255,255,0.05); padding: 15px 10px; border-radius: 8px; text-align: center; border: 1px solid rgba(255,255,255,0.1); }
+        .stat-value { font-size: 1.8em; font-weight: 700; color: #38ef7d; }
+        .stat-label { font-size: 0.7em; color: #a0a0a0; margin-top: 5px; text-transform: uppercase; }
+        .connection-info { background: rgba(255,255,255,0.05); padding: 15px; border-radius: 8px; border-left: 3px solid #38ef7d; }
+        .connection-title { font-size: 1.1em; font-weight: 600; margin-bottom: 10px; color: #fff; }
+        .connection-meta { font-size: 0.9em; color: #a0a0a0; line-height: 1.6; }
+        .badge { padding: 4px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 500; display: inline-block; margin: 2px; }
+        .badge.theme { background: rgba(17, 153, 142, 0.3); border: 1px solid #11998e; color: #38ef7d; }
+        .badge.tech { background: rgba(233, 69, 96, 0.3); border: 1px solid #e94560; color: #ff6b6b; }
+        .legend { display: flex; flex-direction: column; gap: 10px; }
+        .legend-item { display: flex; align-items: center; gap: 10px; font-size: 0.9em; }
+        .legend-symbol { width: 20px; height: 20px; border-radius: 50%; }
+        .legend-symbol.theme { background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); }
+        .legend-symbol.tech { background: linear-gradient(135deg, #e94560 0%, #ff6b6b 100%); }
+        .tooltip {
+            position: absolute; background: rgba(0, 0, 0, 0.95); color: #fff;
+            padding: 12px 16px; border-radius: 8px; font-size: 0.85em;
+            pointer-events: none; max-width: 300px; z-index: 1000;
+            border: 1px solid rgba(255,255,255,0.2); box-shadow: 0 8px 32px rgba(0,0,0,0.4); display: none;
+        }
+        .view-toggle { display: flex; gap: 5px; }
+        .view-toggle button { flex: 1; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🔗 <span>Theme-Technology Network</span> - MLOps Podcast Analysis</h1>
+        <div class="controls">
+            <div class="control-group">
+                <label>View Mode</label>
+                <div class="view-toggle">
+                    <button class="active" onclick="setViewMode('network')">Network</button>
+                    <button onclick="setViewMode('matrix')">Matrix</button>
+                </div>
+            </div>
+            <div class="control-group">
+                <label>Min Connections</label>
+                <input type="range" id="threshold" min="1" max="5" value="1" onchange="updateThreshold(this.value)">
+            </div>
+            <div class="control-group">
+                <label>Layout</label>
+                <select id="layout" onchange="changeLayout(this.value)">
+                    <option value="force">Force</option>
+                    <option value="bipartite">Bipartite</option>
+                    <option value="circular">Circular</option>
+                </select>
+            </div>
+            <button onclick="resetView()">Reset</button>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div id="viz-container"></div>
+        <div class="side-panel">
+            <div class="panel-section">
+                <div class="panel-title">📊 Network Statistics</div>
+                <div class="network-stats">
+                    <div class="stat-box"><div class="stat-value" id="stat-themes">10</div><div class="stat-label">Themes</div></div>
+                    <div class="stat-box"><div class="stat-value" id="stat-techs">24</div><div class="stat-label">Technologies</div></div>
+                    <div class="stat-box"><div class="stat-value" id="stat-connections">87</div><div class="stat-label">Connections</div></div>
+                </div>
+            </div>
+            <div class="panel-section">
+                <div class="panel-title">🎯 Selected Connection</div>
+                <div id="connection-details">
+                    <div style="text-align: center; padding: 40px 20px; color: #a0a0a0;">
+                        <div style="font-size: 3em; margin-bottom: 15px;">🔗</div>
+                        <div>Click on a node or connection to see details</div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-section">
+                <div class="panel-title">🎨 Legend</div>
+                <div class="legend">
+                    <div class="legend-item"><div class="legend-symbol theme"></div><span>Themes (10)</span></div>
+                    <div class="legend-item"><div class="legend-symbol tech"></div><span>Technologies (24)</span></div>
+                </div>
+            </div>
+            <div class="panel-section">
+                <div class="panel-title">🔥 Top Connections</div>
+                <div id="top-connections"></div>
+            </div>
+        </div>
+    </div>
+    <div class="tooltip" id="tooltip"></div>
+
+    <script>
+        const themes = [
+            { id: "t1", name: "AI Product Development", color: "#FF6B6B" },
+            { id: "t2", name: "Data Center/Hardware", color: "#4ECDC4" },
+            { id: "t3", name: "Semantic Search/RAG", color: "#45B7D1" },
+            { id: "t4", name: "Voice AI", color: "#96CEB4" },
+            { id: "t5", name: "Code Tools", color: "#FFEAA7" },
+            { id: "t6", name: "Physical AI", color: "#DDA0DD" },
+            { id: "t7", name: "Knowledge Management", color: "#98D8C8" },
+            { id: "t8", name: "Memory/Context", color: "#F7DC6F" },
+            { id: "t9", name: "Security", color: "#BB8FCE" },
+            { id: "t10", name: "RecSys/ML", color: "#85C1E9" }
+        ];
+        
+        const technologies = [
+            { id: "tech1", name: "FastAPI", themes: { t1: 8, t5: 10, t3: 3 } },
+            { id: "tech2", name: "Pydantic", themes: { t1: 6, t5: 9, t3: 2 } },
+            { id: "tech3", name: "Kubernetes", themes: { t2: 10, t1: 4, t9: 3 } },
+            { id: "tech4", name: "Docker", themes: { t2: 9, t5: 5, t1: 3 } },
+            { id: "tech5", name: "OpenAI", themes: { t1: 10, t4: 7, t8: 5, t3: 4 } },
+            { id: "tech6", name: "LangChain", themes: { t3: 10, t1: 7, t8: 6, t7: 4 } },
+            { id: "tech7", name: "Vector DB", themes: { t3: 10, t7: 6, t1: 3 } },
+            { id: "tech8", name: "PyTorch", themes: { t10: 9, t1: 5, t6: 4 } },
+            { id: "tech9", name: "TensorFlow", themes: { t10: 8, t1: 4 } },
+            { id: "tech10", name: "Hugging Face", themes: { t10: 8, t1: 6, t3: 5 } },
+            { id: "tech11", name: "MLflow", themes: { t1: 7, t10: 6, t5: 4 } },
+            { id: "tech12", name: "Kubeflow", themes: { t2: 8, t1: 5, t10: 4 } },
+            { id: "tech13", name: "AWS", themes: { t2: 9, t1: 6, t9: 4 } },
+            { id: "tech14", name: "GCP", themes: { t2: 8, t1: 5 } },
+            { id: "tech15", name: "Azure", themes: { t2: 7, t1: 5, t4: 3 } },
+            { id: "tech16", name: "Redis", themes: { t8: 8, t3: 5, t7: 4 } },
+            { id: "tech17", name: "PostgreSQL", themes: { t3: 6, t7: 5, t1: 3 } },
+            { id: "tech18", name: "MongoDB", themes: { t3: 5, t1: 3 } },
+            { id: "tech19", name: "Kafka", themes: { t2: 7, t3: 5, t1: 4 } },
+            { id: "tech20", name: "Spark", themes: { t2: 8, t10: 6 } },
+            { id: "tech21", name: "Ray", themes: { t10: 7, t2: 5, t6: 4 } },
+            { id: "tech22", name: "Weights & Biases", themes: { t10: 8, t1: 5 } },
+            { id: "tech23", name: "Streamlit", themes: { t1: 6, t5: 4 } },
+            { id: "tech24", name: "Gradio", themes: { t1: 5, t5: 3 } }
+        ];
+        
+        let svg, g, simulation, link, node, width, height;
+        let currentLayout = 'force', currentThreshold = 1, currentView = 'network';
+        
+        function generateData(minStrength) {
+            const nodes = [], links = [];
+            themes.forEach(t => nodes.push({ id: t.id, name: t.name, type: "theme", color: t.color, radius: 25 }));
+            technologies.forEach(tech => {
+                nodes.push({ id: tech.id, name: tech.name, type: "tech", color: "#e94560", radius: 18 });
+                Object.entries(tech.themes).forEach(([themeId, strength]) => {
+                    if (strength >= minStrength) {
+                        links.push({ source: tech.id, target: themeId, strength, color: d3.interpolateViridis(strength / 10) });
+                    }
+                });
+            });
+            return { nodes, links };
+        }
+        
+        function init() {
+            const container = document.getElementById('viz-container');
+            width = container.clientWidth;
+            height = container.clientHeight;
+            svg = d3.select('#viz-container').append('svg').attr('width', width).attr('height', height);
+            const zoom = d3.zoom().scaleExtent([0.3, 3]).on('zoom', (e) => g.attr('transform', e.transform));
+            svg.call(zoom);
+            g = svg.append('g').attr('transform', `translate(${width/2},${height/2})`);
+            render();
+            populateTopConnections();
+        }
+        
+        function render() {
+            g.selectAll('*').remove();
+            if (currentView === 'matrix') { renderMatrix(); return; }
+            
+            const data = generateData(currentThreshold);
+            document.getElementById('stat-connections').textContent = data.links.length;
+            
+            if (currentLayout === 'force') renderForce(data);
+            else if (currentLayout === 'bipartite') renderBipartite(data);
+            else renderCircular(data);
+        }
+        
+        function renderForce(data) {
+            simulation = d3.forceSimulation(data.nodes)
+                .force('link', d3.forceLink(data.links).id(d => d.id).distance(d => 150 - d.strength * 8))
+                .force('charge', d3.forceManyBody().strength(d => d.type === 'theme' ? -800 : -400))
+                .force('center', d3.forceCenter(0, 0))
+                .force('collision', d3.forceCollide().radius(d => d.radius + 10));
+            
+            link = g.selectAll('.link').data(data.links).enter().append('line')
+                .attr('stroke', d => d.color).attr('stroke-width', d => d.strength / 2).attr('stroke-opacity', 0.7)
+                .on('click', (e, d) => showConnection(d));
+            
+            node = g.selectAll('.node').data(data.nodes).enter().append('g')
+                .call(d3.drag().on('start', (e, d) => { if (!e.active) simulation.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+                    .on('drag', (e, d) => { d.fx = e.x; d.fy = e.y; })
+                    .on('end', (e, d) => { if (!e.active) simulation.alphaTarget(0); d.fx = null; d.fy = null; }));
+            
+            node.append('circle').attr('r', d => d.radius).attr('fill', d => d.color).attr('stroke', '#fff').attr('stroke-width', 2)
+                .on('click', (e, d) => showNode(d)).on('mouseover', (e, d) => showTooltip(e, d)).on('mouseout', hideTooltip);
+            
+            node.append('text').attr('dy', d => d.radius + 15).attr('text-anchor', 'middle')
+                .style('font-size', d => d.type === 'theme' ? '11px' : '10px')
+                .style('font-weight', d => d.type === 'theme' ? '600' : '400')
+                .style('fill', '#fff')
+                .text(d => d.name.length > 12 ? d.name.substring(0, 12) + '...' : d.name);
+            
+            simulation.on('tick', () => {
+                link.attr('x1', d => d.source.x).attr('y1', d => d.source.y).attr('x2', d => d.target.x).attr('y2', d => d.target.y);
+                node.attr('transform', d => `translate(${d.x},${d.y})`);
+            });
+        }
+        
+        function renderBipartite(data) {
+            const themeNodes = data.nodes.filter(n => n.type === 'theme');
+            const techNodes = data.nodes.filter(n => n.type === 'tech');
+            themeNodes.forEach((n, i) => { n.x = -width/4; n.y = (i - themeNodes.length/2) * 60; n.fx = n.x; n.fy = n.y; });
+            techNodes.forEach((n, i) => { n.x = width/4; n.y = (i - techNodes.length/2) * 50; n.fx = n.x; n.fy = n.y; });
+            renderForce(data);
+        }
+        
+        function renderCircular(data) {
+            const themeNodes = data.nodes.filter(n => n.type === 'theme');
+            const techNodes = data.nodes.filter(n => n.type === 'tech');
+            const r1 = Math.min(width, height) * 0.25, r2 = Math.min(width, height) * 0.4;
+            themeNodes.forEach((n, i) => { const a = (i/themeNodes.length) * 2 * Math.PI - Math.PI/2; n.x = Math.cos(a) * r1; n.y = Math.sin(a) * r1; n.fx = n.x; n.fy = n.y; });
+            techNodes.forEach((n, i) => { const a = (i/techNodes.length) * 2 * Math.PI - Math.PI/2; n.x = Math.cos(a) * r2; n.y = Math.sin(a) * r2; n.fx = n.x; n.fy = n.y; });
+            renderForce(data);
+        }
+        
+        function renderMatrix() {
+            const cellSize = 20, margin = { top: 120, left: 140 };
+            themes.forEach((t, i) => {
+                g.append('text').attr('x', margin.left + i * cellSize + cellSize/2).attr('y', margin.top - 10)
+                    .attr('text-anchor', 'start').attr('transform', `rotate(-45, ${margin.left + i * cellSize + cellSize/2}, ${margin.top - 10})`)
+                    .style('font-size', '9px').style('fill', '#fff').text(t.name.substring(0, 10));
+            });
+            technologies.forEach((tech, i) => {
+                g.append('text').attr('x', margin.left - 10).attr('y', margin.top + i * cellSize + cellSize/2 + 4)
+                    .attr('text-anchor', 'end').style('font-size', '9px').style('fill', '#fff').text(tech.name);
+                themes.forEach((theme, j) => {
+                    const s = tech.themes[theme.id] || 0;
+                    if (s >= currentThreshold) {
+                        g.append('rect').attr('x', margin.left + j * cellSize).attr('y', margin.top + i * cellSize)
+                            .attr('width', cellSize - 1).attr('height', cellSize - 1).attr('fill', d3.interpolateViridis(s / 10))
+                            .on('mouseover', function(e) { d3.select(this).attr('stroke', '#fff').attr('stroke-width', 2); showTooltip(e, { name: `${tech.name} ↔ ${theme.name}` }); })
+                            .on('mouseout', function() { d3.select(this).attr('stroke', 'none'); hideTooltip(); });
+                    }
+                });
+            });
+        }
+        
+        function showNode(d) {
+            const panel = document.getElementById('connection-details');
+            let html = `<div class="connection-info"><div class="connection-title">${d.name}</div><div class="connection-meta">Type: ${d.type === 'theme' ? 'Theme' : 'Technology'}</div></div><div style="margin-top: 15px;"><strong>${d.type === 'theme' ? 'Connected Technologies' : 'Related Themes'}:</strong></div>`;
+            if (d.type === 'theme') {
+                const conns = technologies.filter(t => t.themes[d.id]).sort((a, b) => b.themes[d.id] - a.themes[d.id]);
+                html += '<div>'; conns.slice(0, 8).forEach(t => html += `<span class="badge tech" style="opacity: ${t.themes[d.id]/10}">${t.name} (${t.themes[d.id]})</span>`); html += '</div>';
+            } else {
+                const tech = technologies.find(t => t.id === d.id);
+                html += '<div>'; Object.entries(tech.themes).sort((a, b) => b[1] - a[1]).slice(0, 5).forEach(([tid, s]) => { const t = themes.find(x => x.id === tid); html += `<span class="badge theme" style="opacity: ${s/10}">${t.name} (${s})</span>`; }); html += '</div>';
+            }
+            panel.innerHTML = html;
+        }
+        
+        function showConnection(d) {
+            const tech = technologies.find(t => t.id === d.source.id || t.id === d.source);
+            const theme = themes.find(t => t.id === d.target.id || t.id === d.target);
+            document.getElementById('connection-details').innerHTML = `<div class="connection-info"><div class="connection-title">${tech.name} ↔ ${theme.name}</div><div class="connection-meta">Connection Strength: <strong>${d.strength}/10</strong><br>This technology is strongly associated with this theme based on episode analysis.</div></div>`;
+        }
+        
+        function showTooltip(e, d) {
+            const t = document.getElementById('tooltip');
+            let c = `<strong>${d.name}</strong><br>Type: ${d.type === 'theme' ? 'Theme' : 'Technology'}`;
+            if (d.type === 'tech') { const tech = technologies.find(x => x.id === d.id); c += `<br>Connected to ${Object.keys(tech.themes).length} themes`; }
+            t.innerHTML = c; t.style.display = 'block'; t.style.left = (e.pageX + 10) + 'px'; t.style.top = (e.pageY - 10) + 'px';
+        }
+        
+        function hideTooltip() { document.getElementById('tooltip').style.display = 'none'; }
+        
+        function populateTopConnections() {
+            const conns = []; technologies.forEach(t => Object.entries(t.themes).forEach(([tid, s]) => { const th = themes.find(x => x.id === tid); conns.push({ tech: t.name, theme: th.name, strength: s }); }));
+            conns.sort((a, b) => b.strength - a.strength);
+            document.getElementById('top-connections').innerHTML = '<div style="font-size: 0.85em;">' + conns.slice(0, 5).map((c, i) => `<div style="padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.1);"><strong>${i + 1}.</strong> ${c.tech} → ${c.theme}<span style="float: right; color: #38ef7d;">${c.strength}/10</span></div>`).join('') + '</div>';
+        }
+        
+        function setViewMode(m) { currentView = m; document.querySelectorAll('.view-toggle button').forEach(b => b.classList.remove('active')); event.target.classList.add('active'); render(); }
+        function updateThreshold(v) { currentThreshold = parseInt(v); render(); }
+        function changeLayout(l) { currentLayout = l; render(); }
+        function resetView() { svg.transition().duration(750).call(d3.zoom().transform, d3.zoomIdentity.translate(width/2, height/2).scale(1)); g.attr('transform', `translate(${width/2},${height/2})`); }
+        
+        init();
+    </script>
+</body>
+</html>
